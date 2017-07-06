@@ -3,12 +3,12 @@
    "components": {
       "render_info": {
          "can_attach_entities": true,
-         "scale": 0.05
+         "scale": 0.02
       },
       "model_variants": {
          "default": {
             "models": [
-               "file(skull.qb)"
+               "file(vox_skull.qb)"
             ]
          }
       },

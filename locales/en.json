@@ -25,16 +25,16 @@
       "commands": {
          "necromancer_pages": {
             "skeleton_summon": {
-               "display_name": "Skeleton Summon",
-               "description": "Summons a Skeleton"
+               "display_name": "Summon Skeleton",
+               "description": "Them bones, them bones gonna walk around"
             },
             "zombie_summon": {
-               "display_name": "Zombie Summon",
-               "description": "Summons a Zombie"
+               "display_name": "Summon Zombie",
+               "description": "It's the Walking Dead!"
             },
             "golem_summon": {
-               "display_name": "Golem Summon",
-               "description": "Summons a Golem"
+               "display_name": "Summon Golem",
+               "description": "Now that's a huge bitch!"
             },
             "lich_summon": {
                "display_name": "Summon Lich",
@@ -45,20 +45,20 @@
                "description": "Summons an Ogre"
             },
             "golem_kid_summon": {
-               "description": "Summons a small golem to fight along side you.",
-               "display_name": "Summon Golem"
+               "description": "Glad these aren't kidney stones",
+               "display_name": "Summon Golem Kid"
             },
             "necromancer_summon": {
                "display_name": "Summon Necromancer",
-               "description": "Summon the last Necromancer the delved too deep in the dark arts."
+               "description": "Hey look! It's a mini-me"
             },
             "skeleton_kid_summon": {
                "display_name": "Summon Skeleton Kid",
-               "description": "Summon the bones of children to fight for you."
+               "description": "I hear some bones rattling..."
             },
             "zombie_kid_summon": {
                "display_name": "Summon Zombie Kid",
-               "description": "Recently dead, unfortunately mad"
+               "description": "Oh no, not the children"
             }
          }
       }

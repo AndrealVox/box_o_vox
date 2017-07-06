@@ -25,7 +25,7 @@
             "effect": "combat_1h_heal",
             "active_frame": 85,
             "cooldown": 10000,
-            "priority": 1
+            "priority": 0
          }
       ],
       "box_o_vox:combat:summon_spells": [

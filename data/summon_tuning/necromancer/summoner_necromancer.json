@@ -9,11 +9,11 @@
       "courage": 500,
       "speed": 100
    },
-  "equipment_scale": 0.07,
+   "equipment_scale": 0.05,
    "equipment": {
-       "weapon": [
-           "box_o_vox:weapon:necromancer_tome"
-       ],
+      "weapon": [
+         "box_o_vox:weapon:necromancer_tome"
+      ],
       "abilities": "box_o_vox:abilities:summon_necro_abilities"
    }
 }

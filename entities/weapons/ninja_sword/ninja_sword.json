@@ -63,20 +63,17 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 100,
-         "rarity": "common",
          "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 4,
-            "shopkeeper_type": "caravan"
+            "buyable": false,
+            "sellable": false
          }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.weapons.ninja_sword.display_name)",
          "description": "i18n(box_o_vox:entities.weapons.ninja_sword.description)",
          "icon": "file(ninja_sword.png)",
-         "category": "weapons",
-         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+         "category": "tools",
+         "material_tags": "tool"
       }
    }
 }

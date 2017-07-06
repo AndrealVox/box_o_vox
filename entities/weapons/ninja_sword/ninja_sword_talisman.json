@@ -11,9 +11,6 @@
       },
       "effect_list": {
          "default": "stonehearth:effects:talisman_glow"
-      },
-      "stonehearth:promotion_talisman": {
-         "job": "box_o_vox:jobs:ninja"
       }
    },
    "entity_data": {

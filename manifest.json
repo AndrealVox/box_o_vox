@@ -92,7 +92,8 @@
     },
     "controllers": {
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
-        "class:cleric": "file(jobs/cleric/cleric.lua)"
+        "class:cleric": "file(jobs/cleric/cleric.lua)",
+        "class:ninja": "file(jobs/ninja/ninja.lua)"
     },
     "ui": {
         "less": [

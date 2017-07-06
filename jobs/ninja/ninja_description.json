@@ -5,7 +5,7 @@
    "display_order": 1,
    "alias": "box_o_vox:jobs:ninja",
    "display_name": "i18n(box_o_vox:jobs.ninja.ninja_description.display_name)",
-   "controller": "stonehearth:class:footman",
+   "controller": "box_o_vox:class:ninja",
    "description": "i18n(box_o_vox:jobs.ninja.ninja_description.description)",
    "requirements": "i18n(box_o_vox:jobs.ninja.ninja_description.requirements)",
    "talisman_uri": "box_o_vox:ninja_sword:talisman",
@@ -28,7 +28,7 @@
       "town_protection": 1
    },
    "icon": "file(images/icon.png)",
-   "parent_job": "stonehearth:jobs:worker",
+   "parent_job": "stonehearth:jobs:archer",
    "max_level": 6,
    "level_data": {
        "0": {

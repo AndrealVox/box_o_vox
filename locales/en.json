@@ -162,6 +162,19 @@
                "display_name": "Ninja Speed Buff",
                "description": "Ninjas are fast and agile"
             }
+         },
+         "ninja_description": {
+            "display_name": "Assassin",
+            "description": "Quick and deadly",
+            "requirements": "The sharpest blade you can make",
+            "level_0_data": {
+               "perk_000_name": "Shadow Speed",
+               "perk_000_description": "Assassins must move quickly"
+            },
+            "level_1_data": {
+               "perk_000_name": "Combo attack",
+               "perk_000_description": "Skill with the sword has increased"
+            }
          }
       }
    },

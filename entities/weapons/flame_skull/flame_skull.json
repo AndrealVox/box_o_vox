@@ -1,12 +1,15 @@
 {
    "type": "entity",
    "components": {
+      "render_info": {
+         "can_attach_entities": true,
+         "scale": 0.05
+      },
       "model_variants": {
          "default": {
             "models": [
                "file(skull.qb)"
-            ],
-            "scale": 0.05
+            ]
          }
       },
       "mob": {

@@ -1,0 +1,21 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand_spin",
+            "effect": "combat_1h_forehand_spin",
+            "active_frame": 21,
+            "cooldown": 4000,
+            "priority": 2,
+            "aoe_effect": {
+               "damage_multiplier": 0.75,
+               "aoe_target_limit": 4
+            }
+         }
+      ]
+   }
+}

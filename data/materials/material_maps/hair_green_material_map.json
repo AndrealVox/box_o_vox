@@ -1,0 +1,11 @@
+{
+   "stonehearth:hair:hilight" : {
+      "color" : "#a1e03a"
+   },
+   "stonehearth:hair:midtone" : {
+      "color" : "#6a9426"
+   },
+   "stonehearth:hair:shadows" : {
+      "color" : "#344813"
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 6,
+   "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.flavor)",
+   "portrait": "/box_o_vox/jobs/necromancer/necromancer_tome/necromancer_tome.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "food meat raw",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:necromancer_tome:talisman"
+      }
+   ]
+}

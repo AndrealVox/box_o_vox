@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(stonehearth:jobs.cleric.cleric_buffs.heal_aura_1_buff.display_name)",
+   "description": "i18n(stonehearth:jobs.cleric.cleric_buffs.heal_aura_1_buff.description)",
+   "icon": "file(cleric_buff_healing_aura.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "15m",
+      "pulse_effect": "stonehearth:effects:heal_aura_effect:aoe_effect",
+      "aura_buff": "stonehearth:buffs:cleric:add_health_small",
+      "radius": 20,
+      "affect_self": true,
+      "target_type": "mob"
+   }
+}

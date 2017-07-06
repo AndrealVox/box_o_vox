@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:base_human",
+   "components": {
+      "stonehearth:attributes": {
+         "mind": {
+            "type": "random_range",
+            "base": 3,
+            "max": 10
+         },
+         "body": {
+            "type": "random_range",
+            "base": 3,
+            "max": 10
+         },
+         "spirit": {
+            "type": "random_range",
+            "base": 3,
+            "max": 10
+         }
+}
+}
+}

@@ -1,0 +1,44 @@
+{
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true"
+         }
+        },
+        "stonehearth:equipment_piece": {
+            "render_type": "merge_with_model",
+            "slot": "accessory",
+            "ilevel": 2,
+            "roles": "necromancer_job",
+            "equip_effect": "stonehearth:effects:weapon_level_up"
+        },
+        "stonehearth:equipment_swap": {
+            "swap_options": {
+                "skeleton_kid": {
+                    "uri": "box_o_vox:necromancer:spells:skeleton_kid",
+                    "command": "box_o_vox:commands:necromancer_summons:skeleton_kid",
+                    "ordinal": 1
+                },
+                "skeleton": {
+                    "uri": "box_o_vox:necromancer:spells:skeleton",
+                    "command": "box_o_vox:commands:necromancer_summons:skeleton",
+                    "ordinal": 2
+                },
+                "zombie_kid": {
+                    "uri": "box_o_vox:necromancer:spells:zombie_kid",
+                    "command": "box_o_vox:commands:necromancer_summons:zombie_kid",
+                    "ordinal": 3
+                },
+                "zombie": {
+                    "uri": "box_o_vox:necromancer:spells:zombie",
+                    "command": "box_o_vox:commands:necromancer_summons:zombie",
+                    "ordinal": 4
+                }
+            },
+            "default": "zombie"
+        }
+    }
+}

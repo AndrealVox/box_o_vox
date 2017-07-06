@@ -1,0 +1,50 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+             "actions": [
+               "box_o_vox:actions:combat:flame_skull_attack"  
+             ],
+            "ai_packs": [
+               "stonehearth:ai_pack:patrolling",
+               "box_o_vox:ai_pack:summoning",
+               "stonehearth:ai_pack:ranged_combat",
+               "stonehearth:ai_pack:combat_control",
+               "stonehearth:ai_pack:healing",
+               "stonehearth:ai_pack:healing_combat"
+            ]
+         },
+         "military_score": 35
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:healing_spells": [
+         {
+            "name": "combat_heal",
+            "effect": "combat_1h_heal",
+            "active_frame": 85,
+            "cooldown": 10000,
+            "priority": 1
+         }
+      ],
+      "box_o_vox:combat:summon_spells": [
+         {
+            "name": "combat_summon",
+            "effect": "combat_1h_heal",
+            "active_frame": 41,
+            "cooldown": 3000,
+            "priority": 2
+         }
+      ],
+       "box_o_vox:combat:ranged_spells": [
+           {
+                "name": "combat_spell",
+                "effect": "combat_1h_forehand",
+                "active_frame": 16,
+                "cooldown": 5000,
+                "priority": 1
+           }
+       ]
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "invisible_to_player": false,
+   "injected_ai": {
+      "actions": [
+         "box_o_vox:actions:necromancy:despawn"
+      ]
+   }
+}

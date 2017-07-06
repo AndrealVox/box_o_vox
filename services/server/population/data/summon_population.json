@@ -1,0 +1,75 @@
+{
+   "type": "kingdom",
+   "kingdom_name": "Summon",
+   "kingdom_id": "summon",
+   "amenity_to_strangers": "hostile",
+   "roles": {
+      "skeleton": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:skeleton"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Skeleton"
+         ]
+      },
+      "zombie": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:zombie"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Zombie"
+         ]
+      },
+      "golem_kid": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:forest:little_stone_golem"
+            ]
+         }
+      },
+      "golem": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:forest:stone_golem"
+            ]
+         }
+      },
+      "necromancer": {
+         "male": {
+            "uri": [
+               "box_o_vox:summons:undead:necromancer"
+            ],
+            "given_names": [
+               "Steve"
+            ]
+         },
+         "surnames": [
+            "the Necromancer"
+         ]
+      }
+   },
+   "town_pieces": {
+      "optional_prefix": [
+         "Eyehait"
+      ],
+      "town_name": [
+         "Phat"
+      ],
+      "suffix": [
+         "Schicks"
+      ]
+   },
+   "task_groups": {
+      "stonehearth:task_group:common_tasks": "stonehearth:combat"
+   }
+}

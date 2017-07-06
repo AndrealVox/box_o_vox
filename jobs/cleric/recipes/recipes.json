@@ -1,0 +1,22 @@
+{
+  "craftable_recipes" : {
+      "tools": {
+         "name": "Tomes",
+         "recipes": {
+            "necromancer_tome": {
+               "recipe": "file(necromancer_tome_recipe.json)"
+            }
+         }
+        
+      },
+ "tonics": {
+         "ordinal": 3,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
+         "recipes": {
+            "small_herbal_tonic": {
+               "recipe": "file(cleric_tonic_recipe.json)"
+            }
+         }
+ }
+   }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "index",
+    "populations": {
+        "summon": {   
+            "kingdom": "box_o_vox:kingdoms:summon"
+        }
+    }
+}

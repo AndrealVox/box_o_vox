@@ -1,0 +1,192 @@
+{
+   "data": {
+      "loadouts": {
+         "vox_life_rocks": {
+            "display_name": "Vox Life Rocks",
+            "description": "It's a Vox Life after all, and doesn't it feel so good. Enjoy the splendor! You like my D? Yea, I know you like my D... My D-sasterously Awesome Loadout!",
+            "tooltip": ""
+         },
+         "items": {
+            "carrots": "Carrots",
+            "jerky": "Jerky",
+            "gold": "Gold",
+            "brightbell": "Brightbell",
+            "silkweed_bundle": "Silkweed"
+         }
+      },
+      "buffs": {
+         "necromancy": {
+            "summon_buff": {
+               "display_name": "Summon",
+               "description": "Summon"
+            }
+         }
+      },
+      "commands": {
+         "necromancer_pages": {
+            "skeleton_summon": {
+               "display_name": "Skeleton Summon",
+               "description": "Summons a Skeleton"
+            },
+            "zombie_summon": {
+               "display_name": "Zombie Summon",
+               "description": "Summons a Zombie"
+            },
+            "golem_summon": {
+               "display_name": "Golem Summon",
+               "description": "Summons a Golem"
+            },
+            "lich_summon": {
+               "display_name": "Summon Lich",
+               "description": "Summons a Lich"
+            },
+            "ogre_summon": {
+               "display_name": "Summon Ogre",
+               "description": "Summons an Ogre"
+            },
+            "golem_kid_summon": {
+               "description": "Summons a small golem to fight along side you.",
+               "display_name": "Summon Golem"
+            },
+            "necromancer_summon": {
+               "display_name": "Summon Necromancer",
+               "description": "Summon the last Necromancer the delved too deep in the dark arts."
+            },
+            "skeleton_kid_summon": {
+               "display_name": "Summon Skeleton Kid",
+               "description": "Summon the bones of children to fight for you."
+            },
+            "zombie_kid_summon": {
+               "display_name": "Summon Zombie Kid",
+               "description": "Recently dead, unfortunately mad"
+            }
+         }
+      }
+   },
+   "jobs": {
+      "cook": {
+         "cook_description": {
+            "display_name": "Cook"
+         }
+      },
+      "farmer": {
+         "farmer_description": {
+            "display_name": "Farmer"
+         }
+      },
+      "trapper": {
+         "trapper_description": {
+            "display_name": "Trapper"
+         }
+      },
+      "footman": {
+         "footman_description": {
+            "display_name": "Footman"
+         }
+      },
+      "necromancer": {
+         "necromancer_tome": {
+            "necromancer_tome_talisman": {
+               "display_name": "Necronomicon",
+               "description": "Required to promote a hearthling to a Necromancer"
+            },
+            "display_name": "Book Of The Dead",
+            "description": "Within lies the secrets to becoming a Necromancer"
+         },
+         "necromancer_description": {
+            "display_name": "Necromancer",
+            "description": "Summon the undead to fight for you",
+            "requirements": "Crafted by a Cleric",
+            "level_0_data": {
+               "perk_000_name": "Heal Aura",
+               "perk_000_description": "Healing aura power",
+               "perk_001_name": "Heal Master",
+               "perk_001_description": "The necromancer has mastered the art of healing. Compassion greatly increased.",
+               "perk_002_description": "The necromancer's presence greatly improves the muscle of those around them",
+               "perk_002_name": "Major Strength",
+               "perk_003_name": "Summon a Skeleton Kid",
+               "perk_003_description": "I hear some bones rattling..."
+            },
+            "level_1_data": {
+               "perk_000_name": "Summon a Skeleton",
+               "perk_000_description": "Them bones, them bones gonna walk around"
+            },
+            "level_2_data": {
+               "perk_000_name": "Summon a Zombie Kid",
+               "perk_000_description": "Oh no, not the children"
+            },
+            "level_3_data": {
+               "perk_000_name": "Summon a Zombie",
+               "perk_000_description": "It's the Walking Dead!"
+            },
+            "level_4_data": {
+               "perk_000_name": "Summon a Golem Kid",
+               "perk_000_description": "Glad these aren't kidney stones"
+            },
+            "level_6_data": {
+               "title": "Master Necromancer",
+               "perk_000_description": "Hey look! It's a mini-me",
+               "perk_000_name": "Summon a Necromancer"
+            },
+            "level_5_data": {
+               "perk_000_description": "Now that's a huge bitch!",
+               "perk_000_name": "Summon a Golem"
+            }
+         },
+         "necromancer_outfit": {
+            "display_name": "Necromancer Robes",
+            "description": "The Attire Of A Necromancer"
+         }
+      },
+      "cleric": {
+         "recipes": {
+            "necromancer_tome_recipe": {
+               "recipe_name": "Necronomicon",
+               "description": "Required to promote a hearthling to a necromancer",
+               "flavor": "Within lies the secrets to becoming a necromancer"
+            },
+            "small_healing_tonic_recipe": {
+               "recipe_name": "Small Healing Tonic",
+               "description": "A medicinal drink that heals for a minuscule amount"
+            }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "display_name": "Herbalist"
+         }
+      },
+      "ninja": {
+         "ninja_buffs": {
+            "speed_buff": {
+               "display_name": "Ninja Speed Buff",
+               "description": "Ninjas are fast and agile"
+            }
+         }
+      }
+   },
+   "entities": {
+      "weapons": {
+         "flame_skull": {
+            "display_name": "Flame Skull",
+            "description": "Flaming Skull"
+         },
+         "ninja_sword": {
+            "ninja_sword_talisman": {
+               "display_name": "Ninja Sword",
+               "description": "A ninjas deadly weapon"
+            },
+            "display_name": "Ninja Sword",
+            "description": "A ninjas deadly weapon",
+            "ninja_sword_iconic": {
+               "description": "A ninjas deadly weapon",
+               "display_name": "Ninja Sword"
+            }
+         },
+         "ninja_star": {
+            "display_name": "Ninja Star",
+            "description": "The stealth weapon of the ninja"
+         }
+      }
+   }
+}

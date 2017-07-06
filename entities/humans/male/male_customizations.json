@@ -23,7 +23,7 @@
          "type": "model",
          "values": {
             "vox_glasses_0": "file(vox_glasses_0.qb)",
-            "vox_viking_helm_0": "file(vox_viking_helm_0.qb)",
+            "vox_horns_0": "file(vox_horns_0.qb)",
             "vox_goggles_0": "file(vox_goggles_0.qb)"
          }
       },
@@ -34,6 +34,7 @@
 			"vox_head_oso": "file(vox_head_oso.qb)",
 			"vox_head_kasper": "file(vox_head_kasper.qb)",
 			"vox_head_eldritch": "file(vox_head_eldritch.qb)",
+			"vox_head_stub_0": "file(vox_head_stub_0.qb)",
             "male_head_bald_1": "file(head_bald_1.qb)",
             "male_head_bald_2": "file(head_bald_2.qb)"
 			}

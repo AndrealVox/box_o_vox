@@ -195,5 +195,20 @@
       "ninja_sword": {
          "flavor": "Don't run with sharp blades!"
       }
+   },
+   "ui": {
+      "game": {
+         "menu": {
+            "crafter_menu": {
+               "items": {
+                  "cleric": {
+                     "display_name": "Cleric Craft Menu",
+                     "description": "Craft potions & bind flesh together to create a Necronomicon",
+                     "required_job_text": "Requires a cleric"
+                  }
+               }
+            }
+         }
+      }
    }
 }

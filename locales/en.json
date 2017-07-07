@@ -201,5 +201,10 @@
             "description": "The stealth weapon of the ninja"
          }
       }
+   },
+   "weapons": {
+      "ninja_sword": {
+         "flavor": "Don't run with sharp blades!"
+      }
    }
 }

@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "weapons": {
+         "ordinal": 8,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.weapons_name)",
+         "recipes": {
+            "ninja_sword": {
+               "recipe": "file(ninja_sword_recipe.json)"
+            }
+         }
+      }
+   }
+}

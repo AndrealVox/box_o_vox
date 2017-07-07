@@ -20,7 +20,8 @@
          "stonehearth:traits:passion_shepherd": {},
          "stonehearth:traits:passion_trapper": {},
          "stonehearth:traits:passion_weaver": {},
-         "stonehearth:traits:passion_worker": {}
+         "stonehearth:traits:passion_worker": {},
+         "box_o_vox:traits:passion_necromancer": {}
       }
 	},
     "traits": {
@@ -42,7 +43,8 @@
          "stonehearth:traits:passion_weaver": true,
          "stonehearth:traits:passion_worker": true,
          "stonehearth:traits:courageous": true,
-         "stonehearth:traits:optimistic": true
+         "stonehearth:traits:optimistic": true,
+         "box_o_vox:traits:passion_necromancer": true
       }
 	},
       "stonehearth:traits:courageous": {

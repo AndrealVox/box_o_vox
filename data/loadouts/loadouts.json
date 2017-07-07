@@ -3,27 +3,13 @@
    "loadouts": [
       {
          "alias": "vox_life_rocks",
-         "display_name": "i18n(box_o_vox:data.loadouts.vox_life_rocks.display_name)",
-         "description": "i18n(box_o_vox:data.loadouts.vox_life_rocks.description)",
-         "tooltip": "i18n(box_o_vox:data.loadouts.vox_life_rocks.tooltip)",
-         "splash": "file(images/vox_life_rocks/splash.png)",
-         "seal": "file(images/vox_life_rocks/seal.png)",
+         "display_name": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.display_name)",
+         "description": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.description)",
+         "tooltip": "i18n(box_o_vox:data.loadouts.path_of_the_necromancer.tooltip)",
+         "splash": "file(images/path_of_the_necromancer/splash.png)",
+         "seal": "file(images/path_of_the_necromancer/seal.png)",
          "enabled": true,
          "content": [
-            {
-               "display_name": "i18n(box_o_vox:jobs.cook.cook_description.display_name)",
-               "type": "entity",
-               "uri": "stonehearth:cook:talisman",
-               "icon": "file(images/items/cook_spoon.png)",
-               "amount": 1
-            },
-            {
-               "display_name": "i18n(box_o_vox:jobs.farmer.farmer_description.display_name)",
-               "type": "entity",
-               "uri": "stonehearth:farmer:talisman",
-               "icon": "file(images/items/farmer_hoe.png)",
-               "amount": 1
-            },
             {
                "display_name": "i18n(box_o_vox:jobs.herbalist.herbalist_description.display_name)",
                "type": "entity",
@@ -39,46 +25,39 @@
                "amount": 1
             },
             {
-               "display_name": "i18n(box_o_vox:jobs.footman.footman_description.display_name)",
+               "display_name": "i18n(box_o_vox:jobs.farmer.farmer_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:footman:wooden_sword_talisman",
-               "icon": "file(images/items/wooden_sword.png)",
-               "amount": 3
+               "uri": "stonehearth:farmer:talisman",
+               "icon": "file(images/items/farmer_hoe.png)",
+               "amount": 1
             },
             {
                "display_name": "i18n(box_o_vox:data.loadouts.items.carrots)",
                "type": "entity",
                "uri": "stonehearth:food:carrot:carrot_basket",
                "icon": "file(images/items/carrot_basket.png)",
-               "amount": 20
+               "amount": 10
             },
             {
                "display_name": "i18n(box_o_vox:data.loadouts.items.jerky)",
                "type": "entity",
                "uri": "stonehearth:rabbit_jerky",
                "icon": "file(images/items/jerky.png)",
-               "amount": 50
+               "amount": 10
             },
             {
                "display_name": "i18n(box_o_vox:data.loadouts.items.brightbell)",
                "type": "entity",
                "uri": "stonehearth:resources:herb:brightbell",
                "icon": "file(images/items/brightbell.png)",
-               "amount": 50
-            },
-            {
-               "display_name": "i18n(box_o_vox:data.loadouts.items.silkweed_bundle)",
-               "type": "entity",
-               "uri": "stonehearth:resources:fiber:silkweed_bundle",
-               "icon": "file(images/items/silkweed_bundle.png)",
-               "amount": 50
+               "amount": 30
             },
             {
                "display_name": "i18n(box_o_vox:data.loadouts.items.gold)",
                "type": "gold",
                "icon": "file(images/items/gold.png)",
                "uri": "stonehearth:loot:gold",
-               "amount": 500
+               "amount": 50
             }
          ]
       }

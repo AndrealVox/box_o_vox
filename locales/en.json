@@ -1,17 +1,16 @@
 {
    "data": {
       "loadouts": {
-         "vox_life_rocks": {
-            "display_name": "Vox Life Rocks",
-            "description": "It's a Vox Life after all, and doesn't it feel so good. Enjoy the splendor! You like my D? Yea, I know you like my D... My D-sasterously Awesome Loadout!",
+         "path_of_the_necromancer": {
+            "display_name": "Path Of The Necromancer",
+            "description": "It's a dark path to becoming a necromancer. Do you have what it take?",
             "tooltip": ""
          },
          "items": {
             "carrots": "Carrots",
             "jerky": "Jerky",
             "gold": "Gold",
-            "brightbell": "Brightbell",
-            "silkweed_bundle": "Silkweed"
+            "brightbell": "Brightbell"
          }
       },
       "buffs": {
@@ -64,11 +63,6 @@
       }
    },
    "jobs": {
-      "cook": {
-         "cook_description": {
-            "display_name": "Cook"
-         }
-      },
       "farmer": {
          "farmer_description": {
             "display_name": "Farmer"
@@ -77,11 +71,6 @@
       "trapper": {
          "trapper_description": {
             "display_name": "Trapper"
-         }
-      },
-      "footman": {
-         "footman_description": {
-            "display_name": "Footman"
          }
       },
       "necromancer": {

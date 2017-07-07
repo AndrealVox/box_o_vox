@@ -4,6 +4,7 @@
         "version": 3
     },
     "default_locale": "en",
+	"client_init_script": "file(box_o_vox_client)",
     "aliases": {
         "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
         "actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
@@ -31,6 +32,7 @@
         "kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "loadouts": "file(data/loadouts)",
         "mixins:summons": "file(mixins/base_summon)",
+        "necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
         "necromancer:pages:golem": "file(jobs/necromancer/pages/golem_page.json)",
         "necromancer:pages:golem_kid": "file(jobs/necromancer/pages/golem_kid_page.json)",
         "necromancer:pages:necromancer": "file(jobs/necromancer/pages/necromancer_page.json)",

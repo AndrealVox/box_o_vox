@@ -1,15 +1,15 @@
 {
    "type": "monster_tuning",
    "estimated_difficulty": 0,
-   "scale": 0.07,
+   "scale": 0.05,
    "attributes": {
-      "max_health": 500,
-      "muscle": 500,
+      "max_health": 80,
+      "muscle": 70,
       "menace": 10,
       "courage": 500,
       "speed": 100
    },
-   "equipment_scale": 0.05,
+   "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
          "box_o_vox:weapon:necromancer_tome"

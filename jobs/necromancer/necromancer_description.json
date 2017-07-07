@@ -29,13 +29,13 @@
       "stonehearth:task_group:patrolling"
    ],
    "icon": "file(images/icon.png)",
-   "parent_level_requirement": 1,
+   "parent_level_requirement": 2,
    "initial_num_attended_hearthlings": 1,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
-      "heal_entity": 2,
-      "heal_entity_in_combat": 1,
-      "town_protection": 1
+      "heal_entity": 5,
+      "heal_entity_in_combat": 2,
+      "town_protection": 15
    },
    "max_level": 6,
    "level_data": {

@@ -1,0 +1,35 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation" : {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "combat_1h_heal_short.json",
+         "loop": false
+      },
+      "harp_loop": {
+         "type": "sound_effect",
+         "loop" : false,
+         "start_time": 1,
+         "min_distance": 15,
+         "max_instances": 2,
+         "falloff" : 3,
+         "volume" : 50,
+         "track" : "stonehearth:sounds:cleric_heal_aura_charge"     
+      },
+      "firepit_effect": {
+         "type": "cubemitter",
+         "start_time" : 0,
+         "end_time" : 2000,
+         "cubemitter": "particles/fire/fire.green.cubemitter.json",
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

@@ -67,6 +67,7 @@
       "summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
       "summons:undead:necromancer": "file(entities/summon/necromancer/necromancer.json)",
       "traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
+      "traits:passion_ninja": "file(data/traits/passion_ninja/passion_ninja_trait.json)",
       "weapon:flame_skull": "file(entities/weapons/flame_skull)",
       "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
       "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",

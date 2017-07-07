@@ -15,7 +15,7 @@
          "max_instances": 2,
          "falloff" : 3,
          "volume" : 50,
-         "track" : "stonehearth:sounds:cleric_heal_aura_charge"     
+         "track" : "stonehearth:sounds:firepit_loop_sound"     
       },
       "firepit_effect": {
          "type": "cubemitter",

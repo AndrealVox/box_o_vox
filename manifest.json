@@ -52,6 +52,7 @@
       "necromancer_tome:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
       "ninja:abilities:ninja_star_throw": "file(jobs/ninja/ninja_abilities/ninja_star_throw.json)",
       "ninja_sword:talisman": "file(entities/weapons/ninja_sword/ninja_sword_talisman.json)",
+      "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
       "summon:golem": "file(entities/summon/golem/golem_summon.json)",
       "summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",
       "summon:necromancer": "file(entities/summon/necromancer/necromancer_summon.json)",

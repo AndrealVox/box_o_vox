@@ -10,12 +10,12 @@
       "harp_loop": {
          "type": "sound_effect",
          "loop" : false,
-         "start_time": 1,
+         "start_time": 0,
          "min_distance": 15,
          "max_instances": 2,
-         "falloff" : 3,
-         "volume" : 50,
-         "track" : "stonehearth:sounds:firepit_loop_sound"     
+         "falloff" : 5,
+         "volume" : 80,
+         "track" : "box_o_vox:sounds:necronomicon_summon"
       },
       "firepit_effect": {
          "type": "cubemitter",

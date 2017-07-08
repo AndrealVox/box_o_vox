@@ -6,7 +6,7 @@
    "flavor": "i18n(box_o_vox:weapons.ninja_sword.flavor)",
    "portrait": "/box_o_vox/entities/weapons/ninja_sword/ninja_sword.png",
    "workshop": "stonehearth:blacksmith:workbench",
-   "level_requirement": 4,
+   "level_requirement": 6,
    "ingredients": [
       {
          "uri": "stonehearth:refined:silver_ingot",

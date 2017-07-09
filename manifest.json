@@ -9,6 +9,7 @@
       "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/combat_1h_heal.json)",
       "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
+       "actions:combat:ninja:execute_ninja_attack":"file(ai/actions/combat/ninja/execute_ninja_attack_action.lua)",
       "actions:combat:ninja_star_throw": "file(ai/actions/combat/ninja_star_throw_action.lua)",
       "actions:combat:summon:after_cooldown": "file(ai/actions/combat/summon/summon_after_cooldown_action.lua)",
       "actions:combat:summon:by_moving_to_targetable_location": "file(ai/actions/combat/summon/summon_by_moving_to_targetable_location_action.lua)",

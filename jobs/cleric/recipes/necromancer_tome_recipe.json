@@ -6,7 +6,7 @@
    "flavor": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.flavor)",
    "portrait": "/box_o_vox/jobs/necromancer/necromancer_tome/necromancer_tome.png",
    "work_effect": "box_o_vox:effects:summon_necronomicon",
-   "level_requirement": 1,
+   "level_requirement": 2,
    "ingredients": [
       {
          "material": "leather resource",

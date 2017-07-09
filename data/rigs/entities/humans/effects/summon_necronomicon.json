@@ -13,19 +13,19 @@
          "start_time": 0,
          "min_distance": 15,
          "max_instances": 2,
-         "falloff" : 5,
-         "volume" : 80,
+         "falloff" : 30,
+         "volume" : 50,
          "track" : "box_o_vox:sounds:necronomicon_summon"
       },
       "firepit_effect": {
          "type": "cubemitter",
          "start_time" : 0,
-         "end_time" : 2000,
+         "end_time" : 3500,
          "cubemitter": "particles/fire/fire.green.cubemitter.json",
          "transforms": {
             "x":0,
-            "y":0,
-            "z":0,
+            "y":0.5,
+            "z":-1.5,
             "rx":90,
             "ry":0,
             "rz":0

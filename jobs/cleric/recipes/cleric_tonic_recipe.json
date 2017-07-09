@@ -1,11 +1,11 @@
 {
    "type": "recipe",
    "work_units": 1,
-   "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.small_healing_tonic_recipe.recipe_name)",
-   "description": "i18n(box_o_vox:jobs.cleric.recipes.small_healing_tonic_recipe.description)",
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.small_healing_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.small_healing_tonic_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/healing_tonic/small_healing_tonic/small_healing_tonic.png",
-   "work_effect": "work",
+   "work_effect": "box_o_vox:effects:summon_potions",
    "ingredients": [
       {
          "material": "herb resource",

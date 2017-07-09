@@ -82,6 +82,7 @@
    },
    "mixintos": {
       "stonehearth:jobs:index": "file(jobs/index.json)",
+      "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
       "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
       "stonehearth:loadouts": "file(data/loadouts)",
       "stonehearth:kingdoms:ascendancy": "file(services/server/population/data/vox_population.json)",

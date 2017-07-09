@@ -1,0 +1,65 @@
+{
+   "type": "index",
+   "always_available": {
+      "wood resource": {
+         "colors": {
+            "#456119": {
+               "display_name": "Vox Green",
+               "ordinal": 26
+            },
+            "#611945": {
+               "display_name": "Vox Purple",
+               "ordinal": 27
+            },
+            "#194561": {
+               "display_name": "Vox Blue",
+               "ordinal": 28
+            },
+            "#940000": {
+               "display_name": "Vox Red",
+               "ordinal": 28
+            }
+         }
+      },
+      "clay_brick resource": {
+         "colors": {
+            "#587a20": {
+               "display_name": "Vox Green",
+               "ordinal": 26
+            },
+            "#7a2058": {
+               "display_name": "Vox Purple",
+               "ordinal": 27
+            },
+            "#20587a": {
+               "display_name": "Vox Blue",
+               "ordinal": 28
+            },
+            "#ad0000": {
+               "display_name": "Vox Red",
+               "ordinal": 28
+            }
+         }
+      },
+      "stone resource": {
+         "colors": {
+            "#344813": {
+               "display_name": "Vox Green",
+               "ordinal": 26
+            },
+            "#481334": {
+               "display_name": "Vox Purple",
+               "ordinal": 27
+            },
+            "#133448": {
+               "display_name": "Vox Blue",
+               "ordinal": 28
+            },
+            "#790000": {
+               "display_name": "Vox Red",
+               "ordinal": 28
+            }
+         }
+      }
+   }
+}

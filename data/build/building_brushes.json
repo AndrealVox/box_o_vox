@@ -61,5 +61,36 @@
             }
          }
       }
+   },
+   "pattern": {
+      "stone resource": {
+         "patterns": {
+            "box_o_vox:build:brushes:pattern:vox_cobblestone": {
+               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/cobblestone.png",
+               "display_name": "Vox Cobblestone"
+            }
+         }
+      }
+   },
+   "roof": {
+      "wood resource": {
+         "patterns": {
+            "box_o_vox:build:brushes:roof:vox_green_wood_roof": {
+               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "display_name": "Vox Green",
+               "type": "peaked"
+            },
+            "box_o_vox:build:brushes:roof:vox_purple_wood_roof": {
+               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "display_name": "Vox Purple",
+               "type": "peaked"
+            },
+            "box_o_vox:build:brushes:roof:vox_blue_wood_roof": {
+               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "display_name": "Vox Blue",
+               "type": "peaked"
+            }
+         }
+      }
    }
 }

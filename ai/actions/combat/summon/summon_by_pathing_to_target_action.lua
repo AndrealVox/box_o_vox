@@ -4,7 +4,7 @@ local Point3 = _radiant.csg.Point3
 local SummonByPathingToTarget = class()
 
 SummonByPathingToTarget.name = 'summon by pathing to target'
-SummonByPathingToTarget.does = 'box_o_vox:combat:summon'
+SummonByPathingToTarget.does = 'stonehearth:combat:attack'
 SummonByPathingToTarget.args = {
    target = Entity
 }

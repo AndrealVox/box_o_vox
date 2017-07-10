@@ -1,0 +1,24 @@
+{
+   "type": "index",
+   "template_tabs": {
+      "ascendancy": {
+         "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
+         "required_kingdom": "stonehearth:kingdoms:ascendancy",
+         "categories": {
+            "camp": {
+               "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.camp)",
+               "ordinal": 1,
+               "templates": {
+                  "necromancer_house": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "box_o_vox:jobs:necromancer"
+                     },
+                     "file": "file(building_templates/necromancer_house.json)"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

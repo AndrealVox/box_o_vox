@@ -3,61 +3,177 @@
    "always_available": {
       "wood resource": {
          "colors": {
-            "#456119": {
-               "display_name": "Vox Green",
+            "#344813": {
+               "display_name": "Vox Green 1",
                "ordinal": 26
             },
-            "#611945": {
-               "display_name": "Vox Purple",
+            "#481334": {
+               "display_name": "Vox Purple 1",
                "ordinal": 27
             },
-            "#194561": {
-               "display_name": "Vox Blue",
+            "#133448": {
+               "display_name": "Vox Blue 1",
                "ordinal": 28
             },
-            "#940000": {
-               "display_name": "Vox Red",
+            "#790000": {
+               "display_name": "Vox Red 1",
                "ordinal": 28
+            },
+            "#456119": {
+               "display_name": "Vox Green 2",
+               "ordinal": 29
+            },
+            "#611945": {
+               "display_name": "Vox Purple 2",
+               "ordinal": 30
+            },
+            "#194561": {
+               "display_name": "Vox Blue 2",
+               "ordinal": 31
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 32
+            },
+            "#587a20": {
+               "display_name": "Vox Green 3",
+               "ordinal": 33
+            },
+            "#7a2058": {
+               "display_name": "Vox Purple 3",
+               "ordinal": 34
+            },
+            "#20587a": {
+               "display_name": "Vox Blue 3",
+               "ordinal": 35
+            },
+            "#ad0000": {
+               "display_name": "Vox Red 3",
+               "ordinal": 36
             }
          }
       },
       "clay_brick resource": {
          "colors": {
-            "#587a20": {
-               "display_name": "Vox Green",
+            "#344813": {
+               "display_name": "Vox Green 1",
                "ordinal": 26
             },
-            "#7a2058": {
-               "display_name": "Vox Purple",
+            "#481334": {
+               "display_name": "Vox Purple 1",
                "ordinal": 27
             },
-            "#20587a": {
-               "display_name": "Vox Blue",
+            "#133448": {
+               "display_name": "Vox Blue 1",
                "ordinal": 28
             },
-            "#ad0000": {
-               "display_name": "Vox Red",
+            "#790000": {
+               "display_name": "Vox Red 1",
                "ordinal": 28
+            },
+            "#456119": {
+               "display_name": "Vox Green 2",
+               "ordinal": 29
+            },
+            "#611945": {
+               "display_name": "Vox Purple 2",
+               "ordinal": 30
+            },
+            "#194561": {
+               "display_name": "Vox Blue 2",
+               "ordinal": 31
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 32
+            },
+            "#587a20": {
+               "display_name": "Vox Green 3",
+               "ordinal": 33
+            },
+            "#7a2058": {
+               "display_name": "Vox Purple 3",
+               "ordinal": 34
+            },
+            "#20587a": {
+               "display_name": "Vox Blue 3",
+               "ordinal": 35
+            },
+            "#ad0000": {
+               "display_name": "Vox Red 3",
+               "ordinal": 36
             }
          }
       },
       "stone resource": {
          "colors": {
             "#344813": {
-               "display_name": "Vox Green",
+               "display_name": "Vox Green 1",
                "ordinal": 26
             },
             "#481334": {
-               "display_name": "Vox Purple",
+               "display_name": "Vox Purple 1",
                "ordinal": 27
             },
             "#133448": {
-               "display_name": "Vox Blue",
+               "display_name": "Vox Blue 1",
                "ordinal": 28
             },
             "#790000": {
-               "display_name": "Vox Red",
+               "display_name": "Vox Red 1",
                "ordinal": 28
+            },
+            "#456119": {
+               "display_name": "Vox Green 2",
+               "ordinal": 29
+            },
+            "#611945": {
+               "display_name": "Vox Purple 2",
+               "ordinal": 30
+            },
+            "#194561": {
+               "display_name": "Vox Blue 2",
+               "ordinal": 31
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 32
+            },
+            "#587a20": {
+               "display_name": "Vox Green 3",
+               "ordinal": 33
+            },
+            "#7a2058": {
+               "display_name": "Vox Purple 3",
+               "ordinal": 34
+            },
+            "#20587a": {
+               "display_name": "Vox Blue 3",
+               "ordinal": 35
+            },
+            "#ad0000": {
+               "display_name": "Vox Red 3",
+               "ordinal": 36
+            },
+            "#2B2B2B": {
+               "display_name": "Vox Gray 1",
+               "ordinal": 37
+            },
+            "#3C3C3C": {
+               "display_name": "Vox Gray 2",
+               "ordinal": 38
+            },
+            "#505050": {
+               "display_name": "Vox Gray 3",
+               "ordinal": 39
+            },
+            "#666666": {
+               "display_name": "Vox Gray 4",
+               "ordinal": 40
+            },
+            "#7C7C7C": {
+               "display_name": "Vox Gray 5",
+               "ordinal": 41
             }
          }
       }
@@ -66,7 +182,7 @@
       "stone resource": {
          "patterns": {
             "box_o_vox:build:brushes:pattern:vox_cobblestone": {
-               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/cobblestone.png",
+               "icon": "file(vox_cobblestone_pattern.png)",
                "display_name": "Vox Cobblestone"
             }
          }
@@ -76,17 +192,17 @@
       "wood resource": {
          "patterns": {
             "box_o_vox:build:brushes:roof:vox_green_wood_roof": {
-               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "icon": "file(vox_green_wood_roof.png)",
                "display_name": "Vox Green",
                "type": "peaked"
             },
             "box_o_vox:build:brushes:roof:vox_purple_wood_roof": {
-               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "icon": "file(vox_purple_wood_roof.png)",
                "display_name": "Vox Purple",
                "type": "peaked"
             },
             "box_o_vox:build:brushes:roof:vox_blue_wood_roof": {
-               "icon": "/stonehearth/ui/game/modes/build_mode/building_designer_2/images/brushes/thatch_peaked_roof.png",
+               "icon": "file(vox_blue_wood_roof.png)",
                "display_name": "Vox Blue",
                "type": "peaked"
             }

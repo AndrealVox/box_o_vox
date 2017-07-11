@@ -7,173 +7,78 @@
                "display_name": "Vox Green 1",
                "ordinal": 26
             },
-            "#481334": {
-               "display_name": "Vox Purple 1",
-               "ordinal": 27
-            },
-            "#133448": {
-               "display_name": "Vox Blue 1",
-               "ordinal": 28
-            },
-            "#790000": {
-               "display_name": "Vox Red 1",
-               "ordinal": 28
-            },
             "#456119": {
                "display_name": "Vox Green 2",
+               "ordinal": 27
+            },
+            "#587a20": {
+               "display_name": "Vox Green 3",
+               "ordinal": 28
+            },
+            "#481334": {
+               "display_name": "Vox Purple 1",
                "ordinal": 29
             },
             "#611945": {
                "display_name": "Vox Purple 2",
                "ordinal": 30
             },
-            "#194561": {
-               "display_name": "Vox Blue 2",
-               "ordinal": 31
-            },
-            "#940000": {
-               "display_name": "Vox Red 2",
-               "ordinal": 32
-            },
-            "#587a20": {
-               "display_name": "Vox Green 3",
-               "ordinal": 33
-            },
             "#7a2058": {
                "display_name": "Vox Purple 3",
-               "ordinal": 34
+               "ordinal": 31
+            },
+            "#133448": {
+               "display_name": "Vox Blue 1",
+               "ordinal": 32
+            },
+            "#194561": {
+               "display_name": "Vox Blue 2",
+               "ordinal": 33
             },
             "#20587a": {
                "display_name": "Vox Blue 3",
+               "ordinal": 34
+            },
+            "#790000": {
+               "display_name": "Vox Red 1",
                "ordinal": 35
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 36
             },
             "#ad0000": {
                "display_name": "Vox Red 3",
-               "ordinal": 36
+               "ordinal": 37
             }
          }
       },
       "clay_brick resource": {
          "colors": {
-            "#344813": {
-               "display_name": "Vox Green 1",
-               "ordinal": 26
-            },
-            "#481334": {
-               "display_name": "Vox Purple 1",
-               "ordinal": 27
-            },
-            "#133448": {
-               "display_name": "Vox Blue 1",
-               "ordinal": 28
-            },
-            "#790000": {
-               "display_name": "Vox Red 1",
-               "ordinal": 28
-            },
-            "#456119": {
-               "display_name": "Vox Green 2",
-               "ordinal": 29
-            },
-            "#611945": {
-               "display_name": "Vox Purple 2",
-               "ordinal": 30
-            },
-            "#194561": {
-               "display_name": "Vox Blue 2",
-               "ordinal": 31
-            },
-            "#940000": {
-               "display_name": "Vox Red 2",
-               "ordinal": 32
-            },
-            "#587a20": {
-               "display_name": "Vox Green 3",
-               "ordinal": 33
-            },
-            "#7a2058": {
-               "display_name": "Vox Purple 3",
-               "ordinal": 34
-            },
-            "#20587a": {
-               "display_name": "Vox Blue 3",
-               "ordinal": 35
-            },
-            "#ad0000": {
-               "display_name": "Vox Red 3",
-               "ordinal": 36
-            }
+            
          }
       },
       "stone resource": {
          "colors": {
-            "#344813": {
-               "display_name": "Vox Green 1",
-               "ordinal": 26
-            },
-            "#481334": {
-               "display_name": "Vox Purple 1",
-               "ordinal": 27
-            },
-            "#133448": {
-               "display_name": "Vox Blue 1",
-               "ordinal": 28
-            },
-            "#790000": {
-               "display_name": "Vox Red 1",
-               "ordinal": 28
-            },
-            "#456119": {
-               "display_name": "Vox Green 2",
-               "ordinal": 29
-            },
-            "#611945": {
-               "display_name": "Vox Purple 2",
-               "ordinal": 30
-            },
-            "#194561": {
-               "display_name": "Vox Blue 2",
-               "ordinal": 31
-            },
-            "#940000": {
-               "display_name": "Vox Red 2",
-               "ordinal": 32
-            },
-            "#587a20": {
-               "display_name": "Vox Green 3",
-               "ordinal": 33
-            },
-            "#7a2058": {
-               "display_name": "Vox Purple 3",
-               "ordinal": 34
-            },
-            "#20587a": {
-               "display_name": "Vox Blue 3",
-               "ordinal": 35
-            },
-            "#ad0000": {
-               "display_name": "Vox Red 3",
-               "ordinal": 36
-            },
             "#2B2B2B": {
                "display_name": "Vox Gray 1",
-               "ordinal": 37
+               "ordinal": 62
             },
             "#3C3C3C": {
                "display_name": "Vox Gray 2",
-               "ordinal": 38
+               "ordinal": 63
             },
             "#505050": {
                "display_name": "Vox Gray 3",
-               "ordinal": 39
+               "ordinal": 64
             },
             "#666666": {
                "display_name": "Vox Gray 4",
-               "ordinal": 40
+               "ordinal": 65
             },
             "#7C7C7C": {
                "display_name": "Vox Gray 5",
-               "ordinal": 41
+               "ordinal": 66
             }
          }
       }

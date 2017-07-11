@@ -32,20 +32,22 @@
    "xp_rewards": {
       "craft_level_0": 15,
       "craft_level_1": 15,
+      "craft_level_2": 15,
+      "craft_level_3": 15,
+      "craft_level_4": 15,
+      "craft_level_5": 15,
+      "craft_level_6": 15,
       "heal_entity": 25,
       "heal_entity_in_combat": 10,
-      "town_protection": 10
+      "town_protection": 15
    },
    "crafter": {
-      "work_effect": "fiddle",
+      "work_effect": "box_o_vox:effects:summon_necronomicon",
       "recipe_list": "/box_o_vox/jobs/cleric/recipes/recipes.json"
    },
    "workshop": {
-      "name": "i18n(stonehearth:jobs.herbalist.herbalist_description.workshop.name)",
-      "description": "i18n(stonehearth:jobs.herbalist.herbalist_description.workshop.description)",
-      "long_description": "i18n(stonehearth:jobs.herbalist.herbalist_description.workshop.long_description)",
-      "portrait": "/stonehearth/jobs/herbalist/herbalist_workbench/herbalist_workbench.png",
-      "workbench_type": "stonehearth:herbalist:workbench",
+      "portrait": "/box_o_vox/jobs/cleric/cleric_workbench/cleric_workbench.png",
+      "workbench_type": "box_o_vox:cleric:workbench",
       "skin_class": "cleric",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"

@@ -3,7 +3,7 @@ local Entity = _radiant.om.Entity
 local SummonFromCurrentLocation = class()
 
 SummonFromCurrentLocation.name = 'summon from current location'
-SummonFromCurrentLocation.does = 'box_o_vox:combat:summon'
+SummonFromCurrentLocation.does = 'stonehearth:combat:attack'
 SummonFromCurrentLocation.args = {
    target = Entity
 }

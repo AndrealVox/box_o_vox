@@ -9,11 +9,9 @@
       "courage": 500,
       "speed": 100
    },
-   "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:mining_pick",
-         "stonehearth:worker_axe"
+         "stonehearth:monsters:forest:little_stone_golem:fist_weapon"
       ]
    }
 }

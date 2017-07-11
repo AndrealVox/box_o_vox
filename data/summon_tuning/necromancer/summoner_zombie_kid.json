@@ -9,11 +9,9 @@
       "courage": 500,
       "speed": 120
    },
-   "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:stone_maul",
-         "stonehearth:weapons:bronze_sword"
+         "stonehearth:monsters:forest:little_stone_golem:fist_weapon"
       ]
    }
 }

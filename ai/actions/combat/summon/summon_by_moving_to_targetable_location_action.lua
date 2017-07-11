@@ -4,7 +4,7 @@ local Point3 = _radiant.csg.Point3
 local SummonByMovingToTargetableLocation = class()
 
 SummonByMovingToTargetableLocation.name = 'summon by moving to targetable location'
-SummonByMovingToTargetableLocation.does = 'box_o_vox:combat:summon'
+SummonByMovingToTargetableLocation.does = 'stonehearth:combat:attack'
 SummonByMovingToTargetableLocation.args = {
    target = Entity
 }

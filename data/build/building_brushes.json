@@ -1,0 +1,117 @@
+{
+   "type": "index",
+   "always_available": {
+      "wood resource": {
+         "colors": {
+            "#344813": {
+               "display_name": "Vox Green 1",
+               "ordinal": 26
+            },
+            "#456119": {
+               "display_name": "Vox Green 2",
+               "ordinal": 27
+            },
+            "#587a20": {
+               "display_name": "Vox Green 3",
+               "ordinal": 28
+            },
+            "#481334": {
+               "display_name": "Vox Purple 1",
+               "ordinal": 29
+            },
+            "#611945": {
+               "display_name": "Vox Purple 2",
+               "ordinal": 30
+            },
+            "#7a2058": {
+               "display_name": "Vox Purple 3",
+               "ordinal": 31
+            },
+            "#133448": {
+               "display_name": "Vox Blue 1",
+               "ordinal": 32
+            },
+            "#194561": {
+               "display_name": "Vox Blue 2",
+               "ordinal": 33
+            },
+            "#20587a": {
+               "display_name": "Vox Blue 3",
+               "ordinal": 34
+            },
+            "#790000": {
+               "display_name": "Vox Red 1",
+               "ordinal": 35
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 36
+            },
+            "#ad0000": {
+               "display_name": "Vox Red 3",
+               "ordinal": 37
+            }
+         }
+      },
+      "clay_brick resource": {
+         "colors": {
+            
+         }
+      },
+      "stone resource": {
+         "colors": {
+            "#2B2B2B": {
+               "display_name": "Vox Gray 1",
+               "ordinal": 62
+            },
+            "#3C3C3C": {
+               "display_name": "Vox Gray 2",
+               "ordinal": 63
+            },
+            "#505050": {
+               "display_name": "Vox Gray 3",
+               "ordinal": 64
+            },
+            "#666666": {
+               "display_name": "Vox Gray 4",
+               "ordinal": 65
+            },
+            "#7C7C7C": {
+               "display_name": "Vox Gray 5",
+               "ordinal": 66
+            }
+         }
+      }
+   },
+   "pattern": {
+      "stone resource": {
+         "patterns": {
+            "box_o_vox:build:brushes:pattern:vox_cobblestone": {
+               "icon": "file(vox_cobblestone_pattern.png)",
+               "display_name": "Vox Cobblestone"
+            }
+         }
+      }
+   },
+   "roof": {
+      "wood resource": {
+         "patterns": {
+            "box_o_vox:build:brushes:roof:vox_green_wood_roof": {
+               "icon": "file(vox_green_wood_roof.png)",
+               "display_name": "Vox Green",
+               "type": "peaked"
+            },
+            "box_o_vox:build:brushes:roof:vox_purple_wood_roof": {
+               "icon": "file(vox_purple_wood_roof.png)",
+               "display_name": "Vox Purple",
+               "type": "peaked"
+            },
+            "box_o_vox:build:brushes:roof:vox_blue_wood_roof": {
+               "icon": "file(vox_blue_wood_roof.png)",
+               "display_name": "Vox Blue",
+               "type": "peaked"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation" : {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "combat_1h_heal_short.json",
+         "loop": false
+      },
+      "harp_loop": {
+         "type": "sound_effect",
+         "loop" : false,
+         "start_time": 0,
+         "min_distance": 20,
+         "max_instances": 5,
+         "falloff" : 3,
+         "volume" : 80,
+         "track" : "stonehearth:sounds:twinkle"
+      },
+      "talisman_effect": {
+         "type": "cubemitter",
+         "start_time" : 0,
+         "end_time" : 2000,
+         "cubemitter": "particles/buff/tonic/buff_tonic_stamina.cubemitter.json",
+         "transforms": {
+            "x":0,
+            "y":1,
+            "z":-1,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

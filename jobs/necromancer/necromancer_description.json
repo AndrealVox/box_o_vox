@@ -30,11 +30,11 @@
    ],
    "icon": "file(images/icon.png)",
    "parent_level_requirement": 2,
-   "initial_num_attended_hearthlings": 1,
+   "initial_num_attended_hearthlings": 4,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
-      "heal_entity": 5,
-      "heal_entity_in_combat": 2,
+      "heal_entity": 25,
+      "heal_entity_in_combat": 10,
       "town_protection": 15
    },
    "max_level": 6,

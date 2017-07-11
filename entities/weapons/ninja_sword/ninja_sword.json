@@ -68,9 +68,31 @@
               "effect": "combat_1h_backhand",
               "active_frame": 17,
               "cooldown": 20000,
-              "priority": 1,
+              "priority": 2,
               "range": 20
-          }
+          },
+          {
+              "name": "combat_power_spike",
+            "effect": "combat_power_spike",
+            "active_frame": 94,
+            "cooldown": 20000,
+            "priority": 2,
+            "damage_multiplier": 2.0,
+              "range": 2.2
+          },
+          {
+            "name": "combat_1h_forehand_spin",
+            "effect": "combat_1h_forehand_spin",
+            "active_frame": 21,
+            "cooldown": 4000,
+            "priority": 2,
+            "aoe_effect": {
+               "damage_multiplier": 0.75,
+               "aoe_target_limit": 4
+            },
+            "range": 2.2
+         }
+          
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 100,

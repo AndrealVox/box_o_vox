@@ -5,6 +5,8 @@ local Point3 = _radiant.csg.Point3
 local rng = _radiant.math.get_default_rng()
 local log = radiant.log.create_logger('combat')
 
+local SECONDS_PER_GAMELOOP = 0.05
+
 local ExecuteNinjaAttack = class()
 
 ExecuteNinjaAttack.name = 'execute ninja_attack'
@@ -31,16 +33,17 @@ function ExecuteNinjaAttack:start_thinking(ai, entity, args)
     self._equipment_data = stonehearth.combat:get_equipment_data(entity, 'box_o_vox:ninja_equipment_data')
     
     self._ninja_attack_types = stonehearth.combat:get_combat_actions(entity, 'box_o_vox:combat:ninja_attacks')
-    
+    self._ninja_speed = entity:get_component('stonehearth:attributes'):get_attribute('speed')
     
     if not next(self._ninja_attack_types) then
         -- no ninja_attack types
         log:error('no ninja_attacks types')
         return
     end
-    
+    self._mob = entity:add_component('mob')
+    self._target = args.target
     self._ai = ai
-   
+    self:_get_projectile_offsets(self._weapon_data)
     self:_choose_ninja_attack_action(ai, entity, args)
 end
 
@@ -129,7 +132,7 @@ function ExecuteNinjaAttack:_apply_aoe_damage(attacker, original_target_id, mele
 
    local aoe_target_limit = self._ninja_attack_info.aoe_target_limit or 10
 
-   local aoe_range = self._ninja_attack_info.aoe_range or ninja_range_ideal
+   local aoe_range = self._ninja_attack_info.aoe_range or self._ninja_attack_info.range
    local num_targets = 0
    local aoe_attack_info = self._ninja_attack_info.aoe_effect
    for id, entry in pairs(aggro_table:get_entries()) do
@@ -184,7 +187,35 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
     if skill_info.range > 4 then
         self:_ranged_attack(attacker, target, self._weapon_data)
         return
-    else
+    else   
+        if self._gameloop_trace then
+            return
+        end
+       local vector = self:_get_vector_to_target(target)
+       self._gameloop_trace = radiant.on_game_loop('ninja combat movement', function()
+             if not self._target:is_valid() then
+                self:_destroy_gameloop_trace()
+                return
+             end
+
+             local vector = self:_get_vector_to_target(target)
+             local distance = vector:length()
+             local move_distance = self:_get_distance_per_gameloop(self._ninja_speed)
+
+             -- projectile moves speed units every gameloop
+             if distance <= move_distance then
+                self:_destroy_gameloop_trace()
+                return
+             end
+
+         vector:normalize()
+         vector:scale(move_distance)
+
+         local ninja_location = self._mob:get_world_location()
+         local new_ninja_location = ninja_location + vector
+
+         self._mob:move_to(new_ninja_location)
+      end)
         local impact_time = radiant.gamestate.now() + self._ninja_attack_info.time_to_impact
         self._assault_context = AssaultContext('melee', attacker, target, impact_time)
         stonehearth.combat:begin_assault(self._assault_context)
@@ -209,7 +240,7 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
             stonehearth.combat:battery(battery_context)
 
             if self._ninja_attack_info.aoe_effect then
-               self:_apply_aoe_damage(attacker, target_id, ninja_range_ideal, self._ninja_attack_info)
+               self:_apply_aoe_damage(attacker, target_id, self._ninja_attack_info.range, self._ninja_attack_info)
             end
          end
     end
@@ -324,6 +355,34 @@ function ExecuteNinjaAttack:_get_projectile_offsets(weapon_data, entity)
                                      projectile_end_offset.z)
    end
 end
+function ExecuteNinjaAttack:_get_vector_to_target(target)
+   local ninja_location = self._mob:get_world_location()
+    if not self._target_location_first_check then
+        self._target_location_first_check = target:add_component('mob'):get_world_location()
+    else
+        self._target_location_second_check = target:add_component('mob'):get_world_location()
+        if self._target_location_second_check ~= self._target_location_first_check then
+            self._target_location_first_check = self._target_location_second_check
+        end
+    end
+        
+   local target_point = self._target_location_first_check + self._target_offset
+   local vector = target_point - ninja_location
+   return vector
+end
 
-    
+function ExecuteNinjaAttack:_get_distance_per_gameloop(speed)
+   local game_speed = stonehearth.game_speed:get_game_speed()
+   local distance = speed * SECONDS_PER_GAMELOOP * game_speed
+   return distance
+end
+
+function ExecuteNinjaAttack:_destroy_gameloop_trace()
+   if self._gameloop_trace then
+      self._gameloop_trace:destroy()
+      self._gameloop_trace = nil
+   end
+end
+
+
 return ExecuteNinjaAttack

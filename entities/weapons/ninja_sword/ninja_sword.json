@@ -78,7 +78,7 @@
             "cooldown": 20000,
             "priority": 2,
             "damage_multiplier": 2.0,
-              "range": 2.2
+              "range": 5
           },
           {
             "name": "combat_1h_forehand_spin",
@@ -90,7 +90,7 @@
                "damage_multiplier": 0.75,
                "aoe_target_limit": 4
             },
-            "range": 2.2
+            "range": 3
          }
           
       ],

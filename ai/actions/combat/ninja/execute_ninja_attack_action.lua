@@ -184,7 +184,7 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
     if not target:is_valid() then
         return
     end
-    if skill_info.range > 4 then
+    if skill_info.range > 5 then
         self:_ranged_attack(attacker, target, self._weapon_data)
         return
     else   
@@ -194,8 +194,7 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
        local vector = self:_get_vector_to_target(target)
        self._gameloop_trace = radiant.on_game_loop('ninja combat movement', function()
              if not self._target:is_valid() then
-                self:_destroy_gameloop_trace()
-                return
+               return
              end
 
              local vector = self:_get_vector_to_target(target)
@@ -216,15 +215,18 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
 
          self._mob:move_to(new_ninja_location)
       end)
-        local impact_time = radiant.gamestate.now() + self._ninja_attack_info.time_to_impact
+        
+        local impact_time = radiant.gamestate.now() --+ self._ninja_attack_info.time_to_impact
         self._assault_context = AssaultContext('melee', attacker, target, impact_time)
         stonehearth.combat:begin_assault(self._assault_context)
 
    -- can't ai:execute this. it needs to run in parallel with the attack animation
         self._hit_effect = radiant.effects.run_effect(
             target, 'stonehearth:effects:hit_sparks:hit_effect', self._ninja_attack_info.time_to_impact)
-
-         local out_of_range = false
+        vector = self:_get_vector_to_target(target)
+        local distance_to_target = vector:length()
+        
+         local out_of_range = distance_to_target <= self._ninja_attack_info.range
 
          if out_of_range or self._assault_context.target_defending then
             self._hit_effect:stop()
@@ -368,6 +370,7 @@ function ExecuteNinjaAttack:_get_vector_to_target(target)
         
    local target_point = self._target_location_first_check + self._target_offset
    local vector = target_point - ninja_location
+    log:error("%s vector", vector)
    return vector
 end
 

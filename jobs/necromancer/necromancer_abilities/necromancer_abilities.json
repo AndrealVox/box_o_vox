@@ -25,7 +25,7 @@
             "effect": "combat_1h_heal",
             "active_frame": 85,
             "cooldown": 10000,
-            "priority": 0
+            "priority": 1
          }
       ],
       "box_o_vox:combat:summon_spells": [
@@ -34,7 +34,7 @@
             "effect": "combat_1h_heal",
             "active_frame": 41,
             "cooldown": 10000,
-            "priority": 2
+            "priority": 3
          }
       ],
       "box_o_vox:combat:ranged_spells": [

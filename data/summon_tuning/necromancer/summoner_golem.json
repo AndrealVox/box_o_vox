@@ -1,6 +1,7 @@
 {
    "type": "monster_tuning",
    "estimated_difficulty": 0,
+   "scale": 0.2,
    "attributes": {
       "max_health": 70,
       "muscle": 60,
@@ -8,6 +9,7 @@
       "courage": 500,
       "speed": 80
    },
+   "equipment_scale": 0.2,
    "equipment": {
       "weapon": [
          "stonehearth:monsters:forest:stone_golem:big_fist_weapon"

@@ -1,7 +1,7 @@
 {
    "type": "index",
    "always_available": {
-      "wood resource": {
+      "stone resource": {
          "colors": {
             "#344813": {
                "display_name": "Vox Green 1",
@@ -50,16 +50,7 @@
             "#ad0000": {
                "display_name": "Vox Red 3",
                "ordinal": 37
-            }
-         }
-      },
-      "clay_brick resource": {
-         "colors": {
-            
-         }
-      },
-      "stone resource": {
-         "colors": {
+            },
             "#2B2B2B": {
                "display_name": "Vox Gray 1",
                "ordinal": 62
@@ -94,20 +85,20 @@
       }
    },
    "roof": {
-      "wood resource": {
+      "stone resource": {
          "patterns": {
-            "box_o_vox:build:brushes:roof:vox_green_wood_roof": {
-               "icon": "file(vox_green_wood_roof.png)",
+            "box_o_vox:build:brushes:roof:vox_green_roof": {
+               "icon": "file(vox_green_roof.png)",
                "display_name": "Vox Green",
                "type": "peaked"
             },
-            "box_o_vox:build:brushes:roof:vox_purple_wood_roof": {
-               "icon": "file(vox_purple_wood_roof.png)",
+            "box_o_vox:build:brushes:roof:vox_purple_roof": {
+               "icon": "file(vox_purple_roof.png)",
                "display_name": "Vox Purple",
                "type": "peaked"
             },
-            "box_o_vox:build:brushes:roof:vox_blue_wood_roof": {
-               "icon": "file(vox_blue_wood_roof.png)",
+            "box_o_vox:build:brushes:roof:vox_blue_roof": {
+               "icon": "file(vox_blue_roof.png)",
                "display_name": "Vox Blue",
                "type": "peaked"
             }

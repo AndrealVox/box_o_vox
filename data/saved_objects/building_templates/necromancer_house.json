@@ -14,7 +14,7 @@
 				"stonehearth:furniture:comfy_chair" : 1
 			},
 			"resources" : {
-				"wood resource" : 2633
+				"stone resource" : 2633
 			}
 		}
 	},
@@ -177,7 +177,7 @@
 					"nine_grid_margin_front" : 2,
 					"nine_grid_y_offset" : -1,
 					"nine_grid_margin_left" : 2,
-					"brush" : "box_o_vox:build:brushes:roof:vox_purple_wood_roof",
+					"brush" : "box_o_vox:build:brushes:roof:vox_purple_roof",
 					"nine_grid_gradient" : [
 						"back",
 						"right",
@@ -5161,7 +5161,7 @@
 					"nine_grid_margin_front" : 2,
 					"nine_grid_y_offset" : -1,
 					"nine_grid_margin_left" : 2,
-					"brush" : "box_o_vox:build:brushes:roof:vox_purple_wood_roof",
+					"brush" : "box_o_vox:build:brushes:roof:vox_purple_roof",
 					"nine_grid_gradient" : [
 						"right",
 						"left"

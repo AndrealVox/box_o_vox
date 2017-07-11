@@ -3,10 +3,9 @@
    "components": {
       "stonehearth:equipment_piece": {
          "injected_ai": {
-             "actions": [
-                 "box_o_vox:actions:combat:ninja:execute_ninja_attack"
-             ],
+             "actions": [],
             "ai_packs": [
+                "box_o_vox:ai_pack:ninja_combat",
                "stonehearth:ai_pack:patrolling",
                "stonehearth:ai_pack:wimpy",
                "stonehearth:ai_pack:panic:flee",

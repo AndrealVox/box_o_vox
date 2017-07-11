@@ -39,6 +39,7 @@ function ExecuteNinjaAttack:start_thinking(ai, entity, args)
         return
     end
     
+    self._ai = ai
    
     self:_choose_ninja_attack_action(ai, entity, args)
 end
@@ -71,7 +72,6 @@ end
 function ExecuteNinjaAttack:run(ai, entity, args)
     local target = args.target
     ai:set_status_text_key('box_o_vox:ai.action.status_text.ninja_attacking', {target = target})
-    log:error('wow it made it here')
     
     
     if radiant.entities.is_standing_on_ladder(entity) then
@@ -84,12 +84,13 @@ function ExecuteNinjaAttack:run(ai, entity, args)
         ai:abort('ninja_attacker no longer has a valid weapon')
     end
     
-    local ninja_range_ideal, ninja_range_max = self._ninja_attack_info.range or 3
-    log:error('%s, %s, %s ninja attack range', self._ninja_attack_info.range, ninja_range_ideal, ninja_range_max)
+    local ninja_range_ideal = self._ninja_attack_info.range
+    local ninja_range_max = ninja_range_ideal+1.1
+    log:error('%s, %s ninja attack range', self._ninja_attack_info.range, ninja_range_ideal)
     local distance = radiant.entities.distance_between(entity, target)
         log:error('%s distance', distance)
     if  distance > ninja_range_max then 
-        log:warning('%s unable to get within maximum range (%f) of %s', entity, ninja_range_max, target)
+        log:warning('%s unable to get within maximum range (%f) of %s', entity, ninja_range_ideal, target)
         ai:abort('Target out of range')
         return
     end
@@ -97,7 +98,8 @@ function ExecuteNinjaAttack:run(ai, entity, args)
         radiant.entities.turn_to_face(entity, target)
     end
     
-    ai:execute('stonehearth:bump_against_entity', {entity = target, distance = ninja_range_ideal})
+    ai:execute('stonehearth:bump_against_entity', {entity = target, distance = distance})
+    log:error('bumb radius %s', ninja_range_ideal)
     
     stonehearth.combat:start_cooldown(entity, self._ninja_attack_info)
     
@@ -127,7 +129,7 @@ function ExecuteNinjaAttack:_apply_aoe_damage(attacker, original_target_id, mele
 
    local aoe_target_limit = self._ninja_attack_info.aoe_target_limit or 10
 
-   local aoe_range = self._ninja_attack_info.aoe_range or ninja_range_max
+   local aoe_range = self._ninja_attack_info.aoe_range or ninja_range_ideal
    local num_targets = 0
    local aoe_attack_info = self._ninja_attack_info.aoe_effect
    for id, entry in pairs(aggro_table:get_entries()) do
@@ -159,9 +161,10 @@ function ExecuteNinjaAttack:stop(ai, entity, args)
     self:destroy_ninja_attack_effect()
 end
 
-function ExecuteNinjaAttack:_add_attack_timer(entity, target, time_to_shoot)
+function ExecuteNinjaAttack:_add_attack_timer(entity, target, time_to_attack)
    local attack_timer = stonehearth.combat:set_timer("NinjaAttack", time_to_attack, function()
       self:_attack(entity, target, self._ninja_attack_info)
+
    end)
    table.insert(self._attack_timers, attack_timer)
 end
@@ -183,7 +186,7 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
         return
     else
         local impact_time = radiant.gamestate.now() + self._ninja_attack_info.time_to_impact
-        self._assault_context = AssaultContext('melee', entity, target, impact_time)
+        self._assault_context = AssaultContext('melee', attacker, target, impact_time)
         stonehearth.combat:begin_assault(self._assault_context)
 
    -- can't ai:execute this. it needs to run in parallel with the attack animation
@@ -197,21 +200,19 @@ function ExecuteNinjaAttack:_attack(attacker, target, skill_info)
             self._hit_effect = nil
          else
 
-            local total_damage = stonehearth.combat:calculate_melee_damage(entity, target, self._ninja_attack_info)
+            local total_damage = stonehearth.combat:calculate_melee_damage(attacker, target, self._ninja_attack_info)
             local target_id = target:get_id()
             local aggro_override = stonehearth.combat:calculate_aggro_override(total_damage, self._ninja_attack_info)
-            local battery_context = BatteryContext(entity, target, total_damage, aggro_override)
+            local battery_context = BatteryContext(attacker, target, total_damage, aggro_override)
 
-            stonehearth.combat:inflict_debuffs(entity, target, self._ninja_attack_info)
+            stonehearth.combat:inflict_debuffs(attacker, target, self._ninja_attack_info)
             stonehearth.combat:battery(battery_context)
 
             if self._ninja_attack_info.aoe_effect then
-               self:_apply_aoe_damage(entity, target_id, ninja_range_max, self._ninja_attack_info)
+               self:_apply_aoe_damage(attacker, target_id, ninja_range_ideal, self._ninja_attack_info)
             end
          end
     end
-
-   ai:execute('stonehearth:run_effect', { effect = self._ninja_attack_info.effect })
 
    stonehearth.combat:end_assault(self._assault_context)
    self._assault_context = nil
@@ -274,8 +275,9 @@ function ExecuteNinjaAttack:_ranged_attack(attacker, target, weapon_data)
 end
 
 
-function ExecuteNinjaAttack:_create_ninja_star(ninja_attacker, target)-- default ninja_attack is ninja star
-    projectile_uri = 'box_o_vox:weapon:ninja_star' 
+function ExecuteNinjaAttack:_create_ninja_star(attacker, target)-- default ninja_attack is ninja star
+    local projectile_uri = 'box_o_vox:weapon:ninja_star' 
+    local projectile_speed = 30
    -- default projectile is an arrow
    local projectile = radiant.entities.create_entity(projectile_uri, { owner = attacker })
    local projectile_component = projectile:add_component('stonehearth:projectile')

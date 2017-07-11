@@ -72,6 +72,16 @@
                "ordinal": 66
             }
          }
+      },
+      "wood resource": {
+         "colors": {
+            
+         }
+      },
+      "clay_brick resource": {
+         "colors": {
+            
+         }
       }
    },
    "pattern": {
@@ -102,6 +112,16 @@
                "display_name": "Vox Blue",
                "type": "peaked"
             }
+         }
+      },
+      "wood resource": {
+         "patterns": {
+            
+         }
+      },
+      "clay_brick resource": {
+         "patterns": {
+            
          }
       }
    }

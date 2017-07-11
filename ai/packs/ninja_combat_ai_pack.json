@@ -1,0 +1,17 @@
+{
+    "type": "ai_pack",
+    "actions": [
+        "box_o_vox:actions:combat:ninja:after_cooldown",
+        "box_o_vox:actions:combat:ninja:by_pathing_to_target",
+        "box_o_vox:actions:combat:ninja:by_moving_to_targetable_location",
+        "box_o_vox:actions:combat:ninja:from_current_location",
+        "box_o_vox:actions:combat:ninja:execute_ninja_attack",
+      "stonehearth:actions:combat:idle:kite"
+    ],
+    "observers": [
+        
+    ],
+    "ai_packs": [
+        "stonehearth:ai_pack:combat"
+    ]
+}

@@ -38,28 +38,61 @@
          "projectile_start_offset": { "x": -0.2, "y": 1.5, "z": -1 },
          "projectile_end_offset": { "x": 0, "y": 1.5, "z": 0 }
       },
-      "stonehearth:combat:melee_attacks": [
+      "box_o_vox:combat:ninja_attacks": [
          {
             "name": "combat_2h_attack",
             "effect": "combat_2h_attack",
             "active_frame": 21,
-            "cooldown": 0,
-            "priority": 2
+            "cooldown": 5000,
+            "priority": 1,
+             "range": 2.2
          },
          {
             "name": "combat_1h_backhand",
             "effect": "combat_1h_backhand",
             "active_frame": 17,
             "cooldown": 0,
-            "priority": 1
+            "priority": 1,
+             "range": 2.2
          },
          {
             "name": "combat_1h_forehand",
             "effect": "combat_1h_forehand",
             "active_frame": 16,
             "cooldown": 0,
-            "priority": 0
+            "priority": 1,
+             "range": 2.2
+         },
+          {
+              "name": "combat_ninja_star",
+              "effect": "combat_1h_backhand",
+              "active_frame": 17,
+              "cooldown": 20000,
+              "priority": 2,
+              "range": 20
+          },
+          {
+              "name": "combat_power_spike",
+            "effect": "combat_power_spike",
+            "active_frame": 94,
+            "cooldown": 20000,
+            "priority": 2,
+            "damage_multiplier": 2.0,
+              "range": 2.2
+          },
+          {
+            "name": "combat_1h_forehand_spin",
+            "effect": "combat_1h_forehand_spin",
+            "active_frame": 21,
+            "cooldown": 4000,
+            "priority": 2,
+            "aoe_effect": {
+               "damage_multiplier": 0.75,
+               "aoe_target_limit": 4
+            },
+            "range": 2.2
          }
+          
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 100,

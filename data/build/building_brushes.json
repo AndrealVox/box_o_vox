@@ -111,6 +111,21 @@
                "icon": "file(vox_blue_roof.png)",
                "display_name": "Vox Blue",
                "type": "peaked"
+            },
+            "box_o_vox:build:brushes:roof:vox_green_castle": {
+               "icon": "file(vox_green_castle.png)",
+               "display_name": "Vox Green",
+               "type": "flat"
+            },
+            "box_o_vox:build:brushes:roof:vox_purple_castle": {
+               "icon": "file(vox_purple_castle.png)",
+               "display_name": "Vox Purple",
+               "type": "flat"
+            },
+            "box_o_vox:build:brushes:roof:vox_blue_castle": {
+               "icon": "file(vox_blue_castle.png)",
+               "display_name": "Vox Blue",
+               "type": "flat"
             }
          }
       },

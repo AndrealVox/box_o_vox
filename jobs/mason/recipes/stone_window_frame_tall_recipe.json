@@ -15,7 +15,7 @@
    "produces": [
       {
          "item": "box_o_vox:portals:stone_window_frame_tall",
-         "item": "box_o_vox:portals:stone_window_frame_tall:fine"
+         "fine": "box_o_vox:portals:stone_window_frame_tall:fine"
       }
    ]
 }

@@ -202,6 +202,18 @@
                "display_name": "Fine Tall Stone Window Frame",
                "description": "A Fine Tall Stone Window Frame Variant Of It's Wooden Cousin"
             }
+         },
+         "stone_door": {
+            "stone_door_ghost": {
+               "display_name": "Stone Door",
+               "description": "A Stone Door Varient To It's Wooden Cousin"
+            }
+         },
+         "stone_door_fine": {
+            "stone_door_fine_ghost": {
+               "description": "A Fine Stone Door Varient To It's Wooden Cousin",
+               "display_name": "Fine Stone Door"
+            }
          }
       }
    },

@@ -68,6 +68,8 @@
       "necromancer_tome:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
       "ninja:abilities:ninja_star_throw": "file(jobs/ninja/ninja_abilities/ninja_star_throw.json)",
       "ninja_sword:talisman": "file(entities/weapons/ninja_sword/ninja_sword_talisman.json)",
+      "portals:stone_door": "file(entities/construction/stone_door)",
+      "portals:stone_door:fine": "file(entities/construction/stone_door_fine/stone_door_fine.json)",
       "portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
       "portals:stone_window_frame_tall:fine": "file(entities/construction/stone_window_frame_tall_fine/stone_window_frame_tall_fine.json)",
       "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",

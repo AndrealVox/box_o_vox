@@ -16,7 +16,8 @@
 		"values": {
 			"vox_beard_0": "file(vox_beard_0.qb)",
 			"vox_beard_1": "file(vox_beard_1.qb)",
-			"vox_beard_2": "file(vox_beard_2.qb)"
+			"vox_beard_2": "file(vox_beard_2.qb)",
+			"vox_beard_3": "file(vox_beard_3.qb)"
 		}
 	},
       "eyebrows": {
@@ -35,6 +36,7 @@
 			"vox_head_kasper": "file(vox_head_kasper.qb)",
 			"vox_head_eldritch": "file(vox_head_eldritch.qb)",
 			"vox_head_stub_0": "file(vox_head_stub_0.qb)",
+			"vox_head_tristan": "file(vox_head_tristan.qb)",
             "male_head_bald_1": "file(head_bald_1.qb)",
             "male_head_bald_2": "file(head_bald_2.qb)"
 			}

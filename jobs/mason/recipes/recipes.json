@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "building_parts": {
+         "ordinal": 4,
+         "name": "i18n(stonehearth:jobs.mason.recipes.building_parts_name)",
+         "recipes": {
+            "stone_window_frame_tall": {
+               "recipe": "file(stone_window_frame_tall_recipe.json)"
+            }
+         }
+      }
+   }
+}

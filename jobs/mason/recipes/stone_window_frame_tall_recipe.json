@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.construction.stone_window_frame_tall.stone_window_frame_tall_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.construction.stone_window_frame_tall.stone_window_frame_tall_ghost.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/construction/stone_window_frame_tall/stone_window_frame_tall.png",
+   "workshop": "stonehearth:mason:workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:portals:stone_window_frame_tall",
+         "item": "box_o_vox:portals:stone_window_frame_tall:fine"
+      }
+   ]
+}

@@ -189,6 +189,20 @@
             "display_name": "Ninja Star",
             "description": "The stealth weapon of the ninja"
          }
+      },
+      "construction": {
+         "stone_window_frame_tall": {
+            "stone_window_frame_tall_ghost": {
+               "display_name": "Tall Stone Window Frame",
+               "description": "A Tall Stone Window Frame Variant Of It's Wooden Cousin"
+            }
+         },
+         "stone_window_frame_tall_fine": {
+            "stone_window_frame_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Window Frame",
+               "description": "A Fine Tall Stone Window Frame Variant Of It's Wooden Cousin"
+            }
+         }
       }
    },
    "weapons": {

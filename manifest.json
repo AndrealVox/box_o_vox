@@ -68,6 +68,8 @@
       "necromancer_tome:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
       "ninja:abilities:ninja_star_throw": "file(jobs/ninja/ninja_abilities/ninja_star_throw.json)",
       "ninja_sword:talisman": "file(entities/weapons/ninja_sword/ninja_sword_talisman.json)",
+      "portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
+      "portals:stone_window_frame_tall:fine": "file(entities/construction/stone_window_frame_tall_fine/stone_window_frame_tall_fine.json)",
       "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
       "summon:golem": "file(entities/summon/golem/golem_summon.json)",
       "summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",
@@ -103,6 +105,7 @@
       "stonehearth:kingdoms:ascendancy": "file(services/server/population/data/vox_population.json)",
       "rayyas_children:kingdoms:rayyas_children": "file(services/server/population/data/vox_population.json)",
       "/stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
+      "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)"
    },
    "overrides": {

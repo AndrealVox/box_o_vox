@@ -7,6 +7,9 @@
             "stone_door": {
                "recipe": "file(stone_door_recipe.json)"
             },
+            "solid_stone_door": {
+               "recipe": "file(solid_stone_door_recipe.json)"
+            },
             "stone_window_frame_tall": {
                "recipe": "file(stone_window_frame_tall_recipe.json)"
             }

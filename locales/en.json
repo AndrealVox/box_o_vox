@@ -214,6 +214,12 @@
                "description": "A Fine Stone Door Varient To It's Wooden Cousin",
                "display_name": "Fine Stone Door"
             }
+         },
+         "solid_stone_door": {
+            "solid_stone_door_ghost": {
+               "display_name": "Solid Stone Door",
+               "description": "A Solid Stone Door Variant Of It's Clay Cousin"
+            }
          }
       }
    },

@@ -51,6 +51,10 @@
                "display_name": "Vox Red 3",
                "ordinal": 37
             },
+            "#FFFFFF": {
+               "display_name": "Vox White 1",
+               "ordinal": 59
+            },
             "#2B2B2B": {
                "display_name": "Vox Gray 1",
                "ordinal": 62

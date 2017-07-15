@@ -221,6 +221,14 @@
                "description": "A Solid Stone Door Variant Of It's Clay Cousin"
             }
          }
+      },
+      "containers": {
+         "box_o_vox_crate": {
+            "box_o_vox_crate_ghost": {
+               "display_name": "The Box O' Vox",
+               "description": "This Box Hold Endless Resources"
+            }
+         }
       }
    },
    "weapons": {

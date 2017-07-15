@@ -14,6 +14,15 @@
                "recipe": "file(stone_window_frame_tall_recipe.json)"
             }
          }
+      },
+      "storage": {
+         "ordinal": 8,
+         "name": "i18n(stonehearth:jobs.mason.recipes.storage_name)",
+         "recipes": {
+            "box_o_vox_crate": {
+               "recipe": "file(box_o_vox_crate_recipe.json)"
+            }
+         }
       }
    }
 }

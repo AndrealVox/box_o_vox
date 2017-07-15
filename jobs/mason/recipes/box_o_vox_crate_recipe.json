@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:entities.containers.box_o_vox_crate.box_o_vox_crate_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.containers.box_o_vox_crate.box_o_vox_crate_ghost.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/containers/box_o_vox_crate/box_o_vox_crate.png",
+   "workshop": "stonehearth:mason:workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:containers:box_o_vox_crate"
+      }
+   ]
+}

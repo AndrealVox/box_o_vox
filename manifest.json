@@ -43,6 +43,7 @@
       "commands:necromancer_summons:skeleton_kid": "file(data/commands/necromancer_summons/skeleton_kid_summon.json)",
       "commands:necromancer_summons:zombie": "file(data/commands/necromancer_summons/zombie_summon.json)",
       "commands:necromancer_summons:zombie_kid": "file(data/commands/necromancer_summons/zombie_kid_summon.json)",
+      "containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",

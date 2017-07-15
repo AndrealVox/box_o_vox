@@ -228,6 +228,36 @@
                "display_name": "The Box O' Vox",
                "description": "This Box Hold Endless Resources"
             }
+         },
+         "equipment_crate": {
+            "equipment_crate_ghost": {
+               "display_name": "Equipment Crate",
+               "description": "A Crate For Equipment"
+            }
+         },
+         "food_crate": {
+            "food_crate_ghost": {
+               "display_name": "Food Crate",
+               "description": "A Crate For Food"
+            }
+         },
+         "furniture_crate": {
+            "furniture_crate_ghost": {
+               "display_name": "Furniture Crate",
+               "description": "A Crate For Furniture"
+            }
+         },
+         "resources_crate": {
+            "resources_crate_ghost": {
+               "display_name": "Resources Crate",
+               "description": "A Crate For Resources"
+            }
+         },
+         "treasure_crate": {
+            "treasure_crate_ghost": {
+               "display_name": "Treasure Crate",
+               "description": "A Crate For Treasure"
+            }
          }
       }
    },

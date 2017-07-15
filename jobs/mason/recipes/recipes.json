@@ -21,6 +21,21 @@
          "recipes": {
             "box_o_vox_crate": {
                "recipe": "file(box_o_vox_crate_recipe.json)"
+            },
+            "equipment_crate": {
+               "recipe": "file(equipment_crate_recipe.json)"
+            },
+            "food_crate": {
+               "recipe": "file(food_crate_recipe.json)"
+            },
+            "furniture_crate": {
+               "recipe": "file(furniture_crate_recipe.json)"
+            },
+            "resources_crate": {
+               "recipe": "file(resources_crate_recipe.json)"
+            },
+            "treasure_crate": {
+               "recipe": "file(treasure_crate_recipe.json)"
             }
          }
       }

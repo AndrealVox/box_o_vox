@@ -4,7 +4,6 @@
       "version": 3
    },
    "default_locale": "en",
-   "client_init_script": "file(box_o_vox_client)",
    "aliases": {
       "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
       "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
@@ -115,14 +114,14 @@
       "rayyas_children:kingdoms:rayyas_children": "file(services/server/population/data/vox_population.json)",
       "/stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
       "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
-      "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)"
+      "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
+      "/stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
+      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
       "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
       "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
-      "/stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
-      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)",
       "/stonehearth/entities/humans/male/head.qb": "file(entities/humans/male/head.qb)",
       "/stonehearth/entities/humans/female/head.qb": "file(entities/humans/female/head.qb)",
       "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",

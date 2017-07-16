@@ -9,7 +9,7 @@
       "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
       "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
       "actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
-      "actions:combat:ninja:execute_ninja_attack":"file(ai/actions/combat/ninja/execute_ninja_attack_action.lua)",
+      "actions:combat:ninja:execute_ninja_attack": "file(ai/actions/combat/ninja/execute_ninja_attack_action.lua)",
       "actions:combat:ninja:after_cooldown": "file(ai/actions/combat/ninja/ninja_attack_after_cooldown_action.lua)",
       "actions:combat:ninja:by_pathing_to_target": "file(ai/actions/combat/ninja/ninja_attack_by_pathing_to_target_action.lua)",
       "actions:combat:ninja:by_moving_to_targetable_location": "file(ai/actions/combat/ninja/ninja_attack_by_moving_to_targetable_location_action.lua)",

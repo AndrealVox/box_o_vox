@@ -6,6 +6,7 @@
    "flavor": "",
    "portrait": "/box_o_vox/entities/containers/furniture_crate/furniture_crate.png",
    "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
    "ingredients": [
       {
          "material": "stone resource",

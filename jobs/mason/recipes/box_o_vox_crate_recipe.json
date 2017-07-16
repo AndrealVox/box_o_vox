@@ -6,10 +6,27 @@
    "flavor": "",
    "portrait": "/box_o_vox/entities/containers/box_o_vox_crate/box_o_vox_crate.png",
    "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
    "ingredients": [
       {
-         "material": "stone resource",
-         "count": 3
+         "uri": "box_o_vox:containers:equipment_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:containers:food_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:containers:furniture_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:containers:resources_crate",
+         "count": 1
+      },
+      {
+         "uri": "box_o_vox:containers:treasure_crate",
+         "count": 1
       }
    ],
    "produces": [

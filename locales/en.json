@@ -3,7 +3,7 @@
       "loadouts": {
          "path_of_the_necromancer": {
             "display_name": "Path Of The Necromancer",
-            "description": "It's a dark path to becoming a necromancer. Do you have what it takes?",
+            "description": "It's a dark path to becoming a necromancer. Do you have what it takes? With these tools you should be able to streamline straight to it!",
             "tooltip": ""
          },
          "items": {
@@ -63,11 +63,6 @@
       }
    },
    "jobs": {
-      "farmer": {
-         "farmer_description": {
-            "display_name": "Farmer"
-         }
-      },
       "trapper": {
          "trapper_description": {
             "display_name": "Trapper"
@@ -170,6 +165,11 @@
                "perk_000_name": "Combo attack",
                "perk_000_description": "Skill with the sword has increased"
             }
+         }
+      },
+      "weaver": {
+         "weaver_description": {
+            "display_name": "Weaver"
          }
       }
    },

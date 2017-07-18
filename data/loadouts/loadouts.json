@@ -25,10 +25,10 @@
                "amount": 1
             },
             {
-               "display_name": "i18n(box_o_vox:jobs.farmer.farmer_description.display_name)",
+               "display_name": "i18n(box_o_vox:jobs.weaver.weaver_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:farmer:talisman",
-               "icon": "file(images/items/farmer_hoe.png)",
+               "uri": "stonehearth:weaver:talisman",
+               "icon": "file(images/items/weaver_spindle.png)",
                "amount": 1
             },
             {

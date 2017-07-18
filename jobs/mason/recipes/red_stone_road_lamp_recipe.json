@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.red_stone_road_lamp.red_stone_road_lamp_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.red_stone_road_lamp.red_stone_road_lamp_ghost.description)",
+   "portrait": "/box_o_vox/entities/decoration/red_stone_road_lamp/red_stone_road_lamp.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:decoration:red_stone_road_lamp"
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+   "craftable_recipes": {
+      "building_parts": {
+         "ordinal": 5,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.building_parts_name)",
+         "recipes": {
+            "blue_lamp": {
+               "recipe": "file(blue_wooden_road_lamp_recipe.json)"
+            },
+            "green_lamp": {
+               "recipe": "file(green_wooden_road_lamp_recipe.json)"
+            },
+            "purple_lamp": {
+               "recipe": "file(purple_wooden_road_lamp_recipe.json)"
+            },
+            "red_lamp": {
+               "recipe": "file(red_wooden_road_lamp_recipe.json)"
+            }
+         }
+      }
+   }
+}

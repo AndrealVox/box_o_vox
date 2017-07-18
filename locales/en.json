@@ -138,6 +138,12 @@
                "recipe_name": "Small Healing Tonic",
                "description": "A medicinal drink that heals for a minuscule amount"
             }
+         },
+         "cleric_workbench": {
+            "cleric_workbench_ghost": {
+               "display_name": "Cleric Workbench",
+               "description": "Where A Cleric Works"
+            }
          }
       },
       "herbalist": {
@@ -257,6 +263,56 @@
             "treasure_crate_ghost": {
                "display_name": "Treasure Crate",
                "description": "A Crate For Treasure"
+            }
+         }
+      },
+      "decoration": {
+         "blue_stone_road_lamp": {
+            "blue_stone_road_lamp_ghost": {
+               "display_name": "Blue Stone Road Lamp",
+               "description": "A standing road lamp with a color of blue."
+            }
+         },
+         "green_stone_road_lamp": {
+            "green_stone_road_lamp_ghost": {
+               "display_name": "Green Stone Road Lamp",
+               "description": "A standing road lamp with a color of green."
+            }
+         },
+         "purple_stone_road_lamp": {
+            "purple_stone_road_lamp_ghost": {
+               "display_name": "Purple Stone Road Lamp",
+               "description": "A standing road lamp with a color of purple."
+            }
+         },
+         "red_stone_road_lamp": {
+            "red_stone_road_lamp_ghost": {
+               "display_name": "Red Stone Road Lamp",
+               "description": "A standing road lamp with a color of red."
+            }
+         },
+         "blue_wooden_road_lamp": {
+            "blue_wooden_road_lamp_ghost": {
+               "display_name": "Blue Wooden Road Lamp",
+               "description": "A standing road lamp with a color of blue."
+            }
+         },
+         "green_wooden_road_lamp": {
+            "green_wooden_road_lamp_ghost": {
+               "display_name": "Green Wooden Road Lamp",
+               "description": "A standing road lamp with a color of green."
+            }
+         },
+         "purple_wooden_road_lamp": {
+            "purple_wooden_road_lamp_ghost": {
+               "display_name": "Purple Wooden Road Lamp",
+               "description": "A standing road lamp with a color of purple."
+            }
+         },
+         "red_wooden_road_lamp": {
+            "red_wooden_road_lamp_ghost": {
+               "display_name": "Red Wooden Road Lamp",
+               "description": "A standing road lamp with a color of red."
             }
          }
       }

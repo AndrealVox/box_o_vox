@@ -7,8 +7,12 @@
    "workshop": "stonehearth:mason:workbench",
    "level_requirement": 2,
    "ingredients": [
+       {
+           "uri": "stonehearth:decoration:stone_wall_lantern",
+           "count": 1
+       },
       {
-         "material": "stone resource",
+         "material": "wood resource",
          "count": 1
       }
    ],

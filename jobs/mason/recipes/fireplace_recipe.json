@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.fireplace.fireplace_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.fireplace.fireplace_ghost.description)",
+   "portrait": "/box_o_vox/entities/decoration/fireplace/fireplace.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:decoration:fireplace"
+      }
+   ]
+}

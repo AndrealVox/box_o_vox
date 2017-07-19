@@ -1,10 +1,10 @@
 {
    "type": "monster_tuning",
-   "estimated_difficulty": 0,
+   "estimated_difficulty": 1,
    "attributes": {
       "max_health": 30,
       "muscle": 20,
-      "menace": 10,
+      "menace": 5,
       "courage": 500,
       "speed": 80
    },

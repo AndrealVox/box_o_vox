@@ -314,6 +314,12 @@
                "display_name": "Red Wooden Road Lamp",
                "description": "A standing road lamp with a color of red."
             }
+         },
+         "fireplace": {
+            "fireplace_ghost": {
+               "display_name": "Stone Chimney Fireplace",
+               "description": "A large stone chimney fireplace for your hearthlings to gather around."
+            }
          }
       }
    },

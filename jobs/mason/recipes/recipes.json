@@ -30,6 +30,9 @@
             },
             "red_road_lamp": {
                "recipe": "file(red_stone_road_lamp_recipe.json)"
+            },
+            "fireplace": {
+               "recipe": "file(fireplace_recipe.json)"
             }
          }
       },

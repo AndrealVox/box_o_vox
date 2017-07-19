@@ -5,7 +5,7 @@
    "attributes": {
       "max_health": 20,
       "muscle": 10,
-      "menace": 10,
+      "menace": 5,
       "courage": 500,
       "speed": 100
    },

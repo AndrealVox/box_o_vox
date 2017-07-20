@@ -19,6 +19,25 @@
                }
             }
          }
+      },
+      "rayyas_children": {
+         "display_name": "i18n(rayyas_children:data.saved_objects.building_templates_index.template_tabs.rayyas_children.display_name)",
+         "required_kingdom": "rayyas_children:kingdoms:rayyas_children",
+         "categories": {
+            "outpost": {
+               "display_name": "i18n(rayyas_children:data.saved_objects.building_templates_index.template_tabs.rayyas_children.categories.outpost)",
+               "ordinal": 1,
+               "templates": {
+                  "necromancer_house": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "box_o_vox:jobs:necromancer"
+                     },
+                     "file": "file(building_templates/necromancer_house.json)"
+                  }
+               }
+            }
+         }
       }
    }
 }

@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "clothing_armor": {
+         "ordinal": 3,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.clothing_armor_name)",
+         "recipes": {
+            "cloth_padded_helmet": {
+               "recipe": "file(cloth_hood_recipe.json)"
+            }
+         }
+      }
+   }
+}

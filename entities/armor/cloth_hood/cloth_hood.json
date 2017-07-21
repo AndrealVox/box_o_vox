@@ -1,0 +1,53 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(cloth_hood.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(cloth_hood_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(cloth_hood_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "roles": "cleric_job",
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 5
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.armor.cloth_hood.display_name)",
+         "description": "i18n(box_o_vox:entities.armor.cloth_hood.description)",
+         "icon": "file(cloth_hood.png)",
+         "category": "armor",
+         "material_tags": "cloth armor light_armor stockpile_equipment"
+      }
+   }
+}

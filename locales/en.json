@@ -321,6 +321,12 @@
                "description": "A large stone chimney fireplace for your hearthlings to gather around."
             }
          }
+      },
+      "armor": {
+         "cloth_hood": {
+            "display_name": "Cloth Hood",
+            "description": "A cloth hood that can provide armor for a Cleric."
+         }
       }
    },
    "weapons": {

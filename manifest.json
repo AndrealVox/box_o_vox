@@ -20,6 +20,7 @@
       "actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
       "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
       "ai_pack:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
+      "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
       "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
       "build:brushes:roof:vox_green_roof": "file(data/build/brushes/roof/vox_green_roof/vox_green_roof.qb)",
       "build:brushes:roof:vox_purple_roof": "file(data/build/brushes/roof/vox_purple_roof/vox_purple_roof.qb)",
@@ -128,6 +129,7 @@
       "/stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
       "/stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
       "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
+      "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "/stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
       "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)"

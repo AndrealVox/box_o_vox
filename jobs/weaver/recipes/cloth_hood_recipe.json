@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:entities.armor.cloth_hood.display_name)",
+   "description": "i18n(box_o_vox:entities.armor.cloth_hood.description)",
+   "portrait": "/box_o_vox/entities/armor/cloth_hood/cloth_hood.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:armor:cloth_hood"
+      }
+   ]
+}

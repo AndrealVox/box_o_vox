@@ -1,0 +1,37 @@
+{
+   "type": "effect",
+   "tracks": {
+      "cubemitter": {
+         "type": "cubemitter",
+         "cubemitter": "particles/fire/fire.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": -1,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 70,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "light": {
+         "type": "light",
+         "light": "animatedlights/fire/fire.animatedlight.json",
+         "transforms": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+         },
+         "shadows": true
+      }
+   }
+}

@@ -56,6 +56,7 @@
       "decoration:green_wooden_road_lamp": "file(entities/decoration/green_wooden_road_lamp)",
       "decoration:purple_wooden_road_lamp": "file(entities/decoration/purple_wooden_road_lamp)",
       "decoration:red_wooden_road_lamp": "file(entities/decoration/red_wooden_road_lamp)",
+      "effects:fireplace_effect": "file(data/effects/fireplace_effect/fireplace_effect.json)",
       "effects:blue_road_lamp_effect": "file(data/effects/road_lamp_effect/blue_road_lamp_effect.json)",
       "effects:green_road_lamp_effect": "file(data/effects/road_lamp_effect/green_road_lamp_effect.json)",
       "effects:purple_road_lamp_effect": "file(data/effects/road_lamp_effect/purple_road_lamp_effect.json)",

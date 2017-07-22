@@ -9,28 +9,12 @@
       },
       "stonehearth:lamp": {
          "light_policy": "always_on",
-         "light_effect": "stonehearth:effects:firepit_effect",
+         "light_effect": "box_o_vox:effects:fireplace_effect",
          "light_origin": {
             "x": 0,
             "y": 1,
             "z": 0
          }
-      },
-      "destination": {
-         "region": [
-            {
-               "min": {
-                  "x": 0,
-                  "y": 0,
-                  "z": -1
-               },
-               "max": {
-                  "x": 5,
-                  "y": 7,
-                  "z": 2
-               }
-            }
-         ]
       },
       "region_collision_shape": {
          "region": [
@@ -41,9 +25,9 @@
                   "z": -1
                },
                "max": {
-                  "x": 3,
+                  "x": 2,
                   "y": 7,
-                  "z": 2
+                  "z": 1
                }
             }
          ]

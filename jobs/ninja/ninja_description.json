@@ -16,7 +16,7 @@
       "torso": "file(ninja_outfit)",
       "mainhand": "box_o_vox:weapon:ninja_sword"
    },
-   "roles": "ninja_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
+   "roles": "ninja_job melee_combat combat",
    "promotion_activity_name": "promote_ninja",
    "task_groups": [
       "stonehearth:task_group:common_tasks",
@@ -31,8 +31,8 @@
    "parent_job": "stonehearth:jobs:archer",
    "max_level": 6,
    "level_data": {
-       "0": {
-           "perks": [
+      "0": {
+         "perks": [
             {
                "type": "apply_buff",
                "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_0_data.perk_000_name)",
@@ -44,9 +44,9 @@
                "demote_fn": "remove_buff"
             }
          ]
-       },
+      },
       "1": {
-          "perks": [
+         "perks": [
             {
                "type": "add_chained_combat_action",
                "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_1_data.perk_000_name)",

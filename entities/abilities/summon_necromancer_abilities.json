@@ -7,23 +7,19 @@
                 "box_o_vox:actions:combat:flame_skull_attack"
             ],
             "ai_packs": [
-               "stonehearth:ai_pack:wimpy",
-               "stonehearth:ai_pack:panic",
-               "stonehearth:ai_pack:panic:flee",
-               "stonehearth:ai_pack:ranged_combat",
-               "stonehearth:ai_pack:patrolling"
+               "stonehearth:ai_pack:ranged_combat"
             ]
          }
       }
    },
    "entity_data": {
-       "box_o_vox:combat:ranged_spells": [
-           {
-                "name": "combat_spell",
-                "effect": "combat_1h_forehand",
-                "active_frame": 16,
-                "cooldown": 5000,
-                "priority": 1
+      "box_o_vox:combat:ranged_spells": [
+         {
+            "name": "combat_spell",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 1000,
+            "priority": 1
            }
       ]
    }

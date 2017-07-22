@@ -33,7 +33,7 @@
             "name": "combat_summon",
             "effect": "combat_1h_heal",
             "active_frame": 41,
-            "cooldown": 10000,
+            "cooldown": 8000,
             "priority": 3
          }
       ],

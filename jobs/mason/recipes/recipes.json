@@ -33,6 +33,9 @@
             },
             "fireplace": {
                "recipe": "file(fireplace_recipe.json)"
+            },
+            "boxling_statue": {
+               "recipe": "file(boxling_statue_recipe.json)"
             }
          }
       },

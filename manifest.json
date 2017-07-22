@@ -47,6 +47,7 @@
       "containers:furniture_crate": "file(entities/containers/furniture_crate)",
       "containers:resources_crate": "file(entities/containers/resources_crate)",
       "containers:treasure_crate": "file(entities/containers/treasure_crate)",
+      "decoration:boxling_statue": "file(entities/decoration/boxling_statue)",
       "decoration:fireplace": "file(entities/decoration/fireplace)",
       "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
       "decoration:green_stone_road_lamp": "file(entities/decoration/green_stone_road_lamp)",

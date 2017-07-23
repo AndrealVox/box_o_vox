@@ -21,6 +21,7 @@
       "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
       "ai_pack:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
       "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
+      "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
       "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
       "build:brushes:roof:vox_green_roof": "file(data/build/brushes/roof/vox_green_roof/vox_green_roof.qb)",
       "build:brushes:roof:vox_purple_roof": "file(data/build/brushes/roof/vox_purple_roof/vox_purple_roof.qb)",

@@ -4,8 +4,11 @@
          "ordinal": 3,
          "name": "i18n(stonehearth:jobs.weaver.recipes.clothing_armor_name)",
          "recipes": {
-            "cloth_padded_helmet": {
+            "cloth_hood": {
                "recipe": "file(cloth_hood_recipe.json)"
+            },
+            "cloth_robe": {
+               "recipe": "file(cloth_robe_recipe.json)"
             }
          }
       }

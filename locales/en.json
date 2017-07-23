@@ -332,6 +332,10 @@
          "cloth_hood": {
             "display_name": "Cloth Hood",
             "description": "A cloth hood that can provide armor for a Cleric."
+         },
+         "cloth_robe": {
+            "display_name": "Cloth Robe",
+            "description": "A cloth robe that can provide armor for a Cleric."
          }
       }
    },

@@ -24,13 +24,14 @@
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
          "slot": "helmet",
+         "ilevel": 6,
          "roles": "cleric_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 5
+         "base_damage_reduction": 6
       },
       "stonehearth:net_worth": {
          "value_in_gold": 20,

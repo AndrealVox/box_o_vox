@@ -12,7 +12,7 @@
    "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "box_o_vox:weapon:necromancer_tome"
+         "box_o_vox:weapon:summon_necromancer_tome"
       ],
       "abilities": "box_o_vox:abilities:summon_necro_abilities"
    }

@@ -78,8 +78,8 @@
    "entity_data": {
       "stonehearth:bed": {
          "shelter": {
-            "contribution_threshold": 420,
-            "score": 62
+            "contribution_threshold": 50,
+            "score": 8
          }
       },
       "stonehearth:net_worth": {

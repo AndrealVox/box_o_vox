@@ -97,6 +97,29 @@
          }
       }
    },
+   "wall": {
+      "wood resource": {
+         "patterns": {
+            "box_o_vox:build:brushes:wall:red_wood_wall": {
+               "icon": "file(red_wood_wall.png)",
+               "display_name": "Vox Red Pattern"
+            }
+         },
+         "colors": {}
+      },
+      "clay_brick resource": {
+         "colors": {},
+         "patterns": {
+
+         }
+      },
+      "stone resource": {
+         "patterns": {
+
+         },
+         "colors": {}
+      }
+   },
    "roof": {
       "stone resource": {
          "patterns": {

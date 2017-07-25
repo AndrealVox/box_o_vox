@@ -17,168 +17,40 @@
       "stonehearth:building": {
          "structures": {
             "stonehearth:roof": [
-					601635
+					955224
 				],
             "stonehearth:column": [
-					600972,
-					601606,
-					601001,
-					605533,
-					605386,
-					600707
+					954818,
+					954847,
+					954998,
+					955282,
+					955195,
+					955253
 				],
             "stonehearth:stairs": {},
             "stonehearth:fixture_fabricator": [
-					601191,
-					607334,
-					600917,
-					607241,
-					600858
+					955140,
+					955085,
+					954967,
+					954936,
+					954905
 				],
             "stonehearth:floor": [
-					601030
+					954876
 				],
             "stonehearth:wall": [
-					600765,
-					600794,
-					600736,
-					601664,
-					605680
+					955056,
+					954760,
+					955027,
+					955311,
+					954789
 				]
          }
       },
-      "id": 600668,
+      "id": 954721,
       "uri": "stonehearth:build:prototypes:building",
       "children": {
-         "600765": {
-            "stonehearth:wall": {
-               "normal": {
-                  "y": 0,
-                  "x": 1,
-                  "z": 0
-               },
-               "brush": "#790000",
-               "pos_a": {
-                  "y": 0,
-                  "x": 14,
-                  "z": -2
-               },
-               "roofs": [
-						601635
-					],
-               "column_b": 601001,
-               "column_a": 600707,
-               "pos_b": {
-                  "y": 0,
-                  "x": 14,
-                  "z": 8
-               }
-            },
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": 0,
-                  "x": 14,
-                  "z": -1
-               }
-            },
-            "stonehearth:construction_data": {
-               "normal": {
-                  "y": 0,
-                  "x": 1,
-                  "z": 0
-               }
-            },
-            "uri": "stonehearth:build:prototypes:wall",
-            "shape": [
-               {
-                  "max": {
-                     "y": 6,
-                     "x": 1,
-                     "z": 9
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": 0,
-                     "z": 0
-                  },
-                  "tag": 121
-					}
-				],
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "605680": {
-            "stonehearth:wall": {
-               "normal": {
-                  "y": 0,
-                  "x": 1,
-                  "z": 0
-               },
-               "brush": "#790000",
-               "pos_a": {
-                  "y": 0,
-                  "x": 6,
-                  "z": -1
-               },
-               "roofs": {},
-               "column_b": 605386,
-               "column_a": 605533,
-               "pos_b": {
-                  "y": 0,
-                  "x": 6,
-                  "z": 7
-               }
-            },
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": 0,
-                  "x": 6,
-                  "z": 0
-               }
-            },
-            "stonehearth:construction_data": {
-               "normal": {
-                  "y": 0,
-                  "x": 1,
-                  "z": 0
-               }
-            },
-            "uri": "stonehearth:build:prototypes:wall",
-            "shape": [
-               {
-                  "max": {
-                     "y": 6,
-                     "x": 1,
-                     "z": 7
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": 0,
-                     "z": 0
-                  },
-                  "tag": 121
-					}
-				],
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "605533": {
+         "954818": {
             "mob": {
                "orientation": {
                   "y": 0,
@@ -212,201 +84,17 @@
 				],
             "stonehearth:column": {
                "connected_walls": [
-						605680
+						954789
 					],
                "brush": "#790000"
             },
             "uri": "stonehearth:build:prototypes:column",
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "600972": {
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": 0,
-                  "x": -2,
-                  "z": -2
-               }
-            },
-            "stonehearth:construction_data": {
-               "project_adjacent_to_base": true
-            },
-            "shape": [
-               {
-                  "max": {
-                     "y": 6,
-                     "x": 1,
-                     "z": 1
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": 0,
-                     "z": 0
-                  },
-                  "tag": 121
-					}
-				],
-            "stonehearth:column": {
-               "brush": "#790000",
-               "roof": 601635,
-               "connected_walls": [
-						601664,
-						600736
-					]
-            },
-            "uri": "stonehearth:build:prototypes:column",
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "601030": {
-            "stonehearth:floor": {
-               "connected_to": [
-						600765,
-						600972,
-						601606,
-						601001,
-						600707,
-						600736,
-						601664,
-						600794
-					],
-               "category": "foundation"
-            },
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": -1,
-                  "x": 0,
-                  "z": 0
-               }
-            },
-            "stonehearth:construction_data": {},
-            "shape": [
-               {
-                  "max": {
-                     "y": 1,
-                     "x": 15,
-                     "z": 10
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": -2,
-                     "z": -2
-                  },
-                  "tag": 121
-					}
-				],
-            "uri": "stonehearth:build:prototypes:floor",
-            "children": {
-               "607334": {
-                  "mob": {
-                     "orientation": {
-                        "y": 1,
-                        "x": 0,
-                        "w": 0,
-                        "z": 0
-                     },
-                     "position": {
-                        "y": 1,
-                        "x": 8,
-                        "z": 1
-                     }
-                  },
-                  "stonehearth:fixture_fabricator": {
-                     "normal": {
-                        "y": 1,
-                        "x": 0,
-                        "z": 0
-                     },
-                     "fixture_uri": "box_o_vox:furniture:red_wood_bed",
-                     "rotation": 180
-                  },
-                  "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
-                  "stonehearth:construction_progress": {
-                     "building_entity": 600668,
-                     "fabricator_component_name": "stonehearth:fixture_fabricator"
-                  }
-               },
-               "607241": {
-                  "mob": {
-                     "orientation": {
-                        "y": 1,
-                        "x": 0,
-                        "w": 0,
-                        "z": 0
-                     },
-                     "position": {
-                        "y": 1,
-                        "x": 4,
-                        "z": 1
-                     }
-                  },
-                  "stonehearth:fixture_fabricator": {
-                     "normal": {
-                        "y": 1,
-                        "x": 0,
-                        "z": 0
-                     },
-                     "fixture_uri": "box_o_vox:furniture:red_wood_bed",
-                     "rotation": 180
-                  },
-                  "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
-                  "stonehearth:construction_progress": {
-                     "building_entity": 600668,
-                     "fabricator_component_name": "stonehearth:fixture_fabricator"
-                  }
-               },
-               "601191": {
-                  "mob": {
-                     "orientation": {
-                        "y": 1,
-                        "x": 0,
-                        "w": 0,
-                        "z": 0
-                     },
-                     "position": {
-                        "y": 1,
-                        "x": -2,
-                        "z": 9
-                     }
-                  },
-                  "stonehearth:fixture_fabricator": {
-                     "normal": {
-                        "y": 1,
-                        "x": 0,
-                        "z": 0
-                     },
-                     "fixture_uri": "box_o_vox:decoration:red_wooden_road_lamp",
-                     "rotation": 180
-                  },
-                  "uri": "\/box_o_vox\/entities\/decoration\/red_wooden_road_lamp\/red_wooden_road_lamp_ghost.json",
-                  "stonehearth:construction_progress": {
-                     "building_entity": 600668,
-                     "fabricator_component_name": "stonehearth:fixture_fabricator"
-                  }
-               }
-            },
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "600707": {
+         "954998": {
             "mob": {
                "orientation": {
                   "y": 0,
@@ -440,19 +128,19 @@
 				],
             "stonehearth:column": {
                "brush": "#790000",
-               "roof": 601635,
+               "roof": 955224,
                "connected_walls": [
-						601664,
-						600765
+						955027,
+						954760
 					]
             },
             "uri": "stonehearth:build:prototypes:column",
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "601606": {
+         "954847": {
             "mob": {
                "orientation": {
                   "y": 0,
@@ -461,120 +149,9 @@
                   "z": 0
                },
                "position": {
-                  "y": 0,
-                  "x": -2,
-                  "z": 8
-               }
-            },
-            "stonehearth:construction_data": {
-               "project_adjacent_to_base": true
-            },
-            "shape": [
-               {
-                  "max": {
-                     "y": 6,
-                     "x": 1,
-                     "z": 1
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": 0,
-                     "z": 0
-                  },
-                  "tag": 121
-					}
-				],
-            "stonehearth:column": {
-               "brush": "#790000",
-               "roof": 601635,
-               "connected_walls": [
-						600794,
-						600736
-					]
-            },
-            "uri": "stonehearth:build:prototypes:column",
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "600736": {
-            "stonehearth:wall": {
-               "normal": {
-                  "y": 0,
-                  "x": -1,
-                  "z": 0
-               },
-               "brush": "#790000",
-               "pos_a": {
                   "y": 0,
                   "x": -2,
                   "z": -2
-               },
-               "roofs": [
-						601635
-					],
-               "column_b": 601606,
-               "column_a": 600972,
-               "pos_b": {
-                  "y": 0,
-                  "x": -2,
-                  "z": 8
-               }
-            },
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": 0,
-                  "x": -2,
-                  "z": 7
-               }
-            },
-            "stonehearth:construction_data": {
-               "normal": {
-                  "y": 0,
-                  "x": -1,
-                  "z": 0
-               }
-            },
-            "uri": "stonehearth:build:prototypes:wall",
-            "shape": [
-               {
-                  "max": {
-                     "y": 6,
-                     "x": 1,
-                     "z": 1
-                  },
-                  "min": {
-                     "y": 0,
-                     "x": 0,
-                     "z": -8
-                  },
-                  "tag": 121
-					}
-				],
-            "stonehearth:construction_progress": {
-               "building_entity": 600668,
-               "fabricator_component_name": "stonehearth:fabricator"
-            }
-         },
-         "601001": {
-            "mob": {
-               "orientation": {
-                  "y": 0,
-                  "x": 0,
-                  "w": 1,
-                  "z": 0
-               },
-               "position": {
-                  "y": 0,
-                  "x": 14,
-                  "z": 8
                }
             },
             "stonehearth:construction_data": {
@@ -597,19 +174,19 @@
 				],
             "stonehearth:column": {
                "brush": "#790000",
-               "roof": 601635,
+               "roof": 955224,
                "connected_walls": [
-						600765,
-						600794
+						955027,
+						955311
 					]
             },
             "uri": "stonehearth:build:prototypes:column",
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "601635": {
+         "955224": {
             "stonehearth:roof": {
                "nine_grid_region": [
                   {
@@ -1643,11 +1220,852 @@
 				],
             "uri": "stonehearth:build:prototypes:roof",
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "605386": {
+         "955027": {
+            "stonehearth:wall": {
+               "normal": {
+                  "y": 0,
+                  "x": 0,
+                  "z": -1
+               },
+               "brush": "box_o_vox:build:brushes:wall:red_wood_wall",
+               "pos_a": {
+                  "y": 0,
+                  "x": -2,
+                  "z": -2
+               },
+               "roofs": [
+						955224
+					],
+               "column_b": 954998,
+               "column_a": 954847,
+               "pos_b": {
+                  "y": 0,
+                  "x": 14,
+                  "z": -2
+               }
+            },
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": 0,
+                  "x": -1,
+                  "z": -2
+               }
+            },
+            "stonehearth:construction_data": {
+               "normal": {
+                  "y": 0,
+                  "x": 0,
+                  "z": -1
+               }
+            },
+            "uri": "stonehearth:build:prototypes:wall",
+            "shape": [
+               {
+                  "max": {
+                     "y": 1,
+                     "x": 15,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 3,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": 6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 4,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 10,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 8,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 12,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 11,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 15,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 14,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 4,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 3,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 4,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 3,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 4,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 9,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 6,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 8,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 6,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 11,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 7,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 11,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 10,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": 15,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 11,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 14,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 11,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 12,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 11,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 15,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 12,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 4,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 7,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 6,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 11,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 9,
+                     "z": 0
+                  },
+                  "tag": 173
+					}
+				],
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "955253": {
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": 0,
+                  "x": 14,
+                  "z": 8
+               }
+            },
+            "stonehearth:construction_data": {
+               "project_adjacent_to_base": true
+            },
+            "shape": [
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 121
+					}
+				],
+            "stonehearth:column": {
+               "brush": "#790000",
+               "roof": 955224,
+               "connected_walls": [
+						954760,
+						955056
+					]
+            },
+            "uri": "stonehearth:build:prototypes:column",
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "955282": {
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": 0,
+                  "x": -2,
+                  "z": 8
+               }
+            },
+            "stonehearth:construction_data": {
+               "project_adjacent_to_base": true
+            },
+            "shape": [
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 121
+					}
+				],
+            "stonehearth:column": {
+               "brush": "#790000",
+               "roof": 955224,
+               "connected_walls": [
+						955056,
+						955311
+					]
+            },
+            "uri": "stonehearth:build:prototypes:column",
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "955311": {
+            "stonehearth:wall": {
+               "normal": {
+                  "y": 0,
+                  "x": -1,
+                  "z": 0
+               },
+               "brush": "box_o_vox:build:brushes:wall:red_wood_wall",
+               "pos_a": {
+                  "y": 0,
+                  "x": -2,
+                  "z": -2
+               },
+               "roofs": [
+						955224
+					],
+               "column_b": 955282,
+               "column_a": 954847,
+               "pos_b": {
+                  "y": 0,
+                  "x": -2,
+                  "z": 8
+               }
+            },
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": 0,
+                  "x": -2,
+                  "z": 7
+               }
+            },
+            "stonehearth:construction_data": {
+               "normal": {
+                  "y": 0,
+                  "x": -1,
+                  "z": 0
+               }
+            },
+            "uri": "stonehearth:build:prototypes:wall",
+            "shape": [
+               {
+                  "max": {
+                     "y": 1,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": -8
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": 1,
+                     "z": -4
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": -6
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 1,
+                     "z": -1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": -3
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": -6
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": -8
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 1,
+                     "z": -7
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": -8
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": -6
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 0,
+                     "z": -8
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 1,
+                     "z": -4
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 0,
+                     "z": -6
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": -1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": -4
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": -3
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": -4
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": -1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 0,
+                     "z": -3
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": -1
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 1,
+                     "z": -6
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": -7
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": -4
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 0,
+                     "z": -6
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 0
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": -1
+                  },
+                  "tag": 173
+					}
+				],
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "954876": {
+            "stonehearth:floor": {
+               "connected_to": [
+						955056,
+						954998,
+						954847,
+						954760,
+						955282,
+						955027,
+						955311,
+						955253
+					],
+               "category": "foundation"
+            },
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": -1,
+                  "x": 0,
+                  "z": 0
+               }
+            },
+            "stonehearth:construction_data": {},
+            "shape": [
+               {
+                  "max": {
+                     "y": 1,
+                     "x": 15,
+                     "z": 10
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": -2,
+                     "z": -2
+                  },
+                  "tag": 121
+					}
+				],
+            "uri": "stonehearth:build:prototypes:floor",
+            "children": {
+               "954936": {
+                  "mob": {
+                     "orientation": {
+                        "y": 1,
+                        "x": 0,
+                        "w": 0,
+                        "z": 0
+                     },
+                     "position": {
+                        "y": 1,
+                        "x": 4,
+                        "z": 1
+                     }
+                  },
+                  "stonehearth:fixture_fabricator": {
+                     "normal": {
+                        "y": 1,
+                        "x": 0,
+                        "z": 0
+                     },
+                     "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                     "rotation": 180
+                  },
+                  "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
+                  "stonehearth:construction_progress": {
+                     "building_entity": 954721,
+                     "fabricator_component_name": "stonehearth:fixture_fabricator"
+                  }
+               },
+               "954905": {
+                  "mob": {
+                     "orientation": {
+                        "y": 1,
+                        "x": 0,
+                        "w": 0,
+                        "z": 0
+                     },
+                     "position": {
+                        "y": 1,
+                        "x": 8,
+                        "z": 1
+                     }
+                  },
+                  "stonehearth:fixture_fabricator": {
+                     "normal": {
+                        "y": 1,
+                        "x": 0,
+                        "z": 0
+                     },
+                     "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                     "rotation": 180
+                  },
+                  "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
+                  "stonehearth:construction_progress": {
+                     "building_entity": 954721,
+                     "fabricator_component_name": "stonehearth:fixture_fabricator"
+                  }
+               },
+               "954967": {
+                  "mob": {
+                     "orientation": {
+                        "y": 1,
+                        "x": 0,
+                        "w": 0,
+                        "z": 0
+                     },
+                     "position": {
+                        "y": 1,
+                        "x": -2,
+                        "z": 9
+                     }
+                  },
+                  "stonehearth:fixture_fabricator": {
+                     "normal": {
+                        "y": 1,
+                        "x": 0,
+                        "z": 0
+                     },
+                     "fixture_uri": "box_o_vox:decoration:red_wooden_road_lamp",
+                     "rotation": 180
+                  },
+                  "uri": "\/box_o_vox\/entities\/decoration\/red_wooden_road_lamp\/red_wooden_road_lamp_ghost.json",
+                  "stonehearth:construction_progress": {
+                     "building_entity": 954721,
+                     "fabricator_component_name": "stonehearth:fixture_fabricator"
+                  }
+               }
+            },
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "955195": {
             "mob": {
                "orientation": {
                   "y": 0,
@@ -1681,34 +2099,34 @@
 				],
             "stonehearth:column": {
                "connected_walls": [
-						605680
+						954789
 					],
                "brush": "#790000"
             },
             "uri": "stonehearth:build:prototypes:column",
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "600794": {
+         "955056": {
             "stonehearth:wall": {
                "normal": {
                   "y": 0,
                   "x": 0,
                   "z": 1
                },
-               "brush": "#790000",
+               "brush": "box_o_vox:build:brushes:wall:red_wood_wall",
                "pos_a": {
                   "y": 0,
                   "x": -2,
                   "z": 8
                },
                "roofs": [
-						601635
+						955224
 					],
-               "column_b": 601001,
-               "column_a": 601606,
+               "column_b": 955253,
+               "column_a": 955282,
                "pos_b": {
                   "y": 0,
                   "x": 14,
@@ -1739,7 +2157,7 @@
             "shape": [
                {
                   "max": {
-                     "y": 6,
+                     "y": 1,
                      "x": -13,
                      "z": 1
                   },
@@ -1752,20 +2170,20 @@
 					},
                {
                   "max": {
-                     "y": 6,
+                     "y": 5,
                      "x": -11,
                      "z": 1
                   },
                   "min": {
                      "y": 4,
-                     "x": -13,
+                     "x": -12,
                      "z": 0
                   },
                   "tag": 121
 					},
                {
                   "max": {
-                     "y": 6,
+                     "y": 1,
                      "x": -2,
                      "z": 1
                   },
@@ -1779,7 +2197,46 @@
                {
                   "max": {
                      "y": 6,
-                     "x": 0,
+                     "x": -8,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": -10,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": -4,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": -6,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": -2,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": -3,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": -1,
                      "z": 1
                   },
                   "min": {
@@ -1791,7 +2248,7 @@
 					},
                {
                   "max": {
-                     "y": 6,
+                     "y": 2,
                      "x": 1,
                      "z": 1
                   },
@@ -1801,10 +2258,218 @@
                      "z": 0
                   },
                   "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": -13,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": -14,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -12,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": -14,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -11,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": -12,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": -7,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": -11,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -10,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": -11,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": -6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": -9,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": -8,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": -4,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": -6,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": -2,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": -4,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -3,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": -4,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": -3,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 0,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": -1,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": -9,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": -11,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": -6,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": -7,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": -4,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": -6,
+                     "z": 0
+                  },
+                  "tag": 173
 					}
 				],
             "children": {
-               "600917": {
+               "955085": {
                   "mob": {
                      "orientation": {
                         "y": 1,
@@ -1828,11 +2493,11 @@
                   },
                   "uri": "\/box_o_vox\/entities\/construction\/solid_red_wood_door\/solid_red_wood_door_ghost.json",
                   "stonehearth:construction_progress": {
-                     "building_entity": 600668,
+                     "building_entity": 954721,
                      "fabricator_component_name": "stonehearth:fixture_fabricator"
                   }
                },
-               "600858": {
+               "955140": {
                   "mob": {
                      "orientation": {
                         "y": 1,
@@ -1856,38 +2521,38 @@
                   },
                   "uri": "\/box_o_vox\/entities\/construction\/solid_red_wood_door\/solid_red_wood_door_ghost.json",
                   "stonehearth:construction_progress": {
-                     "building_entity": 600668,
+                     "building_entity": 954721,
                      "fabricator_component_name": "stonehearth:fixture_fabricator"
                   }
                }
             },
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          },
-         "601664": {
+         "954760": {
             "stonehearth:wall": {
                "normal": {
                   "y": 0,
-                  "x": 0,
-                  "z": -1
+                  "x": 1,
+                  "z": 0
                },
-               "brush": "#790000",
+               "brush": "box_o_vox:build:brushes:wall:red_wood_wall",
                "pos_a": {
-                  "y": 0,
-                  "x": -2,
-                  "z": -2
-               },
-               "roofs": [
-						601635
-					],
-               "column_b": 600707,
-               "column_a": 600972,
-               "pos_b": {
                   "y": 0,
                   "x": 14,
                   "z": -2
+               },
+               "roofs": [
+						955224
+					],
+               "column_b": 955253,
+               "column_a": 954998,
+               "pos_b": {
+                  "y": 0,
+                  "x": 14,
+                  "z": 8
                }
             },
             "mob": {
@@ -1899,15 +2564,260 @@
                },
                "position": {
                   "y": 0,
-                  "x": -1,
-                  "z": -2
+                  "x": 14,
+                  "z": -1
                }
             },
             "stonehearth:construction_data": {
                "normal": {
                   "y": 0,
-                  "x": 0,
+                  "x": 1,
+                  "z": 0
+               }
+            },
+            "uri": "stonehearth:build:prototypes:wall",
+            "shape": [
+               {
+                  "max": {
+                     "y": 1,
+                     "x": 1,
+                     "z": 9
+                  },
+                  "min": {
+                     "y": 0,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 1,
+                     "z": 3
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 1
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 2,
+                     "x": 1,
+                     "z": 6
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": 4
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 9
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 0,
+                     "z": 8
+                  },
+                  "tag": 121
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 4
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": 1
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 3
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 0,
+                     "z": 1
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 4
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 3
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 5,
+                     "x": 1,
+                     "z": 6
+                  },
+                  "min": {
+                     "y": 2,
+                     "x": 0,
+                     "z": 4
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 9
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": 6
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 8
+                  },
+                  "min": {
+                     "y": 4,
+                     "x": 0,
+                     "z": 6
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 1,
+                     "z": 9
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 7
+                  },
+                  "tag": 148
+					},
+               {
+                  "max": {
+                     "y": 3,
+                     "x": 1,
+                     "z": 1
+                  },
+                  "min": {
+                     "y": 1,
+                     "x": 0,
+                     "z": 0
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 6,
+                     "x": 1,
+                     "z": 6
+                  },
+                  "min": {
+                     "y": 5,
+                     "x": 0,
+                     "z": 4
+                  },
+                  "tag": 173
+					},
+               {
+                  "max": {
+                     "y": 4,
+                     "x": 1,
+                     "z": 7
+                  },
+                  "min": {
+                     "y": 3,
+                     "x": 0,
+                     "z": 6
+                  },
+                  "tag": 173
+					}
+				],
+            "stonehearth:construction_progress": {
+               "building_entity": 954721,
+               "fabricator_component_name": "stonehearth:fabricator"
+            }
+         },
+         "954789": {
+            "stonehearth:wall": {
+               "normal": {
+                  "y": 0,
+                  "x": 1,
+                  "z": 0
+               },
+               "brush": "#790000",
+               "pos_a": {
+                  "y": 0,
+                  "x": 6,
                   "z": -1
+               },
+               "roofs": {},
+               "column_b": 955195,
+               "column_a": 954818,
+               "pos_b": {
+                  "y": 0,
+                  "x": 6,
+                  "z": 7
+               }
+            },
+            "mob": {
+               "orientation": {
+                  "y": 0,
+                  "x": 0,
+                  "w": 1,
+                  "z": 0
+               },
+               "position": {
+                  "y": 0,
+                  "x": 6,
+                  "z": 0
+               }
+            },
+            "stonehearth:construction_data": {
+               "normal": {
+                  "y": 0,
+                  "x": 1,
+                  "z": 0
                }
             },
             "uri": "stonehearth:build:prototypes:wall",
@@ -1915,8 +2825,8 @@
                {
                   "max": {
                      "y": 6,
-                     "x": 15,
-                     "z": 1
+                     "x": 1,
+                     "z": 7
                   },
                   "min": {
                      "y": 0,
@@ -1927,7 +2837,7 @@
 					}
 				],
             "stonehearth:construction_progress": {
-               "building_entity": 600668,
+               "building_entity": 954721,
                "fabricator_component_name": "stonehearth:fabricator"
             }
          }

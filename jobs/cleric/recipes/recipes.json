@@ -1,15 +1,24 @@
 {
-  "craftable_recipes" : {
+   "craftable_recipes": {
       "tools": {
-         "name": "Tomes",
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
          "recipes": {
             "necromancer_tome": {
                "recipe": "file(necromancer_tome_recipe.json)"
             }
          }
-        
       },
- "tonics": {
+      "crafting_materials": {
+         "ordinal": 2,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.crafting_materials_name)",
+         "recipes": {
+            "enchanted_cloth": {
+               "recipe": "file(enchanted_cloth_recipe.json)"
+            }
+         }
+      },
+      "tonics": {
          "ordinal": 3,
          "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
          "recipes": {
@@ -17,6 +26,6 @@
                "recipe": "file(cleric_tonic_recipe.json)"
             }
          }
- }
+      }
    }
 }

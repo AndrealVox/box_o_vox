@@ -351,6 +351,12 @@
                "description": "A Mean Bed Of The Red Variant"
             }
          }
+      },
+      "refined": {
+         "enchanted_cloth": {
+            "display_name": "Enchanted Cloth",
+            "description": "Enchanted Cloth imbued with magical protection \"atrributes\" :P"
+         }
       }
    },
    "weapons": {

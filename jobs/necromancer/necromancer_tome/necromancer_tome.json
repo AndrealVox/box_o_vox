@@ -25,7 +25,7 @@
       "stonehearth:combat:weapon_data": {
          "base_damage": 10,
          "base_ranged_damage": 20,
-         "range": 40,
+         "range": 20,
          "projectile_speed": 20,
          "reach": 1.5,
          "summon_uri": "box_o_vox:summon:skeleton",

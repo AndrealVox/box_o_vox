@@ -336,8 +336,8 @@ function ExecuteNinjaAttack:_get_world_location(point, entity)
 end
 
 function ExecuteNinjaAttack:_get_projectile_offsets(weapon_data, entity)
-   self._attacker_offset = Point3(-0.2, 1.5, -1) -- default numbers that match well with bows on humanoids
-   self._target_offset = Point3(0, 1.5, 0)
+   self._attacker_offset = Point3(0, 0, 0) -- default numbers that match well with bows on humanoids
+   self._target_offset = Point3(0, 0, 0)
 
    if not weapon_data then
       return

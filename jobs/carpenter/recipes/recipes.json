@@ -15,6 +15,18 @@
             },
             "red_lamp": {
                "recipe": "file(red_wooden_road_lamp_recipe.json)"
+            },
+            "solid_red_wood_door": {
+               "recipe": "file(solid_red_wood_door_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "ordinal": 6,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
+         "recipes": {
+            "red_wood_bed": {
+               "recipe": "file(red_wood_bed_recipe.json)"
             }
          }
       }

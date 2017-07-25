@@ -226,6 +226,12 @@
                "display_name": "Solid Stone Door",
                "description": "A Solid Stone Door Variant Of It's Clay Cousin"
             }
+         },
+         "solid_red_wood_door": {
+            "solid_red_wood_door_ghost": {
+               "display_name": "Small Red Door",
+               "description": "A Small 2-Wide Door For Those Tight Fit Places"
+            }
          }
       },
       "containers": {
@@ -336,6 +342,14 @@
          "cloth_robe": {
             "display_name": "Cloth Robe",
             "description": "A cloth robe that can provide armor for a Cleric."
+         }
+      },
+      "furniture": {
+         "red_wood_bed": {
+            "red_wood_bed_ghost": {
+               "display_name": "Red Wooden Bed",
+               "description": "A Mean Bed Of The Red Variant"
+            }
          }
       }
    },

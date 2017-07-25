@@ -1,0 +1,25 @@
+{
+   "type": "entity",
+   "mixins": [
+      "box_o_vox:mixins:portals:small_door_ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(solid_red_wood_door.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.construction.solid_red_wood_door.solid_red_wood_door_ghost.display_name)",
+         "description": "i18n(box_o_vox:entities.construction.solid_red_wood_door.solid_red_wood_door_ghost.description)",
+         "icon": "file(solid_red_wood_door.png)",
+         "category": "door",
+         "material_tags": "wood portal crafted door stockpile_portal"
+      }
+   }
+}

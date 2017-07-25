@@ -39,18 +39,6 @@
                "display_name": "Vox Blue 3",
                "ordinal": 34
             },
-            "#790000": {
-               "display_name": "Vox Red 1",
-               "ordinal": 35
-            },
-            "#940000": {
-               "display_name": "Vox Red 2",
-               "ordinal": 36
-            },
-            "#ad0000": {
-               "display_name": "Vox Red 3",
-               "ordinal": 37
-            },
             "#FFFFFF": {
                "display_name": "Vox White 1",
                "ordinal": 59
@@ -79,12 +67,23 @@
       },
       "wood resource": {
          "colors": {
-            
+            "#790000": {
+               "display_name": "Vox Red 1",
+               "ordinal": 35
+            },
+            "#940000": {
+               "display_name": "Vox Red 2",
+               "ordinal": 36
+            },
+            "#ad0000": {
+               "display_name": "Vox Red 3",
+               "ordinal": 37
+            }
          }
       },
       "clay_brick resource": {
          "colors": {
-            
+
          }
       }
    },
@@ -135,12 +134,16 @@
       },
       "wood resource": {
          "patterns": {
-            
+            "box_o_vox:build:brushes:roof:vox_red_castle": {
+               "icon": "file(vox_red_castle.png)",
+               "display_name": "Vox Red",
+               "type": "flat"
+            }
          }
       },
       "clay_brick resource": {
          "patterns": {
-            
+
          }
       }
    }

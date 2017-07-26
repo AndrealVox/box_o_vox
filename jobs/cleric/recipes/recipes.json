@@ -23,7 +23,10 @@
          "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
          "recipes": {
             "small_herbal_tonic": {
-               "recipe": "file(cleric_tonic_recipe.json)"
+               "recipe": "file(small_healing_tonic_recipe.json)"
+            },
+            "energy_tonic": {
+               "recipe": "file(energy_tonic_recipe.json)"
             }
          }
       }

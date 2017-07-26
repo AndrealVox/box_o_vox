@@ -336,12 +336,12 @@
       },
       "armor": {
          "cloth_hood": {
-            "display_name": "Cloth Hood",
-            "description": "A cloth hood that can provide armor for a Cleric."
+            "display_name": "Enchanted Hood",
+            "description": "An enchanted hood that provides armor"
          },
          "cloth_robe": {
-            "display_name": "Cloth Robe",
-            "description": "A cloth robe that can provide armor for a Cleric."
+            "display_name": "Enchanted Robe",
+            "description": "An enchanted robe that provides armor"
          }
       },
       "furniture": {

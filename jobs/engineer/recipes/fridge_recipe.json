@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(box_o_vox:jobs.potter.recipes.fridge_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.potter.recipes.fridge_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.potter.recipes.fridge_recipe.flavor)",
+   "portrait": "/box_o_vox/entities/decoration/fridge/fridge.png",
+   "workshop": "stonehearth:engineer:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      },
+      {
+         "uri": "box_o_vox:refined:cooling_liquid",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:decoration:fridge"
+      }
+   ]
+}

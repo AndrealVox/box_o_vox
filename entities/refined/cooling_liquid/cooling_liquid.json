@@ -1,0 +1,40 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cooling_liquid.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.refined.cooling_liquid.display_name)",
+         "description": "i18n(box_o_vox:entities.refined.cooling_liquid.description)",
+         "icon": "file(cooling_liquid.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": "refined refined_cloth stockpile_refined_weaver"
+      }
+   }
+}

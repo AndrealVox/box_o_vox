@@ -1,0 +1,32 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox:entities.decoration.grandfather_clock.grandfather_clock_ghost.display_name)",
+   "description": "i18n(box_o_vox:entities.decoration.grandfather_clock.grandfather_clock_ghost.description)",
+   "portrait": "/box_o_vox/entities/decoration/grandfather_clock/grandfather_clock.png",
+   "workshop" : "stonehearth:carpenter:toolbench", 
+   "level_requirement": 6,
+   "ingredients": [
+       {
+           "uri": "stonehearth:refined:gold_ingot",
+           "count": 1
+       },
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+       {
+           "uri": "stonehearth:refined:iron_gear",
+           "count": 2
+       },
+       {
+           "uri": "stonehearth:refined:bronze_gear",
+           "count": 2
+       }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:decoration:grandfather_clock"
+      }
+   ]
+}

@@ -27,6 +27,15 @@
          "recipes": {
             "red_wood_bed": {
                "recipe": "file(red_wood_bed_recipe.json)"
+            },
+            "wall_clock": {
+                "recipe": "file(wall_clock_recipe.json)"
+            },
+            "grandfather_clock": {
+                "recipe": "file(grandfather_clock_recipe.json)"
+            },
+            "cabinet": {
+                "recipe": "file(cabinet_recipe.json)"
             }
          }
       }

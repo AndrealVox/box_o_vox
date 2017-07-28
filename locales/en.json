@@ -171,6 +171,30 @@
          "weaver_description": {
             "display_name": "Weaver"
          }
+      },
+      "potter": {
+         "recipes": {
+            "bathtub_recipe": {
+               "recipe_name": "Bathtub",
+               "description": "Nice and clean",
+               "flavor": "living like a king!"
+            },
+            "sink_recipe": {
+               "recipe_name": "Sink",
+               "description": "A place to wash away your worries",
+               "flavor": "wow running water"
+            },
+            "toilet_recipe": {
+               "recipe_name": "Toilet",
+               "description": "A place to find relief",
+               "flavor": "coming soon to a home near you"
+            },
+            "fridge_recipe": {
+               "recipe_name": "Fridge",
+               "description": "Keeps things very cool",
+               "flavor": "how does it work!?"
+            }
+         }
       }
    },
    "entities": {
@@ -332,6 +356,48 @@
                "display_name": "Boxling Statue",
                "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Hearth."
             }
+         },
+         "fridge": {
+            "fridge_ghost": {
+               "display_name": "Fridge",
+               "description": "A nice kitchen addition"
+            }
+         },
+         "bathtub": {
+            "bathtub_ghost": {
+               "display_name": "Bath Tub",
+               "description": "To wash away your networth needs"
+            }
+         },
+         "sink": {
+            "sink_ghost": {
+               "display_name": "Sink",
+               "description": "Dont forget to wash your hands"
+            }
+         },
+         "grandfather_clock": {
+            "grandfather_clock_ghost": {
+               "display_name": "Grandfather Clock",
+               "description": "Is it broken?"
+            }
+         },
+         "toilet": {
+            "toilet_ghost": {
+               "display_name": "Toilet",
+               "description": "Finally a place for relief"
+            }
+         },
+         "cabinet": {
+            "cabinet_ghost": {
+               "display_name": "Cabinet",
+               "description": "So much storage space just a block out of reach"
+            }
+         },
+         "wall_clock": {
+            "wall_clock_ghost": {
+               "display_name": "Wall Clock",
+               "description": "Please make sure to wind everyday for an accurate reading."
+            }
          }
       },
       "armor": {
@@ -356,6 +422,10 @@
          "enchanted_cloth": {
             "display_name": "Enchanted Cloth",
             "description": "Enchanted Cloth imbued with magical protection \"atrributes\" :P"
+         },
+         "cooling_liquid": {
+            "display_name": "Cooling Liquid",
+            "description": "A strange liquid that is very cold."
          }
       }
    },

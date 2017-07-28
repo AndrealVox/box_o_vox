@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "furniture": {
+         "ordinal": 6,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
+         "recipes": {
+            "bathtub": {
+               "recipe": "file(fridge_recipe.json)"
+            }
+         }
+      }
+   }
+}

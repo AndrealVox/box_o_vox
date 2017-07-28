@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 10,
+   "recipe_name": "i18n(box_o_vox:jobs.potter.recipes.sink_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.potter.recipes.sink_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.potter.recipes.sink_recipe.flavor)",
+   "portrait": "/box_o_vox/entities/decoration/sink/sink.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:decoration:sink"
+      }
+   ]
+}

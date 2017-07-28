@@ -1,0 +1,37 @@
+{
+   "mixins": "file(grandfather_clock_ghost.json)",
+   "type": "entity",
+   "components": {
+      "stonehearth:entity_forms": {
+         "ghost_form": "file(grandfather_clock_ghost.json)",
+         "iconic_form": "file(grandfather_clock_iconic.json)",
+         "placeable_on_ground": true
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -1,
+                  "y": 0,
+                  "z": -1
+               },
+               "max": {
+                  "x": 1,
+                  "y": 3.6,
+                  "z": 0
+               }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 100,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

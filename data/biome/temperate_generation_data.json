@@ -1,0 +1,24 @@
+{
+    "landscape": {
+        "placement_table": {
+            "box_o_vox:trees:banana:medium": {
+                "placement_type": "single",
+                "parameters": {
+                    "ground_radius": 1,
+                    "exclusion_radius": 2
+                }
+            }
+        },
+        "scattered": {
+            "plants": {
+                "weights": {
+                    "plains": {
+                        "1": {
+                            "box_o_vox:trees:banana:medium": 0.6
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

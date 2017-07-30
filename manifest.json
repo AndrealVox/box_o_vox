@@ -50,6 +50,7 @@
       "containers:furniture_crate": "file(entities/containers/furniture_crate)",
       "containers:resources_crate": "file(entities/containers/resources_crate)",
       "containers:treasure_crate": "file(entities/containers/treasure_crate)",
+      "containers:barrel": "/stonehearth/entities/containers/barrel",
       "decoration:bathtub": "file(entities/decoration/bathtub)",
       "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
       "decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
@@ -76,6 +77,8 @@
       "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
       "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
       "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
+       "food:banana": "file(entities/food/banana)",
+       "food:rotten:banana": "file(entities/food/rotten_banana)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
@@ -132,6 +135,7 @@
       "summons:undead:necromancer": "file(entities/summon/necromancer/necromancer.json)",
       "traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
       "traits:passion_ninja": "file(data/traits/passion_ninja/passion_ninja_trait.json)",
+      "trees:banana:medium": "file(entities/trees/banana_tree/banana_tree_medium)",
       "weapon:flame_skull": "file(entities/weapons/flame_skull)",
       "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
       "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",
@@ -157,7 +161,8 @@
       "/stonehearth/jobs/engineer/recipes/recipes.json": "file(jobs/engineer/recipes/recipes.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "/stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
-      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)"
+      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)",
+       "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

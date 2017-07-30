@@ -15,6 +15,9 @@
          "recipes": {
             "enchanted_cloth": {
                "recipe": "file(enchanted_cloth_recipe.json)"
+            },
+             "cooling_liquid": {
+               "recipe": "file(cooling_liquid_recipe.json)"
             }
          }
       },

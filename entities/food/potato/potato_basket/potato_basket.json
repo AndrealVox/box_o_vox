@@ -43,8 +43,8 @@
       },
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 1,
-            "max": 1
+            "min": 120,
+            "max": 168
          },
          "rotten_entity_alias": "box_o_vox:food:rotten:potato_basket"
       },

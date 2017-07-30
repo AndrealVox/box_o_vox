@@ -13,7 +13,7 @@
    "entity_data": {
       "stonehearth:item": {
          "category": "food",
-         "destroy_on_uncarry": false
+         "destroy_on_uncarry": true
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {

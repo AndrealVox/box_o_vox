@@ -463,6 +463,28 @@
                "description": "it's a basket full of potatoes"
             }
          }
+      },
+      "food": {
+         "banana": {
+            "display_name": "Banana",
+            "description": "delicious fruit full of potasium"
+         },
+         "rotten_banana": {
+            "display_name": "Rotten Banana",
+            "description": "ew, it's rotten that's gross"
+         },
+         "rotten_potato_basket": {
+            "display_name": "Rotten Potato Basket",
+            "description": "ew rotten potatoes yuk!"
+         }
+      },
+      "trees": {
+         "banana_tree": {
+            "banana_tree": {
+               "display_name": "Banana Tree",
+               "description": "wow look at all those bananas"
+            }
+         }
       }
    },
    "weapons": {

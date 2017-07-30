@@ -51,7 +51,6 @@
       "containers:resources_crate": "file(entities/containers/resources_crate)",
       "containers:treasure_crate": "file(entities/containers/treasure_crate)",
       "crops:potato_crop": "file(entities/crops/potato_crop)",
-      "containers:barrel": "/stonehearth/entities/containers/barrel",
       "decoration:bathtub": "file(entities/decoration/bathtub)",
       "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
       "decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
@@ -79,9 +78,10 @@
       "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
       "food:potato:potato_basket": "file(entities/food/potato/potato_basket)",
       "food:potato:potato_serving": "file(entities/food/potato/potato_serving)",
+      "food:banana": "file(entities/food/banana)",
+      "food:rotten:banana": "file(entities/food/rotten_banana)",
+      "food:rotten:potato_basket": "file(entities/food/potato/potato_basket/rotten_potato_basket.json)",
       "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
-       "food:banana": "file(entities/food/banana)",
-       "food:rotten:banana": "file(entities/food/rotten_banana)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
@@ -167,7 +167,7 @@
       "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)",
       "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-       "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)"
+      "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

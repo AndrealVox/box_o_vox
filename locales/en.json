@@ -427,6 +427,42 @@
             "display_name": "Cooling Liquid",
             "description": "A strange liquid that is very cold."
          }
+      },
+      "crops": {
+         "potato_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Potato",
+                  "description": "it's planted"
+               },
+               "001": {
+                  "name": "Potato",
+                  "description": "ooh it's growing"
+               },
+               "002": {
+                  "name": "Potato",
+                  "description": "I can see some color"
+               },
+               "003": {
+                  "name": "Potato",
+                  "description": "it's ready to be harvest"
+               },
+               "011": {
+                  "name": "Rotten Potato",
+                  "description": "ew, it's rotten"
+               }
+            },
+            "display_name": "Potato",
+            "description": "a starchy plant that is one of the most important food crops, cooked and eaten as a vegetable"
+         }
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "Potato Basket",
+               "description": "it's a basket full of potatoes"
+            }
+         }
       }
    },
    "weapons": {

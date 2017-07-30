@@ -1,0 +1,11 @@
+{
+   "type": "index",
+   "crops_by_kingdom": {
+      "stonehearth:kingdoms:ascendancy": {
+         "potato": true
+      },
+      "rayyas_children:kingdoms:rayyas_children": {
+         "potato": true
+      }
+   }
+}

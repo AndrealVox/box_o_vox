@@ -50,6 +50,7 @@
       "containers:furniture_crate": "file(entities/containers/furniture_crate)",
       "containers:resources_crate": "file(entities/containers/resources_crate)",
       "containers:treasure_crate": "file(entities/containers/treasure_crate)",
+      "crops:potato_crop": "file(entities/crops/potato_crop)",
       "decoration:bathtub": "file(entities/decoration/bathtub)",
       "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
       "decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
@@ -75,6 +76,8 @@
       "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
       "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
       "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
+      "food:potato:potato_basket": "file(entities/food/potato/potato_basket)",
+      "food:potato:potato_serving": "file(entities/food/potato/potato_serving)",
       "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:index": "file(jobs/index.json)",
@@ -157,7 +160,9 @@
       "/stonehearth/jobs/engineer/recipes/recipes.json": "file(jobs/engineer/recipes/recipes.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "/stonehearth/entities/humans/male/male_customizations.json": "file(entities/humans/male/male_customizations.json)",
-      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)"
+      "/stonehearth/entities/humans/female/female_customizations.json": "file(entities/humans/female/female_customizations.json)",
+      "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
+      "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

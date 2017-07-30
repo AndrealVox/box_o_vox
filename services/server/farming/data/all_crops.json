@@ -1,0 +1,10 @@
+{
+   "type": "index",
+   "crops": {
+      "potato": {
+         "crop_type": "box_o_vox:crops:potato_crop",
+         "ordinal": 20,
+         "level_requirement": 0
+      }
+   }
+}

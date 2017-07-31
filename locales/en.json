@@ -132,6 +132,10 @@
             "small_healing_tonic_recipe": {
                "recipe_name": "Small Healing Tonic",
                "description": "A medicinal drink that heals for a minuscule amount"
+            },
+            "cooling_liquid_recipe": {
+               "recipe_name": "Cooling Liquid",
+               "description": "odd how it keeps so cool"
             }
          },
          "cleric_workbench": {

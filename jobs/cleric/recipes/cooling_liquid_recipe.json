@@ -1,14 +1,14 @@
 {
    "type": "recipe",
    "work_units": 2,
-   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.description)",
+   "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.cooling_liquid_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.cleric.recipes.cooling_liquid_recipe.description)",
    "flavor": "",
-   "portrait": "/stonehearth/entities/consumables/energy_tonic/energy_tonic.png",
+   "portrait": "/box_o_vox/entities/refined/cooling_liquid/cooling_liquid.png",
    "work_effect": "box_o_vox:effects:summon_potions",
    "ingredients": [
       {
-         "uri": "stonehearth:resources:herb:frostsnaps",
+         "uri": "stonehearth:resources:herb:frostsnap",
          "count": 5
       }
    ],

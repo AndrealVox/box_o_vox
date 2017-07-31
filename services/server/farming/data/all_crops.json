@@ -5,6 +5,11 @@
          "crop_type": "box_o_vox:crops:potato_crop",
          "ordinal": 20,
          "level_requirement": 0
+      },
+      "tomato": {
+         "crop_type": "box_o_vox:crops:tomato_crop",
+         "ordinal": 22,
+         "level_requirement": 2
       }
    }
 }

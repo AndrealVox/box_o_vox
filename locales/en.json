@@ -532,6 +532,42 @@
          "rotten_tomato_basket": {
             "display_name": "Rotten Tomato Basket",
             "description": "ew, the tomatoes have gone rotten"
+         },
+         "apple": {
+            "display_name": "An Apple",
+            "description": "Juicy Red Apple"
+         },
+         "orange": {
+            "display_name": "An Orange",
+            "description": "I can smell the citrius from here"
+         },
+         "cow_feed": {
+            "display_name": "Cow Feed",
+            "description": "A little more Hay for these hefers",
+            "cow_feed_ground": {
+               "display_name": "Cow Feed",
+               "description": "A little more Hay for these hefers"
+            }
+         },
+         "pig_feed": {
+            "display_name": "Pig Feed",
+            "description": "A bag of slop",
+            "pig_feed_ground": {
+               "display_name": "Pig Feed",
+               "description": "Slop it up piggies"
+            }
+         },
+         "beef": {
+            "display_name": "Beef",
+            "description": "Look at that Marbling!"
+         },
+         "pork": {
+            "display_name": "Pork",
+            "description": "Mmmm Bacon"
+         },
+         "milk": {
+            "display_name": "Milk",
+            "description": "Got Milk?"
          }
       },
       "trees": {
@@ -539,6 +575,40 @@
             "banana_tree": {
                "display_name": "Banana Tree",
                "description": "wow look at all those bananas"
+            }
+         },
+         "apple_tree": {
+            "apple_tree": {
+               "display_name": "Apple Tree",
+               "description": "Don't trust snakes"
+            }
+         },
+         "orange_tree": {
+            "orange_tree": {
+               "display_name": "Orange Tree",
+               "description": "Get Some juicy Oranges"
+            }
+         }
+      },
+      "critters": {
+         "cow": {
+            "species": "Cow",
+            "display_name": "A Cow",
+            "description": "Look at all that beautiful meat.... I mean animal",
+            "unripe_description": "She looks quite empty",
+            "renewable_harvest_status_text": "Milking Cow",
+            "cow_young": {
+               "display_name": "A Calf",
+               "description": "Aww baby steak"
+            }
+         },
+         "pig": {
+            "species": "Pig",
+            "display_name": "A Pig",
+            "description": "Oink Oink",
+            "pig_young": {
+               "display_name": "A Pigglet",
+               "description": "Aww little piggy"
             }
          }
       }
@@ -558,6 +628,25 @@
                      "description": "Craft potions & bind flesh together to create a Necronomicon",
                      "required_job_text": "Requires a cleric"
                   }
+               }
+            }
+         },
+         "zones_mode": {
+            "pasture": {
+               "cow_pasture_name": "Cow Pasture",
+               "cow_pasture_description": "Wow, we can get Beef!",
+               "pig_pasture_name": "Pig Pasture",
+               "pig_pasture_description": "Piggy Pin"
+            }
+         }
+      }
+   },
+   "stonehearth_mixins": {
+      "food": {
+         "food_decay": {
+            "milk": {
+               "decay_1": {
+                  "description": "Rotten Milk"
                }
             }
          }

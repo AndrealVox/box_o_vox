@@ -7,14 +7,30 @@
                     "ground_radius": 1,
                     "exclusion_radius": 2
                 }
-            }
+            },
+            "box_o_vox:trees:apple":{
+                "placement_type": "single",
+                "parameters": {
+                    "ground_radius": 1,
+                    "exclusion_radius": 2
+                }
+            },
+            "box_o_vox:trees:orange":{
+                "placement_type": "single",
+                "parameters": {
+                    "ground_radius": 1,
+                    "exclusion_radius": 2
+                }
+            },
         },
         "scattered": {
             "plants": {
                 "weights": {
                     "plains": {
                         "1": {
-                            "box_o_vox:trees:banana:medium": 0.6
+                            "box_o_vox:trees:banana:medium": 0.2,
+                            "box_o_vox:trees:apple": 0.6,
+                            "box_o_vox:trees:orange": 0.4
                         }
                     }
                 }

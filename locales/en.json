@@ -199,6 +199,38 @@
                "flavor": "how does it work!?"
             }
          }
+      },
+      "cook": {
+         "recipes": {
+            "cream_recipe": {
+               "recipe_name": "Cream",
+               "description": "We can use this for PIE!"
+            },
+            "beef_rib_roast_recipe": {
+               "recipe_name": "Beef Rib Roast",
+               "description": "You wont find anything with more meat"
+            },
+            "roast_rack_of_pork_recipe": {
+               "recipe_name": "Roast Rack of Pork",
+               "description": "Where is the bacon?"
+            },
+            "apple_pie_recipe": {
+               "recipe_name": "Apple Pie",
+               "description": "This is sure to make everyone happy"
+            },
+            "banana_cream_pie_recipe": {
+               "recipe_name": "Banana Cream Pie",
+               "description": "Who doesn't like a little banana cream in their mouth?"
+            },
+            "cow_feed_recipe": {
+               "recipe_name": "Cow Feed",
+               "description": "Use this to feed your cows"
+            },
+            "pig_feed_recipe": {
+               "recipe_name": "Pig Feed",
+               "description": "Throw almost anything in, they'll eat it"
+            }
+         }
       }
    },
    "entities": {
@@ -568,6 +600,46 @@
          "milk": {
             "display_name": "Milk",
             "description": "Got Milk?"
+         },
+         "beef_rib_roast": {
+            "beef_rib_roast": {
+               "display_name": "Beef Rib Roast",
+               "description": "Finally some steak"
+            },
+            "beef_rib_roast_serving": {
+               "display_name": "Beef Rib Roast Serving"
+            }
+         },
+         "roast_rack_of_pork": {
+            "roast_rack_of_pork": {
+               "display_name": "Roast Rack of Pork",
+               "description": "I wonder if we can make bacon <3"
+            },
+            "roast_rack_of_pork_serving": {
+               "display_name": "Roast Rack of Pork Serving"
+            }
+         },
+         "apple_pie": {
+            "apple_pie": {
+               "display_name": "Apple Pie",
+               "description": "It tast just like grandma's"
+            },
+            "apple_pie_serving": {
+               "display_name": "Apple Pie Serving"
+            }
+         },
+         "banana_cream_pie": {
+            "banana_cream_pie": {
+               "display_name": "Banana Cream Pie",
+               "description": "Just look at that whipped topping"
+            },
+            "banana_cream_pie_serving": {
+               "display_name": "Banana Cream Pie Serving"
+            }
+         },
+         "cream": {
+            "display_name": "Cream",
+            "description": "Maybe we can make a whipped topping!?"
          }
       },
       "trees": {
@@ -647,6 +719,11 @@
             "milk": {
                "decay_1": {
                   "description": "Rotten Milk"
+               }
+            },
+            "cream": {
+               "decay_1": {
+                  "description": "Cream Mold"
                }
             }
          }

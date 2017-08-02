@@ -1,0 +1,39 @@
+{
+    "craftable_recipes": {
+
+        "ingredients": {
+
+            "recipes": {
+                "cream": {
+                    "recipe": "file(cream_recipe.json)"
+                }
+            }
+        },
+        "food": {
+            "recipes": {
+                "beef_rib_roast": {
+                    "recipe": "file(beef_rib_roast_recipe.json)"
+                },
+                "roast_rack_of_pork": {
+                    "recipe": "file(roast_rack_of_pork_recipe.json)"
+                },
+                "apple_pie": {
+                    "recipe": "file(apple_pie_recipe.json)"
+                },
+                "banana_cream_pie": {
+                    "recipe": "file(banana_cream_pie_recipe.json)"
+                }
+            }
+        },
+        "animal_feed": {
+            "recipes": {
+                "cow_feed": {
+                    "recipe": "file(cow_feed_recipe.json)"
+                },
+                "pig_feed": {
+                    "recipe": "file(pig_feed_recipe.json)"
+                }
+            }
+        }
+    }
+}

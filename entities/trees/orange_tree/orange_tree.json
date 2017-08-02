@@ -15,9 +15,31 @@
             ]
          }
       },
-      "stonehearth:resource_node": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(orange_tree_iconic.json)",
+         "ghost_form": "file(orange_tree_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+      "stonehearth:renewable_resource_node": {
+         "category": "harvest",
          "resource": "box_o_vox:food:orange",
-         "durability": 6
+         "renewal_time": "48h",
+         "unripe_description": "i18n(stonehearth:entities.plants.berry_bush.unripe_description)",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "resource_loot_table": {
+            "entries": {
+               "fruit": {
+                  "items": {
+                     "apple_1": {
+                        "uri": "box_o_vox:food:orange",
+                         "count": 5,
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
       },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0 },

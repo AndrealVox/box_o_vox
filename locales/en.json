@@ -711,6 +711,11 @@
                "pig_pasture_description": "Piggy Pin"
             }
          }
+      },
+      "data": {
+         "constants": {
+            "food_fruit_raw_name": "Fruit"
+         }
       }
    },
    "stonehearth_mixins": {

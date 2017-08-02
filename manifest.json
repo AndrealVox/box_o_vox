@@ -149,6 +149,7 @@
       "potter:recipes:toilet": "file(jobs/potter/recipes/toilet_recipe.json)",
       "refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
       "refined:enchanted_cloth": "file(entities/refined/enchanted_cloth)",
+      "resource_constants": "file(data/resource_constants.json)",
       "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
       "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
       "summon:golem": "file(entities/summon/golem/golem_summon.json)",
@@ -201,7 +202,8 @@
       "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
       "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-      "stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)"
+      "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
+       "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

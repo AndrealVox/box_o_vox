@@ -43,7 +43,7 @@
       },
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 120,
+            "min": 168,
             "max": 168
          },
          "rotten_entity_alias": "box_o_vox:food:rotten:tomato_basket"
@@ -54,7 +54,7 @@
          "icon": "file(tomato_basket.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container raw_food vegetable tomato vegetarian stockpile_raw_food",
+         "material_tags": "food_container raw_food fruit tomato vegetarian stockpile_raw_food",
          "subject_override": "box_o_vox:crops:tomato_crop"
       }
    }

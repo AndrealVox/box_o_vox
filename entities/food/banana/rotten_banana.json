@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(banana_rotting.qb)"
+               "file(rotten_banana.qb)"
             ]
          }
       },

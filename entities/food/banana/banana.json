@@ -41,7 +41,7 @@
       "stonehearth:food_decay": {
          "initial_decay": {
             "min": 72,
-            "max": 120
+            "max": 168
          },
          "rotten_entity_alias": "box_o_vox:food:rotten:banana"
       },
@@ -51,7 +51,7 @@
          "icon": "file(banana.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "stockpile_cooking_ingredient fruit cooking_ingredient"
+         "material_tags": "stockpile_cooking_ingredient fruit banana vegetarian cooking_ingredient"
       }
    }
 }

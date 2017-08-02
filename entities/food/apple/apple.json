@@ -40,8 +40,8 @@
       },
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 72,
-            "max": 120
+            "min": 168,
+            "max": 336
          },
          "rotten_entity_alias": "box_o_vox:food:rotten:apple"
       },
@@ -51,7 +51,7 @@
          "icon": "file(apple.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "stockpile_cooking_ingredient fruit cooking_ingredient"
+         "material_tags": "stockpile_cooking_ingredient fruit apple vegetarian cooking_ingredient"
       }
    }
 }

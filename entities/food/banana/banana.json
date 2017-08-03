@@ -10,7 +10,7 @@
          },
          "decay_1": {
             "models": [
-               "file(banana_rotting.qb)"
+               "file(rotten_banana.qb)"
             ]
          }
       },
@@ -51,7 +51,7 @@
          "icon": "file(banana.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "stockpile_cooking_ingredient fruit banana vegetarian cooking_ingredient"
+         "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit banana vegetarian cooking_ingredient"
       }
    }
 }

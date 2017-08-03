@@ -92,6 +92,8 @@
       "food:cow_feed": "file(entities/food/cow_feed)",
       "food:cow_feed:ground": "file(entities/food/cow_feed/cow_feed_ground)",
       "food:cream": "file(entities/food/cream)",
+      "food:fruit_salad": "file(entities/food/fruit_salad/fruit_salad)",
+      "food:fruit_salad:fruit_salad_serving": "file(entities/food/fruit_salad/fruit_salad_serving)",
       "food:milk": "file(entities/food/milk)",
       "food:orange": "file(entities/food/orange)",
       "food:pig_feed": "file(entities/food/pig_feed)",
@@ -203,7 +205,7 @@
       "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
       "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
       "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
-       "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)"
+      "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

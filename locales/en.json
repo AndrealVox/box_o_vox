@@ -546,6 +546,18 @@
                "display_name": "Tomato Basket",
                "description": "A basket full of tomatoes"
             }
+         },
+         "apple_tree": {
+            "display_name": "Apple Tree",
+            "description": "Don't trust snakes"
+         },
+         "banana_tree": {
+            "description": "wow look at all those bananas",
+            "display_name": "Banana Tree"
+         },
+         "orange_tree": {
+            "description": "Get Some juicy Oranges",
+            "display_name": "Orange Tree"
          }
       },
       "food": {
@@ -625,7 +637,8 @@
                "description": "It tast just like grandma's"
             },
             "apple_pie_serving": {
-               "display_name": "Apple Pie Serving"
+               "display_name": "Apple Pie Serving",
+               "description": "Fresh baked apple pie"
             }
          },
          "banana_cream_pie": {
@@ -634,12 +647,31 @@
                "description": "Just look at that whipped topping"
             },
             "banana_cream_pie_serving": {
-               "display_name": "Banana Cream Pie Serving"
+               "display_name": "Banana Cream Pie Serving",
+               "description": "Yummy delicious banana cream pie"
             }
          },
          "cream": {
             "display_name": "Cream",
             "description": "Maybe we can make a whipped topping!?"
+         },
+         "fruit_salad": {
+            "fruit_salad": {
+               "display_name": "Fruit Salad",
+               "description": "Yummy, yummy"
+            },
+            "fruit_salad_serving": {
+               "display_name": "Fruit Salad Serving",
+               "description": "It's gonna be a fruit salad treat"
+            }
+         },
+         "rotten_apple": {
+            "display_name": "Rotten Apple",
+            "description": "So rotten that it's lost all form and function."
+         },
+         "rotten_orange": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Orange"
          }
       },
       "trees": {

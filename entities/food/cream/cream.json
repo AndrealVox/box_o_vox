@@ -10,7 +10,7 @@
          },
          "decay_1": {
             "models": [
-               "file(cream_rotting.qb)"
+               "file(rotten_cream.qb)"
             ]
          }
       },

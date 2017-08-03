@@ -2,8 +2,8 @@
    "resources": {
       "food_container raw_food fruit": {
          "name": "i18n(box_o_vox:ui.data.constants.food_fruit_raw_name)",
-         "default_resource": "box_o_vox:food:apple",
-         "icon": "/box_o_vox/mixins/food/fruit/fruit.png"
+         "default_resource": "stonehearth:food:berries:berry_basket",
+         "icon": "/box_o_vox/mixins/food/fruit/fruits.png"
       }
    }
 }

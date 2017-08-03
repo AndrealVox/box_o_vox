@@ -47,9 +47,9 @@
                "file(tomato_8.qb)"
             ]
          },
-         "tomato_12": {
+         "tomato_20": {
             "models": [
-               "file(tomato_12.qb)"
+               "file(tomato_20.qb)"
             ]
          }
       },
@@ -117,10 +117,18 @@
             {},
             {},
             {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
             {
-               "model_name": "tomato_12",
-               "name": "i18n(box_o_vox:entities.crops.tomato_crop.growth_stage.011.name)",
-               "description": "i18n(box_o_vox:entities.crops.tomato_crop.growth_stage.011.description)"
+               "model_name": "tomato_20",
+               "name": "i18n(box_o_vox:entities.crops.tomato_crop.growth_stage.019.name)",
+               "description": "i18n(box_o_vox:entities.crops.tomato_crop.growth_stage.019.description)"
             }
          ]
       }

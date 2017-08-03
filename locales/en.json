@@ -468,66 +468,66 @@
          "potato_crop": {
             "growth_stage": {
                "000": {
-                  "name": "Potato",
-                  "description": "it's planted"
+                  "name": "Potato Seedling",
+                  "description": "An unrealized potato"
                },
                "001": {
-                  "name": "Potato",
-                  "description": "ooh it's growing"
+                  "name": "Potato Sprout",
+                  "description": "Not edible yet!"
                },
                "002": {
-                  "name": "Potato",
-                  "description": "I can see some color"
+                  "name": "Baby Potato",
+                  "description": "Small. Bitter."
                },
                "003": {
-                  "name": "Potato",
-                  "description": "it's ready to be harvest"
+                  "name": "Ripe Potato",
+                  "description": "Delicious!"
                },
                "011": {
                   "name": "Rotten Potato",
-                  "description": "ew, it's rotten"
+                  "description": "Moldy and disgusting."
                }
             },
             "display_name": "Potato",
-            "description": "a starchy plant that is one of the most important food crops, cooked and eaten as a vegetable"
+            "description": "a starchy plant that is one of the most important crops"
          },
          "tomato_crop": {
             "growth_stage": {
                "000": {
-                  "name": "Tomato",
-                  "description": "just planted"
+                  "name": "Tomato Seedling",
+                  "description": "An unrealized tomato"
                },
                "001": {
-                  "name": "Tomato",
-                  "description": "it's a baby"
+                  "name": "Tomato Sprout",
+                  "description": "Not edible yet!"
                },
                "002": {
-                  "name": "Tomato",
-                  "description": "the stalk is growing"
+                  "name": "Tomato Stalk",
+                  "description": "Still a long way to grow."
                },
                "003": {
-                  "name": "Tomato",
-                  "description": "I see red"
+                  "name": "Baby Tomato",
+                  "description": "Small. Bitter."
                },
                "004": {
-                  "name": "Tomato",
-                  "description": "ooh a tomato and is that another one?"
+                  "name": "Baby Tomato",
+                  "description": "Small. Bitter."
                },
                "005": {
-                  "name": "Tomato",
-                  "description": "ooh more tomatoes"
+                  "name": "Baby Tomato",
+                  "description": "Extremely unsatisfying to eat."
                },
                "006": {
-                  "name": "Tomato",
-                  "description": "so many tomatoes"
+                  "name": "Baby Tomato",
+                  "description": "Extremely unsatisfying to eat."
                },
                "007": {
-                  "name": "Tomato",
-                  "description": "tomatoes are ready"
+                  "name": "Ripe Tomato",
+                  "description": "Eat me! Eat Me!"
                },
                "011": {
-                  "name": "Tomato",
-                  "description": "ew it's rotten and smushy"
+                  "name": "Rotten Tomato",
+                  "description": "It's dead."
                }
             },
             "display_name": "Tomato",
@@ -538,40 +538,40 @@
          "potato": {
             "potato_basket": {
                "display_name": "Potato Basket",
-               "description": "it's a basket full of potatoes"
+               "description": "A basket full of potatoes"
             }
          },
          "tomato": {
             "tomato_basket": {
                "display_name": "Tomato Basket",
-               "description": "a basket full of tomatoes"
+               "description": "A basket full of tomatoes"
             }
          }
       },
       "food": {
          "banana": {
             "display_name": "Banana",
-            "description": "delicious fruit full of potasium"
+            "description": "A long curved fruit that grows in clusters"
          },
          "rotten_banana": {
             "display_name": "Rotten Banana",
-            "description": "ew, it's rotten that's gross"
+            "description": "So rotten that it's lost all form and function."
          },
          "rotten_potato_basket": {
             "display_name": "Rotten Potato Basket",
-            "description": "ew rotten potatoes yuk!"
+            "description": "So rotten that it's lost all form and function."
          },
          "rotten_tomato_basket": {
             "display_name": "Rotten Tomato Basket",
-            "description": "ew, the tomatoes have gone rotten"
+            "description": "So rotten that it's lost all form and function."
          },
          "apple": {
             "display_name": "An Apple",
-            "description": "Juicy Red Apple"
+            "description": "A fleshy round edible pome fruit"
          },
          "orange": {
             "display_name": "An Orange",
-            "description": "I can smell the citrius from here"
+            "description": "A round juicy citrus fruit with a tough rind"
          },
          "cow_feed": {
             "display_name": "Cow Feed",

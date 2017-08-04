@@ -112,7 +112,7 @@
       },
       "stonehearth:evolve_data": {
          "current_stage": "young",
-         "next_stage": "stonehearth:cow",
+         "next_stage": "box_o_vox:cow",
          "evolve_time": "24h",
          "evolve_effect": "stonehearth:effects:fursplosion_effect"
       },

@@ -3,24 +3,32 @@
       "hair_color": {
          "type": "material_map",
          "values": {
-            "vox_blue": "/box_o_vox/data/materials/material_maps/hair_blue_material_map.json",
-            "vox_red": "/box_o_vox/data/materials/material_maps/hair_red_material_map.json",
-            "vox_purple": "/box_o_vox/data/materials/material_maps/hair_purple_material_map.json",
-            "vox_brown": "/box_o_vox/data/materials/material_maps/hair_vox_brown_material_map.json",
-            "vox_green": "/box_o_vox/data/materials/material_maps/hair_green_material_map.json"
+            "vox_blue": {
+                "file": "/box_o_vox/data/materials/material_maps/hair_blue_material_map.json"},
+            "vox_red": {
+                "file": "/box_o_vox/data/materials/material_maps/hair_red_material_map.json"},
+            "vox_purple": {
+                "file": "/box_o_vox/data/materials/material_maps/hair_purple_material_map.json"},
+            "vox_brown": {
+                "file": "/box_o_vox/data/materials/material_maps/hair_vox_brown_material_map.json"},
+            "vox_green": {
+                "file": "/box_o_vox/data/materials/material_maps/hair_green_material_map.json"}
          }
       },
       "skin_color": {
          "type": "material_map",
          "values": {
-            "vox_demon": "/box_o_vox/data/materials/material_maps/skin_demon_material_map.json"
+            "vox_demon": {
+                "file": "/box_o_vox/data/materials/material_maps/skin_demon_material_map.json"}
          }
       },
       "head_hair": {
          "type": "model",
          "values": {
-            "vox_head_rose": "file(vox_head_rose.qb)",
-            "vox_head_kaia": "file(vox_head_kaia.qb)"
+            "vox_head_rose": {
+                "file": "file(vox_head_rose.qb)"},
+            "vox_head_kaia": {
+                "file": "file(vox_head_kaia.qb)"}
          }
       }
    }

@@ -3,11 +3,13 @@
    "crops_by_kingdom": {
       "stonehearth:kingdoms:ascendancy": {
          "potato": true,
-         "tomato": true
+         "tomato": true,
+         "strawberry": true
       },
       "rayyas_children:kingdoms:rayyas_children": {
          "potato": true,
-         "tomato": true
+         "tomato": true,
+         "strawberry": true
       }
    }
 }

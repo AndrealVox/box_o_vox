@@ -532,6 +532,32 @@
             },
             "display_name": "Tomato",
             "description": "a glossy red edible fruit that is typically eaten as a vegetable"
+         },
+         "strawberry_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Strawberry Seedling",
+                  "description": "An unrealized strawberry"
+               },
+               "001": {
+                  "name": "Strawberry Sprout",
+                  "description": "Not edible yet!"
+               },
+               "002": {
+                  "name": "Baby Strawberry",
+                  "description": "Small. Bitter."
+               },
+               "003": {
+                  "name": "Ripe Strawberry",
+                  "description": "Delicious!"
+               },
+               "011": {
+                  "description": "Moldy and disgusting.",
+                  "name": "Rotten Strawberry"
+               }
+            },
+            "display_name": "Strawberry",
+            "description": "A sweet soft red fruit with a seed-studded surface"
          }
       },
       "plants": {
@@ -558,6 +584,12 @@
          "orange_tree": {
             "description": "Get Some juicy Oranges",
             "display_name": "Orange Tree"
+         },
+         "strawberry": {
+            "strawberry_basket": {
+               "description": "A basket full of strawberries",
+               "display_name": "Strawberry Basket"
+            }
          }
       },
       "food": {
@@ -672,6 +704,20 @@
          "rotten_orange": {
             "description": "So rotten that it's lost all form and function.",
             "display_name": "Rotten Orange"
+         },
+         "fruit_smoothie": {
+            "fruit_smoothie": {
+               "display_name": "Fruit Smootie",
+               "description": "A delicious fruit smoothie"
+            },
+            "fruit_smoothie_serving": {
+               "display_name": "Fruit Smoothie",
+               "description": "A delicious fruit smoothie"
+            }
+         },
+         "rotten_strawberry_basket": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Strawberry Basket"
          }
       },
       "trees": {

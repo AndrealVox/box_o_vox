@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(fruit_salad_serving.qb)"
+               "file(fruit_smoothie_serving.qb)"
             ]
          }
       }
@@ -17,18 +17,18 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 45
+            "satisfaction": 50
          },
          "default": {
-            "satisfaction": 40
+            "satisfaction": 45
          },
          "quality": 5
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad_serving.display_name)",
-         "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad_serving.description)",
+         "display_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie_serving.display_name)",
+         "description": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie_serving.description)",
          "material_tags": "food fruit vegetarian",
-         "subject_override": "box_o_vox:food:fruit_salad"
+         "subject_override": "box_o_vox:food:fruit_smoothie"
       }
    }
 }

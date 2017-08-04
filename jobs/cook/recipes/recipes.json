@@ -1,8 +1,6 @@
 {
    "craftable_recipes": {
-
       "ingredients": {
-
          "recipes": {
             "cream": {
                "recipe": "file(cream_recipe.json)"
@@ -25,6 +23,9 @@
             },
             "fruit_salad": {
                "recipe": "file(fruit_salad_recipe.json)"
+            },
+            "fruit_smoothie": {
+               "recipe": "file(fruit_smoothie_recipe.json)"
             }
          }
       },

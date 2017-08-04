@@ -6,6 +6,11 @@
          "ordinal": 20,
          "level_requirement": 0
       },
+      "strawberry": {
+         "crop_type": "box_o_vox:crops:strawberry_crop",
+         "ordinal": 21,
+         "level_requirement": 1
+      },
       "tomato": {
          "crop_type": "box_o_vox:crops:tomato_crop",
          "ordinal": 22,

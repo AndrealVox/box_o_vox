@@ -1,0 +1,63 @@
+{
+   "categories": {
+      "face_hair": ["eyebrows"]
+   },
+   "styles": {
+      "hair_color": {
+         "type": "material_map",
+         "values": {
+            "vox_blue": {
+               "file": "/box_o_vox/data/materials/material_maps/hair_blue_material_map.json"
+            },
+            "vox_red": {
+               "file": "/box_o_vox/data/materials/material_maps/hair_red_material_map.json"
+            },
+            "vox_purple": {
+               "file": "/box_o_vox/data/materials/material_maps/hair_purple_material_map.json"
+            },
+            "vox_brown": {
+               "file": "/box_o_vox/data/materials/material_maps/hair_vox_brown_material_map.json"
+            },
+            "vox_green": {
+               "file": "/box_o_vox/data/materials/material_maps/hair_green_material_map.json"
+            }
+         }
+      },
+      "skin_color": {
+         "type": "material_map",
+         "values": {
+            "vox_demon": {
+               "file": "/box_o_vox/data/materials/material_maps/skin_demon_material_map.json"
+            }
+         }
+      },
+      "eyebrows": {
+         "type": "model",
+         "values": {
+            "vox_glasses_0": {
+               "file": "file(vox_glasses_0.qb)"
+            },
+            "vox_horns_0": {
+               "file": "file(vox_horns_0.qb)"
+            },
+            "vox_horns_1": {
+               "file": "file(vox_horns_1.qb)"
+            },
+            "vox_goggles_0": {
+               "file": "file(vox_goggles_0.qb)"
+            }
+         }
+      },
+      "head_hair": {
+         "type": "model",
+         "values": {
+            "vox_head_rose": {
+               "file": "file(vox_head_rose.qb)"
+            },
+            "vox_head_kaia": {
+               "file": "file(vox_head_kaia.qb)"
+            }
+         }
+      }
+   }
+}

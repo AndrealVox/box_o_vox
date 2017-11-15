@@ -718,6 +718,16 @@
          "rotten_strawberry_basket": {
             "description": "So rotten that it's lost all form and function.",
             "display_name": "Rotten Strawberry Basket"
+         },
+         "mash_potatoes": {
+            "mash_potatoes": {
+               "display_name": "Mash Potatoes",
+               "description": "Yummy, buttery mash potatoes"
+            },
+            "mash_potatoes_serving": {
+               "display_name": "Mash Potatoes Serving",
+               "description": "Yummy, buttery mash potatoes"
+            }
          }
       },
       "trees": {

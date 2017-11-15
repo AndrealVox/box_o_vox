@@ -1,0 +1,19 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.display_name)",
+   "description": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.description)",
+   "portrait": "/box_o_vox/entities/food/mash_potatoes/mash_potatoes/mash_potatoes.png",
+   "workshop": "stonehearth:cook:workbench",
+   "ingredients": [
+      {
+         "uri": "box_o_vox:food:potato:potato_basket",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:food:mash_potatoes"
+      }
+   ]
+}

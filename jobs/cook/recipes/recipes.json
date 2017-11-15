@@ -26,6 +26,9 @@
             },
             "fruit_smoothie": {
                "recipe": "file(fruit_smoothie_recipe.json)"
+            },
+            "mash_potatoes": {
+               "recipe": "file(mash_potatoes_recipe.json)"
             }
          }
       },

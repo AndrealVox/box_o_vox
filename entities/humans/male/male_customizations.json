@@ -78,9 +78,6 @@
             "vox_head_eldritch": {
                "file": "file(vox_head_eldritch.qb)"
             },
-            "vox_head_stub": {
-               "file": "file(vox_head_stub.qb)"
-            },
             "vox_head_amaraly": {
                "file": "file(vox_head_amaraly.qb)"
             },

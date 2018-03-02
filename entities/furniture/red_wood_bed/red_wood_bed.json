@@ -78,12 +78,12 @@
    "entity_data": {
       "stonehearth:bed": {
          "shelter": {
-            "contribution_threshold": 50,
-            "score": 8
+            "contribution_threshold": 250,
+            "score": 80
          }
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 20,
+         "value_in_gold": 200,
          "rarity": "common",
          "shop_info": {
             "buyable": false,

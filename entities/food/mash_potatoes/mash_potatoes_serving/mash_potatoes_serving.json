@@ -17,7 +17,7 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 55
+            "satisfaction": 75
          },
          "default": {
             "satisfaction": 50

@@ -198,8 +198,6 @@
       "stonehearth:loadouts": "file(data/loadouts)",
       "stonehearth:kingdoms:ascendancy": "file(services/server/population/data/vox_population.json)",
       "rayyas_children:kingdoms:rayyas_children": "file(services/server/population/data/vox_population.json)",
-      "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-      "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
       "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "stonehearth:humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
@@ -211,7 +209,6 @@
       "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
       "/stonehearth/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/recipes.json)",
       "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
-      "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
       "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)"
    },
@@ -219,11 +216,19 @@
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
       "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
       "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
+      "/stonehearth/entities/humans/male/eyes.qb": "file(entities/humans/male/eyes.qb)",
+      "/stonehearth/entities/humans/female/eyes.qb": "file(entities/humans/female/eyes.qb)",
       "/stonehearth/entities/humans/male/head.qb": "file(entities/humans/male/head.qb)",
       "/stonehearth/entities/humans/female/head.qb": "file(entities/humans/female/head.qb)",
-      "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-      "/stonehearth/services/server/population/data/player_task_groups.json": "file(services/server/population/data/player_task_groups.json)"
+<<<<<<< HEAD
+      "/stonehearth/entities/humans/male/body.qb": "file(entities/humans/male/body.qb)",
+      "/stonehearth/entities/humans/female/body.qb": "file(entities/humans/female/body.qb)",
+      "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
    },
+=======
+      "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
+     },
+>>>>>>> c052c86d61c2ce420a4964836beb9529578300a9
    "controllers": {
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
       "class:cleric": "file(jobs/cleric/cleric.lua)",

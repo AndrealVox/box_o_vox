@@ -4,19 +4,19 @@
       "stonehearth:attributes": {
          "mind": {
             "type": "random_range",
-            "base": 3,
-            "max": 10
+            "base": 6,
+            "max": 20
          },
          "body": {
             "type": "random_range",
-            "base": 3,
-            "max": 10
+            "base": 6,
+            "max": 20
          },
          "spirit": {
             "type": "random_range",
-            "base": 3,
-            "max": 10
+            "base": 6,
+            "max": 20
          }
-}
-}
+      }
+   }
 }

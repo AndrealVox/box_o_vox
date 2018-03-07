@@ -25,7 +25,7 @@
          "render_type": "merge_with_model",
          "slot": "helmet",
          "ilevel": 6,
-         "roles": "footman_job archer_job knight_job herbalist_job cleric_job blacksmith_job engineer_job carpenter_job mason_job potter_job farmer_job cook_job trapper_job shepard_job weaver_job worker_job",
+         "roles": "footman_job archer_job knight_job herbalist_job cleric_job blacksmith_job engineer_job carpenter_job mason_job potter_job farmer_job cook_job trapper_job shepherd_job weaver_job worker_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },

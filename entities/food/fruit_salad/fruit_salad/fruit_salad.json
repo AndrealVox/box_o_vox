@@ -42,7 +42,7 @@
          "icon": "file(fruit_salad.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container prepared_food salad fruit vegetarian stockpile_prepared_food"
+         "material_tags": "food_container prepared_food fruit_salad fruit vegetarian stockpile_prepared_food"
       }
    }
 }

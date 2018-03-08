@@ -802,7 +802,8 @@
       },
       "data": {
          "constants": {
-            "food_fruit_raw_name": "Fruit"
+            "food_fruit_raw_name": "Fruit",
+            "resource_fuel_name": "Fuel"
          }
       }
    },

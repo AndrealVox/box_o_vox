@@ -1,7 +1,7 @@
 {
    "entity_data": {
       "stonehearth:catalog": {
-         "material_tags": "fuel_resource stockpile_ore coal ore resource"
+         "material_tags": "fuel resource stockpile_ore coal ore resource"
       }
    }
 }

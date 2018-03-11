@@ -18,12 +18,11 @@
    "roles": "cleric_job combat",
    "promotion_activity_name": "promote_cleric",
    "task_groups": [
-      "stonehearth:task_group:crafting",
-      "stonehearth:task_group:common_tasks",
-      "stonehearth:task_group:restock",
-      "stonehearth:task_group:healing",
-      "stonehearth:task_group:rescue",
-      "stonehearth:task_group:patrolling"
+      "stonehearth:task_groups:crafting",
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:healing",
+      "stonehearth:task_groups:rescue"
    ],
    "icon": "file(images/icon.png)",
    "parent_level_requirement": 2,

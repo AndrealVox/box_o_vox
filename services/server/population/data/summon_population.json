@@ -69,7 +69,5 @@
          "Schicks"
       ]
    },
-   "task_groups": {
-      "stonehearth:task_group:common_tasks": "stonehearth:combat"
-   }
+   "task_groups": "stonehearth:data:humanoid_task_groups"
 }

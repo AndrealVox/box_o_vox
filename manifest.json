@@ -206,6 +206,7 @@
       "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
       "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
       "stonehearth:loadouts": "file(data/loadouts)",
+      "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
       "stonehearth:kingdoms:ascendancy": "file(services/server/population/data/vox_population.json)",
       "rayyas_children:kingdoms:rayyas_children": "file(services/server/population/data/vox_population.json)",
       "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
@@ -226,6 +227,7 @@
       "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
       "/stonehearth/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/recipes.json)",
       "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
+       "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
       "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
       "stonehearth/entities/food/rotten_basket/rotten_basket.json": "box_o_vox:food:rotten_food",
@@ -262,7 +264,7 @@
       "stonehearth/entities/refined/iron_gear/iron_gear.json": "box_o_vox:refined_ore:iron_gear"
    },
    "overrides": {
-      "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
+       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
       "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
       "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
       "/stonehearth/entities/humans/male/eyes.qb": "file(entities/humans/male/eyes.qb)",
@@ -277,8 +279,8 @@
       "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
    },
    "controllers": {
-      "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
       "class:cleric": "file(jobs/cleric/cleric.lua)",
+      "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
       "class:ninja": "file(jobs/ninja/ninja.lua)"
    },
    "ui": {

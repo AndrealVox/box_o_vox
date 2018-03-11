@@ -7,15 +7,16 @@ radiant.mixin(ClericClass, CraftingJob)
 --- Public functions, required for all classes
 
 function ClericClass:initialize()
+    CraftingJob.initialize(self)
    CombatJob.initialize(self)
-   CraftingJob.initialize(self)
    self._sv.max_num_attended_hearthlings = 2
 end
 
 --Always do these things
 function ClericClass:activate()
+    CraftingJob.activate(self)
    CombatJob.activate(self)
-   CraftingJob.activate(self)
+
    if self._sv.is_current_class then
       self:_register_with_town()
    end
@@ -26,7 +27,7 @@ end
 -- Call when it's time to promote someone to this class
 function ClericClass:promote(json_path)
    CombatJob.promote(self, json_path)
-    CraftingJob.promote(self,json_path)
+   CraftingJob.promote(self, json_path)
    self._sv.max_num_attended_hearthlings = self._job_json.initial_num_attended_hearthlings or 2
    if self._sv.max_num_attended_hearthlings > 0 then
       self:_register_with_town()
@@ -59,8 +60,9 @@ function ClericClass:_create_listeners()
 end
 
 function ClericClass:_remove_listeners()
-   CombatJob._remove_listeners(self)
+    
    CraftingJob._remove_listeners(self)
+   CombatJob._remove_listeners(self)
    if self._on_heal_entity_listener then
       self._on_heal_entity_listener:destroy()
       self._on_heal_entity_listener = nil

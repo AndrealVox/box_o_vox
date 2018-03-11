@@ -10,7 +10,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
       },
       "stonehearth:stacks": {
          "max_stacks": 10
@@ -20,7 +24,7 @@
       "stonehearth:food_container": {
          "effect": "fiddle",
          "food": "box_o_vox:food:beef_rib_roast:beef_rib_roast_serving",
-         "stacks_per_serving": 1
+         "stacks_per_serving": 9
       },
       "stonehearth:net_worth": {
          "value_in_gold": 45,

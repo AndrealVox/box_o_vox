@@ -610,11 +610,11 @@
             "description": "So rotten that it's lost all form and function."
          },
          "apple": {
-            "display_name": "An Apple",
+            "display_name": "Apple",
             "description": "A fleshy round edible pome fruit"
          },
          "orange": {
-            "display_name": "An Orange",
+            "display_name": "Orange",
             "description": "A round juicy citrus fruit with a tough rind"
          },
          "cow_feed": {
@@ -639,7 +639,7 @@
          },
          "pork": {
             "display_name": "Pork",
-            "description": "Mmmm Bacon"
+            "description": "I wonder if we can make bacon <3"
          },
          "milk": {
             "display_name": "Milk",
@@ -657,7 +657,7 @@
          "roast_rack_of_pork": {
             "roast_rack_of_pork": {
                "display_name": "Roast Rack of Pork",
-               "description": "I wonder if we can make bacon <3"
+               "description": "Mmmm bacon"
             },
             "roast_rack_of_pork_serving": {
                "display_name": "Roast Rack of Pork Serving"

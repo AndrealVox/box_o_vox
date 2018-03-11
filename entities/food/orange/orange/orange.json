@@ -14,34 +14,37 @@
             ]
          }
       },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      },
       "stonehearth:stacks": {
          "max_stacks": 5
       }
    },
    "entity_data": {
-      "stonehearth:food": {
-         "stonehearth:sitting_on_chair": {
-            "satisfaction": 90
-         },
-         "default": {
-            "satisfaction": 40
-         },
-         "quality": 3
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "box_o_vox:food:orange:orange_serving",
+         "stacks_per_serving": 4
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 6,
+         "value_in_gold": 10,
          "rarity": "common",
          "shop_info": {
-            "buyable": false,
-            "sellable": true,
+            "buyable": true,
+            "sellable": false,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
       },
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 336,
-            "max": 504
+            "min": 168,
+            "max": 336
          },
          "rotten_entity_alias": "box_o_vox:food:rotten:orange"
       },
@@ -51,7 +54,8 @@
          "icon": "file(orange.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit orange vegetarian cooking_ingredient"
+         "material_tags": "stockpile_raw_food stockpile_cooking_ingredient food_container raw_food fruit orange vegetarian cooking_ingredient",
+         "subject_override": "box_o_vox:food:orange:orange"
       }
    }
 }

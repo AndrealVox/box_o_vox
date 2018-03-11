@@ -501,6 +501,24 @@
                "display_name": "i18n(box_o_vox:entities.plants.tomato.tomato_basket.display_name)",
                "icon": "/box_o_vox/entities/food/tomato/tomato_basket/tomato_basket.png",
                "filter": "stockpile_raw_food tomato"
+            },
+            "apple": {
+               "ordinal": 12,
+               "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
+               "icon": "/box_o_vox/entities/food/apple/apple/apple.png",
+               "filter": "stockpile_raw_food apple"
+            },
+            "banana": {
+               "ordinal": 13,
+               "display_name": "i18n(box_o_vox:entities.food.banana.display_name)",
+               "icon": "/box_o_vox/entities/food/banana/banana/banana.png",
+               "filter": "stockpile_raw_food banana"
+            },
+            "orange": {
+               "ordinal": 14,
+               "display_name": "i18n(box_o_vox:entities.food.orange.display_name)",
+               "icon": "/box_o_vox/entities/food/orange/orange/orange.png",
+               "filter": "stockpile_raw_food orange"
             }
          }
       },
@@ -526,6 +544,18 @@
                "display_name": "i18n(stonehearth:entities.food.poyo_meat.display_name)",
                "icon": "/stonehearth/entities/food/poyo_meat/poyo_meat.png",
                "filter": "stockpile_cooking_ingredient poyo_meat"
+            },
+            "beef": {
+               "ordinal": 4,
+               "display_name": "i18n(box_o_vox:entities.food.beef.display_name)",
+               "icon": "/box_o_vox/entities/food/beef/beef.png",
+               "filter": "stockpile_cooking_ingredient beef"
+            },
+            "pork": {
+               "ordinal": 5,
+               "display_name": "i18n(box_o_vox:entities.food.pork.display_name)",
+               "icon": "/box_o_vox/entities/food/pork/pork.png",
+               "filter": "stockpile_cooking_ingredient pork"
             }
          }
       },
@@ -563,6 +593,12 @@
                "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
                "icon": "/box_o_vox/entities/food/fruit_salad/fruit_salad/fruit_salad.png",
                "filter": "stockpile_prepared_food fruit_salad"
+            },
+            "fruit_smoothie": {
+               "ordinal": 6,
+               "display_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.display_name)",
+               "icon": "/box_o_vox/entities/food/fruit_smoothie/fruit_smoothie/fruit_smoothie.png",
+               "filter": "stockpile_prepared_food fruit_smoothie"
             }
          }
       },
@@ -600,6 +636,18 @@
                "display_name": "i18n(stonehearth:entities.food.poyo_pot_pie.poyo_pot_pie.display_name)",
                "icon": "/stonehearth/entities/food/poyo_pot_pie/poyo_pot_pie/poyo_pot_pie.png",
                "filter": "stockpile_prepared_food poyo_pot_pie"
+            },
+            "beef_rib_roast": {
+               "ordinal": 6,
+               "display_name": "i18n(box_o_vox:entities.food.beef_rib_roast.beef_rib_roast.display_name)",
+               "icon": "/box_o_vox/entities/food/beef_rib_roast/beef_rib_roast/beef_rib_roast.png",
+               "filter": "stockpile_prepared_food beef_rib_roast"
+            },
+            "roast_rack_of_porkroast_rack_of_pork": {
+               "ordinal": 7,
+               "display_name": "i18n(box_o_vox:entities.food.roast_rack_of_pork.roast_rack_of_pork.display_name)",
+               "icon": "/box_o_vox/entities/food/roast_rack_of_pork/roast_rack_of_pork/roast_rack_of_pork.png",
+               "filter": "stockpile_prepared_food roast_rack_of_pork"
             }
          }
       },
@@ -631,6 +679,18 @@
                "display_name": "i18n(stonehearth:entities.food.wheat_bale.display_name)",
                "icon": "/stonehearth/entities/food/wheat_bale/wheat_bale.png",
                "filter": "stockpile_cooking_ingredient wheat"
+            },
+            "milk": {
+               "ordinal": 5,
+               "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",
+               "icon": "/box_o_vox/entities/food/milk/milk.png",
+               "filter": "stockpile_cooking_ingredient milk"
+            },
+            "cream": {
+               "ordinal": 6,
+               "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",
+               "icon": "/box_o_vox/entities/food/cream/cream.png",
+               "filter": "stockpile_cooking_ingredient cream"
             }
          }
       },
@@ -656,6 +716,12 @@
                "display_name": "i18n(stonehearth:entities.food.sheep_feed.display_name)",
                "icon": "/stonehearth/entities/food/sheep_feed/sheep_feed.png",
                "filter": "stockpile_cooking_ingredient animal_feed sheep_feed"
+            },
+            "cow_feed": {
+               "ordinal": 4,
+               "display_name": "i18n(box_o_vox:entities.food.cow_feed.display_name)",
+               "icon": "/box_o_vox/entities/food/cow_feed/cow_feed.png",
+               "filter": "stockpile_cooking_ingredient animal_feed cow_feed"
             }
          }
       },

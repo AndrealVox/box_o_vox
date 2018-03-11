@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(mash_potatoes_serving.qb)"
+               "file(banana_serving.qb)"
             ]
          }
       },
@@ -20,18 +20,18 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 75
-         },
-         "default": {
             "satisfaction": 50
          },
-         "quality": 6
+         "default": {
+            "satisfaction": 40
+         },
+         "quality": 3
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes_serving.display_name)",
-         "description": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes_serving.description)",
-         "material_tags": "food vegetable vegetarian",
-         "subject_override": "box_o_vox:food:mash_potatoes"
+         "display_name": "i18n(box_o_vox:entities.food.banana.display_name)",
+         "description": "i18n(box_o_vox:entities.food.banana.description)",
+         "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit banana vegetarian cooking_ingredient",
+         "subject_override": "box_o_vox:food:banana:banana"
       }
    }
 }

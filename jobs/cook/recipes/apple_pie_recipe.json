@@ -4,7 +4,7 @@
    "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.apple_pie_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.cook.recipes.apple_pie_recipe.description)",
    "portrait": "/box_o_vox/entities/food/apple_pie/apple_pie/apple_pie.png",
-   "level_requirement" : 3,
+   "level_requirement": 3,
    "workshop": "stonehearth:cook:oven",
    "ingredients": [
       {
@@ -16,7 +16,7 @@
          "count": 1
       },
       {
-         "uri": "box_o_vox:food:apple",
+         "uri": "box_o_vox:food:apple:apple",
          "count": 1
       }
    ],

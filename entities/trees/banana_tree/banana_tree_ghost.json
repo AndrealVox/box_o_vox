@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(banana_tree_medium.qb)"
+               "file(banana_tree.qb)"
             ]
          }
       },

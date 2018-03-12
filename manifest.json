@@ -23,6 +23,10 @@
       "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
       "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
       "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
+       "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
+       "botanist:journal": "file(jobs/botanist/botanist_journal/botanist_journal.json)",
+       "botanist:talisman": "file(jobs/botanist/botanist_journal/botanist_journal_talisman.json)",
+       "botanist:workbench": "file(jobs/botanist/botanist_workbench)",
       "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
       "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
       "buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
@@ -126,6 +130,7 @@
       "food:rotten:strawberry_basket": "file(entities/food/strawberry/strawberry_basket/rotten_strawberry_basket.json)",
       "food:rotten:tomato_basket": "file(entities/food/tomato/tomato_basket/rotten_tomato_basket.json)",
       "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
+      "jobs:botanist": "file(jobs/botanist/botanist_description.json)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
@@ -187,9 +192,13 @@
       "summons:undead:necromancer": "file(entities/summon/necromancer/necromancer.json)",
       "traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
       "traits:passion_ninja": "file(data/traits/passion_ninja/passion_ninja_trait.json)",
-      "trees:apple:medium": "file(entities/trees/apple_tree)",
-      "trees:banana:medium": "file(entities/trees/banana_tree/banana_tree_medium)",
-      "trees:orange:medium": "file(entities/trees/orange_tree)",
+      "trees:apple": "file(entities/trees/apple_tree)",
+      "trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree.json)",
+      "trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree.json)",
+      "trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree.json)",
+      "trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree.json)",
+      "trees:banana": "file(entities/trees/banana_tree)",
+      "trees:orange": "file(entities/trees/orange_tree)",
       "weapon:flame_skull": "file(entities/weapons/flame_skull)",
       "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
       "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",
@@ -288,13 +297,15 @@
       "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
    },
    "controllers": {
+       "class:botanist": "file(jobs/botanist/botanist.lua)",
       "class:cleric": "file(jobs/cleric/cleric.lua)",
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
       "class:ninja": "file(jobs/ninja/ninja.lua)"
    },
    "ui": {
       "less": [
-         "file(jobs/cleric/skin/workshop.less)"
+         "file(jobs/cleric/skin/workshop.less)",
+          "file(jobs/botanist/skin/workshop.less)"
       ]
    }
 }

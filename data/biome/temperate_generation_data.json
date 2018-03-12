@@ -1,21 +1,21 @@
 {
    "landscape": {
       "placement_table": {
-         "box_o_vox:trees:banana:medium": {
+         "box_o_vox:trees:banana": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 1,
                "exclusion_radius": 2
             }
          },
-         "box_o_vox:trees:apple:medium": {
+         "box_o_vox:trees:apple": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 2,
                "exclusion_radius": 4
             }
          },
-         "box_o_vox:trees:orange:medium": {
+         "box_o_vox:trees:orange": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 2,
@@ -123,6 +123,19 @@
                "mountains": 0
             }
          }
-      }
+      },
+      "scattered": { 
+            "plants": { 
+                "weights": { 
+                    "plains": { 
+                        "1": {
+                            "box_o_vox:trees:banana": 0.2, 
+                            "box_o_vox:trees:apple": 0.6, 
+                            "box_o_vox:trees:orange": 0.4
+                      } 
+                   } 
+                } 
+            }
+}
    }
 }

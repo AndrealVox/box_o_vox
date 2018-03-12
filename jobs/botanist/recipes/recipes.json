@@ -1,0 +1,14 @@
+{
+   "craftable_recipes": {
+      "fruit_trees": {
+         "ordinal": 1,
+         "name": "i18n(box_o_vox:jobs.botanist.recipes.fruit_tree_name)",
+         "recipes": {
+             "apple_tree": {
+                 "recipe":
+                 "file(apple_sapling_recipe.json)"
+             }
+         }
+      }
+   }
+}

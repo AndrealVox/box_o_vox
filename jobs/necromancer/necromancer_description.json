@@ -36,9 +36,9 @@
       "heal_entity_in_combat": 10,
       "town_protection": 15
    },
-   "max_level": 6,
+   "max_level": 7,
    "level_data": {
-      "0": {
+      "1": {
          "perks": [
             {
                "type": "apply_buff",
@@ -47,7 +47,7 @@
                "icon": "file(images/necromancer_perk_healing_aura.png)",
                "buff_name": "stonehearth:buffs:cleric:heal_aura_2",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_000_description)",
-               "level": 0,
+               "level": 1,
                "demote_fn": "remove_buff"
             },
             {
@@ -57,7 +57,7 @@
                "icon": "file(images/healing_master.png)",
                "buff_name": "stonehearth:buffs:cleric:compassion_2",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_001_description)",
-               "level": 0,
+               "level": 1,
                "demote_fn": "remove_buff"
             },
             {
@@ -67,7 +67,7 @@
                "icon": "file(images/necromancer_perk_raise_muscle.png)",
                "buff_name": "stonehearth:buffs:cleric:major_muscle_aura",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_002_description)",
-               "level": 0,
+               "level": 1,
                "demote_fn": "remove_buff"
             },
             {
@@ -78,12 +78,12 @@
                "equipment": "box_o_vox:necromancer:pages:skeleton_kid",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_003_description)",
-               "level": 0,
+               "level": 1,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "1": {
+      "2": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -94,12 +94,12 @@
                "equipment": "box_o_vox:necromancer:pages:skeleton",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_1_data.perk_000_description)",
-               "level": 1,
+               "level": 2,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "2": {
+      "3": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -110,12 +110,12 @@
                "equipment": "box_o_vox:necromancer:pages:zombie_kid",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_description)",
-               "level": 2,
+               "level": 3,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "3": {
+      "4": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -126,12 +126,12 @@
                "equipment": "box_o_vox:necromancer:pages:zombie",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
-               "level": 3,
+               "level": 4,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "4": {
+      "5": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -142,12 +142,12 @@
                "equipment": "box_o_vox:necromancer:pages:golem_kid",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_description)",
-               "level": 4,
+               "level": 5,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "5": {
+      "6": {
          "perks": [
             {
                "type": "add_chained_combat_action",
@@ -158,12 +158,12 @@
                "equipment": "box_o_vox:necromancer:pages:golem",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
-               "level": 5,
+               "level": 6,
                "demote_fn": "remove_combat_action"
             }
          ]
       },
-      "6": {
+      "7": {
          "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.title)",
          "perks": [
             {
@@ -175,7 +175,7 @@
                "equipment": "box_o_vox:necromancer:pages:necromancer",
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_description)",
-               "level": 6,
+               "level": 7,
                "demote_fn": "remove_combat_action"
             }
          ]

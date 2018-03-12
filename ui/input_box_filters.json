@@ -238,6 +238,12 @@
                "display_name": "i18n(stonehearth:entities.refined.leather_bolt.display_name)",
                "icon": "/stonehearth/entities/refined/leather_bolt/leather_bolt.png",
                "filter": "stockpile_refined_weaver leather"
+            },
+            "enchanted_cloth": {
+               "ordinal": 4,
+               "display_name": "i18n(box_o_vox:entities.refined.enchanted_cloth.display_name)",
+               "icon": "/box_o_vox/entities/refined/enchanted_cloth/enchanted_cloth.png",
+               "filter": "stockpile_refined_weaver enchanted_cloth"
             }
          }
       },
@@ -746,6 +752,12 @@
                "display_name": "i18n(box_o_vox:entities.food.cow_feed.display_name)",
                "icon": "/box_o_vox/entities/food/cow_feed/cow_feed.png",
                "filter": "stockpile_cooking_ingredient animal_feed cow_feed"
+            },
+            "pig_feed": {
+               "ordinal": 5,
+               "display_name": "i18n(box_o_vox:entities.food.pig_feed.display_name)",
+               "icon": "/box_o_vox/entities/food/pig_feed/pig_feed.png",
+               "filter": "stockpile_cooking_ingredient animal_feed pig_feed"
             }
          }
       },

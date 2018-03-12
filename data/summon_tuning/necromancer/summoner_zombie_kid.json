@@ -11,7 +11,7 @@
    },
    "equipment": {
       "weapon": [
-         "stonehearth:monsters:forest:little_stone_golem:fist_weapon"
+         "stonehearth:weapons:bronze_mace"
       ]
    }
 }

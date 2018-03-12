@@ -30,7 +30,7 @@
          "description": "i18n(box_o_vox:entities.furniture.red_wood_bed.red_wood_bed_ghost.description)",
          "icon": "file(red_wood_bed.png)",
          "category": "furniture",
-         "material_tags": "wood furniture crafted stockpile_furniture"
+         "material_tags": "wood furniture crafted stockpile_furniture bed red_wood_bed"
       }
    }
 }

@@ -34,7 +34,7 @@
          "icon": "file(enchanted_cloth.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "refined refined_cloth stockpile_refined_weaver"
+         "material_tags": "refined enchanted_cloth refined_cloth stockpile_refined_weaver"
       }
    }
 }

@@ -691,6 +691,30 @@
                "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",
                "icon": "/box_o_vox/entities/food/cream/cream.png",
                "filter": "stockpile_cooking_ingredient cream"
+            },
+            "peppercorn": {
+               "ordinal": 7,
+               "display_name": "i18n(box_o_vox:entities.food.peppercorn.display_name)",
+               "icon": "/box_o_vox/entities/food/peppercorn/peppercorn.png",
+               "filter": "stockpile_cooking_ingredient peppercorn"
+            },
+            "dough": {
+               "ordinal": 8,
+               "display_name": "i18n(box_o_vox:entities.food.dough.display_name)",
+               "icon": "/box_o_vox/entities/food/dough/dough.png",
+               "filter": "stockpile_cooking_ingredient dough"
+            },
+            "pepper": {
+               "ordinal": 9,
+               "display_name": "i18n(box_o_vox:entities.food.pepper.display_name)",
+               "icon": "/box_o_vox/entities/food/pepper/pepper.png",
+               "filter": "stockpile_cooking_ingredient pepper"
+            },
+            "pepperoni": {
+               "ordinal": 10,
+               "display_name": "i18n(box_o_vox:entities.food.pepperoni.display_name)",
+               "icon": "/box_o_vox/entities/food/pepperoni/pepperoni.png",
+               "filter": "stockpile_cooking_ingredient pepperoni"
             }
          }
       },

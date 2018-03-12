@@ -229,6 +229,18 @@
             "pig_feed_recipe": {
                "recipe_name": "Pig Feed",
                "description": "Throw almost anything in, they'll eat it"
+            },
+            "dough_recipe": {
+               "recipe_name": "Dough",
+               "description": "Dough used for baking"
+            },
+            "pepper_recipe": {
+               "recipe_name": "Pepper",
+               "description": "A shaker full of pepper"
+            },
+            "pepperoni_recipe": {
+               "recipe_name": "Pepperoni",
+               "description": "A pepperoni sausage"
             }
          }
       }
@@ -590,6 +602,11 @@
                "description": "A basket full of strawberries",
                "display_name": "Strawberry Basket"
             }
+         },
+         "peppercorn_bush": {
+            "unripe_description": "An unripened peppercorn plant",
+            "display_name": "Peppercorn Plant",
+            "description": "A peppercorn plant. Harvesting this will drop peppercorns to craft pepper."
          }
       },
       "food": {
@@ -728,6 +745,22 @@
                "display_name": "Mash Potatoes Serving",
                "description": "Yummy, buttery mash potatoes"
             }
+         },
+         "dough": {
+            "display_name": "Dough",
+            "description": "Dough used for baking"
+         },
+         "pepper": {
+            "display_name": "Pepper",
+            "description": "A shaker full of pepper"
+         },
+         "peppercorn": {
+            "display_name": "Basket of Peppercorns",
+            "description": "A basket of peppercorns"
+         },
+         "pepperoni": {
+            "display_name": "Pepperoni",
+            "description": "A pepperoni sausage"
          }
       },
       "trees": {

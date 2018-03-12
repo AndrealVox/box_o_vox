@@ -4,6 +4,15 @@
          "recipes": {
             "cream": {
                "recipe": "file(cream_recipe.json)"
+            },
+            "dough": {
+               "recipe": "file(dough_recipe.json)"
+            },
+            "pepper": {
+               "recipe": "file(pepper_recipe.json)"
+            },
+            "pepperoni": {
+               "recipe": "file(pepperoni_recipe.json)"
             }
          }
       },

@@ -1,6 +1,6 @@
 {
    "type": "recipe",
-   "work_units": 1,
+   "work_units": 2,
    "recipe_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
    "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.description)",
    "portrait": "/box_o_vox/entities/food/fruit_salad/fruit_salad/fruit_salad.png",

@@ -21,21 +21,23 @@
          "placeable_on_ground": true,
          "hide_undeploy_ui": true
       },
-      "stonehearth:renewable_resource_node": {
+      "stonehearth:resource_node": {
          "category": "harvest",
-         "resource": "box_o_vox:food:banana",
-         "renewal_time": "48h",
-         "unripe_description": "i18n(stonehearth:entities.plants.berry_bush.unripe_description)",
-         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "durability": 10,
          "resource_loot_table": {
             "entries": {
                "fruit": {
                   "items": {
                      "apple_1": {
-                        "uri": "box_o_vox:food:banana",
+                        "uri": "box_o_vox:food:banana:banana",
                         "count": 5,
                         "weight": 1
-                     }
+                     },
+                      "apple_wood": {
+                        "uri": "stonehearth:resources:wood:palm_log",
+                          "count": 1,
+                          "weight": 1
+                      }
                   }
                }
             }

@@ -5,20 +5,20 @@
             "placement_type": "single",
             "parameters": {
                "ground_radius": 1,
-               "exclusion_radius": 2
+               "exclusion_radius": 3
             }
          },
          "box_o_vox:trees:apple": {
             "placement_type": "single",
             "parameters": {
-               "ground_radius": 2,
+               "ground_radius": 6,
                "exclusion_radius": 4
             }
          },
          "box_o_vox:trees:orange": {
             "placement_type": "single",
             "parameters": {
-               "ground_radius": 2,
+               "ground_radius": 6,
                "exclusion_radius": 4
             }
          },
@@ -28,15 +28,36 @@
                "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
                "min_rows": 2,
                "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
-               "max_rows": 2,
+               "max_rows": 3,
                "__comment": "Minimum Columns. Def 2",
                "min_cols": 2,
                "__comment": "Maximum Columns. Def 3",
                "max_cols": 3,
                "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
-               "item_spacing": 5,
+               "item_spacing": 3,
                "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-               "item_density": 0.9
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:trees:banana:medium_alt": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 3
+            }
+         },
+         "box_o_vox:trees:apple:medium_alt": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:orange:medium_alt": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 4
             }
          },
       },
@@ -45,7 +66,8 @@
          "sizes": {
             "box_o_vox:trees:banana": {
                "small": 0,
-               "medium": 2,
+               "medium": 0,
+               "medium_alt": 2,
                "large": 0,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
@@ -54,7 +76,8 @@
             },
             "box_o_vox:trees:apple": {
                "small": 0,
-               "medium": 4,
+               "medium": 0,
+               "medium_alt": 2,
                "large": 0,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
@@ -63,7 +86,8 @@
             },
             "box_o_vox:trees:orange": {
                "small": 0,
-               "medium": 4,
+               "medium": 0,
+               "medium_alt": 2,
                "large": 0,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
@@ -81,9 +105,9 @@
             },
             "foothills": {
                "1": {
-                  "box_o_vox:trees:apple": 2,
-                  "box_o_vox:trees:banana": 1,
-                  "box_o_vox:trees:orange": 2
+                  "box_o_vox:trees:apple": 1,
+                  "box_o_vox:trees:banana": 0.5,
+                  "box_o_vox:trees:orange": 1
                },
                "2": {
                   "box_o_vox:trees:apple": 1,
@@ -105,37 +129,33 @@
             }
          }
       },
-      "berries": {
-         "placement": {
-            "uri": "box_o_vox:plants:peppercorn_bush",
-            "function": "gaussian",
-            "mean": -50,
-            "std_dev": 30,
-            "__comment": "offset of mean near different terrain/landscape - this creates a noise map based on the terrain feature chosen below",
-            "mean_offset": {
-               "tree": 100,
-               "water": 0,
-               "boundary": 0
-            },
-            "density": {
-               "plains": 0.8,
-               "foothills": 0.4,
-               "mountains": 0
+      "scattered": {
+         "plants": {
+            "__comment": "for example, a small probability with a large density would be more clustered than a large probability with small density.",
+            "weights": {
+               "plains": {
+                  "1": {
+                     "box_o_vox:plants:peppercorn_bush": 2
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "box_o_vox:plants:peppercorn_bush": 6
+                  },
+                  "2": {
+                     "box_o_vox:plants:peppercorn_bush": 4
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "box_o_vox:plants:peppercorn_bush": 0
+                  },
+                  "3": {
+                     "box_o_vox:plants:peppercorn_bush": 0
+                  }
+               }
             }
          }
-      },
-      "scattered": { 
-            "plants": { 
-                "weights": { 
-                    "plains": { 
-                        "1": {
-                            "box_o_vox:trees:banana": 0.2, 
-                            "box_o_vox:trees:apple": 0.6, 
-                            "box_o_vox:trees:orange": 0.4
-                      } 
-                   } 
-                } 
-            }
-}
+      }
    }
 }

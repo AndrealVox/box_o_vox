@@ -23,10 +23,10 @@
       "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
       "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
       "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
-       "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
-       "botanist:magnify_glass": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass.json)",
-       "botanist:talisman": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass_talisman.json)",
-       "botanist:workbench": "file(jobs/botanist/botanist_workbench)",
+      "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
+      "botanist:magnify_glass": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass.json)",
+      "botanist:talisman": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass_talisman.json)",
+      "botanist:workbench": "file(jobs/botanist/botanist_workbench)",
       "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
       "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
       "buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
@@ -199,6 +199,9 @@
       "trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree.json)",
       "trees:banana": "file(entities/trees/banana_tree)",
       "trees:orange": "file(entities/trees/orange_tree)",
+      "trees:apple:medium_alt": "file(entities/trees/apple_tree)",
+      "trees:banana:medium_alt": "file(entities/trees/banana_tree)",
+      "trees:orange:medium_alt": "file(entities/trees/orange_tree)",
       "weapon:flame_skull": "file(entities/weapons/flame_skull)",
       "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
       "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",
@@ -297,7 +300,7 @@
       "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
    },
    "controllers": {
-       "class:botanist": "file(jobs/botanist/botanist.lua)",
+      "class:botanist": "file(jobs/botanist/botanist.lua)",
       "class:cleric": "file(jobs/cleric/cleric.lua)",
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
       "class:ninja": "file(jobs/ninja/ninja.lua)"

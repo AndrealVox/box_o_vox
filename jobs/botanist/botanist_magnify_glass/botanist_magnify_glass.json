@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(botanist_journal_equipped.qb)"
+               "file(botanist_magnify_glass_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(botanist_journal_iconic.json)"
+         "iconic_form": "file(botanist_magnify_glass_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -42,9 +42,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:jobs.botanist.botanist_journal.display_name)",
-         "description": "i18n(box_o_vox:jobs.botanist.botanist_journal.description)",
-         "icon": "file(botanist_journal.png)",
+         "display_name": "i18n(box_o_vox:jobs.botanist.botanist_magnify_glass.display_name)",
+         "description": "i18n(box_o_vox:jobs.botanist.botanist_magnify_glass.description)",
+         "icon": "file(botanist_magnify_glass.png)",
          "category": "tools",
          "material_tags": "tool"
       }

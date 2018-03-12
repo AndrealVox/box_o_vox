@@ -16,7 +16,7 @@
     "abilities": "file(botanist_abilities)",
     "equipment": {
         "torso": "file(botanist_outfit)",
-        "mainhand": "box_o_vox:botanist:journal"
+        "mainhand": "box_o_vox:botanist:magnify_glass"
     },
     "roles": "botany crafter",
     "icon": "file(images/icon.png)",

@@ -305,7 +305,7 @@
    "ui": {
       "less": [
          "file(jobs/cleric/skin/workshop.less)",
-          "file(jobs/botanist/skin/workshop.less)"
+         "file(jobs/botanist/skin/workshop.less)"
       ]
    }
 }

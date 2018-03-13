@@ -1,6 +1,6 @@
 {
    "type": "monster_tuning",
-   "estimated_difficulty": 1,
+   "estimated_difficulty": 2,
    "attributes": {
       "max_health": 30,
       "muscle": 20,

@@ -1,6 +1,6 @@
 {
    "type": "monster_tuning",
-   "estimated_difficulty": 0,
+   "estimated_difficulty": 1,
    "scale": 0.05,
    "attributes": {
       "max_health": 20,
@@ -9,6 +9,7 @@
       "courage": 500,
       "speed": 100
    },
+   "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
          "stonehearth:weapons:stone_maul"

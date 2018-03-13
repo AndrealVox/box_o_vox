@@ -1,6 +1,6 @@
 {
    "mixins": [
-      "stonehearth:trees:oak:small"
+      "stonehearth:mixins:tree"
    ],
    "components": {
       "render_info": {
@@ -9,9 +9,50 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(banana_tree_empty.qb)"
+               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
             ]
          }
+      },
+      "stonehearth:resource_node": {
+         "category": "harvest",
+         "durability": 10,
+         "resource_loot_table": {
+            "entries": {
+               "fruit": {
+                  "items": {
+                      "banana_wood": {
+                        "uri": "stonehearth:resources:wood:palm_log",
+                          "count": 1,
+                          "weight": 1
+                      }
+                  }
+               }
+            }
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 10, "z": 2 }
+            }
+         ]
       }
    },
    "entity_data": {

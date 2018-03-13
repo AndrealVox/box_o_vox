@@ -1,13 +1,20 @@
 {
    "mixins": "stonehearth:trees:oak:sapling",
+    "type": "entity",
    "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sapling_banana_tree_iconic.json)",
+         "ghost_form": "file(sapling_banana_tree_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_placement_ui": true
+      },
       "render_info": {
          "scale": 0.02
       },
       "model_variants": {
          "default": {
             "models": [
-               "file(banana_tree_empty.qb)"
+               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
             ]
          }
       }

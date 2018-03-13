@@ -15,12 +15,6 @@
             ]
          }
       },
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(banana_tree_iconic.json)",
-         "ghost_form": "file(banana_tree_ghost.json)",
-         "placeable_on_ground": true,
-         "hide_undeploy_ui": true
-      },
       "stonehearth:resource_node": {
          "category": "harvest",
          "durability": 10,

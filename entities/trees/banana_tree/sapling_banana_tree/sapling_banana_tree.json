@@ -20,8 +20,7 @@
       "stonehearth:catalog": {
          "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
          "category": "plants",
-         "material_tags": "plant tree stockpile_plant",
-         "subject_override": "box_o_vox:trees:banana:large"
+         "material_tags": "plant tree stockpile_plant"
       },
       "stonehearth:appeal": {
          "appeal": 1

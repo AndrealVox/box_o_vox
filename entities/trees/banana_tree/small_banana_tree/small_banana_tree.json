@@ -1,6 +1,6 @@
 {
    "mixins": [
-      "stonehearth:trees:palm:small"
+      "stonehearth:trees:oak:small"
    ],
    "components": {
       "render_info": {

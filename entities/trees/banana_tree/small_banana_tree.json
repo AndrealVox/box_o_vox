@@ -2,27 +2,27 @@
    "mixins": [
       "stonehearth:trees:palm:small"
    ],
-    "components": {
+   "components": {
       "render_info": {
          "scale": 0.05
       },
-        "model_variants": {
-            "default": {
-                "models": [
-                    "file(banana_tree_empty.qb)"
-                ]
-            }
-        }
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(banana_tree_empty.qb)"
+            ]
+         }
+      }
    },
-    "entity_data": {
-        "stonehearth:evolve_data": {
+   "entity_data": {
+      "stonehearth:evolve_data": {
          "next_stage": "box_o_vox:trees:banana:medium",
          "evolve_time": "3d"
       },
-        "stonehearth:catalog": {
-            "display_name": "i18n(box_o_vox:entities.trees.banana_tree.small_banana_tree.display_name)",
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.small_banana_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.banana_tree.small_banana_tree.description)",
          "subject_override": "box_o_vox:trees:banana:large"
-        }
-    }
+      }
+   }
 }

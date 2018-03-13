@@ -1,23 +1,23 @@
 {
-    "mixins": "stonehearth:trees:oak:sapling",
-    "components": {
+   "mixins": "stonehearth:trees:oak:sapling",
+   "components": {
       "render_info": {
          "scale": 0.02
       },
-        "model_variants": {
-            "default": {
-                "models": [
-                    "file(banana_tree_empty.qb)"
-                ]
-            }
-        }
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(banana_tree_empty.qb)"
+            ]
+         }
+      }
    },
-    "entity_data": {
-        "stonehearth:evolve_data": {
-            "next_stage": "box_o_vox:trees:banana:small",
-            "evolve_time": "1d"
-        },
-        "stonehearth:catalog": {
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:trees:banana:small",
+         "evolve_time": "1d"
+      },
+      "stonehearth:catalog": {
          "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
          "category": "plants",
          "material_tags": "plant tree stockpile_plant",
@@ -26,5 +26,5 @@
       "stonehearth:appeal": {
          "appeal": 1
       }
-    }
+   }
 }

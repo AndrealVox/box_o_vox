@@ -768,18 +768,63 @@
             "banana_tree": {
                "display_name": "Banana Tree",
                "description": "wow look at all those bananas"
+            },
+            "small_banana_tree": {
+               "display_name": "Small Banana Tree",
+               "description": "A small tree"
+            },
+            "medium_banana_tree": {
+               "display_name": "Medium Banana Tree",
+               "description": "A medium tree"
+            },
+            "large_banana_tree": {
+               "display_name": "Large Banana Tree",
+               "description": "A large tree"
+            },
+            "sapling_banana_tree": {
+               "description": "A banana sapling"
             }
          },
          "apple_tree": {
             "apple_tree": {
                "display_name": "Apple Tree",
                "description": "Don't trust snakes"
+            },
+            "small_apple_tree": {
+               "display_name": "Small Apple Tree",
+               "description": "A small tree"
+            },
+            "medium_apple_tree": {
+               "description": "A medium tree",
+               "display_name": "Medium Apple Tree"
+            },
+            "large_apple_tree": {
+               "display_name": "Large Apple Tree",
+               "description": "A large tree"
+            },
+            "sapling_apple_tree": {
+               "description": "An apple sapling"
             }
          },
          "orange_tree": {
             "orange_tree": {
                "display_name": "Orange Tree",
                "description": "Get Some juicy Oranges"
+            },
+            "small_orange_tree": {
+               "display_name": "Small Orange Tree",
+               "description": "A small tree"
+            },
+            "medium_orange_tree": {
+               "display_name": "Medium Orange Tree",
+               "description": "A medium tree"
+            },
+            "large_orange_tree": {
+               "display_name": "Large Orange Tree",
+               "description": "A large tree"
+            },
+            "sapling_orange_tree": {
+               "description": "An orange sapling"
             }
          }
       },

@@ -2,20 +2,20 @@
    "mixins": [
       "stonehearth:trees:oak:medium"
    ],
-    "components": {
+   "components": {
       "render_info": {
          "scale": 0.5
       }
    },
-    "entity_data": {
-        "stonehearth:evolve_data": {
+   "entity_data": {
+      "stonehearth:evolve_data": {
          "next_stage": "box_o_vox:trees:apple:large",
          "evolve_time": "5d"
       },
-        "stonehearth:catalog": {
-            "display_name": "i18n(box_o_vox:entities.trees.apple_tree.medium_apple_tree.display_name)",
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.medium_apple_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.apple_tree.medium_apple_tree.description)",
          "subject_override": "box_o_vox:trees:apple:large"
-        }
-    }
+      }
+   }
 }

@@ -1,18 +1,11 @@
 {
    "landscape": {
       "placement_table": {
-         "box_o_vox:trees:apple:small": {
+         "box_o_vox:trees:apple:ancient": {
             "placement_type": "single",
             "parameters": {
-               "ground_radius": 1,
-               "exclusion_radius": 1
-            }
-         },
-         "box_o_vox:trees:apple:medium": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 3,
-               "exclusion_radius": 2
+               "ground_radius": 6,
+               "exclusion_radius": 4
             }
          },
          "box_o_vox:trees:apple:large": {
@@ -22,28 +15,14 @@
                "exclusion_radius": 4
             }
          },
-         "box_o_vox:trees:apple:ancient": {
+         "box_o_vox:trees:banana:ancient": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 6,
                "exclusion_radius": 4
             }
          },
-         "box_o_vox:trees:orange:small": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 1,
-               "exclusion_radius": 1
-            }
-         },
-         "box_o_vox:trees:orange:medium": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 3,
-               "exclusion_radius": 2
-            }
-         },
-         "box_o_vox:trees:orange:large": {
+         "box_o_vox:trees:banana:large": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 6,
@@ -57,28 +36,7 @@
                "exclusion_radius": 4
             }
          },
-         "box_o_vox:trees:banana:small": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 1,
-               "exclusion_radius": 1
-            }
-         },
-         "box_o_vox:trees:banana:medium": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 3,
-               "exclusion_radius": 2
-            }
-         },
-         "box_o_vox:trees:banana:large": {
-            "placement_type": "single",
-            "parameters": {
-               "ground_radius": 6,
-               "exclusion_radius": 4
-            }
-         },
-         "box_o_vox:trees:banana:ancient": {
+         "box_o_vox:trees:orange:large": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 6,

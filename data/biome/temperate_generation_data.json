@@ -43,7 +43,140 @@
                "exclusion_radius": 4
             }
          },
+         "box_o_vox:trees:lime:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:lime:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
          "box_o_vox:plants:peppercorn_bush": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:blueberry_bush": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:daisy": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:firebeard": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:foxlily": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:greentea": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:nightshade": {
+            "placement_type": "pattern",
+            "parameters": {
+               "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+               "min_rows": 2,
+               "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+               "max_rows": 3,
+               "__comment": "Minimum Columns. Def 2",
+               "min_cols": 2,
+               "__comment": "Maximum Columns. Def 3",
+               "max_cols": 3,
+               "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+               "item_spacing": 3,
+               "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+               "item_density": 0.6
+            }
+         },
+         "box_o_vox:plants:sunflower": {
             "placement_type": "pattern",
             "parameters": {
                "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -90,6 +223,15 @@
                   "__comment": "Percentage of large trees that will be ancient",
                   "percentage": 100
                }
+            },
+            "box_o_vox:trees:lime": {
+               "small": 0,
+               "medium": 0,
+               "large": 2,
+               "ancient": {
+                  "__comment": "Percentage of large trees that will be ancient",
+                  "percentage": 100
+               }
             }
          },
          "weights": {
@@ -97,19 +239,22 @@
                "1": {
                   "box_o_vox:trees:apple": 2,
                   "box_o_vox:trees:banana": 1,
-                  "box_o_vox:trees:orange": 2
+                  "box_o_vox:trees:orange": 2,
+                  "box_o_vox:trees:lime": 1
                }
             },
             "foothills": {
                "1": {
                   "box_o_vox:trees:apple": 1,
                   "box_o_vox:trees:banana": 0.5,
-                  "box_o_vox:trees:orange": 1
+                  "box_o_vox:trees:orange": 1,
+                  "box_o_vox:trees:lime": 1
                },
                "2": {
                   "box_o_vox:trees:apple": 1,
                   "box_o_vox:trees:banana": 0.5,
-                  "box_o_vox:trees:orange": 1
+                  "box_o_vox:trees:orange": 1,
+                  "box_o_vox:trees:lime": 1
                }
             },
             "mountains": {
@@ -132,20 +277,28 @@
             "weights": {
                "plains": {
                   "1": {
-                     "box_o_vox:plants:peppercorn_bush": 2
+                     "box_o_vox:plants:peppercorn_bush": 2,
+                     "box_o_vox:plants:sunflower": 2,
+                     "box_o_vox:plants:foxlily": 2,
+                     "box_o_vox:plants:daisy": 6
                   }
                },
                "foothills": {
                   "1": {
-                     "box_o_vox:plants:peppercorn_bush": 6
+                     "box_o_vox:plants:peppercorn_bush": 6,
+                     "box_o_vox:plants:blueberry_bush": 6,
+                     "box_o_vox:plants:greentea": 1
                   },
                   "2": {
-                     "box_o_vox:plants:peppercorn_bush": 4
+                     "box_o_vox:plants:peppercorn_bush": 4,
+                     "box_o_vox:plants:greentea": 1
                   }
                },
                "mountains": {
                   "1": {
-                     "box_o_vox:plants:peppercorn_bush": 0
+                     "box_o_vox:plants:peppercorn_bush": 0,
+                     "box_o_vox:plants:nightshade": 1,
+                     "box_o_vox:plants:firebeard": 1
                   },
                   "3": {
                      "box_o_vox:plants:peppercorn_bush": 0

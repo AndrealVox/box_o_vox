@@ -20,16 +20,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(peppercorn_bush.qb)"
+               "file(blueberry_bush.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.plants.peppercorn_bush.display_name)",
-         "description": "i18n(box_o_vox:entities.plants.peppercorn_bush.description)",
-         "icon": "file(peppercorn_bush.png)",
+         "display_name": "i18n(box_o_vox:entities.plants.blueberry_bush.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.blueberry_bush.description)",
+         "icon": "file(blueberry_bush.png)",
          "category": "plants",
          "material_tags": "plant stockpile_plant",
          "subjects": [

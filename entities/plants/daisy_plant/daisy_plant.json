@@ -11,7 +11,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
-         "harvest_overlay_effect": "box_o_vox:effects:harvest_plant_overlay_effect",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
          "unripe_description": "i18n(box_o_vox:entities.plants.daisy_plant.unripe_description)",
          "resource": "box_o_vox:resources:herb:daisy",
          "renewal_time": "22h"

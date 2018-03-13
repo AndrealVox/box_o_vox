@@ -1,0 +1,20 @@
+{
+   "mixins": [
+      "stonehearth:trees:oak:large"
+   ],
+   "components": {
+      "render_info": {
+         "scale": 0.5
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:trees:lime:ancient",
+         "evolve_time": "7d"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.trees.lime_tree.large_lime_tree.display_name)",
+         "description": "i18n(box_o_vox:entities.trees.lime_tree.large_lime_tree.description)"
+      }
+   }
+}

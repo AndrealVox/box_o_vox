@@ -5,16 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(peppercorn_bush_iconic.qb)"
+               "file(lime_tree.qb)"
             ]
          }
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         }
+         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {

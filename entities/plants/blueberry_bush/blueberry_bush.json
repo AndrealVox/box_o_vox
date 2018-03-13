@@ -1,11 +1,11 @@
 {
    "type": "entity",
-   "mixins": "file(peppercorn_bush_ghost.json)",
+   "mixins": "file(blueberry_bush_ghost.json)",
    "components": {
       "model_variants": {
          "depleted": {
             "models": [
-               "file(peppercorn_bush_empty.qb)"
+               "file(blueberry_bush_empty.qb)"
             ]
          }
       },
@@ -27,14 +27,14 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
-         "resource": "box_o_vox:food:peppercorn",
+         "resource": "box_o_vox:food:blueberry_basket",
          "renewal_time": "10h",
-         "unripe_description": "i18n(box_o_vox:entities.plants.peppercorn_bush.unripe_description)",
+         "unripe_description": "i18n(box_o_vox:entities.plants.blueberry_bush.unripe_description)",
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(peppercorn_bush_iconic.json)",
-         "ghost_form": "file(peppercorn_bush_ghost.json)",
+         "iconic_form": "file(blueberry_bush_iconic.json)",
+         "ghost_form": "file(blueberry_bush_ghost.json)",
          "placeable_on_ground": true,
          "hide_undeploy_ui": true
       }

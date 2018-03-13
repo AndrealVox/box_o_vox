@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(nightshade_plant.qb)"
+               "file(lime_tree.qb)"
             ]
          }
       },
@@ -19,9 +19,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.plants.nightshade_plant.display_name)",
-         "description": "i18n(box_o_vox:entities.plants.nightshade_plant.description)",
-         "icon": "file(nightshade_plant.png)",
+         "display_name": "i18n(box_o_vox:entities.plants.lime_tree.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.lime_tree.description)",
          "category": "plants"
       }
    }

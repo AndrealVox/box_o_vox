@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(daisy_plant.qb)"
+               "file(firebeard_plant.qb)"
             ]
          }
       },
@@ -19,9 +19,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.plants.daisy_plant.display_name)",
-         "description": "i18n(box_o_vox:entities.plants.daisy_plant.description)",
-         "icon": "file(daisy_plant.png)",
+         "display_name": "i18n(box_o_vox:entities.plants.firebeard_plant.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.firebeard_plant.description)",
+         "icon": "file(firebeard_plant.png)",
          "category": "plants"
       }
    }

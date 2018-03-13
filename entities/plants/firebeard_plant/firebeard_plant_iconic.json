@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(daisy_plant.qb)"
+               "file(firebeard_plant.qb)"
             ]
          }
       },

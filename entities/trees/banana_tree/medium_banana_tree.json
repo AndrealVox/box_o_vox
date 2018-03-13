@@ -4,8 +4,15 @@
    ],
     "components": {
       "render_info": {
-         "scale": 1
-      }
+         "scale": .1
+      },
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(banana_tree_empty.qb)"
+                ]
+            }
+        }
    },
     "entity_data": {
         "stonehearth:evolve_data": {
@@ -14,7 +21,8 @@
       },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.trees.banana_tree.medium_banana_tree.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.banana_tree.medium_banana_tree.description)"
+         "description": "i18n(box_o_vox:entities.trees.banana_tree.medium_banana_tree.description)",
+         "subject_override": "box_o_vox:trees:banana:large"
         }
     }
 }

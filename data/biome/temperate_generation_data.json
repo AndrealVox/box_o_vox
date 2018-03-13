@@ -1,21 +1,84 @@
 {
    "landscape": {
       "placement_table": {
-         "box_o_vox:trees:banana": {
+         "box_o_vox:trees:apple:small": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 1,
-               "exclusion_radius": 3
+               "exclusion_radius": 1
             }
          },
-         "box_o_vox:trees:apple": {
+         "box_o_vox:trees:apple:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 2
+            }
+         },
+         "box_o_vox:trees:apple:large": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 6,
                "exclusion_radius": 4
             }
          },
-         "box_o_vox:trees:orange": {
+         "box_o_vox:trees:apple:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:orange:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 1
+            }
+         },
+         "box_o_vox:trees:orange:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 2
+            }
+         },
+         "box_o_vox:trees:orange:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:orange:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:banana:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 1
+            }
+         },
+         "box_o_vox:trees:banana:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 2
+            }
+         },
+         "box_o_vox:trees:banana:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 6,
+               "exclusion_radius": 4
+            }
+         },
+         "box_o_vox:trees:banana:ancient": {
             "placement_type": "single",
             "parameters": {
                "ground_radius": 6,
@@ -65,33 +128,33 @@
          "__comment": "tree size variance. anything above 0 will be considered as tree placement, and the size of the tree is determined within the sizes node declared above",
          "sizes": {
             "box_o_vox:trees:banana": {
-               "small": 0,
-               "medium": 0,
-               "medium_alt": 2,
-               "large": 0,
+               "small": 2,
+               "medium": 2,
+               "medium_alt": 0,
+               "large": 2,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
-                  "percentage": 0
+                  "percentage": .6
                }
             },
             "box_o_vox:trees:apple": {
-               "small": 0,
-               "medium": 0,
-               "medium_alt": 2,
-               "large": 0,
+               "small": 2,
+               "medium": 2,
+               "medium_alt": 0,
+               "large": 2,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
-                  "percentage": 0
+                  "percentage": .6
                }
             },
             "box_o_vox:trees:orange": {
-               "small": 0,
-               "medium": 0,
-               "medium_alt": 2,
-               "large": 0,
+               "small": 2,
+               "medium": 2,
+               "medium_alt": 0,
+               "large": 2,
                "ancient": {
                   "__comment": "Percentage of large trees that will be ancient",
-                  "percentage": 0
+                  "percentage": .6
                }
             }
          },

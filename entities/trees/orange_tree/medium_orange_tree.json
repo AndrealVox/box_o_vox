@@ -14,7 +14,8 @@
       },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.trees.orange_tree.medium_orange_tree.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.orange_tree.medium_orange_tree.description)"
+         "description": "i18n(box_o_vox:entities.trees.orange_tree.medium_orange_tree.description)",
+         "subject_override": "box_o_vox:trees:orange:large"
         }
     }
 }

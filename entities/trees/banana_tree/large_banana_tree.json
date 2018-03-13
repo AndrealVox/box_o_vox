@@ -5,11 +5,18 @@
     "components": {
       "render_info": {
          "scale": 0.5
-      }
+      },
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(banana_tree_empty.qb)"
+                ]
+            }
+        }
    },
     "entity_data": {
         "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:trees:banana:bearing",
+         "next_stage": "box_o_vox:trees:banana:ancient",
          "evolve_time": "7d"
       },
         "stonehearth:catalog": {

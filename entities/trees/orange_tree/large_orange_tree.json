@@ -9,7 +9,7 @@
    },
     "entity_data": {
         "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:trees:orange:bearing",
+         "next_stage": "box_o_vox:trees:orange:ancient",
          "evolve_time": "7d"
       },
         "stonehearth:catalog": {

@@ -7,6 +7,14 @@
              "apple_tree": {
                  "recipe":
                  "file(apple_sapling_recipe.json)"
+             },
+             "banana_tree": {
+                 "recipe":
+                 "file(banana_sapling_recipe.json)"
+             },
+             "orange_tree": {
+                 "recipe":
+                 "file(orange_sapling_recipe.json)"
              }
          }
       }

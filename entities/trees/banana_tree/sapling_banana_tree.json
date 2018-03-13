@@ -1,0 +1,23 @@
+{
+    "mixins": "stonehearth:trees:palm:small",
+    "components": {
+      "render_info": {
+         "scale": 0.2
+      }
+   },
+    "entity_data": {
+        "stonehearth:evolve_data": {
+            "next_stage": "box_o_vox:trees:banana:small",
+            "evolve_time": "1d"
+        },
+        "stonehearth:catalog": {
+         "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
+         "category": "plants",
+         "material_tags": "plant tree stockpile_plant",
+         "subject_override": "box_o_vox:trees:banana:large"
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+    }
+}

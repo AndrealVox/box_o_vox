@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 1,
+   "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.orange_sapling_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.botanist.recipes.orange_sapling_recipe.description)",
+   "flavor": "",
+   "portrait": "/box_o_vox/entities/trees/images/orange_sapling.png",
+   "workshop": "box_o_vox:botanist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "box_o_vox:food:orange:orange",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:trees:orange:sapling"
+      }
+   ]
+}

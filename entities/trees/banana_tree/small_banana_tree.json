@@ -1,0 +1,20 @@
+{
+   "mixins": [
+      "stonehearth:trees:palm:small"
+   ],
+    "components": {
+      "render_info": {
+         "scale": 0.5
+      }
+   },
+    "entity_data": {
+        "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:trees:banana:medium",
+         "evolve_time": "3d"
+      },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.trees.banana_tree.small_banana_tree.display_name)",
+         "description": "i18n(box_o_vox:entities.trees.banana_tree.small_banana_tree.description)"
+        }
+    }
+}

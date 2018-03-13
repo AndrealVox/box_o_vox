@@ -28,12 +28,12 @@
             "entries": {
                "fruit": {
                   "items": {
-                     "apple_1": {
+                     "banana_1": {
                         "uri": "box_o_vox:food:banana:banana",
                         "count": 5,
                         "weight": 1
                      },
-                      "apple_wood": {
+                      "banana_wood": {
                         "uri": "stonehearth:resources:wood:palm_log",
                           "count": 1,
                           "weight": 1

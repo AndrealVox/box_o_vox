@@ -2,9 +2,7 @@
    "type": "mixin",
    "mixins": "stonehearth:mixins:mob",
    "components": {
-      "stonehearth:ai": {
-         "ai_tree": "stonehearth:data:humanoid_task_groups"
-      },
+      "stonehearth:ai": {},
       "stonehearth:posture": {},
       "stonehearth:trivial_death" : {},
       "stonehearth:job": {
@@ -62,8 +60,7 @@
       "stonehearth:entity_reach": 1.0,
       "stonehearth:ai_packs": {
          "packs": [
-             
-            "stonehearth:ai_pack:patrolling",
+            "stonehearth:ai_pack:humanoid",
             "stonehearth:ai_pack:combat",
             "stonehearth:ai_pack:upgrade_equipment",
             "stonehearth:ai_pack:death",

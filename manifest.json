@@ -22,6 +22,7 @@
       "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
       "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
       "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
+       "biome:boxland": "file(data/biome/boxland.json)",
       "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
       "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
       "botanist:hori-hori": "file(jobs/botanist/botanist_hori-hori/botanist_hori-hori.json)",
@@ -252,8 +253,8 @@
       "summon": "file(components/summon/summon_component)"
    },
    "mixintos": {
+       "stonehearth:biome:index": "file(data/biome/index.json)",
       "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)", "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
-      "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
       "stonehearth:jobs:index": "file(jobs/index.json)",
       "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
       "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",

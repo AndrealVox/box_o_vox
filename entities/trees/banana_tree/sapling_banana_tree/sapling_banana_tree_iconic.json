@@ -18,13 +18,18 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
+         "model_origin": {
+            "x": 0.05,
+            "y": 0,
+            "z": 0.05
+         }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
          "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.sapling_banana_tree_iconic.description)",
          "is_item": true,
+         "icon": "/box_o_vox/entities/trees/images/banana_sapling.png",
          "category": "plants"
       }
    }

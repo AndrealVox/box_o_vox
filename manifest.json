@@ -122,6 +122,7 @@
       "food:potato:potato_serving": "file(entities/food/potato/potato_serving)",
       "food:roast_rack_of_pork": "file(entities/food/roast_rack_of_pork/roast_rack_of_pork)",
       "food:roast_rack_of_pork:roast_rack_of_pork_serving": "file(entities/food/roast_rack_of_pork/roast_rack_of_pork_serving)",
+      "food:salt": "file(entities/food/salt)",
       "food:blueberries:blueberry_basket": "file(entities/food/blueberry/blueberry_basket)",
       "food:blueberries:blueberry_serving": "file(entities/food/blueberry/blueberry_serving)",
       "food:strawberry:strawberry_basket": "file(entities/food/strawberry/strawberry_basket)",
@@ -251,6 +252,7 @@
       "summon": "file(components/summon/summon_component)"
    },
    "mixintos": {
+      "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)", "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
       "/stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
       "stonehearth:jobs:index": "file(jobs/index.json)",
       "stonehearth:build:brushes": "file(data/build/building_brushes.json)",

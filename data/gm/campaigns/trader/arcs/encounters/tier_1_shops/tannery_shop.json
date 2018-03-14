@@ -1,0 +1,22 @@
+{
+    "shop_info": {
+        "inventory": {
+            "entries": [
+                {
+                    "items_matching": {
+                  "cooking_ingredient": {
+                     "material": [
+                        "salt"
+                         
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 5,
+                  "max": 10
+               }
+                }
+            ]
+        }
+    }
+}

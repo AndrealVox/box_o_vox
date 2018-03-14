@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(rotten_apple.qb)"
+               "file(rotten_lime.qb)"
             ]
          }
       },
@@ -28,9 +28,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.rotten_apple.display_name)",
-         "description": "i18n(box_o_vox:entities.food.rotten_apple.description)",
-         "icon": "file(rotten_apple.png)",
+         "display_name": "i18n(box_o_vox:entities.food.rotten_lime.display_name)",
+         "description": "i18n(box_o_vox:entities.food.rotten_lime.description)",
+         "icon": "file(rotten_lime.png)",
          "is_item": true,
          "category": "uncategorized"
       }

@@ -1,7 +1,17 @@
 {
-   "mixins": "stonehearth:trees:oak:sapling",
    "type": "entity",
+   "mixins": "stonehearth:trees:oak:sapling",
    "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sapling_apple_tree_iconic.json)",
+         "ghost_form": "file(sapling_apple_tree_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_placement_ui": true
+      },
+      "stonehearth:resource_node": {
+         "resource": "stonehearth:resources:wood:oak_log",
+         "durability": 2
+      },
       "render_info": {
          "scale": 0.6
       }

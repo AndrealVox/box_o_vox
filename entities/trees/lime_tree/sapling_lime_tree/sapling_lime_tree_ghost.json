@@ -5,6 +5,13 @@
       "render_info": {
          "scale": 0.5
       },
+       "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling_oak_tree.qb)"
+            ]
+         }
+      },
       "mob": {
          "model_origin": {
             "x": 0,
@@ -24,8 +31,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.description)",
+         "display_name": "i18n(box_o_vox:entities.trees.lime_tree.sapling_lime_tree.sapling_lime_tree_ghost.display_name)",
+         "description": "i18n(box_o_vox:entities.trees.lime_tree.sapling_lime_tree.sapling_lime_tree_ghost.description)",
          "icon": "file(sapling_oak_tree.png)",
          "category": "plants"
       }

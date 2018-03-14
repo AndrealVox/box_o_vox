@@ -6,7 +6,7 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.2
+         "scale": 0.12
       },
       "model_variants": {
          "default": {
@@ -27,19 +27,27 @@
                         "count": 5,
                         "weight": 1
                      },
-                      "banana_wood": {
+                     "banana_wood": {
                         "uri": "stonehearth:resources:wood:palm_log",
-                          "count": 1,
-                          "weight": 1
-                      }
+                        "count": 1,
+                        "weight": 1
+                     }
                   }
                }
             }
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
          "align_to_grid": [
             "x",
             "z"
@@ -48,16 +56,32 @@
       "destination": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 1, "z": 2 }
+               "min": {
+                  "x": -0.5,
+                  "y": 0,
+                  "z": -0.5
+               },
+               "max": {
+                  "x": 0.5,
+                  "y": 1,
+                  "z": 0.5
+               }
             }
          ]
       },
       "region_collision_shape": {
          "region": [
             {
-               "min": { "x": -1, "y": 0, "z": -1 },
-               "max": { "x": 1, "y": 10, "z": 2 }
+               "min": {
+                  "x": -1,
+                  "y": 0,
+                  "z": -1
+               },
+               "max": {
+                  "x": 1,
+                  "y": 10,
+                  "z": 2
+               }
             }
          ]
       }

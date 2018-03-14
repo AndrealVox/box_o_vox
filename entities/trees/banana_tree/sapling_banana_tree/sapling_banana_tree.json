@@ -1,6 +1,6 @@
 {
-   "mixins": "stonehearth:trees:oak:sapling",
    "type": "entity",
+   "mixins": "stonehearth:trees:oak:sapling",
    "components": {
       "stonehearth:entity_forms": {
          "iconic_form": "file(sapling_banana_tree_iconic.json)",

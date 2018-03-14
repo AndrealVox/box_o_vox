@@ -858,7 +858,7 @@
          "banana_tree": {
             "banana_tree": {
                "display_name": "Banana Tree",
-               "description": "wow look at all those bananas"
+               "description": "Wow! Look at all those bananas"
             },
             "small_banana_tree": {
                "display_name": "Small Banana Tree",
@@ -903,7 +903,14 @@
             },
             "sapling_apple_tree": {
                "description": "An apple sapling",
-               "display_name": "Apple Tree Sapling"
+               "display_name": "Apple Tree Sapling",
+               "sapling_apple_tree_iconic": {
+                  "description": "An apple sapling"
+               },
+               "sapling_apple_tree_ghost": {
+                  "display_name": "Apple Tree Sapling",
+                  "description": "An apple sapling"
+               }
             }
          },
          "orange_tree": {
@@ -924,10 +931,15 @@
                "description": "A large tree"
             },
             "sapling_orange_tree": {
-               "description": "An orange sapling"
-            },
-            "sapling_lime_tree": {
-               "display_name": "Orange Tree Sapling"
+               "description": "An orange sapling",
+               "display_name": "Orange Tree Sapling",
+               "sapling_orange_tree_iconic": {
+                  "description": "An orange sapling"
+               },
+               "sapling_orange_tree_ghost": {
+                  "display_name": "Orange Tree Sapling",
+                  "description": "An orange sapling"
+               }
             }
          },
          "lime_tree": {
@@ -946,6 +958,10 @@
             "sapling_lime_tree": {
                "description": "A lime sapling",
                "display_name": "Lime Tree Sapling"
+            },
+            "small_lime_tree": {
+               "display_name": "Small Lime Tree",
+               "description": "A small tree"
             }
          }
       },

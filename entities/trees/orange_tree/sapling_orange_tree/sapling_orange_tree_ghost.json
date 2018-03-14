@@ -3,9 +3,9 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.5
+         "scale": 0.6
       },
-       "model_variants": {
+      "model_variants": {
          "default": {
             "models": [
                "file(sapling_oak_tree.qb)"

@@ -243,6 +243,58 @@
                "description": "A pepperoni sausage"
             }
          }
+      },
+      "botanist": {
+         "botanist_outfit": {
+            "display_name": "Botanist Outfit",
+            "description": "The work clothes of a botanist."
+         },
+         "botanist_magnify_glass": {
+            "display_name": "Botanist Tool",
+            "description": "A botanist tool of the trade",
+            "botanist_magnify_glass_talisman": {
+               "display_name": "Botanist Tool",
+               "description": "A botanist crafting tool"
+            }
+         },
+         "botanist_workbench": {
+            "botanist_workbench_ghost": {
+               "display_name": "Botanist Workstation",
+               "description": "The perfect place for a botanist to do their work."
+            }
+         },
+         "botanist_description": {
+            "display_name": "Botanist",
+            "description": "A plant scientist who specialises in this field",
+            "requirements": "Requires a Farmer level 3"
+         },
+         "recipes": {
+            "fruit_tree_name": "Fruit Tree Saplings",
+            "apple_sapling_recipe": {
+               "recipe_name": "Apple Sapling",
+               "description": "A sapling, that when planted will grow into a large fruit tree"
+            },
+            "banana_sapling_recipe": {
+               "description": "A sapling, that when planted will grow into a large fruit tree",
+               "recipe_name": "Banana Sapling"
+            },
+            "orange_sapling_recipe": {
+               "description": "A sapling, that when planted will grow into a large fruit tree",
+               "recipe_name": "Orange Sapling"
+            }
+         },
+         "botanist_hori-hori": {
+            "display_name": "Hori-Hori Knife",
+            "description": "A botanist knife used for sampling plants.",
+            "botanist_hori-hori_iconic": {
+               "display_name": "Hori-Hori Knife",
+               "description": "A botanist knife."
+            },
+            "botanist_hori-hori_talisman": {
+               "display_name": "Hori-Hori Knife",
+               "description": "A botanist knife."
+            }
+         }
       }
    },
    "entities": {
@@ -604,9 +656,44 @@
             }
          },
          "peppercorn_bush": {
-            "unripe_description": "An unripened peppercorn plant",
+            "unripe_description": "Not yet ripe for harvest.",
             "display_name": "Peppercorn Plant",
             "description": "A peppercorn plant. Harvesting this will drop peppercorns to craft pepper."
+         },
+         "daisy_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "description": "This plant's flowers can be used to make dye.",
+            "display_name": "Wild Daisy"
+         },
+         "firebeard_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Firebeard",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "foxlily_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Foxlily",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "greentea_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Gree Tea",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "nightshade_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Nightshade",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "sunflower_plant": {
+            "unripe_description": "This plant has been harvested and hasn't grown back yet.",
+            "display_name": "Wild Sunflower",
+            "description": "This plant's flowers can be used to make dye."
+         },
+         "blueberry_bush": {
+            "unripe_description": "Not yet ripe for harvest.",
+            "description": "Harvestable for a meager food supply.",
+            "display_name": "Blueberry Bush"
          }
       },
       "food": {
@@ -761,6 +848,10 @@
          "pepperoni": {
             "display_name": "Pepperoni",
             "description": "A pepperoni sausage"
+         },
+         "lime": {
+            "display_name": "Lime",
+            "description": "A ripe lime"
          }
       },
       "trees": {
@@ -782,7 +873,17 @@
                "description": "A large tree"
             },
             "sapling_banana_tree": {
-               "description": "A banana sapling"
+               "description": "A banana sapling",
+               "sapling_banana_tree_iconic": {
+                  "description": "Banana Sapling"
+               },
+               "sapling_banana_tree_ghost": {
+                  "display_name": "Banana Sapling",
+                  "description": "A small tree sapling"
+               }
+            },
+            "sapling_lime_tree": {
+               "display_name": "Banana Tree Sapling"
             }
          },
          "apple_tree": {
@@ -804,6 +905,9 @@
             },
             "sapling_apple_tree": {
                "description": "An apple sapling"
+            },
+            "sapling_lime_tree": {
+               "display_name": "Apple Tree Sapling"
             }
          },
          "orange_tree": {
@@ -825,6 +929,27 @@
             },
             "sapling_orange_tree": {
                "description": "An orange sapling"
+            },
+            "sapling_lime_tree": {
+               "display_name": "Orange Tree Sapling"
+            }
+         },
+         "lime_tree": {
+            "lime_tree": {
+               "display_name": "Lime Tree",
+               "description": "A tree that drops limes."
+            },
+            "medium_lime_tree": {
+               "display_name": "Medium Lime Tree",
+               "description": "A medium lime tree"
+            },
+            "large_lime_tree": {
+               "display_name": "Large Lime Tree",
+               "description": "A large lime tree"
+            },
+            "sapling_lime_tree": {
+               "description": "A lime sapling",
+               "display_name": "Lime Tree Sapling"
             }
          }
       },
@@ -847,6 +972,34 @@
             "pig_young": {
                "display_name": "A Pigglet",
                "description": "Aww little piggy"
+            }
+         }
+      },
+      "resources": {
+         "herb": {
+            "daisy": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Daisy Flower"
+            },
+            "firebeard": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Firebeard Flower"
+            },
+            "foxlily": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Foxlily Flower"
+            },
+            "greentea": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Green Tea Flower"
+            },
+            "nightshade": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Nightshade Flower"
+            },
+            "sunflower": {
+               "description": "These flowers can be used to make dye.",
+               "display_name": "Sunflower Flower"
             }
          }
       }

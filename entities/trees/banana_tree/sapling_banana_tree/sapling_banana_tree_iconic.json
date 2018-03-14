@@ -10,7 +10,7 @@
       "model_variants": {
          "default": {
             "models": [
-              "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
+               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
             ]
          }
       },

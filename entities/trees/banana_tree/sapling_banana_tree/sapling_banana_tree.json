@@ -1,6 +1,6 @@
 {
    "mixins": "stonehearth:trees:oak:sapling",
-    "type": "entity",
+   "type": "entity",
    "components": {
       "stonehearth:entity_forms": {
          "iconic_form": "file(sapling_banana_tree_iconic.json)",
@@ -25,6 +25,7 @@
          "evolve_time": "1d"
       },
       "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.sapling_lime_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
          "category": "plants",
          "material_tags": "plant tree stockpile_plant"

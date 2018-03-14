@@ -4,18 +4,15 @@
          "ordinal": 1,
          "name": "i18n(box_o_vox:jobs.botanist.recipes.fruit_tree_name)",
          "recipes": {
-             "apple_tree": {
-                 "recipe":
-                 "file(apple_sapling_recipe.json)"
-             },
-             "banana_tree": {
-                 "recipe":
-                 "file(banana_sapling_recipe.json)"
-             },
-             "orange_tree": {
-                 "recipe":
-                 "file(orange_sapling_recipe.json)"
-             }
+            "apple_tree": {
+               "recipe": "file(apple_sapling_recipe.json)"
+            },
+            "banana_tree": {
+               "recipe": "file(banana_sapling_recipe.json)"
+            },
+            "orange_tree": {
+               "recipe": "file(orange_sapling_recipe.json)"
+            }
          }
       }
    }

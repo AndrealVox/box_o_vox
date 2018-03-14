@@ -27,11 +27,11 @@
                         "count": 5,
                         "weight": 1
                      },
-                      "lime_wood": {
+                     "lime_wood": {
                         "uri": "stonehearth:resources:wood:oak_log",
-                          "count": 1,
-                          "weight": 1
-                      }
+                        "count": 1,
+                        "weight": 1
+                     }
                   }
                }
             }

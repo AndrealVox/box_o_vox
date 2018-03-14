@@ -2,6 +2,9 @@
    "type": "entity",
    "mixins": "file(foxlily_plant_ghost.json)",
    "components": {
+      "render_info": {
+         "scale": 0.1
+      },
       "model_variants": {
          "depleted": {
             "models": [

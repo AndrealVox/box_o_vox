@@ -9,7 +9,7 @@
          "hide_placement_ui": true
       },
       "render_info": {
-         "scale": 0.02
+         "scale": 0.03
       },
       "model_variants": {
          "default": {
@@ -25,7 +25,7 @@
          "evolve_time": "1d"
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.sapling_lime_tree.display_name)",
+         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
          "category": "plants",
          "material_tags": "plant tree stockpile_plant"

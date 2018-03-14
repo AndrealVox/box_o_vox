@@ -873,17 +873,15 @@
                "description": "A large tree"
             },
             "sapling_banana_tree": {
+               "display_name": "Banana Tree Sapling",
                "description": "A banana sapling",
                "sapling_banana_tree_iconic": {
-                  "description": "Banana Sapling"
+                  "description": "A banana sapling"
                },
                "sapling_banana_tree_ghost": {
-                  "display_name": "Banana Sapling",
-                  "description": "A small tree sapling"
+                  "display_name": "Banana Tree Sapling",
+                  "description": "A banana sapling"
                }
-            },
-            "sapling_lime_tree": {
-               "display_name": "Banana Tree Sapling"
             }
          },
          "apple_tree": {
@@ -904,9 +902,7 @@
                "description": "A large tree"
             },
             "sapling_apple_tree": {
-               "description": "An apple sapling"
-            },
-            "sapling_lime_tree": {
+               "description": "An apple sapling",
                "display_name": "Apple Tree Sapling"
             }
          },

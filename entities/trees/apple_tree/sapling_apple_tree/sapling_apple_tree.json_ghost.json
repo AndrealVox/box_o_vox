@@ -3,14 +3,7 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.03
-      },
-      "model_variants": {
-         "default": {
-            "models": [
-               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
-            ]
-         }
+         "scale": 0.5
       },
       "mob": {
          "model_origin": {
@@ -31,8 +24,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.sapling_banana_tree_ghost.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.sapling_banana_tree_ghost.description)",
+         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.display_name)",
+         "description": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.description)",
          "icon": "file(sapling_oak_tree.png)",
          "category": "plants"
       }

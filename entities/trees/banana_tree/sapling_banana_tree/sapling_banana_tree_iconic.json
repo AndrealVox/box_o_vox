@@ -7,15 +7,22 @@
             "stonehearth:commands:plant_tree"
          ]
       },
+      "render_info": {
+         "scale": 0.01
+      },
       "model_variants": {
          "default": {
             "models": [
-               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
+               "/box_o_vox/entities/trees/banana_tree/sapling_banana_tree/sapling_banana_tree.qb"
             ]
          }
       },
       "mob": {
-         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
+         "model_origin": {
+            "x": 0.05,
+            "y": 0,
+            "z": 0.05
+         }
       }
    },
    "entity_data": {

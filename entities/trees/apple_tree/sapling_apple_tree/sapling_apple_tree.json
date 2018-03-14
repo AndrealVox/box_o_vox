@@ -1,8 +1,9 @@
 {
    "mixins": "stonehearth:trees:oak:sapling",
+   "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.5
+         "scale": 0.6
       }
    },
    "entity_data": {
@@ -11,11 +12,10 @@
          "evolve_time": "1d"
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.sapling_lime_tree.display_name)",
+         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.description)",
          "category": "plants",
-         "material_tags": "plant tree stockpile_plant",
-         "subject_override": "box_o_vox:trees:apple:large"
+         "material_tags": "plant tree stockpile_plant"
       },
       "stonehearth:appeal": {
          "appeal": 1

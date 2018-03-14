@@ -2,12 +2,13 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "model_variants": {
-         "default": {
-            "models": [
-               "file(apple_tree.qb)"
-            ]
-         }
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:plant_tree"
+         ]
+      },
+      "render_info": {
+         "scale": 0.5
       },
       "mob": {
          "model_origin": {
@@ -19,8 +20,7 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.apple_tree.sapling_apple_tree.description)",
+         "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.sapling_banana_tree_iconic.description)",
          "is_item": true,
          "category": "plants"
       }

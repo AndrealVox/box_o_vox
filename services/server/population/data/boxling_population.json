@@ -1,8 +1,5 @@
 {
    "type": "kingdom",
-	"applied_manifests": {
-		"boxling": "box_o_vox/boxling_selected/manifest.json"
-	},
    "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
    "kingdom_id": "boxling",
    "favored_biome": "box_o_vox:biome:boxland",
@@ -19,10 +16,7 @@
       "default": {
          "male": {
             "uri": [
-               "stonehearth:male_1",
-               "stonehearth:male_1",
-               "stonehearth:male_2",
-               "stonehearth:male_3"
+               "box_o_vox:male_1",
             ],
             "given_names": [
                "Alton",
@@ -93,10 +87,7 @@
          },
          "female": {
             "uri": [
-               "stonehearth:female_1",
-               "stonehearth:female_1",
-               "stonehearth:female_2",
-               "stonehearth:female_3"
+               "box_o_vox:female_1"
             ],
             "given_names": [
                "Sanini",

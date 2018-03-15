@@ -1,4 +1,6 @@
 {
+    "type": "index",
+   "mixins": "stonehearth:humans:female:customizations",
    "categories": {
       "face_hair": ["eyebrows"]
    },

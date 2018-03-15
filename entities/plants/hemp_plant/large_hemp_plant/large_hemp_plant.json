@@ -1,0 +1,61 @@
+{
+   "mixins": [
+      "stonehearth:mixins:align_to_grid",
+       "box_o_vox:mixins:plant"
+   ],
+   "type": "entity",
+   "components": {
+       "stonehearth:evolve": {},
+       "render_info": {
+         "scale": 0.1
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+                     "file(large_hemp_plant.qb)"
+                  ]
+         }
+      },
+      "stonehearth:resource_node": {
+         "resource": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+         "durability": 4
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 10, "z": 2 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:plants:hemp_plant:flower",
+         "evolve_time": "12h"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.hemp_plant.large_hemp_plant.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.hemp_plant.large_hemp_plant.description)"
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      }
+   }
+}

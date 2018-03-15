@@ -1,0 +1,74 @@
+{
+   "mixins": [
+      "stonehearth:mixins:align_to_grid",
+       "box_o_vox:mixins:plant"
+   ],
+   "type": "entity",
+   "components": {
+       "render_info": {
+         "scale": 0.1
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+                     "file(flower_hemp_plant.qb)"
+                  ]
+         }
+      },
+      "stonehearth:resource_node": {
+         "category": "harvest",
+         "durability": 5,
+         "resource_loot_table": {
+            "entries": {
+               "resouces": {
+                  "items": {
+                     "hemp_herb": {
+                        "uri": "box_o_vox:resources:herb:hemp_herb",
+                        "count": 5,
+                        "weight": 1
+                     },
+                      "hemp_fiber": {
+                        "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+                          "count": 1,
+                          "weight": 1
+                      }
+                  }
+               }
+            }
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 10, "z": 2 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(box_o_vox:entities.plants.hemp_plant.flower_hemp_plant.display_name)",
+         "description": "i18n(box_o_vox:entities.plants.hemp_plant.flower_hemp_plant.description)"
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      }
+   }
+}

@@ -12,6 +12,9 @@
             },
             "orange_tree": {
                "recipe": "file(orange_sapling_recipe.json)"
+            },
+            "lime_tree": {
+               "recipe": "file(lime_sapling_recipe.json)"
             }
          }
       }

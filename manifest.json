@@ -181,6 +181,11 @@
         "plants:peppercorn_bush": "file(entities/plants/peppercorn_bush)",
         "plants:sunflower": "file(entities/plants/sunflower_plant)",
         "plants:blueberry_bush": "file(entities/plants/blueberry_bush)",
+        "plants:hemp_plant:seedling": "file(entities/plants/hemp_plant/seedling_hemp_plant)",
+        "plants:hemp_plant:small": "file(entities/plants/hemp_plant/small_hemp_plant)",
+        "plants:hemp_plant:medium": "file(entities/plants/hemp_plant/medium_hemp_plant)",
+        "plants:hemp_plant:large": "file(entities/plants/hemp_plant/large_hemp_plant)",
+        "plants:hemp_plant:flower": "file(entities/plants/hemp_plant/flower_hemp_plant)",
         "portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
         "portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
         "portals:stone_door": "file(entities/construction/stone_door)",
@@ -192,10 +197,12 @@
         "potter:recipes:toilet": "file(jobs/potter/recipes/toilet_recipe.json)",
         "refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
         "refined:enchanted_cloth": "file(entities/refined/enchanted_cloth)",
+        "resources:fiber:hemp_fiber_bundle": "file(entities/resources/fiber/hemp_fiber_bundle)",
         "resources:herb:daisy": "file(entities/resources/herb/daisy)",
         "resources:herb:firebeard": "file(entities/resources/herb/firebeard)",
         "resources:herb:foxlily": "file(entities/resources/herb/foxlily)",
         "resources:herb:greentea": "file(entities/resources/herb/greentea)",
+        "resources:herb:hemp_herb": "file(entities/resources/herb/hemp_herb)",
         "resources:herb:nightshade": "file(entities/resources/herb/nightshade)",
         "resources:herb:sunflower": "file(entities/resources/herb/sunflower)",
         "resource_constants": "file(data/resource_constants.json)",
@@ -252,12 +259,14 @@
         "furniture:table_stone": "file(mixins/furniture/table_stone.json)",
         "furniture:table_wood": "file(mixins/furniture/table_wood.json)",
         "refined_ore:iron_gear": "file(mixins/refined_ore/iron_gear.json)",
-        "wealth:quest_items": "file(mixins/wealth/quest_items.json)"
+        "wealth:quest_items": "file(mixins/wealth/quest_items.json)",
+        "mixins:plant": "file(mixins/plant)"
     },
     "components": {
         "summon": "file(components/summon/summon_component)"
     },
     "mixintos": {
+        "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
         "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
         "stonehearth:biome:index": "file(data/biome/index.json)",
         "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)",

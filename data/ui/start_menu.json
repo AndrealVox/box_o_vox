@@ -12,7 +12,7 @@
             "menu_action": "show_crafter_ui",
             "hotekey_action": "craft:cleric"
          },
-         "cleric": {
+         "botanist": {
             "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.botanist.display_name)",
             "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.botanist.description)",
             "class": "button",

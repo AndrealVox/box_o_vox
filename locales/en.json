@@ -72,7 +72,7 @@
       "biome": {
          "boxland": {
             "display_name": "Boxland",
-            "description": "Fruit, lakes and more. The default home of the Boxlings.",
+            "description": "Large mountains, massive lakes and trees bearing fruit. The default home of the Boxlings.",
             "random_location_names": {
                "000": "The Box O' Vox"
             }
@@ -282,8 +282,8 @@
          },
          "botanist_description": {
             "display_name": "Botanist",
-            "description": "A plant scientist who specialises in this field",
-            "requirements": "Requires a Farmer level 3"
+            "description": "A plant scientist",
+            "requirements": "Crafted by Mason"
          },
          "recipes": {
             "fruit_tree_name": "Fruit Tree Saplings",
@@ -869,6 +869,10 @@
          "lime": {
             "display_name": "Lime",
             "description": "A ripe lime"
+         },
+         "salt": {
+            "description": "A shaker full of salt",
+            "display_name": "Salt"
          }
       },
       "trees": {

@@ -144,6 +144,7 @@
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
       "jobs:ninja": "file(jobs/ninja/ninja_description.json)",
       "kingdoms:summon": "file(services/server/population/data/summon_population.json)",
+       "kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
       "loadouts": "file(data/loadouts)",
       "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
       "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
@@ -253,6 +254,7 @@
       "summon": "file(components/summon/summon_component)"
    },
    "mixintos": {
+       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
        "stonehearth:biome:index": "file(data/biome/index.json)",
       "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)", "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
       "stonehearth:jobs:index": "file(jobs/index.json)",
@@ -260,8 +262,6 @@
       "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
       "stonehearth:loadouts": "file(data/loadouts)",
       "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
-      "stonehearth:kingdoms:ascendancy": "file(services/server/population/data/vox_population.json)",
-      "rayyas_children:kingdoms:rayyas_children": "file(services/server/population/data/vox_population.json)",
       "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
       "/stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.json": "file(entities/resources/coal/lump_of_coal/lump_of_coal.json)",

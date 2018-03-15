@@ -1,0 +1,17 @@
+{
+    "info": {
+        "name": "boxling_selected",
+        "deferred_load": true,
+        "version": 3
+    },
+    "overrides": {
+        
+      "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
+      "/stonehearth/entities/humans/male/eyes.qb": "file(entities/humans/male/eyes.qb)",
+      "/stonehearth/entities/humans/female/eyes.qb": "file(entities/humans/female/eyes.qb)",
+      "/stonehearth/entities/humans/male/head.qb": "file(entities/humans/male/head.qb)",
+      "/stonehearth/entities/humans/female/head.qb": "file(entities/humans/female/head.qb)",
+      "/stonehearth/entities/humans/male/body.qb": "file(entities/humans/male/body.qb)",
+      "/stonehearth/entities/humans/female/body.qb": "file(entities/humans/female/body.qb)"
+    }
+}

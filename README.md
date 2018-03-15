@@ -27,3 +27,21 @@ This mod pack adds:
 
 -New decorations: Too many to list, will soon have adjusted apeal 
 
+______________________________________________________________________________
+
+
+# to-do
+A list of things to come and WIP
+
+-Botanist Recipies
+
+    - better gear from tailor and blacksmith
+    
+    - Think about enchanter at future date
+    
+-Add hemp classes for enchanted fibers
+
+-Check ninja stability
+
+-Add more gear for specialized classes
+

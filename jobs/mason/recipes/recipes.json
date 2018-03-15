@@ -1,5 +1,14 @@
 {
    "craftable_recipes": {
+       "tools": {
+         "ordinal": 2,
+         "name": "i18n(stonehearth:jobs.mason.recipes.tools_name)",
+         "recipes": {
+            "botanist_hori-hori": {
+               "recipe": "file(botanist_hori-hori_recipe.json)"
+            }
+         }
+       },
       "building_parts": {
          "ordinal": 4,
          "name": "i18n(stonehearth:jobs.mason.recipes.building_parts_name)",

@@ -3,6 +3,7 @@
       "stonehearth:trees:oak:small"
    ],
    "components": {
+       "stonehearth:evolve": {},
       "render_info": {
          "scale": 0.5
       }

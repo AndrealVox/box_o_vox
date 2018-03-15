@@ -1,5 +1,6 @@
 {
    "type": "index",
+   "mixins": "stonehearth:humans:male:customizations",
    "styles": {
       "hair_color": {
          "type": "material_map",

@@ -1,0 +1,6 @@
+{
+    "type": "index",
+    "biomes": {
+        "boxland": "box_o_vox:biome:boxland"
+    }
+}

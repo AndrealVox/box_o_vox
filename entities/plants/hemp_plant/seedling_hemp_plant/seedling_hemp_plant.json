@@ -1,0 +1,50 @@
+{
+   "type": "entity",
+    "mixins": [
+      "stonehearth:mixins:align_to_grid",
+       "box_o_vox:mixins:plant",
+        "file(seedling_hemp_plant_ghost.json)"
+   ],
+   "components": {
+       "stonehearth:evolve": {},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(seedling_hemp_plant.qb)"
+            ]
+         }
+      },
+      "stonehearth:resource_node": {
+         "resource": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+         "durability": 1
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(seedling_hemp_plant_iconic.json)",
+         "ghost_form": "file(seedling_hemp_plant_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "box_o_vox:plants:hemp_plant:small",
+         "evolve_time": "12h"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "material_tags": "stockpile_plant"
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      }
+   }
+}

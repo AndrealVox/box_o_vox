@@ -60,6 +60,23 @@
                "description": "Oh no, not the children"
             }
          }
+      },
+      "population": {
+         "boxling": {
+            "display_name": "The Boxlings",
+            "quote": "Fun Times!",
+            "description": "A hard working and mysterious race that keep to themselves while help one another to bettering their world.",
+            "post_selection_description": ", a proud and hard working race."
+         }
+      },
+      "biome": {
+         "boxland": {
+            "display_name": "Boxland",
+            "description": "Fruit, lakes and more. The default home of the Boxlings.",
+            "random_location_names": {
+               "000": "The Box O' Vox"
+            }
+         }
       }
    },
    "jobs": {

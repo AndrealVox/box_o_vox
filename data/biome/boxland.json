@@ -1,16 +1,16 @@
 {
-    "type": "biome",
-    "alias": "box_o_vox:biome:boxland",
+   "type": "biome",
+   "alias": "box_o_vox:biome:boxland",
    "display_name": "i18n(box_o_vox:data.biome.boxland.display_name)",
    "description": "i18n(box_o_vox:data.biome.boxland.description)",
    "random_location_names": [
       "i18n(box_o_vox:data.biome.boxland.random_location_names.000)"
    ],
-    "image": "file(images/boxland_400x300.png)",
+   "image": "file(images/boxland_400x300.png)",
    "story_board_image": "file(images/boxland_story_board.png)",
    "game_mode_images": {
-      "stonehearth:game_mode:normal": "file(images/temperate_story_normal.png)",
-      "stonehearth:game_mode:hard": "file(images/temperate_story_normal.png)"
+      "stonehearth:game_mode:normal": "file(images/boxland_story_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/boxland_story_normal.png)"
    },
    "generation_file": "file(boxland_generation_data.json)"
 }

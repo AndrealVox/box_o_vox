@@ -316,9 +316,7 @@
       "stonehearth/entities/loot/dusty_tome/dusty_tome.json": "box_o_vox:wealth:quest_items",
       "stonehearth/entities/monsters/goblins/goblin_flute/broken_flute.json": "box_o_vox:wealth:quest_items",
       "stonehearth/entities/monsters/goblins/goblin_flute/mountains_flute.json": "box_o_vox:wealth:quest_items",
-      "stonehearth/entities/refined/iron_gear/iron_gear.json": "box_o_vox:refined_ore:iron_gear",
-      "female_1": "file(entities/humans/female/female_1.json)",
-      "male_1": "file(entities/humans/male/male_1.json)",
+      "stonehearth/entities/refined/iron_gear/iron_gear.json": "box_o_vox:refined_ore:iron_gear"
    },
    "overrides": {
       "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

@@ -711,6 +711,26 @@
             "unripe_description": "Not yet ripe for harvest.",
             "description": "Harvestable for a meager food supply.",
             "display_name": "Blueberry Bush"
+         },
+         "hemp_plant": {
+            "display_name": "Hemp Seedling",
+            "description": "What a strang plant, it could be useful",
+            "small_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "This plant seems to grow very quickly"
+            },
+            "medium_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "The plants rapid growth and structure makes it appear to be a good source of fiber"
+            },
+            "large_hemp_plant": {
+               "display_name": "Hemp",
+               "description": "Wow, is it growing flowers?"
+            },
+            "flower_hemp_plant": {
+               "display_name": "Hemp Herb",
+               "description": "The herb of this plant seems to be imbued with different magic than the others..."
+            }
          }
       },
       "food": {
@@ -1033,6 +1053,10 @@
             "sunflower": {
                "description": "These flowers can be used to make dye.",
                "display_name": "Sunflower Flower"
+            },
+            "hemp_herb": {
+               "display_name": "Hemp Sack",
+               "description": "These herbs leave your hands and tools coated in sticky residue"
             }
          }
       }

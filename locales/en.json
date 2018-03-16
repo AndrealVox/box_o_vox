@@ -893,6 +893,20 @@
          "salt": {
             "description": "A shaker full of salt",
             "display_name": "Salt"
+         },
+         "blueberry": {
+            "blueberry_basket": {
+               "display_name": "Blueberry Basket",
+               "description": "A basket full of blueberries"
+            },
+            "blueberry_serving": {
+               "description": "An edible blueberry",
+               "display_name": "Blueberry Serving"
+            }
+         },
+         "rotten_blueberry_basket": {
+            "description": "So rotten that it's lost all form and function.",
+            "display_name": "Rotten Blueberry Basket"
          }
       },
       "trees": {

@@ -1,12 +1,12 @@
 {
    "type": "entity",
-    "mixins": [
+   "mixins": [
       "stonehearth:mixins:align_to_grid",
-       "box_o_vox:mixins:plant",
-        "file(seedling_hemp_plant_ghost.json)"
+      "box_o_vox:mixins:plant",
+      "file(seedling_hemp_plant_ghost.json)"
    ],
    "components": {
-       "stonehearth:evolve": {},
+      "stonehearth:evolve": {},
       "model_variants": {
          "default": {
             "models": [

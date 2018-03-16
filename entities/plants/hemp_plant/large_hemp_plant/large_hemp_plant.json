@@ -1,19 +1,19 @@
 {
    "mixins": [
       "stonehearth:mixins:align_to_grid",
-       "box_o_vox:mixins:plant"
+      "box_o_vox:mixins:plant"
    ],
    "type": "entity",
    "components": {
-       "stonehearth:evolve": {},
-       "render_info": {
+      "stonehearth:evolve": {},
+      "render_info": {
          "scale": 0.1
       },
       "model_variants": {
          "default": {
             "models": [
-                     "file(large_hemp_plant.qb)"
-                  ]
+               "file(large_hemp_plant.qb)"
+            ]
          }
       },
       "stonehearth:resource_node": {

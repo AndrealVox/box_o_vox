@@ -5,8 +5,6 @@
     },
     "default_locale": "en",
     "aliases": {
-        "female_1": "file(entities/humans/female/female_1.json)",
-        "male_1": "file(entities/humans/male/male_1.json)",
         "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
         "actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
         "actions:combat:ninja:after_cooldown": "file(ai/actions/combat/ninja/ninja_attack_after_cooldown_action.lua)",
@@ -89,10 +87,9 @@
         "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
         "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
         "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
+        "female_1": "file(entities/humans/female/female_1.json)",
         "food:apple:apple": "file(entities/food/apple/apple)",
         "food:apple:apple_serving": "file(entities/food/apple/apple_serving)",
-        "food:lime:lime": "file(entities/food/lime/lime)",
-        "food:lime:lime_serving": "file(entities/food/lime/lime_serving)",
         "food:apple_pie": "file(entities/food/apple_pie/apple_pie)",
         "food:apple_pie:serving": "file(entities/food/apple_pie/apple_pie_serving)",
         "food:banana:banana": "file(entities/food/banana/banana)",
@@ -110,6 +107,8 @@
         "food:fruit_salad:fruit_salad_serving": "file(entities/food/fruit_salad/fruit_salad_serving)",
         "food:fruit_smoothie": "file(entities/food/fruit_smoothie/fruit_smoothie)",
         "food:fruit_smoothie:fruit_smoothie_serving": "file(entities/food/fruit_smoothie/fruit_smoothie_serving)",
+        "food:lime:lime": "file(entities/food/lime/lime)",
+        "food:lime:lime_serving": "file(entities/food/lime/lime_serving)",
         "food:mash_potatoes": "file(entities/food/mash_potatoes/mash_potatoes)",
         "food:mash_potatoes:mash_potatoes_serving": "file(entities/food/mash_potatoes/mash_potatoes_serving)",
         "food:milk": "file(entities/food/milk)",
@@ -126,8 +125,8 @@
         "food:roast_rack_of_pork": "file(entities/food/roast_rack_of_pork/roast_rack_of_pork)",
         "food:roast_rack_of_pork:roast_rack_of_pork_serving": "file(entities/food/roast_rack_of_pork/roast_rack_of_pork_serving)",
         "food:salt": "file(entities/food/salt)",
-        "food:blueberries:blueberry_basket": "file(entities/food/blueberry/blueberry_basket)",
-        "food:blueberries:blueberry_serving": "file(entities/food/blueberry/blueberry_serving)",
+        "food:blueberry:blueberry_basket": "file(entities/food/blueberry/blueberry_basket)",
+        "food:blueberry:blueberry_serving": "file(entities/food/blueberry/blueberry_serving)",
         "food:strawberry:strawberry_basket": "file(entities/food/strawberry/strawberry_basket)",
         "food:strawberry:strawberry_serving": "file(entities/food/strawberry/strawberry_serving)",
         "food:tomato:tomato_basket": "file(entities/food/tomato/tomato_basket)",
@@ -137,7 +136,7 @@
         "food:rotten:orange": "file(entities/food/orange/orange/rotten_orange.json)",
         "food:rotten:potato_basket": "file(entities/food/potato/potato_basket/rotten_potato_basket.json)",
         "food:rotten:strawberry_basket": "file(entities/food/strawberry/strawberry_basket/rotten_strawberry_basket.json)",
-        "food:rotten:blueberry_basket": "file(entities/food/blueberry/blueberry_basket/blueberry_strawberry_basket.json)",
+        "food:rotten:blueberry_basket": "file(entities/food/blueberry/blueberry_basket/rotten_blueberry_basket.json)",
         "food:rotten:tomato_basket": "file(entities/food/tomato/tomato_basket/rotten_tomato_basket.json)",
         "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
         "humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
@@ -150,6 +149,8 @@
         "kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
         "loadouts": "file(data/loadouts)",
+        "male_1": "file(entities/humans/male/male_1.json)",
+        "mixins:plant": "file(mixins/plant)",
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
@@ -249,8 +250,7 @@
         "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
         "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",
         "weapon:ninja_sword": "file(entities/weapons/ninja_sword/ninja_sword.json)",
-        "weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)",
-        "mixins:plant": "file(mixins/plant)"
+        "weapon:summon_necromancer_tome": "file(jobs/necromancer/necromancer_tome/summon_necromancer_tome.json)"
     },
     "components": {
         "summon": "file(components/summon/summon_component)"
@@ -285,9 +285,9 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-		"betterstorage/manifest.json":"file(modded_mods/betterstorage/manifest.json)",
-        "betterstorage/ui/input_box_filters.json": "file(ui/input_box_filters.json)",
-        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)"
+        "betterstorage/manifest.json": "file(modded_mods/betterstorage/manifest.json)",
+        "betterstorage/ui/input_box_filters.json": "file(ui/box_o_vox_filters.json)",
+        "betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
     },
     "overrides": {
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

@@ -1,18 +1,18 @@
 {
    "mixins": [
       "stonehearth:mixins:align_to_grid",
-       "box_o_vox:mixins:plant"
+      "box_o_vox:mixins:plant"
    ],
    "type": "entity",
    "components": {
-       "render_info": {
+      "render_info": {
          "scale": 0.1
       },
       "model_variants": {
          "default": {
             "models": [
-                     "file(flower_hemp_plant.qb)"
-                  ]
+               "file(flower_hemp_plant.qb)"
+            ]
          }
       },
       "stonehearth:resource_node": {
@@ -27,11 +27,11 @@
                         "count": 5,
                         "weight": 1
                      },
-                      "hemp_fiber": {
+                     "hemp_fiber": {
                         "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
-                          "count": 1,
-                          "weight": 1
-                      }
+                        "count": 1,
+                        "weight": 1
+                     }
                   }
                }
             }

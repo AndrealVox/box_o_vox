@@ -1,0 +1,327 @@
+{
+    "type": "index",
+    "stockpile": {
+        "resources": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+            "filter": "resources",
+            "ordinal": 1,
+            "categories": {}
+        },
+        "ore": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
+            "filter": "ore",
+            "ordinal": 2,
+            "categories": {}
+        },
+        "refined_ore": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
+            "filter": "refined_ore",
+            "ordinal": 3,
+            "categories": {}
+        },
+        "animal_parts": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_animal_parts)",
+            "filter": "animal_parts",
+            "ordinal": 4,
+            "categories": {}
+        },
+        "plants": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_plant)",
+            "filter": "plants",
+            "ordinal": 5,
+            "categories": {
+                "daisy": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.daisy.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.daisy.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/daisy/daisy.png",
+                    "filter": "stockpile_plant daisy"
+                },
+                "firebeard": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.firebeard.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.firebeard.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/firebeard/firebeard.png",
+                    "filter": "stockpile_plant firebeard"
+                },
+                "foxlily": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.foxlily.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.foxlily.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/foxlily/foxlily.png",
+                    "filter": "stockpile_plant foxlily"
+                },
+                "greentea": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.greentea.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.greentea.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/greentea/greentea.png",
+                    "filter": "stockpile_plant greentea"
+                },
+                "hemp_herb": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.hemp_herb.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.hemp_herb.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/hemp_herb/hemp_herb.png",
+                    "filter": "stockpile_plant hemp_herb"
+                },
+                "nightshade": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.nightshade.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.nightshade.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/nightshade/nightshade.png",
+                    "filter": "stockpile_plant nightshade"
+                },
+                "sunflower": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.resources.herb.sunflower.display_name)",
+                    "description": "i18n(box_o_vox:entities.resources.herb.sunflower.description)",
+                    "icon": "/box_o_vox/entities/resources/herb/sunflower/sunflower.png",
+                    "filter": "stockpile_plant sunflower"
+                }
+            }
+        },
+        "refined_weaver": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_weaver)",
+            "filter": "refined_weaver",
+            "ordinal": 6,
+            "categories": {
+                "enchanted_cloth": {
+                    "ordinal": 4,
+                    "display_name": "i18n(box_o_vox:entities.refined.enchanted_cloth.display_name)",
+                    "icon": "/box_o_vox/entities/refined/enchanted_cloth/enchanted_cloth.png",
+                    "filter": "stockpile_refined_weaver enchanted_cloth"
+                }
+            }
+        },
+        "construction": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.construction)",
+            "filter": "construction",
+            "ordinal": 7,
+            "categories": {}
+        },
+        "furniture": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_furniture)",
+            "filter": "furniture",
+            "ordinal": 8,
+            "categories": {}
+        },
+        "equipment": {
+            "display_name": "i18n(box_o_vox:filters.equipment)",
+            "filter": "equipment",
+            "ordinal": 9,
+            "categories": {
+                "cloth_hood": {
+                    "ordinal": 7,
+                    "display_name": "i18n(box_o_vox:entities.armor.cloth_hood.display_name)",
+                    "icon": "/box_o_vox/entities/armor/cloth_hood/cloth_hood.png",
+                    "filter": "stockpile_equipment cloth_hood"
+                },
+                "cloth_robe": {
+                    "ordinal": 8,
+                    "display_name": "i18n(box_o_vox:entities.armor.cloth_robe.display_name)",
+                    "icon": "/box_o_vox/entities/armor/cloth_robe/cloth_robe.png",
+                    "filter": "stockpile_equipment cloth_robe"
+                }
+            }
+        },
+        "consumables": {
+            "display_name": "i18n(box_o_vox:filters.consumables)",
+            "filter": "consumables",
+            "ordinal": 10,
+            "categories": {}
+        },
+        "raw_veggie": {
+            "display_name": "i18n(box_o_vox:filters.raw_veggie)",
+            "filter": "raw_veggie",
+            "ordinal": 11,
+            "categories": {
+                "strawberry": {
+                    "ordinal": 9,
+                    "display_name": "i18n(box_o_vox:entities.plants.strawberry.strawberry_basket.display_name)",
+                    "icon": "/box_o_vox/entities/food/strawberry/strawberry_basket/strawberry_basket.png",
+                    "filter": "stockpile_raw_food strawberry"
+                },
+                "blueberry": {
+                    "ordinal": 10,
+                    "display_name": "i18n(box_o_vox:entities.food.blueberry.blueberry_basket.display_name)",
+                    "icon": "/box_o_vox/entities/food/blueberry/blueberry_basket/blueberry_basket.png",
+                    "filter": "stockpile_raw_food blueberry"
+                },
+                "potato": {
+                    "ordinal": 11,
+                    "display_name": "i18n(box_o_vox:entities.plants.potato.potato_basket.display_name)",
+                    "icon": "/box_o_vox/entities/food/potato/potato_basket/potato_basket.png",
+                    "filter": "stockpile_raw_food potato"
+                },
+                "tomato": {
+                    "ordinal": 12,
+                    "display_name": "i18n(box_o_vox:entities.plants.tomato.tomato_basket.display_name)",
+                    "icon": "/box_o_vox/entities/food/tomato/tomato_basket/tomato_basket.png",
+                    "filter": "stockpile_raw_food tomato"
+                },
+                "apple": {
+                    "ordinal": 13,
+                    "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
+                    "icon": "/box_o_vox/entities/food/apple/apple/apple.png",
+                    "filter": "stockpile_raw_food apple"
+                },
+                "banana": {
+                    "ordinal": 14,
+                    "display_name": "i18n(box_o_vox:entities.food.banana.display_name)",
+                    "icon": "/box_o_vox/entities/food/banana/banana/banana.png",
+                    "filter": "stockpile_raw_food banana"
+                },
+                "orange": {
+                    "ordinal": 15,
+                    "display_name": "i18n(box_o_vox:entities.food.orange.display_name)",
+                    "icon": "/box_o_vox/entities/food/orange/orange/orange.png",
+                    "filter": "stockpile_raw_food orange"
+                }
+            }
+        },
+        "raw_meat": {
+            "display_name": "i18n(box_o_vox:filters.raw_meat)",
+            "filter": "raw_meat",
+            "ordinal": 12,
+            "categories": {
+                "beef": {
+                    "ordinal": 4,
+                    "display_name": "i18n(box_o_vox:entities.food.beef.display_name)",
+                    "icon": "/box_o_vox/entities/food/beef/beef.png",
+                    "filter": "stockpile_cooking_ingredient beef"
+                },
+                "pork": {
+                    "ordinal": 5,
+                    "display_name": "i18n(box_o_vox:entities.food.pork.display_name)",
+                    "icon": "/box_o_vox/entities/food/pork/pork.png",
+                    "filter": "stockpile_cooking_ingredient pork"
+                }
+            }
+        },
+        "prepared_veggie": {
+            "display_name": "i18n(box_o_vox:filters.prepared_veggie)",
+            "filter": "prepared_veggie",
+            "ordinal": 13,
+            "categories": {
+                "mash_potatoes": {
+                    "ordinal": 4,
+                    "display_name": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.display_name)",
+                    "icon": "/box_o_vox/entities/food/mash_potatoes/mash_potatoes/mash_potatoes.png",
+                    "filter": "stockpile_prepared_food mash_potatoes"
+                },
+                "fruit_salad": {
+                    "ordinal": 5,
+                    "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
+                    "icon": "/box_o_vox/entities/food/fruit_salad/fruit_salad/fruit_salad.png",
+                    "filter": "stockpile_prepared_food fruit_salad"
+                },
+                "fruit_smoothie": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.display_name)",
+                    "icon": "/box_o_vox/entities/food/fruit_smoothie/fruit_smoothie/fruit_smoothie.png",
+                    "filter": "stockpile_prepared_food fruit_smoothie"
+                }
+            }
+        },
+        "prepared_meat": {
+            "display_name": "i18n(box_o_vox:filters.prepared_meat)",
+            "filter": "prepared_meat",
+            "ordinal": 14,
+            "categories": {
+                "beef_rib_roast": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.food.beef_rib_roast.beef_rib_roast.display_name)",
+                    "icon": "/box_o_vox/entities/food/beef_rib_roast/beef_rib_roast/beef_rib_roast.png",
+                    "filter": "stockpile_prepared_food beef_rib_roast"
+                },
+                "roast_rack_of_porkroast_rack_of_pork": {
+                    "ordinal": 7,
+                    "display_name": "i18n(box_o_vox:entities.food.roast_rack_of_pork.roast_rack_of_pork.display_name)",
+                    "icon": "/box_o_vox/entities/food/roast_rack_of_pork/roast_rack_of_pork/roast_rack_of_pork.png",
+                    "filter": "stockpile_prepared_food roast_rack_of_pork"
+                }
+            }
+        },
+        "cooking_ingredients": {
+            "display_name": "i18n(box_o_vox:filters.cooking_ingredients)",
+            "filter": "cooking_ingredients",
+            "ordinal": 15,
+            "categories": {
+                "milk": {
+                    "ordinal": 5,
+                    "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",
+                    "icon": "/box_o_vox/entities/food/milk/milk.png",
+                    "filter": "stockpile_cooking_ingredient milk"
+                },
+                "cream": {
+                    "ordinal": 6,
+                    "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",
+                    "icon": "/box_o_vox/entities/food/cream/cream.png",
+                    "filter": "stockpile_cooking_ingredient cream"
+                },
+                "peppercorn": {
+                    "ordinal": 7,
+                    "display_name": "i18n(box_o_vox:entities.food.peppercorn.display_name)",
+                    "icon": "/box_o_vox/entities/food/peppercorn/peppercorn.png",
+                    "filter": "stockpile_cooking_ingredient peppercorn"
+                },
+                "dough": {
+                    "ordinal": 8,
+                    "display_name": "i18n(box_o_vox:entities.food.dough.display_name)",
+                    "icon": "/box_o_vox/entities/food/dough/dough.png",
+                    "filter": "stockpile_cooking_ingredient dough"
+                },
+                "pepper": {
+                    "ordinal": 9,
+                    "display_name": "i18n(box_o_vox:entities.food.pepper.display_name)",
+                    "icon": "/box_o_vox/entities/food/pepper/pepper.png",
+                    "filter": "stockpile_cooking_ingredient pepper"
+                },
+                "pepperoni": {
+                    "ordinal": 10,
+                    "display_name": "i18n(box_o_vox:entities.food.pepperoni.display_name)",
+                    "icon": "/box_o_vox/entities/food/pepperoni/pepperoni.png",
+                    "filter": "stockpile_cooking_ingredient pepperoni"
+                }
+            }
+        },
+        "animal_feed": {
+            "display_name": "i18n(box_o_vox:filters.animal_feed)",
+            "filter": "animal_feed",
+            "ordinal": 16,
+            "categories": {
+                "cow_feed": {
+                    "ordinal": 4,
+                    "display_name": "i18n(box_o_vox:entities.food.cow_feed.display_name)",
+                    "icon": "/box_o_vox/entities/food/cow_feed/cow_feed.png",
+                    "filter": "stockpile_cooking_ingredient animal_feed cow_feed"
+                },
+                "pig_feed": {
+                    "ordinal": 5,
+                    "display_name": "i18n(box_o_vox:entities.food.pig_feed.display_name)",
+                    "icon": "/box_o_vox/entities/food/pig_feed/pig_feed.png",
+                    "filter": "stockpile_cooking_ingredient animal_feed pig_feed"
+                }
+            }
+        },
+        "pile": {
+            "display_name": "i18n(box_o_vox:filters.pile)",
+            "filter": "pile",
+            "ordinal": 17,
+            "categories": {}
+        },
+        "wealth": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.wealth)",
+            "filter": "wealth",
+            "ordinal": 18,
+            "categories": {}
+        },
+        "garbage": {
+            "display_name": "i18n(box_o_vox:filters.garbage)",
+            "filter": "garbage",
+            "ordinal": 19,
+            "categories": {}
+        }
+    }
+}

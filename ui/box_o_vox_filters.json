@@ -177,6 +177,12 @@
                     "display_name": "i18n(box_o_vox:entities.food.orange.display_name)",
                     "icon": "/box_o_vox/entities/food/orange/orange/orange.png",
                     "filter": "stockpile_raw_food orange"
+                },
+                "lime": {
+                    "ordinal": 16,
+                    "display_name": "i18n(box_o_vox:entities.food.lime.display_name)",
+                    "icon": "/box_o_vox/entities/food/lime/lime/lime.png",
+                    "filter": "stockpile_raw_food lime"
                 }
             }
         },

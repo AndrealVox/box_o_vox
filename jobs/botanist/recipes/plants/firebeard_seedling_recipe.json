@@ -7,12 +7,16 @@
     "flavor": "",
     "portrait": "/box_o_vox/entities/plants/firebeard_plant/firebeard_plant.png",
     "workshop": "box_o_vox:botanist:workbench",
-    "level_requirement": 1,
+    "level_requirement": 4,
     "ingredients": [
         {
-            "uri": "box_o_vox:resources:herb:hemp_herb",
+            "uri": "box_o_vox:resources:herb:firebeard",
             "count": 1
-      }
+      },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 1
+        }
    ],
     "produces": [
         {

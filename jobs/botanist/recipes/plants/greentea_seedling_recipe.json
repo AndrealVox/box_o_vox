@@ -7,12 +7,16 @@
     "flavor": "",
     "portrait": "/box_o_vox/entities/plants/greentea_plant/greentea_plant.png",
     "workshop": "box_o_vox:botanist:workbench",
-    "level_requirement": 1,
+    "level_requirement": 3,
     "ingredients": [
         {
-            "uri": "box_o_vox:resources:herb:hemp_herb",
+            "uri": "box_o_vox:resources:herb:greentea",
             "count": 1
-      }
+      },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 1
+        }
    ],
     "produces": [
         {

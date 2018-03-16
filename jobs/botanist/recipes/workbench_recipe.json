@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.botanist_workbench_recipe.recipe_name)",
+   "description": "i18n(box_o_vox:jobs.botanist.recipes.botanist_workbench_recipe.description)",
+   "flavor": "i18n(box_o_vox:jobs.botanist.recipes.botanist_workbench_recipe.flavor)",
+   "portrait": "/box_o_vox/jobs/botanist/botanist_workbench/botanist_workbench.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox:botanist:workbench"
+      }
+   ]
+}

@@ -12,7 +12,11 @@
         {
             "uri": "box_o_vox:resources:herb:hemp_herb",
             "count": 1
-      }
+      },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 1
+        }
    ],
     "produces": [
         {

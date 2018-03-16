@@ -1,22 +1,30 @@
 {
-   "type": "recipe",
-   "effort": 30,
-   "work_units": 1,
-   "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.banana_sapling_recipe.recipe_name)",
-   "description": "i18n(box_o_vox:jobs.botanist.recipes.banana_sapling_recipe.description)",
-   "flavor": "",
-   "portrait": "/box_o_vox/entities/trees/images/banana_sapling.png",
-   "workshop": "box_o_vox:botanist:workbench",
-   "level_requirement": 1,
-   "ingredients": [
-      {
-         "uri": "box_o_vox:food:banana:banana",
-         "count": 1
-      }
+    "type": "recipe",
+    "effort": 30,
+    "work_units": 1,
+    "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.banana_sapling_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.botanist.recipes.banana_sapling_recipe.description)",
+    "flavor": "",
+    "portrait": "/box_o_vox/entities/trees/images/banana_sapling.png",
+    "workshop": "box_o_vox:botanist:workbench",
+    "level_requirement": 6,
+    "ingredients": [
+        {
+            "uri": "box_o_vox:food:banana:banana",
+            "count": 3
+        },
+        {
+            "material": "wood resource",
+            "count": 2
+       },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 1
+       }
    ],
-   "produces": [
-      {
-         "item": "box_o_vox:trees:banana:sapling"
+    "produces": [
+        {
+            "item": "box_o_vox:trees:banana:sapling"
       }
    ]
 }

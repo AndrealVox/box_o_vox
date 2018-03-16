@@ -10,9 +10,13 @@
     "level_requirement": 1,
     "ingredients": [
         {
-            "uri": "box_o_vox:resources:herb:hemp_herb",
+            "uri": "box_o_vox:resources:herb:daisy",
             "count": 1
-      }
+      },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 1
+        }
    ],
     "produces": [
         {

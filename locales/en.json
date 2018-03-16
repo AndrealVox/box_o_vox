@@ -285,7 +285,31 @@
          "botanist_description": {
             "display_name": "Botanist",
             "description": "A plant scientist",
-            "requirements": "Crafted by Mason"
+            "requirements": "Crafted by Mason",
+            "level_1_data": {
+               "perk_000_name": "Novice Botany",
+               "perk_000_description": "Can make the most smallest, basic plants"
+            },
+            "level_2_data": {
+               "perk_000_name": "Apprentice Botany",
+               "perk_000_description": "The Botanist can now experiment with bushes, along with more sensitive plants"
+            },
+            "level_3_data": {
+               "perk_000_name": "Journeyman Botany",
+               "perk_000_description": "The Botanist can now experiment with trees, and plants that were out of reach seem simple now"
+            },
+            "level_4_data": {
+               "perk_000_name": "Expert Botany",
+               "perk_000_description": "The Botanist can now extract dyes. Trees, Bushes and the most sensitive plants are within reach"
+            },
+            "level_5_data": {
+               "perk_000_name": "Adept Botany",
+               "perk_000_description": "The botanist has almost all the knowledge about flora in the area, can extract even the most difficult colors"
+            },
+            "level_6_data": {
+               "perk_000_name": "Master Botany",
+               "perk_000_description": "The Botanist has mastered their craft. Can now extract pure essence from the hemp herb"
+            }
          },
          "recipes": {
             "fruit_tree_name": "Fruit Tree Saplings",
@@ -353,7 +377,14 @@
             "brightbell_seedling_recipe": {
                "recipe_name": "Brightbell",
                "description": "Gives off a glow of life"
-            }
+            },
+            "botanist_workbench_recipe": {
+               "recipe_name": "Botanist Workbench",
+               "description": "The perfect place to experiment with plants",
+               "flavor": "Just imagine all the new plants you can make"
+            },
+            "workbench": "Workbench",
+            "bush_name": "Bushes"
          },
          "botanist_hori-hori": {
             "display_name": "Hori-Hori Knife",

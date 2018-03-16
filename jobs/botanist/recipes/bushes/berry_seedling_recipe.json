@@ -7,12 +7,16 @@
     "flavor": "",
     "portrait": "/stonehearth/entities/plants/berry_bush/berry_bush.png",
     "workshop": "box_o_vox:botanist:workbench",
-    "level_requirement": 1,
+    "level_requirement": 2,
     "ingredients": [
         {
-            "uri": "box_o_vox:resources:herb:hemp_herb",
-            "count": 1
-      }
+            "uri": "stonehearth:food:berries:berry_basket",
+            "count": 2
+      },
+        {
+            "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+            "count": 2
+        }
    ],
     "produces": [
         {

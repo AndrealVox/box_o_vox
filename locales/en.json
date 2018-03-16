@@ -300,6 +300,59 @@
             "orange_sapling_recipe": {
                "description": "A sapling, that when planted will grow into a large fruit tree",
                "recipe_name": "Orange Sapling"
+            },
+            "plants_name": "Plants Seedlings",
+            "lime_sapling_recipe": {
+               "recipe_name": "Lime Sapling",
+               "description": "A sapling, that when planted will grow into a large fruit tree"
+            },
+            "hemp_seedling_recipe": {
+               "recipe_name": "Hemp Seedling",
+               "description": "A mysterious plant with magic properties"
+            },
+            "berry_seedling_recipe": {
+               "recipe_name": "Berry Bush",
+               "description": "Has tasty berries at least once a day"
+            },
+            "blueberry_seedling_recipe": {
+               "recipe_name": "Blueberry Bush",
+               "description": "Tasty berries once a day"
+            },
+            "sunflower_seedling_recipe": {
+               "recipe_name": "Sunflower",
+               "description": "A flower as bright as the sun"
+            },
+            "peppercorn_seedling_recipe": {
+               "recipe_name": "Peppercorn Bush",
+               "description": "Great on any food"
+            },
+            "nightshade_seedling_recipe": {
+               "recipe_name": "Nightshade",
+               "description": "This plant seems to draw you in"
+            },
+            "greentea_seedling_recipe": {
+               "recipe_name": "Greentea",
+               "description": "You can make a very nice beverage with this"
+            },
+            "frostsnap_seedling_recipe": {
+               "recipe_name": "Frostsnap",
+               "description": "Cool to the touch"
+            },
+            "foxlily_seedling_recipe": {
+               "recipe_name": "Foxlily",
+               "description": "This flower reaches for great heights"
+            },
+            "firebeard_seedling_recipe": {
+               "recipe_name": "Firebeard",
+               "description": "Gives off heat around its petals"
+            },
+            "daisy_seedling_recipe": {
+               "recipe_name": "Daisy",
+               "description": "What an easy plant to work with, it seems pure"
+            },
+            "brightbell_seedling_recipe": {
+               "recipe_name": "Brightbell",
+               "description": "Gives off a glow of life"
             }
          },
          "botanist_hori-hori": {

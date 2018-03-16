@@ -45,3 +45,5 @@ A list of things to come and WIP
 
 -Add more gear for specialized classes
 
+-Add A Vox lord campaign
+

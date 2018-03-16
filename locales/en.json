@@ -384,7 +384,40 @@
                "flavor": "Just imagine all the new plants you can make"
             },
             "workbench": "Workbench",
-            "bush_name": "Bushes"
+            "bush_name": "Bushes",
+            "dye_name": "Dyes",
+            "blue_dye_recipe": {
+               "recipe_name": "Blue Dye",
+               "description": "Extracted from Frostsnaps"
+            },
+            "green_dye_recipe": {
+               "recipe_name": "Green Dye",
+               "description": "Extracted from Greentea"
+            },
+            "orange_dye_recipe": {
+               "recipe_name": "Orange Dye",
+               "description": "Extracted from Foxlily"
+            },
+            "pink_dye_recipe": {
+               "recipe_name": "Pink Dye",
+               "description": "Extracted from Brightbells"
+            },
+            "purple_dye_recipe": {
+               "recipe_name": "Purple Dye",
+               "description": "Extracted from Nightshade"
+            },
+            "red_dye_recipe": {
+               "recipe_name": "Red Dye",
+               "description": "Extracted from Firebeard"
+            },
+            "white_dye_recipe": {
+               "recipe_name": "White Dye",
+               "description": "Extracted from Dasies"
+            },
+            "yellow_dye_recipe": {
+               "recipe_name": "Yellow Dye",
+               "description": "Extracted from Sunflowers"
+            }
          },
          "botanist_hori-hori": {
             "display_name": "Hori-Hori Knife",
@@ -629,6 +662,40 @@
          "cooling_liquid": {
             "display_name": "Cooling Liquid",
             "description": "A strange liquid that is very cold."
+         },
+         "dyes": {
+            "blue": {
+               "display_name": "Blue Dye",
+               "description": "Beautiful Blue"
+            },
+            "green": {
+               "display_name": "Green Dye",
+               "description": "Gorgeous Green"
+            },
+            "orange": {
+               "display_name": "Orange Dye",
+               "description": "Outrageous Orange"
+            },
+            "pink": {
+               "display_name": "Pink Dye",
+               "description": "Pretty Pink"
+            },
+            "purple": {
+               "display_name": "Purple Dye",
+               "description": "Pleasing Purple"
+            },
+            "red": {
+               "display_name": "Red Dye",
+               "description": "Racy Red"
+            },
+            "white": {
+               "display_name": "White Dye",
+               "description": "Willing White"
+            },
+            "yellow": {
+               "display_name": "Yellow Dye",
+               "description": "Yelping Yellow"
+            }
          }
       },
       "crops": {
@@ -1182,6 +1249,11 @@
                      "display_name": "Cleric Craft Menu",
                      "description": "Craft potions & bind flesh together to create a Necronomicon",
                      "required_job_text": "Requires a cleric"
+                  },
+                  "botanist": {
+                     "display_name": "Botanist Craft Menu",
+                     "required_job_text": "Requires a Botanist",
+                     "description": "Craft Flora and Dye's"
                   }
                }
             }

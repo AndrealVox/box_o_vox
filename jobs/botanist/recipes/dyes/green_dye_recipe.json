@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 30,
+    "work_units": 1,
+    "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.green_dye_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.botanist.recipes.green_dye_recipe.description)",
+    "flavor": "",
+    "portrait": "/box_o_vox/entities/refined/dyes/dye_green/dye_green.png",
+    "workshop": "box_o_vox:botanist:workbench",
+    "level_requirement": 4,
+    "ingredients": [
+        {
+            "uri": "box_o_vox:resources:herb:greentea",
+            "count": 2
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:refined:dye:green"
+      }
+   ]
+}

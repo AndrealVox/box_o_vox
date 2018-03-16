@@ -72,7 +72,37 @@
                 },
                 "banana_tree": {
                     "recipe": "file(saplings/banana_sapling_recipe.json)"
+                }
+            }
+        },
+        "dyes": {
+            "ordinal": 5,
+            "name": "i18n(box_o_vox:jobs.botanist.recipes.dye_name)",
+            "recipes": {
+                "blue_dye": {
+                    "recipe": "file(dyes/blue_dye_recipe.json)"
                 },
+                "green_dye": {
+                    "recipe": "file(dyes/green_dye_recipe.json)"
+                },
+                "orange_dye": {
+                    "recipe": "file(dyes/orange_dye_recipe.json)"
+                },
+                "pink_dye": {
+                    "recipe": "file(dyes/pink_dye_recipe.json)"
+                },
+                "purple_dye": {
+                    "recipe": "file(dyes/purple_dye_recipe.json)"
+                },
+                "red_dye": {
+                    "recipe": "file(dyes/red_dye_recipe.json)"
+                },
+                "white_dye": {
+                    "recipe": "file(dyes/white_dye_recipe.json)"
+                },
+                "yellow_dye": {
+                    "recipe": "file(dyes/yellow_dye_recipe.json)"
+                }
             }
         }
     }

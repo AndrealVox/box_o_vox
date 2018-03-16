@@ -7,7 +7,7 @@
     "flavor": "",
     "portrait": "/box_o_vox/entities/refined/dyes/dye_blue/dye_blue.png",
     "workshop": "box_o_vox:botanist:workbench",
-    "level_requirement": 4,
+    "level_requirement": 5,
     "ingredients": [
         {
             "uri": "stonehearth:resources:herb:frostsnap",

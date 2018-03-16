@@ -10,7 +10,7 @@
     "level_requirement": 4,
     "ingredients": [
         {
-            "uri": "stonehearth:resources:herb:frostsnap",
+            "uri": "box_o_vox:resources:herb:foxlily",
             "count": 2
       }
    ],

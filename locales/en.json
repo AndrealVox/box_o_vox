@@ -10,7 +10,9 @@
             "carrots": "Carrots",
             "jerky": "Jerky",
             "gold": "Gold",
-            "brightbell": "Brightbell"
+            "brightbell": "Brightbell",
+            "potatoes": "Potatoes",
+            "silkweed_bundle": "Silkweed"
          }
       },
       "buffs": {
@@ -1012,7 +1014,14 @@
             },
             "sapling_lime_tree": {
                "description": "A lime sapling",
-               "display_name": "Lime Tree Sapling"
+               "display_name": "Lime Tree Sapling",
+               "sapling_lime_tree_iconic": {
+                  "description": "Lime Tree Sapling"
+               },
+               "sapling_lime_tree_ghost": {
+                  "display_name": "Lime Tree Sapling",
+                  "description": "A lime sapling"
+               }
             },
             "small_lime_tree": {
                "display_name": "Small Lime Tree",

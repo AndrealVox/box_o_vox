@@ -32,10 +32,10 @@
                "amount": 1
             },
             {
-               "display_name": "i18n(box_o_vox:data.loadouts.items.carrots)",
+               "display_name": "i18n(box_o_vox:data.loadouts.items.potatoes)",
                "type": "entity",
-               "uri": "stonehearth:food:carrot:carrot_basket",
-               "icon": "file(images/items/carrot_basket.png)",
+               "uri": "box_o_vox:food:potato:potato_basket",
+               "icon": "file(images/items/potato_basket.png)",
                "amount": 10
             },
             {
@@ -50,6 +50,13 @@
                "type": "entity",
                "uri": "stonehearth:resources:herb:brightbell",
                "icon": "file(images/items/brightbell.png)",
+               "amount": 30
+            },
+            {
+               "display_name": "i18n(box_o_vox:data.loadouts.items.silkweed_bundle)",
+               "type": "entity",
+               "uri": "stonehearth:resources:fiber:silkweed_bundle",
+               "icon": "file(images/items/silkweed_bundle.png)",
                "amount": 30
             },
             {

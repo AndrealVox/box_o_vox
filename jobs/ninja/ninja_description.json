@@ -19,10 +19,9 @@
    "roles": "ninja_job melee_combat combat",
    "promotion_activity_name": "promote_ninja",
    "task_groups": [
-      "stonehearth:task_group:common_tasks",
-      "stonehearth:task_group:restock",
-      "stonehearth:task_group:rescue",
-      "stonehearth:task_group:patrolling"
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
    ],
    "xp_rewards": {
       "town_protection": 1

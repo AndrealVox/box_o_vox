@@ -33,17 +33,12 @@ ______________________________________________________________________________
 # to-do
 A list of things to come and WIP
 
--Botanist Recipies( Almost done )
-
-    - better gear from tailor and blacksmith
+    -Add A Vox lord campaign
     
-    - Think about enchanter at future date
+    -Better gear from tailor and blacksmith
     
--Add hemp classes for enchanted fibers
+    -Think about enchanter at future date
+    
+    -Add hemp classes for enchanted fibers
 
--Check ninja stability
-
--Add more gear for specialized classes
-
--Add A Vox lord campaign
-
+    -Add more gear for specialized classes

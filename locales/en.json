@@ -79,6 +79,18 @@
                "000": "The Box O' Vox"
             }
          }
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "box_o_vox": {
+                  "display_name": "Boxling",
+                  "categories": {
+                     "camp": "Settlement"
+                  }
+               }
+            }
+         }
       }
    },
    "jobs": {

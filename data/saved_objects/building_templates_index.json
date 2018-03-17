@@ -1,61 +1,41 @@
 {
-   "type": "index",
-   "template_tabs": {
-      "ascendancy": {
-         "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
-         "required_kingdom": "stonehearth:kingdoms:ascendancy",
-         "categories": {
-            "camp": {
-               "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.camp)",
-               "ordinal": 1,
-               "templates": {
-                  "necromancer_house": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "box_o_vox:jobs:necromancer"
-                     },
-                     "file": "file(building_templates/necromancer_house.json)"
-                  },
-                  "small_red_fort": {
-                     "file": "file(building_templates/small_red_fort.json)"
-                  },
-                  "red_house_for_two": {
-                     "file": "file(building_templates/red_house_for_two.json)"
-                  },
-                  "red_banquet_hall": {
-                     "file": "file(building_templates/red_banquet_hall.json)"
-                  }
-               }
+    "type": "index",
+    "template_tabs": {
+        "ascendancy": {
+            "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
+            "required_kingdom": "box_o_vox:kingdoms:boxling"
+        },
+        "boxling": {
+            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
+            "required_kingdom": "box_o_vox:kingdoms:boxling",
+            "categories": {
+                "settlement": {
+                    "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
+                    "ordinal": 1,
+                    "templates": {
+                        "necromancer_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "box_o_vox:jobs:necromancer"
+                            },
+                            "file": "file(building_templates/necromancer_house.json)"
+                        },
+                        "small_red_fort": {
+                            "file": "file(building_templates/small_red_fort.json)"
+                        },
+                        "red_house_for_two": {
+                            "file": "file(building_templates/red_house_for_two.json)"
+                        },
+                        "red_banquet_hall": {
+                            "file": "file(building_templates/red_banquet_hall.json)"
+                        }
+                    }
+                }
             }
-         }
-      },
-      "rayyas_children": {
-         "display_name": "i18n(rayyas_children:data.saved_objects.building_templates_index.template_tabs.rayyas_children.display_name)",
-         "required_kingdom": "rayyas_children:kingdoms:rayyas_children",
-         "categories": {
-            "outpost": {
-               "display_name": "i18n(rayyas_children:data.saved_objects.building_templates_index.template_tabs.rayyas_children.categories.outpost)",
-               "ordinal": 1,
-               "templates": {
-                  "necromancer_house": {
-                     "unlock_requirement": {
-                        "type": "has_job",
-                        "value": "box_o_vox:jobs:necromancer"
-                     },
-                     "file": "file(building_templates/necromancer_house.json)"
-                  },
-                  "small_red_fort": {
-                     "file": "file(building_templates/small_red_fort.json)"
-                  },
-                  "red_house_for_two": {
-                     "file": "file(building_templates/red_house_for_two.json)"
-                  },
-                  "red_banquet_hall": {
-                     "file": "file(building_templates/red_banquet_hall.json)"
-                  }
-               }
-            }
-         }
-      }
-   }
+        },
+        "rayyas_children": {
+            "display_name": "i18n(rayyas_children:data.saved_objects.building_templates_index.template_tabs.rayyas_children.display_name)",
+            "required_kingdom": "box_o_vox:kingdoms:boxling"
+        }
+    }
 }

@@ -297,6 +297,7 @@
         "/stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
         "/stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
         "/stonehearth/jobs/engineer/recipes/recipes.json": "file(jobs/engineer/recipes/recipes.json)",
+        "/stonehearth/jobs/herbalist/recipes/recipes.json": "file(jobs/herbalist/recipes/recipes.json)",
         "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
         "/stonehearth/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/recipes.json)",
         "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",

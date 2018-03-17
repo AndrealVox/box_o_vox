@@ -1,0 +1,26 @@
+{
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(flask.qb)"
+            ]
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": -0.05,
+                "y": 0,
+                "z": 0.05
+            }
+        },
+        "stonehearth:projectile": {}
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.mixtures.basic.display_name)",
+            "description": "i18n(box_o_vox:entities.mixtures.basic.description)"
+        }
+    }
+}

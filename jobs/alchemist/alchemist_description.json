@@ -15,12 +15,11 @@
         "torso": "file(alchemist_outfit)",
         "mainhand": "box_o_vox:alchemist:flask"
     },
-    "roles": "alchemist_job combat crafter",
+    "roles": "alchemist_job ranged_combat combat crafter",
     "promotion_activity_name": "promote_alchemist",
     "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:healing",
       "stonehearth:task_groups:rescue",
       "stonehearth:task_groups:crafting"
    ],

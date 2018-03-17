@@ -159,6 +159,7 @@
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
+        "mixture:basic": "file(jobs/alchemist/mixtures/basic)",
         "necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
         "necromancer:pages:golem": "file(jobs/necromancer/pages/golem_page.json)",
         "necromancer:pages:golem_kid": "file(jobs/necromancer/pages/golem_kid_page.json)",

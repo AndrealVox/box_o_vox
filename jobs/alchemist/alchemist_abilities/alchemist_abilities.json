@@ -1,30 +1,29 @@
 {
-   "type": "entity",
-   "components": {
-      "stonehearth:equipment_piece": {
-         "injected_ai": {
-            "ai_packs": [
+    "type": "entity",
+    "components": {
+        "stonehearth:equipment_piece": {
+            "injected_ai": {
+                "ai_packs": [
                "stonehearth:ai_pack:crafting",
                "stonehearth:ai_pack:patrolling",
                "stonehearth:ai_pack:wimpy",
                "stonehearth:ai_pack:panic:flee",
                "stonehearth:ai_pack:combat_control",
-               "stonehearth:ai_pack:healing",
-               "stonehearth:ai_pack:healing_combat"
+               "stonehearth:ai_pack:ranged_combat",
             ]
-         },
-         "military_score": 10
-      }
-   },
-   "entity_data": {
-      "stonehearth:combat:healing_spells": [
-         {
-            "name": "combat_heal",
-            "effect": "combat_1h_heal",
-            "active_frame": 85,
-            "cooldown": 0,
-            "priority": 0
+            },
+            "military_score": 30
+        }
+    },
+    "entity_data": {
+        "stonehearth:combat:ranged_attacks": [
+            {
+                "name": "archer_default_shot",
+                "effect": "archer_1h_shoot",
+                "active_frame": 41,
+                "cooldown": 0,
+                "priority": 0
          }
       ]
-   }
+    }
 }

@@ -1,23 +1,23 @@
 {
-   "type": "recipe",
-   "work_units": 3,
-   "recipe_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.display_name)",
-   "description": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.description)",
-   "portrait": "/box_o_vox/entities/food/fruit_smoothie/fruit_smoothie/fruit_smoothie.png",
-   "workshop": "stonehearth:cook:workbench",
-   "ingredients": [
-      {
-         "material": "food_container raw_food fruit",
-         "count": 3
+    "type": "recipe",
+    "work_units": 3,
+    "recipe_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.display_name)",
+    "description": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie.description)",
+    "portrait": "/box_o_vox/entities/food/fruit_smoothie/fruit_smoothie/fruit_smoothie.png",
+    "workshop": "stonehearth:cook:workbench",
+    "ingredients": [
+        {
+            "material": "fruit",
+            "count": 3
       },
-      {
-         "uri": "box_o_vox:food:cream",
-         "count": 1
+        {
+            "uri": "box_o_vox:food:cream",
+            "count": 1
       }
    ],
-   "produces": [
-      {
-         "item": "box_o_vox:food:fruit_smoothie"
+    "produces": [
+        {
+            "item": "box_o_vox:food:fruit_smoothie"
       }
    ]
 }

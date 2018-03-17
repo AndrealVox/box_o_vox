@@ -723,7 +723,7 @@
                }
             },
             "display_name": "Potato",
-            "description": "a starchy plant that is one of the most important crops"
+            "description": "A starchy plant that is one of the most important crops"
          },
          "tomato_crop": {
             "growth_stage": {
@@ -765,7 +765,7 @@
                }
             },
             "display_name": "Tomato",
-            "description": "a glossy red edible fruit that is typically eaten as a vegetable"
+            "description": "A glossy red edible fruit that is typically eaten as a vegetable"
          },
          "strawberry_crop": {
             "growth_stage": {

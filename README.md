@@ -42,3 +42,10 @@ A list of things to come and WIP
     -Add hemp classes for enchanted fibers
 
     -Add more gear for specialized classes
+    
+    -Add customization to hearthling
+    
+    -Add ability to chop down small/medium/large banana tree
+    
+    -Add small amout of plants to temperate and desert biomes accordingly
+    

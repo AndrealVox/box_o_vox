@@ -1,0 +1,34 @@
+{
+    "mixins": "stonehearth:mixins:placed_object",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(alchemist_bench.qb)"
+            ]
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "region_origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:hide_child_entities_from_pathfinder": true,
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:jobs.alchemist.alchemist_workbench.alchemist_workbench_ghost.display_name)",
+            "description": "i18n(box_o_vox:jobs.alchemist.alchemist_workbench.alchemist_workbench_ghost.description)",
+            "icon": "file(alchemist_workbench.png)",
+            "category": "workshops",
+            "material_tags": "stockpile_tool"
+        }
+    }
+}

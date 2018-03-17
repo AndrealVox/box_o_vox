@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 120,
+    "work_units": 10,
+    "recipe_name": "i18n(box_o_vox:jobs.herbalist.recipes.alchemist_flask_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.herbalist.recipes.alchemist_flask_recipe.description)",
+    "flavor": "",
+    "portrait": "/stonehearth/jobs/cleric/cleric_tome/cleric_tome.png",
+    "workshop": "stonehearth:herbalist:workbench",
+    "level_requirement": 2,
+    "ingredients": [
+        {
+            "material": "herb resource",
+            "count": 1
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:alchemist:talisman"
+      }
+   ]
+}

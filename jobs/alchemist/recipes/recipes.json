@@ -1,0 +1,13 @@
+{
+    "craftable_recipes": {
+        "workbench": {
+            "ordinal": 1,
+            "name": "i18n(box_o_vox:jobs.botanist.recipes.workbench)",
+            "recipes": {
+                "alchemist_workbench": {
+                    "recipe": "file(workbench_recipe.json)"
+                }
+            }
+        }
+    }
+}

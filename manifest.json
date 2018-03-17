@@ -20,6 +20,10 @@
         "actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
         "ai_pack:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
         "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
+        "alchemist:flask": "file(jobs/alchemist/alchemist_flask/alchemist_flask.json)",
+        "alchemist:outfit": "file(jobs/alchemist/alchemist_outfit)",
+        "alchemist:talisman": "file(jobs/alchemist/alchemist_flask/alchemist_flask_talisman.json)",
+        "alchemist:workbench": "file(jobs/alchemist/alchemist_workbench)",
         "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
         "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
         "biome:boxland": "file(data/biome/boxland.json)",
@@ -141,6 +145,7 @@
         "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
         "humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
         "humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
+        "jobs:alchemist": "file(jobs/alchemist/alchemist_description.json)",
         "jobs:botanist": "file(jobs/botanist/botanist_description.json)",
         "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
         "jobs:index": "file(jobs/index.json)",
@@ -305,6 +310,7 @@
         "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
     },
     "controllers": {
+        "class:alchemist": "file(jobs/alchemist/alchemist.lua)",
         "class:botanist": "file(jobs/botanist/botanist.lua)",
         "class:cleric": "file(jobs/cleric/cleric.lua)",
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)",

@@ -19,6 +19,9 @@
                                 "value": "box_o_vox:jobs:necromancer"
                             },
                             "file": "file(building_templates/necromancer_house.json)"
+                        },
+                        "banquet_hall": {
+                            "file": "file(building_templates/banquet_hall.json)"
                         }
                     }
                 }

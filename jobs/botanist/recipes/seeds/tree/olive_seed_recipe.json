@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 30,
+    "work_units": 1,
+    "recipe_name": "i18n(box_o_vox:jobs.botanist.recipes.blue_dye_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.botanist.recipes.blue_dye_recipe.description)",
+    "flavor": "",
+    "portrait": "/box_o_vox/entities/refined/dyes/dye_blue/dye_blue.png",
+    "workshop": "box_o_vox:botanist:workbench",
+    "level_requirement": 5,
+    "ingredients": [
+        {
+            "uri": "stonehearth:resources:herb:frostsnap",
+            "count": 2
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:refined:dye:blue"
+      }
+   ]
+}

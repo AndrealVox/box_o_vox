@@ -6,6 +6,8 @@
     "default_locale": "en",
     "aliases": {
         "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
+
+
         "actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
         "actions:combat:ninja:after_cooldown": "file(ai/actions/combat/ninja/ninja_attack_after_cooldown_action.lua)",
         "actions:combat:ninja:by_moving_to_targetable_location": "file(ai/actions/combat/ninja/ninja_attack_by_moving_to_targetable_location_action.lua)",
@@ -18,24 +20,40 @@
         "actions:combat:summon:by_pathing_to_target": "file(ai/actions/combat/summon/summon_by_pathing_to_target_action.lua)",
         "actions:combat:summon:execute_summon": "file(ai/actions/combat/summon/execute_summon_action.lua)",
         "actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
+
+
         "ai_pack:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
         "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
+
+
         "alchemist:flask": "file(jobs/alchemist/alchemist_flask/alchemist_flask.json)",
         "alchemist:outfit": "file(jobs/alchemist/alchemist_outfit)",
         "alchemist:talisman": "file(jobs/alchemist/alchemist_flask/alchemist_flask_talisman.json)",
         "alchemist:workbench": "file(jobs/alchemist/alchemist_workbench)",
+
+
         "armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
         "armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
+
+
         "biome:boxland": "file(data/biome/boxland.json)",
+
+
         "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
+
+
         "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
         "botanist:hori-hori": "file(jobs/botanist/botanist_hori-hori/botanist_hori-hori.json)",
         "botanist:magnify_glass": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass.json)",
         "botanist:talisman": "file(jobs/botanist/botanist_hori-hori/botanist_hori-hori_talisman.json)",
         "botanist:workbench": "file(jobs/botanist/botanist_workbench)",
+
+
         "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
         "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
         "buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
+
+
         "build:brushes:pattern:vox_cobblestone": "file(data/build/brushes/pattern/vox_cobblestone/vox_cobblestone.qb)",
         "build:brushes:roof:vox_blue_castle": "file(data/build/brushes/roof/vox_blue_castle/vox_blue_castle.qb)",
         "build:brushes:roof:vox_blue_roof": "file(data/build/brushes/roof/vox_blue_roof/vox_blue_roof.qb)",
@@ -49,7 +67,11 @@
         "build:brushes:wall:purple_stone_wall": "file(data/build/brushes/wall/purple_stone_wall/purple_stone_wall.qb)",
         "build:brushes:wall:red_wood_wall": "file(data/build/brushes/wall/red_wood_wall/red_wood_wall.qb)",
         "building_templates:index": "file(data/saved_objects/building_templates_index.json)",
+
+
         "cleric:workbench": "file(jobs/cleric/cleric_workbench)",
+
+
         "commands:necromancer_summons:golem": "file(data/commands/necromancer_summons/golem_summon.json)",
         "commands:necromancer_summons:golem_kid": "file(data/commands/necromancer_summons/golem_kid_summon.json)",
         "commands:necromancer_summons:necromancer": "file(data/commands/necromancer_summons/necromancer_summon.json)",
@@ -57,18 +79,28 @@
         "commands:necromancer_summons:skeleton_kid": "file(data/commands/necromancer_summons/skeleton_kid_summon.json)",
         "commands:necromancer_summons:zombie": "file(data/commands/necromancer_summons/zombie_summon.json)",
         "commands:necromancer_summons:zombie_kid": "file(data/commands/necromancer_summons/zombie_kid_summon.json)",
+
+
         "containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
         "containers:equipment_crate": "file(entities/containers/equipment_crate)",
         "containers:food_crate": "file(entities/containers/food_crate)",
         "containers:furniture_crate": "file(entities/containers/furniture_crate)",
         "containers:resources_crate": "file(entities/containers/resources_crate)",
         "containers:treasure_crate": "file(entities/containers/treasure_crate)",
+
+
         "cook:recipes": "file(jobs/cook/recipes)",
+
+
         "cow": "file(entities/critters/cow)",
         "cow:young": "file(entities/critters/cow/cow_young.json)",
+
+
         "crops:potato_crop": "file(entities/crops/potato_crop)",
         "crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
         "crops:tomato_crop": "file(entities/crops/tomato_crop)",
+
+
         "decoration:bathtub": "file(entities/decoration/bathtub)",
         "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
         "decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
@@ -86,6 +118,8 @@
         "decoration:sink": "file(entities/decoration/sink)",
         "decoration:toilet": "file(entities/decoration/toilet)",
         "decoration:wall_clock": "file(entities/decoration/wall_clock)",
+
+
         "effects:blue_road_lamp_effect": "file(data/effects/road_lamp_effect/blue_road_lamp_effect.json)",
         "effects:fireplace_effect": "file(data/effects/fireplace_effect/fireplace_effect.json)",
         "effects:green_road_lamp_effect": "file(data/effects/road_lamp_effect/green_road_lamp_effect.json)",
@@ -93,8 +127,14 @@
         "effects:red_road_lamp_effect": "file(data/effects/road_lamp_effect/red_road_lamp_effect.json)",
         "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
         "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
+
+
         "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
+
+
         "female_1": "file(entities/humans/female/female_1.json)",
+
+
         "food:apple:apple": "file(entities/food/apple/apple)",
         "food:apple:apple_serving": "file(entities/food/apple/apple_serving)",
         "food:apple_pie": "file(entities/food/apple_pie/apple_pie)",
@@ -145,24 +185,38 @@
         "food:rotten:strawberry_basket": "file(entities/food/strawberry/strawberry_basket/rotten_strawberry_basket.json)",
         "food:rotten:blueberry_basket": "file(entities/food/blueberry/blueberry_basket/rotten_blueberry_basket.json)",
         "food:rotten:tomato_basket": "file(entities/food/tomato/tomato_basket/rotten_tomato_basket.json)",
+
+
         "furniture:red_wood_bed": "file(entities/furniture/red_wood_bed)",
+
+
         "humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
         "humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
+
+
         "jobs:alchemist": "file(jobs/alchemist/alchemist_description.json)",
         "jobs:botanist": "file(jobs/botanist/botanist_description.json)",
         "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
         "jobs:index": "file(jobs/index.json)",
         "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
         "jobs:ninja": "file(jobs/ninja/ninja_description.json)",
+
+
         "kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
+
+
         "loadouts": "file(data/loadouts)",
+
         "male_1": "file(entities/humans/male/male_1.json)",
+
         "mixins:plant": "file(mixins/plant)",
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
         "mixture:basic": "file(jobs/alchemist/mixtures/basic)",
+
+
         "necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
         "necromancer:pages:golem": "file(jobs/necromancer/pages/golem_page.json)",
         "necromancer:pages:golem_kid": "file(jobs/necromancer/pages/golem_kid_page.json)",
@@ -179,10 +233,16 @@
         "necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
         "necromancer:spells:zombie_kid": "file(jobs/necromancer/pages/zombie_kid_summon_page.json)",
         "necromancer_tome:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
+
+
         "ninja:abilities:ninja_star_throw": "file(jobs/ninja/ninja_abilities/ninja_star_throw.json)",
         "ninja_sword:talisman": "file(entities/weapons/ninja_sword/ninja_sword_talisman.json)",
+
+
         "pig": "file(entities/critters/pig)",
         "pig:young": "file(entities/critters/pig/pig_young.json)",
+
+
         "plants:daisy": "file(entities/plants/daisy_plant)",
         "plants:firebeard": "file(entities/plants/firebeard_plant)",
         "plants:foxlily": "file(entities/plants/foxlily_plant)",
@@ -196,15 +256,21 @@
         "plants:hemp_plant:medium": "file(entities/plants/hemp_plant/medium_hemp_plant)",
         "plants:hemp_plant:large": "file(entities/plants/hemp_plant/large_hemp_plant)",
         "plants:hemp_plant:flower": "file(entities/plants/hemp_plant/flower_hemp_plant)",
+
+
         "portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
         "portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
         "portals:stone_door": "file(entities/construction/stone_door)",
         "portals:stone_door:fine": "file(entities/construction/stone_door_fine/stone_door_fine.json)",
         "portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
         "portals:stone_window_frame_tall:fine": "file(entities/construction/stone_window_frame_tall_fine/stone_window_frame_tall_fine.json)",
+
+
         "potter:recipes:bathtub": "file(jobs/potter/recipes/bathtub_recipe.json)",
         "potter:recipes:sink": "file(jobs/potter/recipes/sink_recipe.json)",
         "potter:recipes:toilet": "file(jobs/potter/recipes/toilet_recipe.json)",
+
+
         "refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
         "refined:dye:blue": "file(entities/refined/dyes/dye_blue)",
         "refined:dye:green": "file(entities/refined/dyes/dye_green)",
@@ -215,6 +281,8 @@
         "refined:dye:white": "file(entities/refined/dyes/dye_white)",
         "refined:dye:yellow": "file(entities/refined/dyes/dye_yellow)",
         "refined:enchanted_cloth": "file(entities/refined/enchanted_cloth)",
+
+
         "resources:fiber:hemp_fiber_bundle": "file(entities/resources/fiber/hemp_fiber_bundle)",
         "resources:herb:daisy": "file(entities/resources/herb/daisy)",
         "resources:herb:firebeard": "file(entities/resources/herb/firebeard)",
@@ -223,10 +291,16 @@
         "resources:herb:hemp_herb": "file(entities/resources/herb/hemp_herb)",
         "resources:herb:nightshade": "file(entities/resources/herb/nightshade)",
         "resources:herb:sunflower": "file(entities/resources/herb/sunflower)",
+
+
         "resource_constants": "file(data/resource_constants.json)",
+
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
+
         "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
+
         "startmenu": "file(data/ui/start_menu.json)",
+
         "summon:golem": "file(entities/summon/golem/golem_summon.json)",
         "summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",
         "summon:necromancer": "file(entities/summon/necromancer/necromancer_summon.json)",
@@ -234,6 +308,8 @@
         "summon:skeleton_kid": "file(entities/summon/skeleton_kid/skeleton_kid_summon.json)",
         "summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
         "summon:zombie_kid": "file(entities/summon/zombie_kid/zombie_kid_summon.json)",
+
+
         "summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
         "summon_tuning:necromancer:summoner_golem_kid": "file(data/summon_tuning/necromancer/summoner_golem_kid.json)",
         "summon_tuning:necromancer:summoner_necromancer": "file(data/summon_tuning/necromancer/summoner_necromancer.json)",
@@ -242,8 +318,12 @@
         "summon_tuning:necromancer:summoner_zombie": "file(data/summon_tuning/necromancer/summoner_zombie.json)",
         "summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
         "summons:undead:necromancer": "file(entities/summon/necromancer/necromancer.json)",
+
+
         "traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
         "traits:passion_ninja": "file(data/traits/passion_ninja/passion_ninja_trait.json)",
+
+
         "trees:apple:ancient": "file(entities/trees/apple_tree)",
         "trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)",
         "trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
@@ -264,6 +344,8 @@
         "trees:lime:medium": "file(entities/trees/lime_tree/medium_lime_tree)",
         "trees:lime:large": "file(entities/trees/lime_tree/large_lime_tree)",
         "trees:lime:sapling": "file(entities/trees/lime_tree/sapling_lime_tree)",
+
+
         "weapon:flame_skull": "file(entities/weapons/flame_skull)",
         "weapon:necromancer_tome": "file(jobs/necromancer/necromancer_tome/necromancer_tome.json)",
         "weapon:ninja_star": "file(entities/weapons/ninja_star/ninja_star.json)",
@@ -275,17 +357,29 @@
     },
     "mixintos": {
         "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
+
         "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
+
         "stonehearth:biome:index": "file(data/biome/index.json)",
+
         "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)",
         "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
+
+
         "stonehearth:jobs:index": "file(jobs/index.json)",
+
         "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
+
         "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
+
         "stonehearth:loadouts": "file(data/loadouts)",
+
+
         "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
         "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
         "/stonehearth/data/ui/start_menu.json": "box_o_vox:startmenu",
+
+
         "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.json": "file(entities/resources/coal/lump_of_coal/lump_of_coal.json)",
         "/stonehearth/entities/resources/wood/acacia_log/acacia_log.json": "file(entities/resources/wood/all_logs.json)",
         "/stonehearth/entities/resources/wood/cactus_log/cactus_log.json": "file(entities/resources/wood/all_logs.json)",
@@ -293,6 +387,8 @@
         "/stonehearth/entities/resources/wood/oak_log/oak_log.json": "file(entities/resources/wood/all_logs.json)",
         "/stonehearth/entities/resources/wood/palm_log/palm_log.json": "file(entities/resources/wood/all_logs.json)",
         "/stonehearth/entities/resources/wood/pine_log/pine_log.json": "file(entities/resources/wood/all_logs.json)",
+
+
         "/stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
         "/stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
         "/stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
@@ -301,17 +397,22 @@
         "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
         "/stonehearth/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/recipes.json)",
         "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
+
+
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-        "betterstorage/manifest.json": "file(modded_mods/betterstorage/manifest.json)",
-        "betterstorage/ui/input_box_filters.json": "file(ui/box_o_vox_filters.json)",
-        "betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
+
+
+        "/betterstorage/ui/input_box_filters.json": "file(box_o_vox_filters.json)",
+        "/betterstorage/ui/stockpile_filters.json": "file(box_o_vox_filters.json)"
     },
     "overrides": {
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
+
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
+
         "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
     },
     "controllers": {

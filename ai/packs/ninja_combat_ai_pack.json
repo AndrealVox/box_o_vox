@@ -6,7 +6,7 @@
         "box_o_vox:actions:combat:ninja:by_moving_to_targetable_location",
         "box_o_vox:actions:combat:ninja:from_current_location",
         "box_o_vox:actions:combat:ninja:execute_ninja_attack",
-      "stonehearth:actions:combat:idle:kite"
+        "stonehearth:actions:combat:idle:kite"
     ],
     "observers": [
         

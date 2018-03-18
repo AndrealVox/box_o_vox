@@ -20,7 +20,7 @@
             "durability": 5,
             "resource_loot_table": {
                 "entries": {
-                    "resouces": {
+                    "resources": {
                         "items": {
                             "hemp_herb": {
                                 "uri": "box_o_vox:resources:herb:hemp_herb",

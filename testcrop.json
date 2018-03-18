@@ -1,0 +1,37 @@
+{
+      "box_o_vox:crop": {
+         "resource_table": {
+            "potato_4": {
+                "resource": "box_o_vox:resources:herb:hemp_herb",
+                "resource_loot_table": {
+                    "entries": {
+                        "resources": {
+                            "items": {
+                            "hemp_herb": {
+                                "uri": "box_o_vox:resources:herb:hemp_herb",
+                                "count": 5,
+                                "weight": 2
+                            },
+                            "hemp_fiber": {
+                                "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+                                "count": 1,
+                                "weight": 1
+                            }
+                            }
+                        }
+                    }
+                }
+            },
+            "potato_12": ""
+         },
+          "pruning_pairings": {
+              "potato_1": false,
+              "potato_2": true,
+              "potato_3": false,
+              "potato_4": false
+         },
+         "harvest_threshhold": "potato_4",
+         "renew_stage": "potato_2",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+}

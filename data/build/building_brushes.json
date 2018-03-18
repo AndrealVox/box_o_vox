@@ -3,7 +3,7 @@
     "always_available": {
         "stone resource": {
             "colors": {
-                "#344813": {
+                "#344913": {
                     "display_name": "Vox Green 1",
                     "ordinal": 26
                 },
@@ -11,11 +11,11 @@
                     "display_name": "Vox Green 2",
                     "ordinal": 27
                 },
-                "#587a20": {
+                "#587A20": {
                     "display_name": "Vox Green 3",
                     "ordinal": 28
                 },
-                "#481334": {
+                "#491334": {
                     "display_name": "Vox Purple 1",
                     "ordinal": 29
                 },
@@ -23,7 +23,7 @@
                     "display_name": "Vox Purple 2",
                     "ordinal": 30
                 },
-                "#7a2058": {
+                "#7A2057": {
                     "display_name": "Vox Purple 3",
                     "ordinal": 31
                 },
@@ -75,7 +75,7 @@
                     "display_name": "Vox Red 2",
                     "ordinal": 36
                 },
-                "#ad0000": {
+                "#AD0000": {
                     "display_name": "Vox Red 3",
                     "ordinal": 37
                 }

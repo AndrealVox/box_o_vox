@@ -9,7 +9,7 @@
                 "box_o_vox:portals:solid_stone_door": 1,
                 "stonehearth:decoration:wooden_sign_cook": 1,
                 "stonehearth:cook:oven": 1,
-                "stonehearth:portals:wooden_window_frame_wide": 1,
+                "box_o_vox:portals:stone_window_frame_wide": 1,
                 "stonehearth:furniture:stone_table": 14,
                 "box_o_vox:portals:stone_window_frame_tall": 18,
                 "stonehearth:cook:workbench": 1,
@@ -15719,9 +15719,9 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "stonehearth:portals:wooden_window_frame_wide"
+                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide"
                         },
-                        "uri": "\/stonehearth\/entities\/construction\/wooden_window_frame_wide\/wooden_window_frame_wide_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 309199,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"

@@ -13,7 +13,7 @@
     "abilities": "file(alchemist_abilities)",
     "equipment": {
         "torso": "file(alchemist_outfit)",
-        "mainhand": "box_o_vox:alchemist:flask"
+        "offhand": "box_o_vox:alchemist:flask"
     },
     "roles": "alchemist_job ranged_combat combat crafter",
     "promotion_activity_name": "promote_alchemist",

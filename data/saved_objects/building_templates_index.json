@@ -9,15 +9,15 @@
                     "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
                     "ordinal": 1,
                     "templates": {
+                        "banquet_hall": {
+                            "file": "file(building_templates/banquet_hall.json)"
+                        },
                         "necromancer_house": {
                             "unlock_requirement": {
                                 "type": "has_job",
                                 "value": "box_o_vox:jobs:necromancer"
                             },
                             "file": "file(building_templates/necromancer_house.json)"
-                        },
-                        "banquet_hall": {
-                            "file": "file(building_templates/banquet_hall.json)"
                         }
                     }
                 },

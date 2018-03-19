@@ -5,31 +5,31 @@
         "dirt": [
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 8",
-                "width": 8,
+                "width": 4,
                 "name": "dirt_edge_1"
          }
       ],
         "grass": [
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 4",
-                "width": 4,
+                "width": 6,
                 "name": "grass_edge_1"
          },
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 6",
-                "width": 6,
+                "width": 8,
                 "name": "grass_edge_2"
          }
       ],
         "grass_hills": [
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 3",
-                "width": 3,
+                "width": 2,
                 "name": "grass_hills_edge_1"
          },
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 5",
-                "width": 5,
+                "width": 3,
                 "name": "grass_hills_edge_2"
          }
       ]
@@ -39,25 +39,25 @@
         "spring": {
             "null": "#ff00ff",
             "unknown": "#25221a",
-            "bedrock": "#514e45",
-            "rock_layer_1": "#6B6860",
-            "rock_layer_2": "#76726b",
-            "rock_layer_3": "#82807b",
-            "rock_layer_4": "#918d86",
-            "rock_layer_5": "#b3b0aa",
-            "rock_layer_6": "#c1c0bb",
-            "rock_layer_7": "#c1c0bb",
-            "rock_layer_8": "#c1c0bb",
-            "soil_light": "#918154",
-            "soil_dark": "#807147",
-            "dirt": "#B3A16E",
-            "dirt_edge_1": "#A29161",
-            "grass": "#8BB270",
-            "grass_edge_1": "#AFCC7C",
-            "grass_edge_2": "#9DBF76",
-            "grass_hills": "#75b370",
-            "grass_hills_edge_1": "#99ce7c",
-            "grass_hills_edge_2": "#87c076",
+            "bedrock": "#0d0d0d",
+            "rock_layer_1": "#262626",
+            "rock_layer_2": "#404040",
+            "rock_layer_3": "#595959",
+            "rock_layer_4": "#737373",
+            "rock_layer_5": "#8c8c8c",
+            "rock_layer_6": "#a6a6a6",
+            "rock_layer_7": "#bfbfbf",
+            "rock_layer_8": "#d9d9d9",
+            "soil_light": "#735f4b",
+            "soil_dark": "#594a3a",
+            "dirt": "#997f63",
+            "dirt_edge_1": "#806a53",
+            "grass": "#6bb347",
+            "grass_edge_1": "#4d8033",
+            "grass_edge_2": "#5c993d",
+            "grass_hills": "#45732e",
+            "grass_hills_edge_1": "#2e4d1f",
+            "grass_hills_edge_2": "#365924",
             "copper_ore": "#c87533",
             "tin_ore": "#b0a080",
             "iron_ore": "#90b0d0",

@@ -26,9 +26,9 @@
         "ai_pack:summoning": "file(ai/packs/summoning_ai_pack.json)",
 
 
-        "alchemist:flask": "file(jobs/alchemist/alchemist_flask/alchemist_flask.json)",
+        "alchemist:flask_sword": "file(jobs/alchemist/alchemist_flask_sword/alchemist_flask_sword.json)",
         "alchemist:outfit": "file(jobs/alchemist/alchemist_outfit)",
-        "alchemist:talisman": "file(jobs/alchemist/alchemist_flask/alchemist_flask_talisman.json)",
+        "alchemist:talisman": "file(jobs/alchemist/alchemist_flask_sword/alchemist_flask_sword_talisman.json)",
         "alchemist:workbench": "file(jobs/alchemist/alchemist_workbench)",
 
 
@@ -270,6 +270,16 @@
         "potter:recipes:toilet": "file(jobs/potter/recipes/toilet_recipe.json)",
 
 
+        "recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
+        "recipes:carpenter": "file(jobs/carpenter/recipes/recipes.json)",
+        "recipes:cook": "file(jobs/cook/recipes/recipes.json)",
+        "recipes:engineer": "file(jobs/engineer/recipes/recipes.json)",
+        "recipes:herbalist": "file(jobs/herbalist/recipes/recipes.json)",
+        "recipes:mason": "file(jobs/mason/recipes/recipes.json)",
+        "recipes:potter": "file(jobs/potter/recipes/recipes.json)",
+        "recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
+
+
         "refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
         "refined:dye:blue": "file(entities/refined/dyes/dye_blue)",
         "refined:dye:green": "file(entities/refined/dyes/dye_green)",
@@ -388,14 +398,13 @@
         "/stonehearth/entities/resources/wood/pine_log/pine_log.json": "file(entities/resources/wood/all_logs.json)",
 
 
-        "/stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
-        "/stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
-        "/stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
-        "/stonehearth/jobs/engineer/recipes/recipes.json": "file(jobs/engineer/recipes/recipes.json)",
-        "/stonehearth/jobs/herbalist/recipes/recipes.json": "file(jobs/herbalist/recipes/recipes.json)",
-        "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
-        "/stonehearth/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/recipes.json)",
-        "/stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
+        "/stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:recipes:blacksmith",
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:recipes:carpenter",
+        "/stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox:recipes:cook",
+        "/stonehearth/jobs/engineer/recipes/recipes.json": "box_o_vox:recipes:engineer",
+        "/stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox:recipes:mason",
+        "/stonehearth/jobs/potter/recipes/recipes.json": "box_o_vox:recipes:potter",
+        "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox:recipes:weaver",
 
 
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",

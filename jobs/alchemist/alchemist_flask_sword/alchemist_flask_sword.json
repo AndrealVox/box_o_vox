@@ -5,12 +5,12 @@
         "model_variants": {
             "default": {
                 "models": [
-               "file(alchemist_flask_equipped.qb)"
+               "file(alchemist_flask_sword_equipped.qb)"
             ]
             }
         },
         "stonehearth:entity_forms": {
-            "iconic_form": "file(alchemist_flask_iconic.json)"
+            "iconic_form": "file(alchemist_flask_sword_iconic.json)"
         },
         "stonehearth:equipment_piece": {
             "slot": "mainhand",
@@ -28,6 +28,7 @@
             "base_damage": 25,
             "base_ranged_damage": 25,
             "range": 15,
+            "reach": 2.0,
             "projectile_speed": 15,
             "projectile_uri": "box_o_vox:mixture:basic",
             "projectile_start_offset": {
@@ -44,8 +45,17 @@
         "stonehearth:combat:ranged_attacks": [
             {
                 "name": "archer_1h_shoot",
-                "effect": "archer_1h_shoot",
-                "active_frame": 41,
+                "effect": "combat_1h_forehand",
+                "active_frame": 17,
+                "cooldown": 0,
+                "priority": 0
+         }
+      ],
+        "stonehearth:combat:melee_attacks": [
+            {
+                "name": "combat_1h_forehand",
+                "effect": "combat_1h_forehand",
+                "active_frame": 16,
                 "cooldown": 0,
                 "priority": 0
          }
@@ -61,9 +71,9 @@
             }
         },
         "stonehearth:catalog": {
-            "display_name": "i18n(box_o_vox:jobs.alchemist.alchemist_flask.display_name)",
-            "description": "i18n(box_o_vox:jobs.alchemist.alchemist_flask.description)",
-            "icon": "file(alchemist_flask.png)",
+            "display_name": "i18n(box_o_vox:jobs.alchemist.alchemist_flask_sword.display_name)",
+            "description": "i18n(box_o_vox:jobs.alchemist.alchemist_flask_sword.description)",
+            "icon": "file(alchemist_flask_sword.png)",
             "category": "tools",
             "material_tags": "tool"
         }

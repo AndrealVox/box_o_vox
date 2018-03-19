@@ -49,3 +49,5 @@ A list of things to come and WIP
     
     -Add small amout of plants to temperate and desert biomes accordingly
     
+    -Add Icons, pics and strings to alchemist
+    

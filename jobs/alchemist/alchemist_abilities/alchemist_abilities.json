@@ -15,15 +15,5 @@
             "military_score": 30
         }
     },
-    "entity_data": {
-        "stonehearth:combat:ranged_attacks": [
-            {
-                "name": "archer_default_shot",
-                "effect": "archer_1h_shoot",
-                "active_frame": 41,
-                "cooldown": 0,
-                "priority": 0
-         }
-      ]
-    }
+    "entity_data": {}
 }

@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 120,
+    "work_units": 10,
+    "recipe_name": "i18n(box_o_vox:jobs.engineer.recipes.alchemist_flask_sword_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.engineer.recipes.alchemist_flask_sword_recipe.description)",
+    "flavor": "i18n(box_o_vox:jobs.engineer.recipes.alchemist_flask_sword_recipe.flavor)",
+    "portrait": "/box_o_vox/jobs/alchemist/alchemist_flask_sword/alchemist_flask_sword.png",
+    "workshop": "stonehearth:engineer:workbench",
+    "level_requirement": 2,
+    "ingredients": [
+        {
+            "material": "herb resource",
+            "count": 1
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:alchemist:talisman"
+      }
+   ]
+}

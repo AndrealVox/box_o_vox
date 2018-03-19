@@ -5,16 +5,16 @@
         "model_variants": {
             "default": {
                 "models": [
-               "file(alchemist_flask.qb)"
+               "file(alchemist_flask_sword.qb)"
             ]
             }
         }
     },
     "entity_data": {
         "stonehearth:catalog": {
-            "display_name": "i18n(box_o_vox:jobs.alchemist.alchemist_flask.alchemist_flask_iconic.display_name)",
-            "description": "i18n(box_o_vox:jobs.alchemist.alchemist_flask.alchemist_flask_iconic.description)",
-            "icon": "file(alchemist_flask.png)",
+            "display_name": "i18n(box_o_vox:jobs.alchemist.alchemist_flask_sword.alchemist_flask_sword_iconic.display_name)",
+            "description": "i18n(box_o_vox:jobs.alchemist.alchemist_flask_sword.alchemist_flask_sword_iconic.description)",
+            "icon": "file(alchemist_flask_sword.png)",
             "is_item": true,
             "category": "tools",
             "material_tags": "tool"

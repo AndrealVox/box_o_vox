@@ -443,6 +443,51 @@
                "description": "A botanist knife."
             }
          }
+      },
+      "alchemist": {
+         "alchemist_description": {
+            "display_name": "Alchemist",
+            "description": "A master of mixtures and seeking rare ingredients",
+            "requirements": "Crafted by Engineer"
+         },
+         "recipes": {
+            "alchemist_workbench_recipe": {
+               "flavor": "When the herbalist asked the alchemist, \"Why are you so messy\" the alchemist replied, \"I'm not messy, I'm ready\"",
+               "description": "A place where alchemist create their mixtures of madness",
+               "recipe_name": "Alchemist Mixing Table"
+            }
+         },
+         "alchemist_workbench": {
+            "alchemist_workbench_ghost": {
+               "display_name": "Alchemist Mixing Table",
+               "description": "A place to mix madness"
+            }
+         },
+         "alchemist_flask_sword": {
+            "alchemist_flask_sword_talisman": {
+               "display_name": "Flask Slasher",
+               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
+            },
+            "display_name": "Flask Slasher",
+            "description": "A tool used by the alchemist to collect rare ingredients and test mixtures",
+            "alchemist_flask_sword_iconic": {
+               "display_name": "Flask Slasher",
+               "description": "A tool used by the alchemist to collect rare ingredients and test mixtures"
+            }
+         },
+         "alchemist_outfit": {
+            "display_name": "Alchemist Outfit",
+            "description": "A long muffler helps protect them against the fumes of their mixtures"
+         }
+      },
+      "engineer": {
+         "recipes": {
+            "alchemist_flask_sword_recipe": {
+               "recipe_name": "Flask Slasher",
+               "description": "A tool used by the Alchemist to collect rare ingredients and test mixtures",
+               "flavor": "The blacksmtih asked the alchemist and engineer, \"Why are you doing that to a sword?\" To which they replied \"FOR SCIENCE!\""
+            }
+         }
       }
    },
    "entities": {
@@ -1271,7 +1316,12 @@
                   "botanist": {
                      "display_name": "Botanist Craft Menu",
                      "required_job_text": "Requires a Botanist",
-                     "description": "Craft Flora and Dye's"
+                     "description": "Craft Flora to put anywhere you like"
+                  },
+                  "alchemist": {
+                     "required_job_text": "Required Alchemist",
+                     "description": "Allows the creation of mixtures and essence",
+                     "display_name": "Alchemist Craft Menu"
                   }
                }
             }

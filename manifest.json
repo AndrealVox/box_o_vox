@@ -261,9 +261,8 @@
         "portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
         "portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
         "portals:stone_door": "file(entities/construction/stone_door)",
-        "portals:stone_door:fine": "file(entities/construction/stone_door_fine/stone_door_fine.json)",
         "portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
-        "portals:stone_window_frame_tall:fine": "file(entities/construction/stone_window_frame_tall_fine/stone_window_frame_tall_fine.json)",
+        "portals:stone_window_frame_wide": "file(entities/construction/stone_window_frame_wide)",
 
 
         "potter:recipes:bathtub": "file(jobs/potter/recipes/bathtub_recipe.json)",

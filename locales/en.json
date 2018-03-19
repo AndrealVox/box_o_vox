@@ -67,7 +67,7 @@
          "boxling": {
             "display_name": "The Boxlings",
             "quote": "Fun Times!",
-            "description": "A mysterious and magical race. Citezens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
+            "description": "A mysterious and magical race. Citizens of the Boxlings are an enchanted folk, using their magic to strengthen their allies and grow to great heights.",
             "post_selection_description": ", a proud and hard working race."
          }
       },
@@ -503,6 +503,12 @@
             "solid_red_wood_door_ghost": {
                "display_name": "Small Red Door",
                "description": "A Small 2-Wide Door For Those Tight Fit Places"
+            }
+         },
+         "stone_window_frame_wide": {
+            "stone_window_frame_wide_ghost": {
+               "description": "A Wide Stone Window Frame Variant Of It's Wooden Cousin",
+               "display_name": "Wide Stone Window Frame"
             }
          }
       },

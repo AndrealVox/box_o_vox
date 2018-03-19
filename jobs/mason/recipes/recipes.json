@@ -1,76 +1,79 @@
 {
-   "craftable_recipes": {
-       "tools": {
-         "ordinal": 2,
-         "name": "i18n(stonehearth:jobs.mason.recipes.tools_name)",
-         "recipes": {
-            "botanist_hori-hori": {
-               "recipe": "file(botanist_hori-hori_recipe.json)"
+    "craftable_recipes": {
+        "tools": {
+            "ordinal": 2,
+            "name": "i18n(stonehearth:jobs.mason.recipes.tools_name)",
+            "recipes": {
+                "botanist_hori-hori": {
+                    "recipe": "file(botanist_hori-hori_recipe.json)"
+                }
             }
-         }
-       },
-      "building_parts": {
-         "ordinal": 4,
-         "name": "i18n(stonehearth:jobs.mason.recipes.building_parts_name)",
-         "recipes": {
-            "vox_door": {
-               "recipe": "file(stone_door_recipe.json)"
-            },
-            "vox_solid_door": {
-               "recipe": "file(solid_stone_door_recipe.json)"
-            },
-            "vox_stone_window_frame_tall": {
-               "recipe": "file(stone_window_frame_tall_recipe.json)"
+        },
+        "building_parts": {
+            "ordinal": 4,
+            "name": "i18n(stonehearth:jobs.mason.recipes.building_parts_name)",
+            "recipes": {
+                "vox_door": {
+                    "recipe": "file(stone_door_recipe.json)"
+                },
+                "vox_solid_door": {
+                    "recipe": "file(solid_stone_door_recipe.json)"
+                },
+                "vox_stone_window_frame_tall": {
+                    "recipe": "file(stone_window_frame_tall_recipe.json)"
+                },
+                "vox_stone_window_frame_wide": {
+                    "recipe": "file(stone_window_frame_wide_recipe.json)"
+                }
             }
-         }
-      },
-      "signage_decoration": {
-         "ordinal": 6,
-         "name": "i18n(stonehearth:jobs.mason.recipes.signage_decoration_name)",
-         "recipes": {
-            "blue_road_lamp": {
-               "recipe": "file(blue_stone_road_lamp_recipe.json)"
-            },
-            "green_road_lamp": {
-               "recipe": "file(green_stone_road_lamp_recipe.json)"
-            },
-            "purple_road_lamp": {
-               "recipe": "file(purple_stone_road_lamp_recipe.json)"
-            },
-            "red_road_lamp": {
-               "recipe": "file(red_stone_road_lamp_recipe.json)"
-            },
-            "fireplace": {
-               "recipe": "file(fireplace_recipe.json)"
-            },
-            "boxling_statue": {
-               "recipe": "file(boxling_statue_recipe.json)"
+        },
+        "signage_decoration": {
+            "ordinal": 6,
+            "name": "i18n(stonehearth:jobs.mason.recipes.signage_decoration_name)",
+            "recipes": {
+                "blue_road_lamp": {
+                    "recipe": "file(blue_stone_road_lamp_recipe.json)"
+                },
+                "green_road_lamp": {
+                    "recipe": "file(green_stone_road_lamp_recipe.json)"
+                },
+                "purple_road_lamp": {
+                    "recipe": "file(purple_stone_road_lamp_recipe.json)"
+                },
+                "red_road_lamp": {
+                    "recipe": "file(red_stone_road_lamp_recipe.json)"
+                },
+                "fireplace": {
+                    "recipe": "file(fireplace_recipe.json)"
+                },
+                "boxling_statue": {
+                    "recipe": "file(boxling_statue_recipe.json)"
+                }
             }
-         }
-      },
-      "storage": {
-         "ordinal": 8,
-         "name": "i18n(stonehearth:jobs.mason.recipes.storage_name)",
-         "recipes": {
-            "box_o_vox_crate": {
-               "recipe": "file(box_o_vox_crate_recipe.json)"
-            },
-            "equipment_crate": {
-               "recipe": "file(equipment_crate_recipe.json)"
-            },
-            "food_crate": {
-               "recipe": "file(food_crate_recipe.json)"
-            },
-            "furniture_crate": {
-               "recipe": "file(furniture_crate_recipe.json)"
-            },
-            "resources_crate": {
-               "recipe": "file(resources_crate_recipe.json)"
-            },
-            "treasure_crate": {
-               "recipe": "file(treasure_crate_recipe.json)"
+        },
+        "storage": {
+            "ordinal": 8,
+            "name": "i18n(stonehearth:jobs.mason.recipes.storage_name)",
+            "recipes": {
+                "box_o_vox_crate": {
+                    "recipe": "file(box_o_vox_crate_recipe.json)"
+                },
+                "equipment_crate": {
+                    "recipe": "file(equipment_crate_recipe.json)"
+                },
+                "food_crate": {
+                    "recipe": "file(food_crate_recipe.json)"
+                },
+                "furniture_crate": {
+                    "recipe": "file(furniture_crate_recipe.json)"
+                },
+                "resources_crate": {
+                    "recipe": "file(resources_crate_recipe.json)"
+                },
+                "treasure_crate": {
+                    "recipe": "file(treasure_crate_recipe.json)"
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }

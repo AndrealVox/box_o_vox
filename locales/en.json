@@ -88,6 +88,9 @@
                   "categories": {
                      "camp": "Settlement"
                   }
+               },
+               "ascendancy": {
+                  "display_name": "Original"
                }
             }
          }

@@ -1,6 +1,55 @@
 {
     "type": "index",
     "template_tabs": {
+        "ascendancy": {
+            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
+            "required_kingdom": "box_o_vox:kingdoms:boxling",
+            "categories": {
+                "camp": {
+                    "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.camp)",
+                    "ordinal": 1,
+                    "templates": {
+                        "dining_hall": "/stonehearth/data/saved_objects/building_templates/dining_hall.json",
+                        "cottage_for_two": "/stonehearth/data/saved_objects/building_templates/cottage_for_two.json",
+                        "tiny_cottage": "/stonehearth/data/saved_objects/building_templates/tiny_cottage.json",
+                        "shared_sleeping_quarters": "/stonehearth/data/saved_objects/building_templates/shared_sleeping_quarters.json",
+                        "carpenter_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:carpenter"
+                            },
+                            "file": "/stonehearth/data/saved_objects/building_templates/carpenter_house.json"
+                        },
+                        "blacksmith_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:blacksmith"
+                            },
+                            "file": "/stonehearth/data/saved_objects/building_templates/blacksmith_house.json"
+                        },
+                        "herbalist_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:herbalist"
+                            },
+                            "file": "/stonehearth/data/saved_objects/building_templates/herbalist_house.json"
+                        }
+                    }
+                },
+                "town": {
+                    "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.town",
+                    "ordinal": 2,
+                    "required_city_tier": 2,
+                    "templates": {
+                        "black_forest_inn": "/stonehearth/data/saved_objects/building_templates/tier2/black_forest_inn.json",
+                        "corner_house": "/stonehearth/data/saved_objects/building_templates/tier2/corner_house.json",
+                        "cozy_townhouse": "/stonehearth/data/saved_objects/building_templates/tier2/cozy_townhouse.json",
+                        "tall_townhouse": "/stonehearth/data/saved_objects/building_templates/tier2/tall_townhouse.json",
+                        "tavern": "/stonehearth/data/saved_objects/building_templates/tier2/tavern.json"
+                    }
+                }
+            }
+        },
         "boxling": {
             "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
             "required_kingdom": "box_o_vox:kingdoms:boxling",

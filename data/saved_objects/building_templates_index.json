@@ -1,13 +1,29 @@
 {
     "type": "index",
     "template_tabs": {
-        "ascendancy": {
-            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
+        "boxling": {
+            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
             "required_kingdom": "box_o_vox:kingdoms:boxling",
             "categories": {
+                "settlement": {
+                    "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
+                    "ordinal": 1,
+                    "templates": {
+                        "necromancer_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "box_o_vox:jobs:necromancer"
+                            },
+                            "file": "file(building_templates/necromancer_house.json)"
+                        },
+                        "banquet_hall": {
+                            "file": "file(building_templates/banquet_hall.json)"
+                        }
+                    }
+                },
                 "camp": {
                     "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.camp)",
-                    "ordinal": 1,
+                    "ordinal": 2,
                     "templates": {
                         "dining_hall": "/stonehearth/data/saved_objects/building_templates/dining_hall.json",
                         "cottage_for_two": "/stonehearth/data/saved_objects/building_templates/cottage_for_two.json",
@@ -38,7 +54,7 @@
                 },
                 "town": {
                     "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.town",
-                    "ordinal": 2,
+                    "ordinal": 3,
                     "required_city_tier": 2,
                     "templates": {
                         "black_forest_inn": "/stonehearth/data/saved_objects/building_templates/tier2/black_forest_inn.json",
@@ -46,28 +62,6 @@
                         "cozy_townhouse": "/stonehearth/data/saved_objects/building_templates/tier2/cozy_townhouse.json",
                         "tall_townhouse": "/stonehearth/data/saved_objects/building_templates/tier2/tall_townhouse.json",
                         "tavern": "/stonehearth/data/saved_objects/building_templates/tier2/tavern.json"
-                    }
-                }
-            }
-        },
-        "boxling": {
-            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
-            "required_kingdom": "box_o_vox:kingdoms:boxling",
-            "categories": {
-                "settlement": {
-                    "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
-                    "ordinal": 1,
-                    "templates": {
-                        "necromancer_house": {
-                            "unlock_requirement": {
-                                "type": "has_job",
-                                "value": "box_o_vox:jobs:necromancer"
-                            },
-                            "file": "file(building_templates/necromancer_house.json)"
-                        },
-                        "banquet_hall": {
-                            "file": "file(building_templates/banquet_hall.json)"
-                        }
                     }
                 }
             }

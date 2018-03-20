@@ -9,7 +9,6 @@ This update includes:
 
     - Removed WIP botanist
 
-
 _____________________________________________________________________________________
 box_o_vox v.0.1 : Boxland Update 
 
@@ -66,9 +65,6 @@ A list of things to come and WIP
         - Add more gear for specialized classes
         - Add small amout of plants to temperate and desert biomes accordingly
         - Better gear from tailor and blacksmith
-
-
-
 
 _____________________________________________________________________________________
 

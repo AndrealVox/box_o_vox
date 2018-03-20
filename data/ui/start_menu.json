@@ -12,17 +12,6 @@
             "menu_action": "show_crafter_ui",
             "hotekey_action": "craft:cleric"
          },
-         "botanist": {
-            "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.botanist.display_name)",
-            "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.botanist.description)",
-            "class": "button",
-            "required_job": "box_o_vox:jobs:botanist",
-            "required_job_text": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.botanist.required_job_text)",
-            "icon": "/box_o_vox/jobs/botanist/images/botanist_menu_icon.png",
-            "sticky": true,
-            "menu_action": "show_crafter_ui",
-            "hotekey_action": "craft:botanist"
-         },
          "alchemist": {
             "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.alchemist.display_name)",
             "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.alchemist.description)",

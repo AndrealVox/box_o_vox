@@ -402,15 +402,13 @@
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",
-        "class:botanist": "file(jobs/botanist/botanist.lua)",
         "class:cleric": "file(jobs/cleric/cleric.lua)",
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
         "class:ninja": "file(jobs/ninja/ninja.lua)"
     },
     "ui": {
         "less": [
-         "file(jobs/cleric/skin/workshop.less)",
-         "file(jobs/botanist/skin/workshop.less)"
+         "file(jobs/cleric/skin/workshop.less)"
       ]
     }
 }

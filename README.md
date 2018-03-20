@@ -54,9 +54,10 @@ A list of things to come and WIP
     -Box o' Vox
         - Remove Necromancer House
         - Add A Boxling campaign
-        - Add ability to chop down small/medium/large banana tree
         - Add seeds to herbalist
-            - Delete plants that have been implemented 
+            - Delete plants that have been implemented
+                - sunflower
+                - foxlily
             - Update biome generation to use new plant aliases
             - Add hemp classes for enchanted fibers
     
@@ -77,10 +78,72 @@ A list of things that Owl-Code is thinking about
         - Tribal people?
             - Add new biome
                 - Jungle?
-                    - Look to see if you can spawn wood like stone        
+                    - Look to see if able spawn wood like stone  
+                - Add new/update flora
+                    - Jungle trees
+                        - cocoa trees/seed
+                        - rubber tree/seeds
+                        - coffee tree/seeds
+                        - banana tree/seeds
+                    - Jungle plants
+                        - shrub/seeds
+                        - mushrooms crop/spore
+                        - roots
+                        - asparagus crop
+                        - amaranth crop/seed
+                        - pinapple crop/seed
+                - Add new/update fauna
+                    - Birds
+                    - Insects
         - Add Story for new kingdom
-            - Add new job from kingom
-            - Add new/update trees jungle
-            - Add new/update traits
+            - Progression?
+                - Band
+                - Tribe
+                - Cheifdom
+                - Kings
+                
+        - Add new job index for kingdom
+            - Add new "builder" class(Thatcher) for kingdom
+            - Fledling(worker)
+                - Fire Starter -------------- (cook)
+                - Thatcher
+                    - Carpenter ------------- [(lock behind quest progression)]
+                - Clay Shaper --------------- (potter)
+                    - Knapper --------------- (mason)
+                - Blacksmith ---------------- [(lock behind progression)]
+                    - Engineer -------------- [(lock behind progression)]
+                - Weaver -------------------- [(lock tools behind other job)]
+                - Witch Doctor -------------- (herbalist)
+                    - Shaman ---------------- (cleric)
+                - Hunter -------------------- (trapper)
+                    - Farmer ---------------- [(lock behind progression)]
+                    - Herder ---------------- (shepherd)
+                - Welp ---------------------- (footman)
+                    - Warrior --------------- (knight)
+                    - Rock Thrower
+                        - Bowman ------------ (archer)
+                
+            
+        - Add new outfits for kingdom
+            - Basic kingdom outfit
+            
+            - Fire Starter
+            - Thatcher outfit
+            - Clay Shaper
+            - Knapper
+            - Weaver
+            - Witch Doctor
+            
+            - Shaman
+            
+            - Hunter
+            - Herder
+            - Farmer
+            
+            - Welp
+            - Warrior
+            - Rock Thrower
+            - Bowman
+            
 _____________________________________________________________________________________
     

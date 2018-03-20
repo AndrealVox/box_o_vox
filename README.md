@@ -11,8 +11,6 @@ This mod pack adds:
 
 -Boxland: a new biome with cliffs canyons and larger(and less) water sources
 
--Botanist: a job that allows plants and trees to be made along with dye for further updates
-
 -Necromancer: a combat class that allows you to summon the undead to fight for you
 
 -New flora: a few fruit trees(apple, banana, lime, orange) and new plants(daisy, foxlily, nightshade, sunflower, greentea, firebeard, hemp, and peppercorn)
@@ -49,5 +47,6 @@ A list of things to come and WIP
     
     -Add small amout of plants to temperate and desert biomes accordingly
     
-    -Add Icons, pics and strings to alchemist
-    
+    -Add seeds to herbalist
+        - delete plants that have been implemented 
+        - update biome generation to use new plant aliases

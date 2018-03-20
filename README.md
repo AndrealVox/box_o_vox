@@ -53,7 +53,8 @@ ________________________________________________________________________________
 A list of things to come and WIP
 
     -Box o' Vox
-        - Add A Vox lord campaign
+        - Remove Necromancer House
+        - Add A Boxling campaign
         - Add ability to chop down small/medium/large banana tree
         - Add seeds to herbalist
             - Delete plants that have been implemented 

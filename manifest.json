@@ -39,16 +39,6 @@
         "biome:boxland": "file(data/biome/boxland.json)",
 
 
-        "blacksmith:recipes:ninja_sword": "file(jobs/blacksmith/recipes/ninja_sword_recipe.json)",
-
-
-        "botanist:outfit": "file(jobs/botanist/botanist_outfit)",
-        "botanist:hori-hori": "file(jobs/botanist/botanist_hori-hori/botanist_hori-hori.json)",
-        "botanist:magnify_glass": "file(jobs/botanist/botanist_magnify_glass/botanist_magnify_glass.json)",
-        "botanist:talisman": "file(jobs/botanist/botanist_hori-hori/botanist_hori-hori_talisman.json)",
-        "botanist:workbench": "file(jobs/botanist/botanist_workbench)",
-
-
         "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
         "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
         "buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
@@ -89,9 +79,6 @@
         "containers:treasure_crate": "file(entities/containers/treasure_crate)",
 
 
-        "cook:recipes": "file(jobs/cook/recipes)",
-
-
         "cow": "file(entities/critters/cow)",
         "cow:young": "file(entities/critters/cow/cow_young.json)",
 
@@ -127,10 +114,6 @@
         "effects:red_road_lamp_effect": "file(data/effects/road_lamp_effect/red_road_lamp_effect.json)",
         "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
         "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
-
-
-        "engineer:recipes:fridge": "file(jobs/engineer/recipes/fridge_recipe.json)",
-
 
         "female_1": "file(entities/humans/female/female_1.json)",
 
@@ -195,7 +178,6 @@
 
 
         "jobs:alchemist": "file(jobs/alchemist/alchemist_description.json)",
-        "jobs:botanist": "file(jobs/botanist/botanist_description.json)",
         "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
         "jobs:index": "file(jobs/index.json)",
         "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
@@ -263,11 +245,6 @@
         "portals:stone_door": "file(entities/construction/stone_door)",
         "portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
         "portals:stone_window_frame_wide": "file(entities/construction/stone_window_frame_wide)",
-
-
-        "potter:recipes:bathtub": "file(jobs/potter/recipes/bathtub_recipe.json)",
-        "potter:recipes:sink": "file(jobs/potter/recipes/sink_recipe.json)",
-        "potter:recipes:toilet": "file(jobs/potter/recipes/toilet_recipe.json)",
 
 
         "recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",

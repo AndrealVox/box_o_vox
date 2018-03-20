@@ -1,14 +1,5 @@
 {
    "craftable_recipes": {
-       "tools_weapons": {
-         "ordinal": 2,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.tools_weapons_name)",
-         "recipes": {
-             "magnify_glass":{ 
-                 "recipe": "file(magnify_glass_recipe.json)"
-             }
-         }
-         },
       "furniture": {
          "ordinal": 6,
          "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",

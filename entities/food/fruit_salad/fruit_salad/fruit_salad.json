@@ -1,48 +1,48 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
-   "type": "entity",
-   "components": {
-      "model_variants": {
-         "default": {
-            "models": [
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
                "file(fruit_salad.qb)"
             ]
-         }
-      },
-      "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0.05
-         }
-      },
-      "stonehearth:stacks": {
-         "max_stacks": 2
-      }
-   },
-   "entity_data": {
-      "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "box_o_vox:food:fruit_salad:fruit_salad_serving",
-         "stacks_per_serving": 6
-      },
-      "stonehearth:net_worth": {
-         "value_in_gold": 25,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 2,
-            "shopkeeper_type": "caravan"
-         }
-      },
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
-         "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.description)",
-         "icon": "file(fruit_salad.png)",
-         "is_item": true,
-         "category": "food",
-         "material_tags": "food_container prepared_food fruit_salad fruit vegetarian stockpile_prepared_food"
-      }
-   }
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0.05
+            }
+        },
+        "stonehearth:stacks": {
+            "max_stacks": 2
+        }
+    },
+    "entity_data": {
+        "stonehearth:food_container": {
+            "effect": "fiddle",
+            "food": "box_o_vox:food:fruit_salad:fruit_salad_serving",
+            "stacks_per_serving": 6
+        },
+        "stonehearth:net_worth": {
+            "value_in_gold": 25,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": false,
+                "sellable": true,
+                "shopkeeper_level": 2,
+                "shopkeeper_type": "caravan"
+            }
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.display_name)",
+            "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad.description)",
+            "icon": "file(fruit_salad.png)",
+            "is_item": true,
+            "category": "food",
+            "material_tags": "food_container prepared_food fruit_salad vegetarian stockpile_prepared_food"
+        }
+    }
 }

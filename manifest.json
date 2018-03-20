@@ -163,6 +163,7 @@
         "food:tomato:tomato_serving": "file(entities/food/tomato/tomato_serving)",
         "food:rotten:apple": "file(entities/food/apple/apple/rotten_apple.json)",
         "food:rotten:banana": "file(entities/food/banana/banana/rotten_banana.json)",
+        "food:rotten:lime": "file(entities/food/lime/lime/rotten_lime.json)",
         "food:rotten:orange": "file(entities/food/orange/orange/rotten_orange.json)",
         "food:rotten:potato_basket": "file(entities/food/potato/potato_basket/rotten_potato_basket.json)",
         "food:rotten:strawberry_basket": "file(entities/food/strawberry/strawberry_basket/rotten_strawberry_basket.json)",

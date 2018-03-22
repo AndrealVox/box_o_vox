@@ -1,73 +1,73 @@
 {
-   "type": "kingdom",
-   "kingdom_name": "Summon",
-   "kingdom_id": "summon",
-   "amenity_to_strangers": "hostile",
-   "roles": {
-      "skeleton": {
-         "male": {
-            "uri": [
+    "type": "kingdom",
+    "kingdom_name": "Summon",
+    "kingdom_id": "summon",
+    "amenity_to_strangers": "hostile",
+    "roles": {
+        "skeleton": {
+            "male": {
+                "uri": [
                "stonehearth:monsters:undead:skeleton"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Skeleton"
          ]
-      },
-      "zombie": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:undead:zombie"
+        },
+        "zombie": {
+            "male": {
+                "uri": [
+               "box_o_vox:summons:undead:zombie"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Zombie"
          ]
-      },
-      "golem_kid": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:forest:little_stone_golem"
+        },
+        "golem_kid": {
+            "male": {
+                "uri": [
+               "box_o_vox:summons:forest:golem_kid"
             ]
-         }
-      },
-      "golem": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:forest:stone_golem"
+            }
+        },
+        "golem": {
+            "male": {
+                "uri": [
+               "box_o_vox:summons:forest:golem"
             ]
-         }
-      },
-      "necromancer": {
-         "male": {
-            "uri": [
+            }
+        },
+        "necromancer": {
+            "male": {
+                "uri": [
                "box_o_vox:summons:undead:necromancer"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Necromancer"
          ]
-      }
-   },
-   "town_pieces": {
-      "optional_prefix": [
+        }
+    },
+    "town_pieces": {
+        "optional_prefix": [
          "Eyehait"
       ],
-      "town_name": [
+        "town_name": [
          "Phat"
       ],
-      "suffix": [
+        "suffix": [
          "Schicks"
       ]
-   },
-   "task_groups": "stonehearth:data:humanoid_task_groups"
+    },
+    "task_groups": "stonehearth:data:humanoid_task_groups"
 }

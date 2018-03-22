@@ -1,0 +1,16 @@
+{
+    "type": "entity",
+    "mixins": "box_o_vox:mixins:summons",
+    "components": {
+        "render_info": {
+            "animation_table": "/stonehearth/data/rigs/entities/monster/forest/stone_golem/stone_golem.json"
+        },
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(flesh_golem.qb)"
+            ]
+            }
+        }
+    }
+}

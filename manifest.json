@@ -304,7 +304,13 @@
         "summon_tuning:necromancer:summoner_skeleton_kid": "file(data/summon_tuning/necromancer/summoner_skeleton_kid.json)",
         "summon_tuning:necromancer:summoner_zombie": "file(data/summon_tuning/necromancer/summoner_zombie.json)",
         "summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
+
+
+        "summons:forest:golem": "file(entities/summon/golem/golem.json)",
+        "summons:forest:golem_kid": "file(entities/summon/golem_kid/golem_kid.json)",
         "summons:undead:necromancer": "file(entities/summon/necromancer/necromancer.json)",
+        "summons:undead:zombie": "file(entities/summon/zombie/zombie.json)",
+
 
 
         "traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",

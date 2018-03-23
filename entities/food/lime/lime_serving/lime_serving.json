@@ -20,12 +20,12 @@
         },
         "stonehearth:food": {
             "stonehearth:sitting_on_chair": {
-                "satisfaction": 50
+                "satisfaction": 32
             },
             "default": {
-                "satisfaction": 40
+                "satisfaction": 28
             },
-            "quality": 3
+            "quality": 4
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.food.lime.display_name)",

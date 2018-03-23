@@ -1,37 +1,37 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
-   "type": "entity",
-   "components": {
-      "model_variants": {
-         "default": {
-            "models": [
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
                "file(apple_serving.qb)"
             ]
-         }
-      },
-      "render_info": {
-         "scale": 0.05
-      }
-   },
-   "entity_data": {
-      "stonehearth:item": {
-         "category": "food",
-         "destroy_on_uncarry": true
-      },
-      "stonehearth:food": {
-         "stonehearth:sitting_on_chair": {
-            "satisfaction": 50
-         },
-         "default": {
-            "satisfaction": 40
-         },
-         "quality": 3
-      },
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
-         "description": "i18n(box_o_vox:entities.food.apple.description)",
-         "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit apple vegetarian cooking_ingredient",
-         "subject_override": "box_o_vox:food:apple:apple"
-      }
-   }
+            }
+        },
+        "render_info": {
+            "scale": 0.05
+        }
+    },
+    "entity_data": {
+        "stonehearth:item": {
+            "category": "food",
+            "destroy_on_uncarry": true
+        },
+        "stonehearth:food": {
+            "stonehearth:sitting_on_chair": {
+                "satisfaction": 32
+            },
+            "default": {
+                "satisfaction": 28
+            },
+            "quality": 4
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
+            "description": "i18n(box_o_vox:entities.food.apple.description)",
+            "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit apple vegetarian cooking_ingredient",
+            "subject_override": "box_o_vox:food:apple:apple"
+        }
+    }
 }

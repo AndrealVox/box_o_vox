@@ -49,7 +49,19 @@ This mod pack adds:
 _____________________________________________________________________________________
 
 
-# to-do
+# Priority
+Top 5 things needed done
+        
+    1. 
+    2. 
+    3. 
+    4. 
+    5.
+    
+
+_____________________________________________________________________________________
+
+## to-do
 A list of things to come and WIP
 
     -Box o' Vox
@@ -59,31 +71,16 @@ A list of things to come and WIP
             - Delete plants that have been implemented 
             - Update biome generation to use new plant aliases
             - Add hemp classes for enchanted fibers
+            - Add ability to level up from renewable harvest(herbalist)
     
     -Basic
         - Add customization to hearthling
         - Add more gear for specialized classes
         - Add small amout of plants to temperate and desert biomes accordingly
         - Better gear from tailor and blacksmith
-
-
-
-
+        - Add food_quality_thoughts for Tast and bland
+        
 _____________________________________________________________________________________
 
-# Possible
-A list of things that Owl-Code is thinking about
 
-    -Think about enchanter at future date
-    
-    -Add new kingdom
-        - Tribal people?
-            - Add new biome
-                - Jungle?
-                    - Look to see if you can spawn wood like stone        
-        - Add Story for new kingdom
-            - Add new job from kingom
-            - Add new/update trees jungle
-            - Add new/update traits
-_____________________________________________________________________________________
     

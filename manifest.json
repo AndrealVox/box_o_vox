@@ -3,6 +3,7 @@
         "name": "box_o_vox",
         "version": 3
     },
+    "client_init_script": "file(box_o_vox_client)",
     "default_locale": "en",
     "aliases": {
         "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
@@ -87,6 +88,7 @@
         "crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
         "crops:tomato_crop": "file(entities/crops/tomato_crop)",
 
+        "data:constants": "file(data/constants.json)",
 
         "decoration:bathtub": "file(entities/decoration/bathtub)",
         "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
@@ -370,7 +372,7 @@
 
         "stonehearth:loadouts": "file(data/loadouts)",
 
-
+        "stonehearth:data:constants": "box_o_vox:data:constants",
         "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
         "/stonehearth/data/resource_constants.json": "file(data/resource_constants.json)",
         "/stonehearth/data/ui/start_menu.json": "box_o_vox:startmenu",
@@ -403,7 +405,8 @@
         "/betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
     },
     "overrides": {
-        "data:constants": "file(data/constants.json)",
+        "/stonehearth/constants.lua": "file(constants.lua)",
+
 
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",

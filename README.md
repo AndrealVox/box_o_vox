@@ -3,17 +3,19 @@ A Stonehearth Mod
 
 This mod is a small work by a group of friends to extend the playablity of stonehearth.
 _____________________________________________________________________________________
-box_o_vox v.0.2 : Alpha 24 Update
+#### box_o_vox v.0.2 : Alpha 24 Update
 
-This update includes:
+    This update includes:
 
     - Removed WIP botanist
+    - Added Constants for tasty and bland qualities/priority
+      (between raw_tasy and cooked_bland) Able to extend.
 
 
 _____________________________________________________________________________________
-box_o_vox v.0.1 : Boxland Update 
+#### box_o_vox v.0.1 : Boxland Update 
 
-This mod pack adds:
+    This mod pack adds:
 
     - Boxlings: a new kingdom to pick, includes new customizations and different 
         character models 
@@ -50,7 +52,7 @@ ________________________________________________________________________________
 
 
 # Priority
-Top 5 things needed done
+    Top 5 things needed done
         
     1. 
     2. 
@@ -62,7 +64,7 @@ Top 5 things needed done
 _____________________________________________________________________________________
 
 ## to-do
-A list of things to come and WIP
+    A list of things to come and WIP
 
     -Box o' Vox
         - Add A Vox lord campaign
@@ -78,7 +80,6 @@ A list of things to come and WIP
         - Add more gear for specialized classes
         - Add small amout of plants to temperate and desert biomes accordingly
         - Better gear from tailor and blacksmith
-        - Add food_quality_thoughts for Tast and bland
         
 _____________________________________________________________________________________
 

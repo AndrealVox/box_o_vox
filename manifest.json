@@ -3,7 +3,7 @@
         "name": "box_o_vox",
         "version": 3
     },
-    "client_init_script": "file(box_o_vox_client)",
+    "server_init_script": "file(box_o_vox_server)",
     "default_locale": "en",
     "aliases": {
         "abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",

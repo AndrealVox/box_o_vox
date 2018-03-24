@@ -1,5 +1,12 @@
 local constants = require 'stonehearth.constants'
 
+local constants_json = radiant.resources.load_json('stonehearth:data:constants')
+if not constants then
+    if constants_json.constants then
+        constants = constants_json.constants
+    end
+end
+
 constants.food_quality_priorities = {}
 constants.food_quality_priorities[constants.food_qualities.UNPALATABLE] = 0
 constants.food_quality_priorities[constants.food_qualities.RAW_BLAND] = 1

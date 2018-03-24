@@ -1,70 +1,71 @@
 {
-   "type": "index",
-   "groups": {
-      "outlook": {
-         "stonehearth:traits:optimistic": {}
-      },
-      "passion_jobs": {
-         "stonehearth:traits:passion_archer": {},
-         "stonehearth:traits:passion_blacksmith": {},
-         "stonehearth:traits:passion_carpenter": {},
-         "stonehearth:traits:passion_cleric": {},
-         "stonehearth:traits:passion_cook": {},
-         "stonehearth:traits:passion_engineer": {},
-         "stonehearth:traits:passion_farmer": {},
-         "stonehearth:traits:passion_footman": {},
-         "stonehearth:traits:passion_herbalist": {},
-         "stonehearth:traits:passion_knight": {},
-         "stonehearth:traits:passion_mason": {},
-         "stonehearth:traits:passion_potter": {},
-         "stonehearth:traits:passion_shepherd": {},
-         "stonehearth:traits:passion_trapper": {},
-         "stonehearth:traits:passion_weaver": {},
-         "stonehearth:traits:passion_worker": {},
-         "box_o_vox:traits:passion_necromancer": {},
-         "box_o_vox:traits:passion_ninja": {}
-      }
-	},
+    "type": "index",
+    "groups": {
+        "outlook": {
+            "stonehearth:traits:optimistic": {}
+        },
+        "passion_jobs": {
+            "stonehearth:traits:passion_archer": {},
+            "stonehearth:traits:passion_blacksmith": {},
+            "stonehearth:traits:passion_carpenter": {},
+            "stonehearth:traits:passion_cleric": {},
+            "stonehearth:traits:passion_cook": {},
+            "stonehearth:traits:passion_engineer": {},
+            "stonehearth:traits:passion_farmer": {},
+            "stonehearth:traits:passion_footman": {},
+            "stonehearth:traits:passion_herbalist": {},
+            "stonehearth:traits:passion_knight": {},
+            "stonehearth:traits:passion_mason": {},
+            "stonehearth:traits:passion_potter": {},
+            "stonehearth:traits:passion_shepherd": {},
+            "stonehearth:traits:passion_trapper": {},
+            "stonehearth:traits:passion_weaver": {},
+            "stonehearth:traits:passion_worker": {},
+            "box_o_vox:traits:passion_necromancer": {},
+            "box_o_vox:traits:passion_ninja": {}
+        }
+    },
     "traits": {
-      "stonehearth:traits:green_thumb": {
-         "excludes": {
-         "stonehearth:traits:passion_archer": true,
-         "stonehearth:traits:passion_blacksmith": true,
-         "stonehearth:traits:passion_carpenter": true,
-         "stonehearth:traits:passion_cleric": true,
-         "stonehearth:traits:passion_cook": true,
-         "stonehearth:traits:passion_engineer": true,
-         "stonehearth:traits:passion_footman": true,
-         "stonehearth:traits:passion_herbalist": true,
-         "stonehearth:traits:passion_knight": true,
-         "stonehearth:traits:passion_mason": true,
-         "stonehearth:traits:passion_potter": true,
-         "stonehearth:traits:passion_shepherd": true,
-         "stonehearth:traits:passion_trapper": true,
-         "stonehearth:traits:passion_weaver": true,
-         "stonehearth:traits:passion_worker": true,
-         "stonehearth:traits:courageous": true,
-         "stonehearth:traits:optimistic": true,
-         "box_o_vox:traits:passion_necromancer": true,
-         "box_o_vox:traits:passion_ninja": true
-      }
-	},
-      "stonehearth:traits:courageous": {
-         "excludes": {
-         "stonehearth:traits:passion_blacksmith": true,
-         "stonehearth:traits:passion_carpenter": true,
-         "stonehearth:traits:passion_cook": true,
-         "stonehearth:traits:passion_engineer": true,
-         "stonehearth:traits:passion_herbalist": true,
-         "stonehearth:traits:passion_mason": true,
-         "stonehearth:traits:passion_potter": true,
-         "stonehearth:traits:passion_shepherd": true,
-         "stonehearth:traits:passion_trapper": true,
-         "stonehearth:traits:passion_weaver": true,
-         "stonehearth:traits:passion_worker": true,
-         "stonehearth:traits:green_thumb": true
-      }
-	},
-      "stonehearth:traits:hothead": {}
-}
+        "stonehearth:traits:green_thumb": {
+            "excludes": {
+                "stonehearth:traits:passion_archer": true,
+                "stonehearth:traits:passion_blacksmith": true,
+                "stonehearth:traits:passion_carpenter": true,
+                "stonehearth:traits:passion_cleric": true,
+                "stonehearth:traits:passion_cook": true,
+                "stonehearth:traits:passion_engineer": true,
+                "stonehearth:traits:passion_footman": true,
+                "stonehearth:traits:passion_herbalist": true,
+                "stonehearth:traits:passion_knight": true,
+                "stonehearth:traits:passion_mason": true,
+                "stonehearth:traits:passion_potter": true,
+                "stonehearth:traits:passion_shepherd": true,
+                "stonehearth:traits:passion_trapper": true,
+                "stonehearth:traits:passion_weaver": true,
+                "stonehearth:traits:passion_worker": true,
+                "stonehearth:traits:courageous": true,
+                "stonehearth:traits:optimistic": true,
+                "box_o_vox:traits:passion_necromancer": true,
+                "box_o_vox:traits:passion_ninja": true
+            }
+        },
+        "stonehearth:traits:night_owl": {},
+        "stonehearth:traits:courageous": {
+            "excludes": {
+                "stonehearth:traits:passion_blacksmith": true,
+                "stonehearth:traits:passion_carpenter": true,
+                "stonehearth:traits:passion_cook": true,
+                "stonehearth:traits:passion_engineer": true,
+                "stonehearth:traits:passion_herbalist": true,
+                "stonehearth:traits:passion_mason": true,
+                "stonehearth:traits:passion_potter": true,
+                "stonehearth:traits:passion_shepherd": true,
+                "stonehearth:traits:passion_trapper": true,
+                "stonehearth:traits:passion_weaver": true,
+                "stonehearth:traits:passion_worker": true,
+                "stonehearth:traits:green_thumb": true
+            }
+        },
+        "stonehearth:traits:hothead": {}
+    }
 }

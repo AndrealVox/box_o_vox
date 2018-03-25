@@ -475,10 +475,11 @@
                 "UNPALATABLE": 0,
                 "RAW_BLAND": 1,
                 "RAW_AVERAGE": 2,
-                "TASTY": 3,
-                "BLAND": 4,
-                "COOKED_AVERAGE": 5,
-                "COOKED_TASTY": 6
+                "RAW_TASTY": 3,
+                "TASTY": 4,
+                "COOKED_BLAND": 5,
+                "COOKED_AVERAGE": 6,
+                "COOKED_TASTY": 7
             }
         },
         "stonehearth:catalog": {

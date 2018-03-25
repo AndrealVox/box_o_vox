@@ -68,7 +68,6 @@ ________________________________________________________________________________
 
     -Box o' Vox
         - Add A Vox lord campaign
-        - Add ability to chop down small/medium/large banana tree
         - Add seeds to herbalist
             - Delete plants that have been implemented 
             - Update biome generation to use new plant aliases

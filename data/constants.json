@@ -8,11 +8,10 @@
             "RAW_AVERAGE": 2,
             "RAW_TASTY": 3,
             "TASTY": 4,
-            "BLAND": 5,
-            "COOKED_BLAND": 6,
-            "COOKED_AVERAGE": 7,
-            "COOKED_TASTY": 8,
-            "MAXIMUM": 8
+            "COOKED_BLAND": 5,
+            "COOKED_AVERAGE": 6,
+            "COOKED_TASTY": 7,
+            "MAXIMUM": 7
         }
 
     }

@@ -369,6 +369,7 @@
 
 
         "stonehearth:food:berries:berry_serving": "file(entities/food/berries/berry_serving/berry_serving.json)",
+        "stonehearth:food:watermelon:watermelon_serving": "file(entities/food/berries/berry_serving/berry_serving.json)",
 
         "stonehearth:loadouts": "file(data/loadouts)",
 

@@ -427,23 +427,35 @@
                 }
             },
             "box_o_vox:trees:apple:ancient": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:apple:large": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:apple:medium": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
                     "exclusion_radius": 4
                 }
             },
@@ -459,27 +471,28 @@
                 }
             },
             "box_o_vox:trees:banana:ancient": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:banana:large": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 3
                 }
             },
             "box_o_vox:trees:banana:medium": {
-                "placement_type": "single",
-                "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
-                }
-            },
-            "box_o_vox:trees:banana:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -490,24 +503,47 @@
                     "exclusion_radius": 2
                 }
             },
-            "box_o_vox:trees:orange:ancient": {
-                "placement_type": "single",
+            "box_o_vox:trees:banana:small": {
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 1
+                }
+            },
+            "box_o_vox:trees:orange:ancient": {
+                "placement_type": "dense",
+                "parameters": {
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:orange:large": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:orange:medium": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
                     "exclusion_radius": 4
                 }
             },
@@ -523,23 +559,35 @@
                 }
             },
             "box_o_vox:trees:lime:ancient": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:lime:large": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
-                    "exclusion_radius": 4
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 6
                 }
             },
             "box_o_vox:trees:lime:medium": {
-                "placement_type": "single",
+                "placement_type": "dense",
                 "parameters": {
-                    "ground_radius": 6,
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
                     "exclusion_radius": 4
                 }
             },
@@ -622,23 +670,6 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:foxlily": {
-                "placement_type": "pattern",
-                "parameters": {
-                    "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
-                    "min_rows": 2,
-                    "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
-                    "max_rows": 3,
-                    "__comment": "Minimum Columns. Def 2",
-                    "min_cols": 2,
-                    "__comment": "Maximum Columns. Def 3",
-                    "max_cols": 3,
-                    "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
-                    "item_spacing": 3,
-                    "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-                    "item_density": 0.6
-                }
-            },
             "box_o_vox:plants:greentea": {
                 "placement_type": "pattern",
                 "parameters": {
@@ -657,23 +688,6 @@
                 }
             },
             "box_o_vox:plants:nightshade": {
-                "placement_type": "pattern",
-                "parameters": {
-                    "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
-                    "min_rows": 2,
-                    "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
-                    "max_rows": 3,
-                    "__comment": "Minimum Columns. Def 2",
-                    "min_cols": 2,
-                    "__comment": "Maximum Columns. Def 3",
-                    "max_cols": 3,
-                    "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
-                    "item_spacing": 3,
-                    "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
-                    "item_density": 0.6
-                }
-            },
-            "box_o_vox:plants:sunflower": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -884,8 +898,6 @@
                     "plains": {
                         "1": {
                             "box_o_vox:plants:peppercorn_bush": 2,
-                            "box_o_vox:plants:sunflower": 2,
-                            "box_o_vox:plants:foxlily": 2,
                             "box_o_vox:plants:daisy": 6,
                             "stonehearth:plants:brightbell": 1,
                             "stonehearth:plants:silkweed": 1.5

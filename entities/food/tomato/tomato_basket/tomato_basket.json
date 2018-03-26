@@ -10,7 +10,7 @@
             },
             "decay_1": {
                 "models": [
-               "file(tomato_basket_rotting.qb)"
+               "file(rotten_tomato_basket.qb)"
             ]
             }
         },

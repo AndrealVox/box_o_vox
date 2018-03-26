@@ -39,6 +39,7 @@
 
         "biome:boxland": "file(data/biome/boxland.json)",
 
+        "black_fox": "file(entities/critters/black_fox)",
 
         "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
         "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
@@ -88,7 +89,9 @@
         "crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
         "crops:tomato_crop": "file(entities/crops/tomato_crop)",
 
+
         "data:constants": "file(data/constants.json)",
+
 
         "decoration:bathtub": "file(entities/decoration/bathtub)",
         "decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
@@ -116,6 +119,7 @@
         "effects:red_road_lamp_effect": "file(data/effects/road_lamp_effect/red_road_lamp_effect.json)",
         "effects:summon_necronomicon": "file(data/rigs/entities/humans/effects/summon_necronomicon.json)",
         "effects:summon_potions": "file(data/rigs/entities/humans/effects/summon_potions.json)",
+
 
         "female_1": "file(entities/humans/female/female_1.json)",
 
@@ -193,7 +197,9 @@
 
         "loadouts": "file(data/loadouts)",
 
+
         "male_1": "file(entities/humans/male/male_1.json)",
+
 
         "mixins:plant": "file(mixins/plant)",
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
@@ -280,15 +286,20 @@
         "resources:herb:hemp_herb": "file(entities/resources/herb/hemp_herb)",
         "resources:herb:nightshade": "file(entities/resources/herb/nightshade)",
         "resources:herb:sunflower": "file(entities/resources/herb/sunflower)",
+        "resources:black_fox_pelt": "file(entities/resources/pelt/black_fox_pelt)",
 
 
         "resource_constants": "file(data/resource_constants.json)",
 
+
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
+
 
         "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
 
+
         "startmenu": "file(data/ui/start_menu.json)",
+
 
         "summon:golem": "file(entities/summon/golem/golem_summon.json)",
         "summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",

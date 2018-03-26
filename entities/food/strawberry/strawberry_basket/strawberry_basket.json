@@ -10,7 +10,7 @@
             },
             "decay_1": {
                 "models": [
-               "file(strawberry_basket_rotting.qb)"
+               "file(rotten_strawberry_basket.qb)"
             ]
             }
         },

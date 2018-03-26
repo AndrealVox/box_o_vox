@@ -1,0 +1,14 @@
+{
+    "type": "entity",
+    "mixins": "file(../rabbit.json)",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(owl_male.qb)"
+            ]
+            }
+        }
+    },
+    "entity_data": {}
+}

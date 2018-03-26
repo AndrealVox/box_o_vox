@@ -39,7 +39,9 @@
 
         "biome:boxland": "file(data/biome/boxland.json)",
 
+
         "black_fox": "file(entities/critters/black_fox)",
+
 
         "buffs:ninja:speed": "file(jobs/ninja/ninja_buffs/speed_buff.json)",
         "buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
@@ -206,6 +208,12 @@
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
         "mixture:basic": "file(jobs/alchemist/mixtures/basic)",
+
+
+        "music:combat_1": "file(data/music/combat_1.ogg)",
+        "music:day_1": "file(data/music/day_1.ogg)",
+        "music:night_1": "file(data/music/night_1.ogg)",
+        "music:title_screen": "file(data/music/title_1.ogg)",
 
 
         "necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",

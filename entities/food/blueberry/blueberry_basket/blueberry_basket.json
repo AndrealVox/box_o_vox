@@ -47,7 +47,7 @@
             "is_item": true,
             "category": "food",
             "material_tags": "food_container raw_food fruit blueberry vegetarian stockpile_raw_food",
-            "subject_override": "box:entities:plants:blueberry_bush"
+            "subject_override": "box_o_vox:entities:plants:blueberry_bush"
         },
         "stonehearth:appeal": {
             "appeal": 0

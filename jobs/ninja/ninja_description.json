@@ -1,69 +1,69 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "ninja",
-   "display_order": 1,
-   "alias": "box_o_vox:jobs:ninja",
-   "display_name": "i18n(box_o_vox:jobs.ninja.ninja_description.display_name)",
-   "controller": "box_o_vox:class:ninja",
-   "description": "i18n(box_o_vox:jobs.ninja.ninja_description.description)",
-   "requirements": "i18n(box_o_vox:jobs.ninja.ninja_description.requirements)",
-   "talisman_uri": "box_o_vox:ninja_sword:talisman",
-   "default_stance": "aggressive",
-   "abilities": "file(ninja_abilities)",
-   "equipment": {
-      "helmet": "file(ninja_outfit/ninja_mask)",
-      "torso": "file(ninja_outfit)",
-      "mainhand": "box_o_vox:weapon:ninja_sword"
-   },
-   "roles": "ninja_job melee_combat combat",
-   "promotion_activity_name": "promote_ninja",
-   "task_groups": [
+    "type": "job",
+    "enabled": false,
+    "job_id": "ninja",
+    "display_order": 1,
+    "alias": "box_o_vox:jobs:ninja",
+    "display_name": "i18n(box_o_vox:jobs.ninja.ninja_description.display_name)",
+    "controller": "box_o_vox:class:ninja",
+    "description": "i18n(box_o_vox:jobs.ninja.ninja_description.description)",
+    "requirements": "i18n(box_o_vox:jobs.ninja.ninja_description.requirements)",
+    "talisman_uri": "box_o_vox:ninja_sword:talisman",
+    "default_stance": "aggressive",
+    "abilities": "file(ninja_abilities)",
+    "equipment": {
+        "helmet": "file(ninja_outfit/ninja_mask)",
+        "torso": "file(ninja_outfit)",
+        "mainhand": "box_o_vox:entities:weapon:ninja_sword"
+    },
+    "roles": "ninja_job melee_combat combat",
+    "promotion_activity_name": "promote_ninja",
+    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
       "stonehearth:task_groups:rescue"
    ],
-   "xp_rewards": {
-      "town_protection": 1
-   },
-   "icon": "file(images/icon.png)",
-   "parent_job": "stonehearth:jobs:archer",
-   "max_level": 6,
-   "level_data": {
-      "0": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_0_data.perk_000_name)",
-               "id": "ninja_speed_up",
-               "icon": "file(images/ninja_perk_speed_boost.png)",
-               "buff_name": "box_o_vox:buffs:ninja:speed",
-               "description": "i18n(box_o_vox:jobs.ninja.ninja_description.level_0_data.perk_000_description)",
-               "level": 0,
-               "demote_fn": "remove_buff"
+    "xp_rewards": {
+        "town_protection": 1
+    },
+    "icon": "file(images/icon.png)",
+    "parent_job": "stonehearth:jobs:archer",
+    "max_level": 6,
+    "level_data": {
+        "0": {
+            "perks": [
+                {
+                    "type": "apply_buff",
+                    "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_0_data.perk_000_name)",
+                    "id": "ninja_speed_up",
+                    "icon": "file(images/ninja_perk_speed_boost.png)",
+                    "buff_name": "box_o_vox:jobs:buffs:ninja:speed",
+                    "description": "i18n(box_o_vox:jobs.ninja.ninja_description.level_0_data.perk_000_description)",
+                    "level": 0,
+                    "demote_fn": "remove_buff"
             }
          ]
-      },
-      "1": {
-         "perks": [
-            {
-               "type": "add_chained_combat_action",
-               "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_1_data.perk_000_name)",
-               "id": "ninja_star_throw",
-               "icon": "file(images/ninja_star.png)",
-               "equipment": "box_o_vox:ninja:abilities:ninja_star_throw",
-               "last_equipment": "box_o_vox:weapon:ninja_sword",
-               "action_type": "box_o_vox:combat:ninja_star",
-               "description": "i18n(box_o_vox:jobs.ninja.ninja_description.level_1_data.perk_000_description)",
-               "level": 1,
-               "demote_fn": "remove_combat_action"
+        },
+        "1": {
+            "perks": [
+                {
+                    "type": "add_chained_combat_action",
+                    "name": "i18n(box_o_vox:jobs.ninja.ninja_description.level_1_data.perk_000_name)",
+                    "id": "ninja_star_throw",
+                    "icon": "file(images/ninja_star.png)",
+                    "equipment": "box_o_vox:ninja:abilities:ninja_star_throw",
+                    "last_equipment": "box_o_vox:entities:weapon:ninja_sword",
+                    "action_type": "box_o_vox:combat:ninja_star",
+                    "description": "i18n(box_o_vox:jobs.ninja.ninja_description.level_1_data.perk_000_description)",
+                    "level": 1,
+                    "demote_fn": "remove_combat_action"
             }
          ]
-      },
-      "2": {},
-      "3": {},
-      "4": {},
-      "5": {},
-      "6": {}
-   }
+        },
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    }
 }

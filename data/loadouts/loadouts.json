@@ -34,7 +34,7 @@
             {
                "display_name": "i18n(box_o_vox:data.loadouts.items.potatoes)",
                "type": "entity",
-               "uri": "box_o_vox:food:potato:potato_basket",
+               "uri": "box_o_vox:entities:food:potato:potato_basket",
                "icon": "file(images/items/potato_basket.png)",
                "amount": 10
             },

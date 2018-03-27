@@ -16,7 +16,7 @@
          "category": "harvest",
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
          "unripe_description": "i18n(box_o_vox:entities.plants.greentea_plant.unripe_description)",
-         "resource": "box_o_vox:resources:herb:greentea",
+         "resource": "box_o_vox:entities:resources:herb:greentea",
          "renewal_time": "22h"
       },
       "stonehearth:entity_forms": {

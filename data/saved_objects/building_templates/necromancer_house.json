@@ -6,10 +6,10 @@
         "cost": {
             "items": {
                 "stonehearth:portals:stone_tunnel_door": 1,
-                "box_o_vox:portals:stone_window_frame_wide": 10,
+                "box_o_vox:entities:portals:stone_window_frame_wide": 10,
                 "stonehearth:furniture:writing_desk:fine": 1,
-                "box_o_vox:furniture:red_wood_bed": 3,
-                "box_o_vox:portals:stone_window_frame_tall": 10,
+                "box_o_vox:entities:furniture:red_wood_bed": 3,
+                "box_o_vox:entities:portals:stone_window_frame_tall": 10,
                 "stonehearth:decoration:stone_wall_lantern": 12,
                 "stonehearth:furniture:arch_backed_chair:fine": 1,
                 "stonehearth:furniture:dresser:fine": 2,
@@ -350,7 +350,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": 0,
@@ -607,7 +607,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -10,
@@ -1776,7 +1776,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 1,
@@ -2084,7 +2084,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -2113,7 +2113,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -3381,7 +3381,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -3430,7 +3430,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -3782,7 +3782,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -11,
@@ -3977,7 +3977,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -8,
@@ -4179,7 +4179,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -4241,7 +4241,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -10,
@@ -4534,7 +4534,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -4563,7 +4563,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -4585,7 +4585,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -8,
@@ -4787,7 +4787,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -4809,7 +4809,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -8,
@@ -5011,7 +5011,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -6054,7 +6054,7 @@
                 },
                 "stonehearth:stairs": {
                     "is_free_standing": false,
-                    "brush": "box_o_vox:build:brushes:pattern:vox_cobblestone",
+                    "brush": "box_o_vox:data:build:brushes:pattern:vox_cobblestone",
                     "normal": {
                         "y": 0,
                         "x": 0,
@@ -7423,7 +7423,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -8,
@@ -7690,7 +7690,7 @@
                                 "x": 0,
                                 "z": -1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -7712,7 +7712,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -7901,7 +7901,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -8048,7 +8048,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -10,
@@ -8146,7 +8146,7 @@
                 },
                 "stonehearth:stairs": {
                     "is_free_standing": false,
-                    "brush": "box_o_vox:build:brushes:pattern:vox_cobblestone",
+                    "brush": "box_o_vox:data:build:brushes:pattern:vox_cobblestone",
                     "normal": {
                         "y": 0,
                         "x": 0,
@@ -8329,7 +8329,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -11,
@@ -8457,7 +8457,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -8,
@@ -8672,7 +8672,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -8951,7 +8951,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -9140,7 +9140,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -10103,7 +10103,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -10133,7 +10133,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -11403,7 +11403,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -8,
@@ -11670,7 +11670,7 @@
                                 "x": 0,
                                 "z": -1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -12849,7 +12849,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": 0,
@@ -13038,7 +13038,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -13086,7 +13086,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -8,
@@ -13288,7 +13288,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -13310,7 +13310,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": 2,
@@ -13681,7 +13681,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -13710,7 +13710,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -15223,7 +15223,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": 0,
@@ -15735,7 +15735,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": 0,
@@ -15924,7 +15924,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
@@ -17538,7 +17538,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -22002,7 +22002,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -8,
@@ -22217,7 +22217,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -22768,7 +22768,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 7,
                         "x": -11,
@@ -23061,7 +23061,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
@@ -23090,7 +23090,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide",
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",

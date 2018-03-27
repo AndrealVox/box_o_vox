@@ -13,7 +13,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:portals:solid_red_wood_door"
+         "item": "box_o_vox:entities:portals:solid_red_wood_door"
       }
    ]
 }

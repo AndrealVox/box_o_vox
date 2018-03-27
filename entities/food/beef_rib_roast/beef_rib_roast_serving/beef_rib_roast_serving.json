@@ -28,7 +28,7 @@
             "display_name": "i18n(box_o_vox:entities.food.beef_rib_roast.beef_rib_roast_serving.display_name)",
             "description": "",
             "material_tags": "food beef_rib_roast_serving meat",
-            "subject_override": "box_o_vox:food:beef_rib_roast"
+            "subject_override": "box_o_vox:entities:food:beef_rib_roast"
         }
     }
 }

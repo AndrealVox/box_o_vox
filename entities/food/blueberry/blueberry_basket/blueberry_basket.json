@@ -28,7 +28,7 @@
     "entity_data": {
         "stonehearth:food_container": {
             "effect": "fiddle",
-            "food": "box_o_vox:food:blueberry:blueberry_serving"
+            "food": "box_o_vox:entities:food:blueberry:blueberry_serving"
         },
         "stonehearth:net_worth": {
             "value_in_gold": 2,
@@ -47,7 +47,7 @@
             "is_item": true,
             "category": "food",
             "material_tags": "food_container raw_food fruit blueberry vegetarian stockpile_raw_food",
-            "subject_override": "box:plants:blueberry_bush"
+            "subject_override": "box:entities:plants:blueberry_bush"
         },
         "stonehearth:appeal": {
             "appeal": 0

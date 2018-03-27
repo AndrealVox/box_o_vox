@@ -8,7 +8,7 @@
    "level_requirement": 6,
    "ingredients": [
       {
-         "uri": "box_o_vox:refined:enchanted_cloth",
+         "uri": "box_o_vox:entities:refined:enchanted_cloth",
          "count": 4
       },
       {
@@ -18,7 +18,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:armor:cloth_robe"
+         "item": "box_o_vox:entities:armor:cloth_robe"
       }
    ]
 }

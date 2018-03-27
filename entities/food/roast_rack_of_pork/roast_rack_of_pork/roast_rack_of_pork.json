@@ -23,7 +23,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:food:roast_rack_of_pork:roast_rack_of_pork_serving",
+         "food": "box_o_vox:entities:food:roast_rack_of_pork:roast_rack_of_pork_serving",
          "stacks_per_serving": 4
       },
       "stonehearth:net_worth": {

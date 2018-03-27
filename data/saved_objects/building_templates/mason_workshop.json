@@ -14,11 +14,11 @@
                 "stonehearth:portals:wooden_window_frame": 3,
                 "stonehearth:decoration:fur_rug": 2,
                 "stonehearth:furniture:arch_backed_chair": 4,
-                "box_o_vox:furniture:red_wood_bed": 1,
+                "box_o_vox:entities:furniture:red_wood_bed": 1,
                 "stonehearth:decoration:throw_rug": 2,
                 "stonehearth:furniture:writing_desk": 1,
                 "stonehearth:mason:workbench": 1,
-                "box_o_vox:containers:resources_crate": 5,
+                "box_o_vox:entities:containers:resources_crate": 5,
                 "stonehearth:portals:wooden_window_frame_tall": 4,
                 "stonehearth:portals:wooden_window_frame_wide": 1,
                 "stonehearth:decoration:wooden_wall_lantern": 2,
@@ -656,7 +656,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -18,
@@ -1068,7 +1068,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -9,
@@ -4390,7 +4390,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -4420,7 +4420,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -4450,7 +4450,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -4509,7 +4509,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -4539,7 +4539,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -4569,7 +4569,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -7061,7 +7061,7 @@
                     "nine_grid_margin_front": 1,
                     "nine_grid_y_offset": 0,
                     "nine_grid_margin_left": 2,
-                    "brush": "box_o_vox:build:brushes:roof:vox_green_roof",
+                    "brush": "box_o_vox:data:build:brushes:roof:vox_green_roof",
                     "nine_grid_gradient": [
 						"back"
 					],
@@ -8612,7 +8612,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -18,
@@ -9160,7 +9160,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -18,
@@ -9857,7 +9857,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -10416,7 +10416,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -9,

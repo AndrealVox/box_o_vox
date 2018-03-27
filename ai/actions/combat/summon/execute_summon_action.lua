@@ -148,7 +148,7 @@ function ExecuteSummon:_summon(summoner, target, weapon_data)
 end
 
 function ExecuteSummon:_create_summon(summoner, target, summon_uri)
-    summon_uri = summon_uri or 'box_o_vox:summon:skeleton' -- default summon is skeleton
+    summon_uri = summon_uri or 'box_o_vox:entities:summon:skeleton' -- default summon is skeleton
     local json = radiant.resources.load_json(summon_uri, true, true)
     local npc_player_id = 'summon'
     local origin = radiant.entities.get_world_grid_location(summoner)
@@ -166,7 +166,7 @@ function ExecuteSummon:_create_summon(summoner, target, summon_uri)
     
     for _, summon in pairs(summons) do
         radiant.entities.set_player_id(summon, 'player_1') 
-        radiant.entities.add_buff(summon,'box_o_vox:buffs:summon_timer')
+        radiant.entities.add_buff(summon,'box_o_vox:data:buffs:summon_timer')
         radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
     end
     return summons

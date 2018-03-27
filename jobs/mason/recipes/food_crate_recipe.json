@@ -15,7 +15,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:containers:food_crate"
+         "item": "box_o_vox:entities:containers:food_crate"
       }
    ]
 }

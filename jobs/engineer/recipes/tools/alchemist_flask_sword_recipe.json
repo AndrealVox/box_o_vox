@@ -16,7 +16,7 @@
    ],
     "produces": [
         {
-            "item": "box_o_vox:alchemist:talisman"
+            "item": "box_o_vox:jobs:alchemist:talisman"
       }
    ]
 }

@@ -29,7 +29,7 @@ ________________________________________________________________________________
         - Ninja: a master of combat,
                        can kill any target
                        
-        - Alchemist: an herbalist gone mad, 
+        - jobs:alchemist: an herbalist gone mad, 
                        seeing as all the best ingredients
                        are behind enemy lines, they took up arms
                      
@@ -40,7 +40,7 @@ ________________________________________________________________________________
     - New fauna: a cow and pig can now be raised and "harvested" for two new types of meat,
         also the cow comes with milk as a renewable resource
         
-    - New crops: patato, strawberry, and tomatoes can now be grown by a farmer
+    - New entities:crops: patato, strawberry, and tomatoes can now be grown by a farmer
     
     - New foods: added more cooked foods to add variety to the table
     

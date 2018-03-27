@@ -8,12 +8,12 @@
     "controller": "box_o_vox:class:alchemist",
     "description": "i18n(box_o_vox:jobs.alchemist.alchemist_description.description)",
     "requirements": "i18n(box_o_vox:jobs.alchemist.alchemist_description.requirements)",
-    "talisman_uri": "box_o_vox:alchemist:talisman",
+    "talisman_uri": "box_o_vox:jobs:alchemist:talisman",
     "default_stance": "aggressive",
     "abilities": "file(alchemist_abilities)",
     "equipment": {
         "torso": "file(alchemist_outfit)",
-        "offhand": "box_o_vox:alchemist:flask_sword"
+        "offhand": "box_o_vox:jobs:alchemist:flask_sword"
     },
     "roles": "alchemist_job ranged_combat combat crafter",
     "promotion_activity_name": "promote_alchemist",
@@ -42,7 +42,7 @@
     },
     "workshop": {
         "portrait": "/box_o_vox/jobs/alchemist/alchemist_workbench/alchemist_workbench.png",
-        "workbench_type": "box_o_vox:alchemist:workbench",
+        "workbench_type": "box_o_vox:jobs:alchemist:workbench",
         "skin_class": "cleric",
         "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
         "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"

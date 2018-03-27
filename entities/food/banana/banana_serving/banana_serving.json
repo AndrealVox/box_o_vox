@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.banana.display_name)",
             "description": "i18n(box_o_vox:entities.food.banana.description)",
             "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit banana vegetarian cooking_ingredient",
-            "subject_override": "box_o_vox:food:banana:banana"
+            "subject_override": "box_o_vox:entities:food:banana:banana"
         }
     }
 }

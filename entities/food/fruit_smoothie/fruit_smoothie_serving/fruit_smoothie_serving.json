@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie_serving.display_name)",
             "description": "i18n(box_o_vox:entities.food.fruit_smoothie.fruit_smoothie_serving.description)",
             "material_tags": "food fruit vegetarian",
-            "subject_override": "box_o_vox:food:fruit_smoothie"
+            "subject_override": "box_o_vox:entities:food:fruit_smoothie"
         }
     }
 }

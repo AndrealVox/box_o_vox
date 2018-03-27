@@ -16,17 +16,17 @@
          "count": 1
       },
       {
-         "uri": "box_o_vox:food:banana:banana",
+         "uri": "box_o_vox:entities:food:banana:banana",
          "count": 1
       },
       {
-         "uri": "box_o_vox:food:cream",
+         "uri": "box_o_vox:entities:food:cream",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:banana_cream_pie"
+         "item": "box_o_vox:entities:food:banana_cream_pie"
       }
    ]
 }

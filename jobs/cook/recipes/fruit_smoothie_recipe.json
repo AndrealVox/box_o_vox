@@ -11,13 +11,13 @@
             "count": 3
       },
         {
-            "uri": "box_o_vox:food:cream",
+            "uri": "box_o_vox:entities:food:cream",
             "count": 1
       }
    ],
     "produces": [
         {
-            "item": "box_o_vox:food:fruit_smoothie"
+            "item": "box_o_vox:entities:food:fruit_smoothie"
       }
    ]
 }

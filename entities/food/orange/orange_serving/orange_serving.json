@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.orange.display_name)",
             "description": "i18n(box_o_vox:entities.food.orange.description)",
             "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit orange vegetarian cooking_ingredient",
-            "subject_override": "box_o_vox:food:orange:orange"
+            "subject_override": "box_o_vox:entities:food:orange:orange"
         }
     }
 }

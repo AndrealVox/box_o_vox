@@ -31,7 +31,7 @@
             "display_name": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.display_name)",
             "description": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.description)",
             "material_tags": "food vegetarian",
-            "subject_override": "stonehearth:crops:strawberry_crop"
+            "subject_override": "stonehearth:entities:crops:strawberry_crop"
         }
     }
 }

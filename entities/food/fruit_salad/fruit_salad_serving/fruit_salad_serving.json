@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad_serving.display_name)",
             "description": "i18n(box_o_vox:entities.food.fruit_salad.fruit_salad_serving.description)",
             "material_tags": "food fruit vegetarian",
-            "subject_override": "box_o_vox:food:fruit_salad"
+            "subject_override": "box_o_vox:entities:food:fruit_salad"
         }
     }
 }

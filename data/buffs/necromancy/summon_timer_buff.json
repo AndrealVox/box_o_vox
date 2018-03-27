@@ -7,5 +7,5 @@
     "invisible_to_player": false,
     "duration": "1h",
     "persistent": true,
-    "script": "box_o_vox:buffs:scripts:desummon"
+    "script": "box_o_vox:data:buffs:scripts:desummon"
 }

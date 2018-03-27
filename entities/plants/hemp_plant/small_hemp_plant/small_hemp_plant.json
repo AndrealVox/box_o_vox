@@ -17,7 +17,7 @@
          }
       },
       "stonehearth:resource_node": {
-         "resource": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+         "resource": "box_o_vox:entities:resources:fiber:hemp_fiber_bundle",
          "durability": 2
       },
       "mob": {
@@ -47,7 +47,7 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:plants:hemp_plant:medium",
+         "next_stage": "box_o_vox:entities:plants:hemp_plant:medium",
          "evolve_time": "12h"
       },
       "stonehearth:catalog": {

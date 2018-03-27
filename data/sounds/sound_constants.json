@@ -2,16 +2,16 @@
     "type": "index",
     "music": {
         "title": {
-            "track": "box_o_vox:music:title_screen",
+            "track": "box_o_vox:data:music:title_screen",
             "loop": true,
             "volume": 50
         },
         "kingdoms": {
-            "box_o_vox:kingdoms:boxling": {
+            "box_o_vox:server:population:data:kingdoms:boxling": {
                 "tier_to_day_music_track": {
                     "idle_day_music_tier_1": {
                         "track": [
-                     "box_o_vox:music:day_1"
+                     "box_o_vox:data:music:day_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -19,7 +19,7 @@
                     },
                     "idle_day_music_tier_2": {
                         "track": [
-                     "box_o_vox:music:day_1"
+                     "box_o_vox:data:music:day_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -27,7 +27,7 @@
                     },
                     "idle_day_music_tier_3": {
                         "track": [
-                     "box_o_vox:music:day_1"
+                     "box_o_vox:data:music:day_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -37,7 +37,7 @@
                 "tier_to_night_music_track": {
                     "idle_night_music_tier_1": {
                         "track": [
-                     "box_o_vox:music:night_1"
+                     "box_o_vox:data:music:night_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -45,7 +45,7 @@
                     },
                     "idle_night_music_tier_2": {
                         "track": [
-                     "box_o_vox:music:night_1"
+                     "box_o_vox:data:music:night_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -53,7 +53,7 @@
                     },
                     "idle_night_music_tier_3": {
                         "track": [
-                     "box_o_vox:music:night_1"
+                     "box_o_vox:data:music:night_1"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -67,11 +67,11 @@
                 "playlist": [
                     {
                         "fade_in": 500,
-                        "track": "stonehearth:music:combat_start"
+                        "track": "stonehearth:data:music:combat_start"
                },
                     {
                         "track": [
-                     "box_o_vox:music:combat_1"
+                     "box_o_vox:data:music:combat_1"
                   ],
                         "volume": 60,
                         "fade_in": 100,

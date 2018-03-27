@@ -19,7 +19,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:food:apple_pie:apple_pie_serving",
+         "food": "box_o_vox:entities:food:apple_pie:apple_pie_serving",
          "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {

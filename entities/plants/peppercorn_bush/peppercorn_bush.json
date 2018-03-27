@@ -43,7 +43,7 @@
         },
         "stonehearth:renewable_resource_node": {
             "category": "harvest",
-            "resource": "box_o_vox:food:peppercorn",
+            "resource": "box_o_vox:entities:food:peppercorn",
             "renewal_time": "10h",
             "unripe_description": "i18n(box_o_vox:entities.plants.peppercorn_bush.unripe_description)",
             "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"

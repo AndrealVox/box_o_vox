@@ -28,7 +28,7 @@
             "display_name": "i18n(box_o_vox:entities.food.roast_rack_of_pork.roast_rack_of_pork_serving.display_name)",
             "description": "",
             "material_tags": "food roast_rack_of_pork_serving meat",
-            "subject_override": "box_o_vox:food:roast_rack_of_pork"
+            "subject_override": "box_o_vox:entities:food:roast_rack_of_pork"
         }
     }
 }

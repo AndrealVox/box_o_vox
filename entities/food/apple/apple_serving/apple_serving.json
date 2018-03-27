@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
             "description": "i18n(box_o_vox:entities.food.apple.description)",
             "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit apple vegetarian cooking_ingredient",
-            "subject_override": "box_o_vox:food:apple:apple"
+            "subject_override": "box_o_vox:entities:food:apple:apple"
         }
     }
 }

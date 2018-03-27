@@ -22,7 +22,7 @@
    ],
     "produces": [
         {
-            "item": "box_o_vox:food:pig_feed"
+            "item": "box_o_vox:entities:food:pig_feed"
       }
    ]
 }

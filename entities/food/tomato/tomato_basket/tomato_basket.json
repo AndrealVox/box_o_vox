@@ -28,7 +28,7 @@
     "entity_data": {
         "stonehearth:food_container": {
             "effect": "fiddle",
-            "food": "box_o_vox:food:tomato:tomato_serving",
+            "food": "box_o_vox:entities:food:tomato:tomato_serving",
             "stacks_per_serving": 6
         },
         "stonehearth:net_worth": {
@@ -46,7 +46,7 @@
                 "min": 168,
                 "max": 168
             },
-            "rotten_entity_alias": "box_o_vox:food:rotten:tomato_basket"
+            "rotten_entity_alias": "box_o_vox:entities:food:rotten:tomato_basket"
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.plants.tomato.tomato_basket.display_name)",
@@ -55,7 +55,7 @@
             "is_item": true,
             "category": "food",
             "material_tags": "food_container raw_food vegetable fruit tomato vegetarian stockpile_raw_food",
-            "subject_override": "box_o_vox:crops:tomato_crop"
+            "subject_override": "box_o_vox:entities:crops:tomato_crop"
         }
     }
 }

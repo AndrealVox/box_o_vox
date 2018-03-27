@@ -4,7 +4,7 @@
       "stonehearth:equipment_piece": {
          "injected_ai": {
             "actions": [
-                "box_o_vox:actions:combat:flame_skull_attack"
+                "box_o_vox:ai:ai:actions:combat:flame_skull_attack"
             ],
             "ai_packs": [
                "stonehearth:ai_pack:ranged_combat"

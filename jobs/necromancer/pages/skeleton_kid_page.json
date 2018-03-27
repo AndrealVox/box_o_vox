@@ -18,8 +18,8 @@
         "stonehearth:equipment_swap": {
             "swap_options": {
                 "skeleton_kid": {
-                    "uri": "box_o_vox:necromancer:spells:skeleton_kid",
-                    "command": "box_o_vox:commands:necromancer_summons:skeleton_kid",
+                    "uri": "box_o_vox:jobs:necromancer:spells:skeleton_kid",
+                    "command": "box_o_vox:data:commands:necromancer_summons:skeleton_kid",
                     "ordinal": 1
                 }
             },

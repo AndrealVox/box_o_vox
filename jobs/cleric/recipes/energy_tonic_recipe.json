@@ -5,7 +5,7 @@
    "description": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/energy_tonic/energy_tonic.png",
-   "work_effect": "box_o_vox:effects:summon_potions",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
    "ingredients": [
       {
          "material": "herb resource",

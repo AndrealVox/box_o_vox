@@ -375,7 +375,7 @@
                     "exclusion_radius": 3
                 }
             },
-            "box_o_vox:plants:hemp_plant:small": {
+            "box_o_vox:entities:plants:hemp_plant:small": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -392,7 +392,7 @@
                     "item_density": 0.8
                 }
             },
-            "box_o_vox:plants:hemp_plant:medium": {
+            "box_o_vox:entities:plants:hemp_plant:medium": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -409,7 +409,7 @@
                     "item_density": 0.8
                 }
             },
-            "box_o_vox:plants:hemp_plant:large": {
+            "box_o_vox:entities:plants:hemp_plant:large": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -426,7 +426,7 @@
                     "item_density": 0.8
                 }
             },
-            "box_o_vox:trees:apple:ancient": {
+            "box_o_vox:entities:trees:apple:ancient": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -437,7 +437,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:apple:large": {
+            "box_o_vox:entities:trees:apple:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -448,7 +448,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:apple:medium": {
+            "box_o_vox:entities:trees:apple:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -459,7 +459,7 @@
                     "exclusion_radius": 4
                 }
             },
-            "box_o_vox:trees:apple:small": {
+            "box_o_vox:entities:trees:apple:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -470,7 +470,7 @@
                     "exclusion_radius": 2
                 }
             },
-            "box_o_vox:trees:banana:ancient": {
+            "box_o_vox:entities:trees:banana:ancient": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -481,7 +481,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:banana:large": {
+            "box_o_vox:entities:trees:banana:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -492,7 +492,7 @@
                     "exclusion_radius": 3
                 }
             },
-            "box_o_vox:trees:banana:medium": {
+            "box_o_vox:entities:trees:banana:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -503,7 +503,7 @@
                     "exclusion_radius": 2
                 }
             },
-            "box_o_vox:trees:banana:small": {
+            "box_o_vox:entities:trees:banana:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -514,7 +514,7 @@
                     "exclusion_radius": 1
                 }
             },
-            "box_o_vox:trees:orange:ancient": {
+            "box_o_vox:entities:trees:orange:ancient": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -525,7 +525,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:orange:large": {
+            "box_o_vox:entities:trees:orange:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -536,7 +536,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:orange:medium": {
+            "box_o_vox:entities:trees:orange:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -547,7 +547,7 @@
                     "exclusion_radius": 4
                 }
             },
-            "box_o_vox:trees:orange:small": {
+            "box_o_vox:entities:trees:orange:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -558,7 +558,7 @@
                     "exclusion_radius": 2
                 }
             },
-            "box_o_vox:trees:lime:ancient": {
+            "box_o_vox:entities:trees:lime:ancient": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -569,7 +569,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:lime:large": {
+            "box_o_vox:entities:trees:lime:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -580,7 +580,7 @@
                     "exclusion_radius": 6
                 }
             },
-            "box_o_vox:trees:lime:medium": {
+            "box_o_vox:entities:trees:lime:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -591,7 +591,7 @@
                     "exclusion_radius": 4
                 }
             },
-            "box_o_vox:trees:lime:small": {
+            "box_o_vox:entities:trees:lime:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
@@ -602,7 +602,7 @@
                     "exclusion_radius": 2
                 }
             },
-            "box_o_vox:plants:peppercorn_bush": {
+            "box_o_vox:entities:plants:peppercorn_bush": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -619,7 +619,7 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:blueberry_bush": {
+            "box_o_vox:entities:plants:blueberry_bush": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -636,7 +636,7 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:daisy": {
+            "box_o_vox:entities:plants:daisy": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -653,7 +653,7 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:firebeard": {
+            "box_o_vox:entities:plants:firebeard": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -670,7 +670,7 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:greentea": {
+            "box_o_vox:entities:plants:greentea": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -687,7 +687,7 @@
                     "item_density": 0.6
                 }
             },
-            "box_o_vox:plants:nightshade": {
+            "box_o_vox:entities:plants:nightshade": {
                 "placement_type": "pattern",
                 "parameters": {
                     "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
@@ -731,7 +731,7 @@
                     "medium": 4,
                     "large": 13
                 },
-                "box_o_vox:trees:banana": {
+                "box_o_vox:entities:trees:banana": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
@@ -740,7 +740,7 @@
                         "percentage": 100
                     }
                 },
-                "box_o_vox:trees:apple": {
+                "box_o_vox:entities:trees:apple": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
@@ -749,7 +749,7 @@
                         "percentage": 100
                     }
                 },
-                "box_o_vox:trees:orange": {
+                "box_o_vox:entities:trees:orange": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
@@ -758,7 +758,7 @@
                         "percentage": 100
                     }
                 },
-                "box_o_vox:trees:lime": {
+                "box_o_vox:entities:trees:lime": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
@@ -772,10 +772,10 @@
                 "plains": {
                     "1": {
                         "stonehearth:trees:oak": 1,
-                        "box_o_vox:trees:apple": 2,
-                        "box_o_vox:trees:banana": 1,
-                        "box_o_vox:trees:orange": 2,
-                        "box_o_vox:trees:lime": 1
+                        "box_o_vox:entities:trees:apple": 2,
+                        "box_o_vox:entities:trees:banana": 1,
+                        "box_o_vox:entities:trees:orange": 2,
+                        "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "foothills": {
@@ -783,34 +783,34 @@
                         "stonehearth:trees:oak": 4,
                         "stonehearth:trees:juniper": 5,
                         "stonehearth:trees:pine": 1,
-                        "box_o_vox:trees:apple": 1,
-                        "box_o_vox:trees:banana": 0.5,
-                        "box_o_vox:trees:orange": 1,
-                        "box_o_vox:trees:lime": 1
+                        "box_o_vox:entities:trees:apple": 1,
+                        "box_o_vox:entities:trees:banana": 0.5,
+                        "box_o_vox:entities:trees:orange": 1,
+                        "box_o_vox:entities:trees:lime": 1
                     },
                     "2": {
                         "stonehearth:trees:oak": 2,
                         "stonehearth:trees:juniper": 5,
                         "stonehearth:trees:pine": 3,
-                        "box_o_vox:trees:apple": 1,
-                        "box_o_vox:trees:banana": 0.5,
-                        "box_o_vox:trees:orange": 1,
-                        "box_o_vox:trees:lime": 1
+                        "box_o_vox:entities:trees:apple": 1,
+                        "box_o_vox:entities:trees:banana": 0.5,
+                        "box_o_vox:entities:trees:orange": 1,
+                        "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "mountains": {
                     "1": {
                         "stonehearth:trees:juniper": 3,
                         "stonehearth:trees:pine": 7,
-                        "box_o_vox:trees:apple": 0,
-                        "box_o_vox:trees:banana": 0,
-                        "box_o_vox:trees:orange": 0
+                        "box_o_vox:entities:trees:apple": 0,
+                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:orange": 0
                     },
                     "2": {
                         "stonehearth:trees:pine": 1,
-                        "box_o_vox:trees:apple": 0,
-                        "box_o_vox:trees:banana": 0,
-                        "box_o_vox:trees:orange": 0
+                        "box_o_vox:entities:trees:apple": 0,
+                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:orange": 0
                     }
                 }
             },
@@ -897,43 +897,43 @@
                 "weights": {
                     "plains": {
                         "1": {
-                            "box_o_vox:plants:peppercorn_bush": 2,
-                            "box_o_vox:plants:daisy": 6,
+                            "box_o_vox:entities:plants:peppercorn_bush": 2,
+                            "box_o_vox:entities:plants:daisy": 6,
                             "stonehearth:plants:brightbell": 1,
                             "stonehearth:plants:silkweed": 1.5
                         }
                     },
                     "foothills": {
                         "1": {
-                            "box_o_vox:plants:peppercorn_bush": 3,
-                            "box_o_vox:plants:blueberry_bush": 3,
-                            "box_o_vox:plants:greentea": 1,
+                            "box_o_vox:entities:plants:peppercorn_bush": 3,
+                            "box_o_vox:entities:plants:blueberry_bush": 3,
+                            "box_o_vox:entities:plants:greentea": 1,
                             "stonehearth:plants:frostsnap": 1,
                             "stonehearth:plants:brightbell": 7,
                             "stonehearth:plants:silkweed": 1,
-                            "box_o_vox:plants:hemp_plant:large": 1,
-                            "box_o_vox:plants:hemp_plant:med": 1,
-                            "box_o_vox:plants:hemp_plant:small": 1
+                            "box_o_vox:entities:plants:hemp_plant:large": 1,
+                            "box_o_vox:entities:plants:hemp_plant:med": 1,
+                            "box_o_vox:entities:plants:hemp_plant:small": 1
                         },
                         "2": {
-                            "box_o_vox:plants:hemp_plant:large": 1,
-                            "box_o_vox:plants:peppercorn_bush": 2,
-                            "box_o_vox:plants:greentea": 1,
+                            "box_o_vox:entities:plants:hemp_plant:large": 1,
+                            "box_o_vox:entities:plants:peppercorn_bush": 2,
+                            "box_o_vox:entities:plants:greentea": 1,
                             "stonehearth:plants:frostsnap": 1,
                             "stonehearth:plants:brightbell": 1
                         }
                     },
                     "mountains": {
                         "1": {
-                            "box_o_vox:plants:peppercorn_bush": 0,
-                            "box_o_vox:plants:nightshade": 1,
-                            "box_o_vox:plants:hemp_plant:med": 1,
-                            "box_o_vox:plants:firebeard": 1,
+                            "box_o_vox:entities:plants:peppercorn_bush": 0,
+                            "box_o_vox:entities:plants:nightshade": 1,
+                            "box_o_vox:entities:plants:hemp_plant:med": 1,
+                            "box_o_vox:entities:plants:firebeard": 1,
                             "stonehearth:plants:frostsnap": 1
                         },
                         "3": {
-                            "box_o_vox:plants:hemp_plant:large": 0.51,
-                            "box_o_vox:plants:peppercorn_bush": 0,
+                            "box_o_vox:entities:plants:hemp_plant:large": 0.51,
+                            "box_o_vox:entities:plants:peppercorn_bush": 0,
                             "stonehearth:plants:frostsnap": 1
                         }
                     }

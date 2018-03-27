@@ -31,7 +31,7 @@
             "display_name": "i18n(box_o_vox:entities.food.apple_pie.apple_pie_serving.display_name)",
             "description": "i18n(box_o_vox:entities.food.apple_pie.apple_pie_serving.description)",
             "material_tags": "food meat",
-            "subject_override": "box_o_vox:food:apple_pie"
+            "subject_override": "box_o_vox:entities:food:apple_pie"
         }
     }
 }

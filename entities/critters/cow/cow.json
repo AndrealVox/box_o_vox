@@ -14,7 +14,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "herding",
-         "resource": "box_o_vox:food:milk",
+         "resource": "box_o_vox:entities:food:milk",
          "renewal_time": "36h",
          "unripe_description": "i18n(box_o_vox:entities.critters.cow.unripe_description)",
          "harvest_status_text": "i18n(box_o_vox:entities.critters.cow.renewable_harvest_status_text)",
@@ -25,7 +25,7 @@
          "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
          "harvester_effect": "fiddle",
          "description": "harvest_animal",
-         "resource": "box_o_vox:food:beef",
+         "resource": "box_o_vox:entities:food:beef",
          "harvestable_by_harvest_tool": false
       },
       "stonehearth:attributes": {

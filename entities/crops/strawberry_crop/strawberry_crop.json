@@ -45,7 +45,7 @@
       },
       "stonehearth:crop": {
          "resource_pairings": {
-            "strawberry_4": "box_o_vox:food:strawberry:strawberry_basket",
+            "strawberry_4": "box_o_vox:entities:food:strawberry:strawberry_basket",
             "strawberry_12": ""
          },
          "harvest_threshhold": "strawberry_4",

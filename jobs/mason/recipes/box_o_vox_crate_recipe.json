@@ -9,29 +9,29 @@
    "level_requirement": 2,
    "ingredients": [
       {
-         "uri": "box_o_vox:containers:equipment_crate",
+         "uri": "box_o_vox:entities:containers:equipment_crate",
          "count": 1
       },
       {
-         "uri": "box_o_vox:containers:food_crate",
+         "uri": "box_o_vox:entities:containers:food_crate",
          "count": 1
       },
       {
-         "uri": "box_o_vox:containers:furniture_crate",
+         "uri": "box_o_vox:entities:containers:furniture_crate",
          "count": 1
       },
       {
-         "uri": "box_o_vox:containers:resources_crate",
+         "uri": "box_o_vox:entities:containers:resources_crate",
          "count": 1
       },
       {
-         "uri": "box_o_vox:containers:treasure_crate",
+         "uri": "box_o_vox:entities:containers:treasure_crate",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:containers:box_o_vox_crate"
+         "item": "box_o_vox:entities:containers:box_o_vox_crate"
       }
    ]
 }

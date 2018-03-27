@@ -5,7 +5,7 @@
     },
     "entity_data": {
         "box_o_vox:summon_data": {
-            "summon_uri": "box_o_vox:summon:golem"
+            "summon_uri": "box_o_vox:entities:summon:golem"
         }
     }
 }

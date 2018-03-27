@@ -17,7 +17,7 @@
          "level_requirement": 0
       },
       "potato": {
-         "crop_type": "box_o_vox:crops:potato_crop",
+         "crop_type": "box_o_vox:entities:crops:potato_crop",
          "ordinal": 3,
          "level_requirement": 0
       },
@@ -37,12 +37,12 @@
          "level_requirement": 0
       },
       "strawberry": {
-         "crop_type": "box_o_vox:crops:strawberry_crop",
+         "crop_type": "box_o_vox:entities:crops:strawberry_crop",
          "ordinal": 7,
          "level_requirement": 1
       },
       "tomato": {
-         "crop_type": "box_o_vox:crops:tomato_crop",
+         "crop_type": "box_o_vox:entities:crops:tomato_crop",
          "ordinal": 8,
          "level_requirement": 2
       },

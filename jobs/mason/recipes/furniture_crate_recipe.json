@@ -15,7 +15,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:containers:furniture_crate"
+         "item": "box_o_vox:entities:containers:furniture_crate"
       }
    ]
 }

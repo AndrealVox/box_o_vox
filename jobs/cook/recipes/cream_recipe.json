@@ -9,13 +9,13 @@
    "level_requirement": 2,
    "ingredients": [
       {
-         "uri": "box_o_vox:food:milk",
+         "uri": "box_o_vox:entities:food:milk",
          "count": 2
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:cream"
+         "item": "box_o_vox:entities:food:cream"
       }
    ]
 }

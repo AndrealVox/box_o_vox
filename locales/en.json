@@ -1266,8 +1266,8 @@
             }
          },
          "pig": {
-            "species": "Pig",
-            "display_name": "A Pig",
+            "species": "entities:critters:pig",
+            "display_name": "A entities:critters:pig",
             "description": "Oink Oink",
             "pig_young": {
                "display_name": "A Pigglet",

@@ -28,7 +28,7 @@
             "display_name": "i18n(stonehearth:entities.plants.potato.potato_serving.display_name)",
             "description": "i18n(stonehearth:entities.plants.potato.potato_serving.description)",
             "material_tags": "food vegetarian",
-            "subject_override": "stonehearth:crops:potato_crop"
+            "subject_override": "stonehearth:entities:crops:potato_crop"
         }
     }
 }

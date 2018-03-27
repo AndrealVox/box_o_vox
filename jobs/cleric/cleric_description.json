@@ -41,12 +41,12 @@
       "town_protection": 15
    },
    "crafter": {
-      "work_effect": "box_o_vox:effects:summon_necronomicon",
+      "work_effect": "box_o_vox:data:effects:summon_necronomicon",
       "recipe_list": "/box_o_vox/jobs/cleric/recipes/recipes.json"
    },
    "workshop": {
       "portrait": "/box_o_vox/jobs/cleric/cleric_workbench/cleric_workbench.png",
-      "workbench_type": "box_o_vox:cleric:workbench",
+      "workbench_type": "box_o_vox:jobs:cleric:workbench",
       "skin_class": "cleric",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"

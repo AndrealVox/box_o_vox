@@ -16,13 +16,13 @@
          "count": 1
       },
       {
-         "uri": "box_o_vox:food:apple:apple",
+         "uri": "box_o_vox:entities:food:apple:apple",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:apple_pie"
+         "item": "box_o_vox:entities:food:apple_pie"
       }
    ]
 }

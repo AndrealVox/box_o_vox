@@ -7,7 +7,7 @@
             "items": {
                 "stonehearth:decoration:throw_rug": 1,
                 "stonehearth:furniture:writing_desk": 1,
-                "box_o_vox:containers:resources_crate": 1,
+                "box_o_vox:entities:containers:resources_crate": 1,
                 "stonehearth:furniture:dresser": 1,
                 "stonehearth:portals:wooden_door": 1,
                 "stonehearth:herbalist:workbench": 1,
@@ -17,7 +17,7 @@
                 "stonehearth:decoration:wooden_wall_lantern": 2,
                 "stonehearth:decoration:wooden_sign_herbalist": 1,
                 "stonehearth:decoration:window_box:brightbell": 1,
-                "box_o_vox:furniture:red_wood_bed": 1
+                "box_o_vox:entities:furniture:red_wood_bed": 1
             },
             "resources": {
                 "stone resource": 573
@@ -179,7 +179,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -7,
@@ -400,7 +400,7 @@
                     "nine_grid_margin_front": 1,
                     "nine_grid_y_offset": -1,
                     "nine_grid_margin_left": 1,
-                    "brush": "box_o_vox:build:brushes:roof:vox_green_roof",
+                    "brush": "box_o_vox:data:build:brushes:roof:vox_green_roof",
                     "nine_grid_gradient": [
 						"left",
 						"right",
@@ -1505,7 +1505,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -7,
@@ -1871,7 +1871,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -3832,7 +3832,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -3854,7 +3854,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -7,
@@ -4924,7 +4924,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",

@@ -132,7 +132,7 @@ function AttackRangedFlameSkull:_shoot(attacker, target, weapon_data)
    if not target:is_valid() then
       return
    end
-   local skulluri = "box_o_vox:weapon:flame_skull"
+   local skulluri = "box_o_vox:entities:weapon:flame_skull"
    local projectile_speed = weapon_data.projectile_speed
    assert(projectile_speed)
    local projectile = self:_create_projectile(attacker, target, projectile_speed, skulluri)
@@ -184,7 +184,7 @@ function AttackRangedFlameSkull:_shoot(attacker, target, weapon_data)
 end
 
 function AttackRangedFlameSkull:_create_projectile(attacker, target, projectile_speed, projectile_uri)
-   projectile_uri = projectile_uri or "box_o_vox:weapon:flame_skull" -- default projectile is an arrow
+   projectile_uri = projectile_uri or "box_o_vox:entities:weapon:flame_skull" -- default projectile is an arrow
    local projectile = radiant.entities.create_entity(projectile_uri, { owner = attacker })
    local projectile_component = projectile:add_component('stonehearth:projectile')
    projectile_component:set_speed(projectile_speed)

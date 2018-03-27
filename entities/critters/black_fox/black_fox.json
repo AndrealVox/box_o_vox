@@ -39,7 +39,7 @@
                             "uri": "stonehearth:red_fox_jerky"
                         },
                         "pelt": {
-                            "uri": "box_o_vox:resources:black_fox_pelt"
+                            "uri": "box_o_vox:entities:resources:black_fox_pelt"
                         }
                     }
                 }

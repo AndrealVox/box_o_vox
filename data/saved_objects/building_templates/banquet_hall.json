@@ -5,18 +5,18 @@
         "name": "banquet_hall",
         "cost": {
             "items": {
-                "box_o_vox:containers:food_crate": 4,
-                "box_o_vox:portals:solid_stone_door": 1,
+                "box_o_vox:entities:containers:food_crate": 4,
+                "box_o_vox:entities:portals:solid_stone_door": 1,
                 "stonehearth:decoration:wooden_sign_cook": 1,
                 "stonehearth:cook:oven": 1,
-                "box_o_vox:portals:stone_window_frame_wide": 1,
+                "box_o_vox:entities:portals:stone_window_frame_wide": 1,
                 "stonehearth:furniture:stone_table": 14,
-                "box_o_vox:portals:stone_window_frame_tall": 18,
+                "box_o_vox:entities:portals:stone_window_frame_tall": 18,
                 "stonehearth:cook:workbench": 1,
-                "box_o_vox:portals:solid_red_wood_door": 1,
+                "box_o_vox:entities:portals:solid_red_wood_door": 1,
                 "stonehearth:furniture:comfy_chair": 32,
                 "stonehearth:decoration:wooden_wall_lantern": 1,
-                "box_o_vox:furniture:red_wood_bed": 2
+                "box_o_vox:entities:furniture:red_wood_bed": 2
             },
             "resources": {
                 "stone resource": 2210
@@ -184,7 +184,7 @@
                     "nine_grid_margin_front": 1,
                     "nine_grid_y_offset": 1,
                     "nine_grid_margin_left": 1,
-                    "brush": "box_o_vox:build:brushes:roof:vox_green_castle",
+                    "brush": "box_o_vox:data:build:brushes:roof:vox_green_castle",
                     "nine_grid_gradient": [
 						"left",
 						"right"
@@ -3653,7 +3653,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -3961,7 +3961,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -3989,7 +3989,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4017,7 +4017,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4038,7 +4038,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -4606,7 +4606,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4634,7 +4634,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4691,7 +4691,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4719,7 +4719,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4747,7 +4747,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4775,7 +4775,7 @@
                                 "x": -1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -4842,7 +4842,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 17,
@@ -5007,7 +5007,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -5028,7 +5028,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 17,
@@ -5145,7 +5145,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -5362,7 +5362,7 @@
                                 "x": 0,
                                 "z": -1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -5390,7 +5390,7 @@
                                 "x": 0,
                                 "z": -1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -5411,7 +5411,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 17,
@@ -13420,7 +13420,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "box_o_vox:containers:food_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:food_crate",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -14436,7 +14436,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "box_o_vox:containers:food_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:food_crate",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -14581,7 +14581,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 180,
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -14697,7 +14697,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "box_o_vox:containers:food_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:food_crate",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -14726,7 +14726,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 0,
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -14842,7 +14842,7 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "box_o_vox:containers:food_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:food_crate",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
@@ -15120,7 +15120,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 10,
@@ -15376,7 +15376,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -15404,7 +15404,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -15515,7 +15515,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 1,
@@ -15691,7 +15691,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:solid_red_wood_door"
+                            "fixture_uri": "box_o_vox:entities:portals:solid_red_wood_door"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/solid_red_wood_door\/solid_red_wood_door_ghost.json",
                         "stonehearth:construction_progress": {
@@ -15719,7 +15719,7 @@
                                 "x": 0,
                                 "z": 1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_wide"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_wide"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_wide\/stone_window_frame_wide_ghost.json",
                         "stonehearth:construction_progress": {
@@ -15878,7 +15878,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 10,
@@ -16043,7 +16043,7 @@
                                 "x": 0,
                                 "z": -1
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -16064,7 +16064,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 17,
@@ -16203,7 +16203,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -16316,7 +16316,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:blue_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:blue_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 21,
@@ -16546,7 +16546,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {
@@ -16574,7 +16574,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:solid_stone_door"
+                            "fixture_uri": "box_o_vox:entities:portals:solid_stone_door"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/solid_stone_door\/solid_stone_door_ghost.json",
                         "stonehearth:construction_progress": {
@@ -16602,7 +16602,7 @@
                                 "x": 1,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:portals:stone_window_frame_tall"
+                            "fixture_uri": "box_o_vox:entities:portals:stone_window_frame_tall"
                         },
                         "uri": "\/box_o_vox\/entities\/construction\/stone_window_frame_tall\/stone_window_frame_tall_ghost.json",
                         "stonehearth:construction_progress": {

@@ -2,7 +2,7 @@
     "type": "kingdom",
     "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
     "kingdom_id": "boxling",
-    "favored_biome": "box_o_vox:biome:boxland",
+    "favored_biome": "box_o_vox:data:biome:boxland",
     "quote": "i18n(box_o_vox:data.population.boxling.quote)",
     "description": "i18n(box_o_vox:data.population.boxling.description)",
     "post_selection_description": "i18n(box_o_vox:data.population.boxling.post_selection_description)",
@@ -16,7 +16,7 @@
         "default": {
             "male": {
                 "uri": [
-               "box_o_vox:male_1"
+               "box_o_vox:entities:human:male_1"
             ],
                 "given_names": [
                "Alton",
@@ -87,7 +87,7 @@
             },
             "female": {
                 "uri": [
-               "box_o_vox:female_1"
+               "box_o_vox:entities:human:female_1"
             ],
                 "given_names": [
                "Sanini",

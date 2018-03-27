@@ -10,13 +10,13 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:trees:lime:large",
+         "next_stage": "box_o_vox:entities:trees:lime:large",
          "evolve_time": "5d"
       },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.lime_tree.medium_lime_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.lime_tree.medium_lime_tree.description)",
-         "subject_override": "box_o_vox:trees:lime:large"
+         "subject_override": "box_o_vox:entities:trees:lime:large"
       }
    }
 }

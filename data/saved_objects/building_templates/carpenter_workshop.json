@@ -15,11 +15,11 @@
                 "stonehearth:furniture:dining_table": 2,
                 "stonehearth:decoration:tapestry_wall": 1,
                 "stonehearth:furniture:dresser": 1,
-                "box_o_vox:containers:resources_crate": 3,
+                "box_o_vox:entities:containers:resources_crate": 3,
                 "stonehearth:decoration:wooden_wall_lantern": 4,
                 "stonehearth:furniture:arch_backed_chair": 7,
                 "stonehearth:carpenter:workbench": 1,
-                "box_o_vox:furniture:red_wood_bed": 1
+                "box_o_vox:entities:furniture:red_wood_bed": 1
             },
             "resources": {
                 "stone resource": 1306
@@ -121,7 +121,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -11,
@@ -778,7 +778,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -11,
@@ -3289,7 +3289,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {
@@ -3367,7 +3367,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -14,
@@ -3523,7 +3523,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -9,
@@ -3919,7 +3919,7 @@
                         "x": 1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": 0,
@@ -4496,7 +4496,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -11,
@@ -4620,7 +4620,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -9,
@@ -6915,7 +6915,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -7032,7 +7032,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -7120,7 +7120,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
@@ -7382,7 +7382,7 @@
                                 "x": 0,
                                 "z": 0
                             },
-                            "fixture_uri": "box_o_vox:containers:resources_crate",
+                            "fixture_uri": "box_o_vox:entities:containers:resources_crate",
                             "quality": 1
                         },
                         "uri": "\/box_o_vox\/entities\/containers\/resources_crate\/resources_crate_ghost.json",
@@ -7483,7 +7483,7 @@
                     "nine_grid_margin_front": 1,
                     "nine_grid_y_offset": 0,
                     "nine_grid_margin_left": 1,
-                    "brush": "box_o_vox:build:brushes:roof:vox_green_roof",
+                    "brush": "box_o_vox:data:build:brushes:roof:vox_green_roof",
                     "nine_grid_gradient": [
 						"left",
 						"right"
@@ -11038,7 +11038,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {
@@ -11103,7 +11103,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {
@@ -11378,7 +11378,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {
@@ -11544,7 +11544,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {
@@ -11672,7 +11672,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -11,
@@ -11803,7 +11803,7 @@
                         "x": -1,
                         "z": 0
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -14,
@@ -12074,7 +12074,7 @@
                         "x": 0,
                         "z": 1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "pos_a": {
                         "y": 0,
                         "x": -14,
@@ -12217,7 +12217,7 @@
                         "x": 0,
                         "z": -1
                     },
-                    "brush": "box_o_vox:build:brushes:wall:purple_stone_wall",
+                    "brush": "box_o_vox:data:build:brushes:wall:purple_stone_wall",
                     "patch_wall_region": [
                         {
                             "min": {

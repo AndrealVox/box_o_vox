@@ -23,7 +23,7 @@
     "entity_data": {
         "stonehearth:food_container": {
             "effect": "fiddle",
-            "food": "box_o_vox:food:fruit_salad:fruit_salad_serving",
+            "food": "box_o_vox:entities:food:fruit_salad:fruit_salad_serving",
             "stacks_per_serving": 6
         },
         "stonehearth:net_worth": {

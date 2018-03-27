@@ -20,7 +20,7 @@
         "zombie": {
             "male": {
                 "uri": [
-               "box_o_vox:summons:undead:zombie"
+               "box_o_vox:entities:summon:undead:zombie"
             ],
                 "given_names": [
                "Steve"
@@ -33,21 +33,21 @@
         "golem_kid": {
             "male": {
                 "uri": [
-               "box_o_vox:summons:forest:golem_kid"
+               "box_o_vox:entities:summon:undead:golem_kid"
             ]
             }
         },
         "golem": {
             "male": {
                 "uri": [
-               "box_o_vox:summons:forest:golem"
+               "box_o_vox:entities:summon:undead:golem"
             ]
             }
         },
         "necromancer": {
             "male": {
                 "uri": [
-               "box_o_vox:summons:undead:necromancer"
+               "box_o_vox:entities:summon:undead:necromancer"
             ],
                 "given_names": [
                "Steve"

@@ -18,33 +18,33 @@
         "stonehearth:equipment_swap": {
             "swap_options": {
                 "skeleton_kid": {
-                    "uri": "box_o_vox:necromancer:spells:skeleton_kid",
-                    "command": "box_o_vox:commands:necromancer_summons:skeleton_kid",
+                    "uri": "box_o_vox:jobs:necromancer:spells:skeleton_kid",
+                    "command": "box_o_vox:data:commands:necromancer_summons:skeleton_kid",
                     "ordinal": 1
                 },
                 "skeleton": {
-                    "uri": "box_o_vox:necromancer:spells:skeleton",
-                    "command": "box_o_vox:commands:necromancer_summons:skeleton",
+                    "uri": "box_o_vox:jobs:necromancer:spells:skeleton",
+                    "command": "box_o_vox:data:commands:necromancer_summons:skeleton",
                     "ordinal": 2
                 },
                 "zombie_kid": {
-                    "uri": "box_o_vox:necromancer:spells:zombie_kid",
-                    "command": "box_o_vox:commands:necromancer_summons:zombie_kid",
+                    "uri": "box_o_vox:jobs:necromancer:spells:zombie_kid",
+                    "command": "box_o_vox:data:commands:necromancer_summons:zombie_kid",
                     "ordinal": 3
                 },
                 "zombie": {
-                    "uri": "box_o_vox:necromancer:spells:zombie",
-                    "command": "box_o_vox:commands:necromancer_summons:zombie",
+                    "uri": "box_o_vox:jobs:necromancer:spells:zombie",
+                    "command": "box_o_vox:data:commands:necromancer_summons:zombie",
                     "ordinal": 4
                 },
                 "golem_kid": {
-                    "uri": "box_o_vox:necromancer:spells:golem_kid",
-                    "command": "box_o_vox:commands:necromancer_summons:golem_kid",
+                    "uri": "box_o_vox:jobs:necromancer:spells:golem_kid",
+                    "command": "box_o_vox:data:commands:necromancer_summons:golem_kid",
                     "ordinal": 5
                 },
                 "golem": {
-                    "uri": "box_o_vox:necromancer:spells:golem",
-                    "command": "box_o_vox:commands:necromancer_summons:golem",
+                    "uri": "box_o_vox:jobs:necromancer:spells:golem",
+                    "command": "box_o_vox:data:commands:necromancer_summons:golem",
                     "ordinal": 6
                 }
             },

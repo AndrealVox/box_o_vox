@@ -40,6 +40,13 @@
                             },
                             "file": "file(building_templates/mason_workshop.json)"
                         },
+                        "necromancer_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "box_o_vox:jobs:necromancer"
+                            },
+                            "file": "file(building_templates/necromancer_house.json)"
+                        },
                         "potter_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",

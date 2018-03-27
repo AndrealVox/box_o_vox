@@ -88,7 +88,7 @@
                     }
                 },
                 "town": {
-                    "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.town",
+                    "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.categories.town)",
                     "ordinal": 3,
                     "required_city_tier": 2,
                     "templates": {

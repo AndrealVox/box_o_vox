@@ -12,12 +12,47 @@
                         "banquet_hall": {
                             "file": "file(building_templates/banquet_hall.json)"
                         },
-                        "necromancer_house": {
+                        "blacksmith_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",
-                                "value": "box_o_vox:jobs:necromancer"
+                                "value": "stonehearth:jobs:blacksmith"
                             },
-                            "file": "file(building_templates/necromancer_house.json)"
+                            "file": "file(building_templates/blacksmith_workshop.json)"
+                        },
+                        "carpenter_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:carpenter"
+                            },
+                            "file": "file(building_templates/carpenter_workshop.json)"
+                        },
+                        "herbalist_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:herbalist"
+                            },
+                            "file": "file(building_templates/herbalist_workshop.json)"
+                        },
+                        "mason_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:mason"
+                            },
+                            "file": "file(building_templates/mason_workshop.json)"
+                        },
+                        "potter_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:potter"
+                            },
+                            "file": "file(building_templates/potter_workshop.json)"
+                        },
+                        "weaver_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:weaver"
+                            },
+                            "file": "file(building_templates/weaver_workshop.json)"
                         }
                     }
                 },

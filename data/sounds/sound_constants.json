@@ -11,7 +11,9 @@
                 "tier_to_day_music_track": {
                     "idle_day_music_tier_1": {
                         "track": [
-                     "box_o_vox:data:music:day_1"
+                     "box_o_vox:data:music:day_1",
+                     "box_o_vox:data:music:day_2",
+                     "box_o_vox:data:music:day_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -19,7 +21,9 @@
                     },
                     "idle_day_music_tier_2": {
                         "track": [
-                     "box_o_vox:data:music:day_1"
+                     "box_o_vox:data:music:day_1",
+                     "box_o_vox:data:music:day_2",
+                     "box_o_vox:data:music:day_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -27,7 +31,9 @@
                     },
                     "idle_day_music_tier_3": {
                         "track": [
-                     "box_o_vox:data:music:day_1"
+                     "box_o_vox:data:music:day_1",
+                     "box_o_vox:data:music:day_2",
+                     "box_o_vox:data:music:day_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -37,7 +43,9 @@
                 "tier_to_night_music_track": {
                     "idle_night_music_tier_1": {
                         "track": [
-                     "box_o_vox:data:music:night_1"
+                     "box_o_vox:data:music:night_1",
+                     "box_o_vox:data:music:night_2",
+                     "box_o_vox:data:music:night_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -45,7 +53,9 @@
                     },
                     "idle_night_music_tier_2": {
                         "track": [
-                     "box_o_vox:data:music:night_1"
+                     "box_o_vox:data:music:night_1",
+                     "box_o_vox:data:music:night_2",
+                     "box_o_vox:data:music:night_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -53,7 +63,9 @@
                     },
                     "idle_night_music_tier_3": {
                         "track": [
-                     "box_o_vox:data:music:night_1"
+                     "box_o_vox:data:music:night_1",
+                     "box_o_vox:data:music:night_2",
+                     "box_o_vox:data:music:night_3"
                   ],
                         "loop": false,
                         "fade_in": 2000,
@@ -71,7 +83,9 @@
                },
                     {
                         "track": [
-                     "box_o_vox:data:music:combat_1"
+                     "box_o_vox:data:music:combat_1",
+                     "box_o_vox:data:music:combat_2",
+                     "box_o_vox:data:music:combat_3"
                   ],
                         "volume": 60,
                         "fade_in": 100,

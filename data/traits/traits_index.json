@@ -21,8 +21,7 @@
             "stonehearth:traits:passion_trapper": {},
             "stonehearth:traits:passion_weaver": {},
             "stonehearth:traits:passion_worker": {},
-            "box_o_vox:data:traits:passion_necromancer": {},
-            "box_o_vox:data:traits:passion_ninja": {}
+            "box_o_vox:data:traits:passion_necromancer": {}
         }
     },
     "traits": {
@@ -45,8 +44,7 @@
                 "stonehearth:traits:passion_worker": true,
                 "stonehearth:traits:courageous": true,
                 "stonehearth:traits:optimistic": true,
-                "box_o_vox:data:traits:passion_necromancer": true,
-                "box_o_vox:data:traits:passion_ninja": true
+                "box_o_vox:data:traits:passion_necromancer": true
             }
         },
         "stonehearth:traits:night_owl": {},

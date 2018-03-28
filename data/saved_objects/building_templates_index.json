@@ -12,6 +12,9 @@
                         "banquet_hall": {
                             "file": "file(building_templates/banquet_hall.json)"
                         },
+                        "casa_para_cuatro": {
+                            "file": "file(building_templates/casa_para_cuatro.json)"
+                        },
                         "blacksmith_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",

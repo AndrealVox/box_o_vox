@@ -63,8 +63,14 @@
         "data:loadouts": "file(data/loadouts)",
 
         "data:music:combat_1": "file(data/music/combat_1.ogg)",
+        "data:music:combat_2": "file(data/music/combat_2.ogg)",
+        "data:music:combat_3": "file(data/music/combat_3.ogg)",
         "data:music:day_1": "file(data/music/day_1.ogg)",
+        "data:music:day_2": "file(data/music/day_2.ogg)",
+        "data:music:day_3": "file(data/music/day_3.ogg)",
         "data:music:night_1": "file(data/music/night_1.ogg)",
+        "data:music:night_2": "file(data/music/night_2.ogg)",
+        "data:music:night_3": "file(data/music/night_3.ogg)",
         "data:music:title_screen": "file(data/music/title_1.ogg)",
 
         "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
@@ -275,8 +281,6 @@
         "jobs:necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
         "jobs:necromancer:spells:zombie_kid": "file(jobs/necromancer/pages/zombie_kid_summon_page.json)",
         "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
-
-        "jobs:ninja": "file(jobs/ninja/ninja_description.json)",
 
         "jobs:recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
         "jobs:recipes:carpenter": "file(jobs/carpenter/recipes/recipes.json)",

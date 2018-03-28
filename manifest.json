@@ -282,6 +282,8 @@
         "jobs:necromancer:spells:zombie_kid": "file(jobs/necromancer/pages/zombie_kid_summon_page.json)",
         "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
 
+        "jobs:ninja": "file(jobs/ninja/ninja_description.json)",
+
         "jobs:recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
         "jobs:recipes:carpenter": "file(jobs/carpenter/recipes/recipes.json)",
         "jobs:recipes:cook": "file(jobs/cook/recipes/recipes.json)",

@@ -4,6 +4,7 @@
         "version": 3
     },
     "server_init_script": "file(box_o_vox_server)",
+    "client_init_script": "file(box_o_vox_client)",
     "default_locale": "en",
     "aliases": {
         "ai:actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
@@ -366,9 +367,13 @@
 
         "/betterstorage/ui/input_box_filters.json": "file(ui/box_o_vox_filters.json)",
         "/betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
+        
     },
     "overrides": {
-        "/stonehearth/constants.lua": "file(constants.lua)",
+        
+        "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
+        "/stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
+        "/stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
 
 
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",

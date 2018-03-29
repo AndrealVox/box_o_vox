@@ -17,7 +17,7 @@
          "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
          "harvester_effect": "fiddle",
          "description": "harvest_animal",
-         "resource": "box_o_vox:food:pork",
+         "resource": "box_o_vox:entities:food:pork",
          "harvestable_by_harvest_tool": false
       },
       "stonehearth:attributes": {

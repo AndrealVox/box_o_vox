@@ -1,24 +1,24 @@
 {
-   "type": "kingdom",
-   "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
-   "kingdom_id": "boxling",
-   "favored_biome": "box_o_vox:biome:boxland",
-   "quote": "i18n(box_o_vox:data.population.boxling.quote)",
-   "description": "i18n(box_o_vox:data.population.boxling.description)",
-   "post_selection_description": "i18n(box_o_vox:data.population.boxling.post_selection_description)",
-   "image": "/box_o_vox/data/kingdoms/images/boxland_400x300.png",
-   "story_board_image": "/box_o_vox/data/kingdoms/images/story_board_image.png",
-   "starting_talisman": "stonehearth:carpenter:talisman",
-   "starting_resource": "stonehearth:resources:wood:oak_log",
-   "job_index": "stonehearth:jobs:index",
-   "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
-   "roles": {
-      "default": {
-         "male": {
-            "uri": [
-               "box_o_vox:male_1"
+    "type": "kingdom",
+    "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
+    "kingdom_id": "boxling",
+    "favored_biome": "box_o_vox:data:biome:boxland",
+    "quote": "i18n(box_o_vox:data.population.boxling.quote)",
+    "description": "i18n(box_o_vox:data.population.boxling.description)",
+    "post_selection_description": "i18n(box_o_vox:data.population.boxling.post_selection_description)",
+    "image": "/box_o_vox/data/kingdoms/images/boxland_400x300.png",
+    "story_board_image": "/box_o_vox/data/kingdoms/images/story_board_image.png",
+    "starting_talisman": "stonehearth:carpenter:talisman",
+    "starting_resource": "stonehearth:resources:wood:oak_log",
+    "job_index": "stonehearth:jobs:index",
+    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+    "roles": {
+        "default": {
+            "male": {
+                "uri": [
+               "box_o_vox:entities:human:male_1"
             ],
-            "given_names": [
+                "given_names": [
                "Alton",
                "Edwyne",
                "Fostan",
@@ -84,12 +84,12 @@
                "Ward",
                "Cecil"
             ]
-         },
-         "female": {
-            "uri": [
-               "box_o_vox:female_1"
+            },
+            "female": {
+                "uri": [
+               "box_o_vox:entities:human:female_1"
             ],
-            "given_names": [
+                "given_names": [
                "Sanini",
                "Twila",
                "Cici",
@@ -171,34 +171,34 @@
                "Meghaan",
                "Lolli"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "Boxling"
          ],
-         "attribute_distribution": {
-            "allocated_points": {
-               "min": 9,
-               "max": 20
-            },
-            "point_limits": {
-               "mind": {
-                  "min": 3,
-                  "max": 10
-               },
-               "body": {
-                  "min": 3,
-                  "max": 10
-               },
-               "spirit": {
-                  "min": 3,
-                  "max": 10
-               }
+            "attribute_distribution": {
+                "allocated_points": {
+                    "min": 9,
+                    "max": 27
+                },
+                "point_limits": {
+                    "mind": {
+                        "min": 3,
+                        "max": 9
+                    },
+                    "body": {
+                        "min": 3,
+                        "max": 9
+                    },
+                    "spirit": {
+                        "min": 3,
+                        "max": 9
+                    }
+                }
             }
-         }
-      }
-   },
-   "pet_names": {
-      "default": [
+        }
+    },
+    "pet_names": {
+        "default": [
          "Bob",
          "Francis",
          "Mark",
@@ -245,7 +245,7 @@
          "Jerky",
          "Turnip"
       ],
-      "racoon": [
+        "racoon": [
          "Bandit",
          "Napoleon",
          "Onyx",
@@ -256,7 +256,7 @@
          "Panda",
          "Galumph"
       ],
-      "red_fox_wolf": [
+        "red_fox_wolf": [
          "Tod",
          "Socks",
          "Boots",
@@ -268,7 +268,21 @@
          "Kit",
          "Ember"
       ],
-      "rabbit": [
+        "black_fox": [
+         "Cinder",
+         "Inkblot",
+         "Mamba",
+         "Panther",
+         "Sabbath",
+         "Widow",
+         "Raven",
+         "Ash",
+         "Hershey",
+         "Ember",
+            "Dahlia",
+            "Charcoal"
+      ],
+        "rabbit": [
          "Thumpy",
          "Lulabelle",
          "CinnaBun",
@@ -281,7 +295,7 @@
          "Bun",
          "Bunbun"
       ],
-      "squirrel": [
+        "squirrel": [
          "Lucy",
          "Squeakers",
          "Beans",
@@ -299,37 +313,34 @@
          "Peanut",
          "Quick"
       ],
-      "beetle": [
+        "beetle": [
          "beetle"
       ],
-      "bitsy_ant": [
+        "bitsy_ant": [
          "bitsy_ant"
       ],
-      "doodles": [
+        "doodles": [
          "doodles"
       ]
-   },
-   "town_pieces": {
-      "optional_prefix": [
+    },
+    "town_pieces": {
+        "optional_prefix": [
          "New",
          "North",
          "South",
          "East",
          "West",
-         "Rocking",
-         "Bridge",
-         "Fair",
-         "Cedar",
-         "Great"
+         "Great",
+            "Old"
       ],
-      "town_name": [
+        "town_name": [
          "Boxland"
       ],
-      "suffix": [
+        "suffix": [
          " Valley",
          " Vale",
          " Crossing"
       ]
-   },
-   "task_groups": "stonehearth:data:player_task_groups"
+    },
+    "task_groups": "stonehearth:data:player_task_groups"
 }

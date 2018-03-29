@@ -13,7 +13,7 @@
    ],
     "produces": [
         {
-            "item": "box_o_vox:food:fruit_salad"
+            "item": "box_o_vox:entities:food:fruit_salad"
       }
    ]
 }

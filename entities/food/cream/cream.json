@@ -39,7 +39,7 @@
                "description": "i18n(box_o_vox:stonehearth_mixins.food.food_decay.cream.decay_1.description)"
             }
          },
-         "rotten_entity_alias": "box_o_vox:food:rotten:cream"
+         "rotten_entity_alias": "box_o_vox:entities:food:rotten:cream"
       },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.food.cream.display_name)",

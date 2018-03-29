@@ -10,7 +10,7 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:trees:lime:ancient",
+         "next_stage": "box_o_vox:entities:trees:lime:ancient",
          "evolve_time": "7d"
       },
       "stonehearth:catalog": {

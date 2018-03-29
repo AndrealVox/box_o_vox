@@ -17,13 +17,13 @@
          "count": 3
       },
       {
-         "uri": "box_o_vox:refined:cooling_liquid",
+         "uri": "box_o_vox:entities:refined:cooling_liquid",
          "count": 2
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:fridge"
+         "item": "box_o_vox:entities:decoration:fridge"
       }
    ]
 }

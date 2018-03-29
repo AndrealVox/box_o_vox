@@ -5,7 +5,7 @@
    "description": "i18n(stonehearth:jobs.herbalist.recipes.small_healing_tonic_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/consumables/healing_tonic/small_healing_tonic/small_healing_tonic.png",
-   "work_effect": "box_o_vox:effects:summon_potions",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
    "ingredients": [
       {
          "material": "herb resource",

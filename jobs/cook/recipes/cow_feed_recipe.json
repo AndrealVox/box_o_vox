@@ -14,7 +14,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:cow_feed"
+         "item": "box_o_vox:entities:food:cow_feed"
       }
    ]
 }

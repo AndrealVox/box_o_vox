@@ -77,6 +77,9 @@
             "description": "Large mountains, massive lakes and trees bearing fruit. The default home of the Boxlings.",
             "random_location_names": {
                "000": "The Box O' Vox"
+            },
+            "black_fox": {
+               "display_name": "Black Fox"
             }
          }
       },
@@ -86,7 +89,7 @@
                "box_o_vox": {
                   "display_name": "Boxling",
                   "categories": {
-                     "camp": "Settlement"
+                     "camp": "Boxland Templates"
                   }
                },
                "ascendancy": {
@@ -1126,6 +1129,10 @@
          "rotten_blueberry_basket": {
             "description": "So rotten that it's lost all form and function.",
             "display_name": "Rotten Blueberry Basket"
+         },
+         "rotten_lime": {
+            "display_name": "Rotten Lime",
+            "description": "So rotten that it's lost all form and function."
          }
       },
       "trees": {
@@ -1259,13 +1266,18 @@
             }
          },
          "pig": {
-            "species": "Pig",
-            "display_name": "A Pig",
+            "species": "entities:critters:pig",
+            "display_name": "A entities:critters:pig",
             "description": "Oink Oink",
             "pig_young": {
                "display_name": "A Pigglet",
                "description": "Aww little piggy"
             }
+         },
+         "black_fox": {
+            "display_name": "Black Fox",
+            "description": "The indigenous animal from the Boxland region. Isn't it soooo cute!",
+            "species": "Black Fox"
          }
       },
       "resources": {
@@ -1297,6 +1309,12 @@
             "hemp_herb": {
                "display_name": "Hemp Sack",
                "description": "These herbs leave your hands and tools coated in sticky residue"
+            }
+         },
+         "pelt": {
+            "black_fox_pelt": {
+               "display_name": "Black Fox Pelt",
+               "description": "The pelt from a black fox"
             }
          }
       }

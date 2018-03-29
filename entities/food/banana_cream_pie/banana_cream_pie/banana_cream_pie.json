@@ -19,7 +19,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:food:banana_cream_pie:banana_cream_pie_serving",
+         "food": "box_o_vox:entities:food:banana_cream_pie:banana_cream_pie_serving",
          "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {

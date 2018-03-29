@@ -18,12 +18,12 @@
         "stonehearth:activity_name": "eating_berries",
         "stonehearth:food": {
             "stonehearth:sitting_on_chair": {
-                "satisfaction": 12
+                "satisfaction": 15
             },
             "default": {
-                "satisfaction": 10
+                "satisfaction": 13
             },
-            "quality": 3
+            "quality": 4
         },
         "stonehearth:net_worth": {
             "value_in_gold": 0,
@@ -39,7 +39,7 @@
             "is_item": true,
             "category": "food",
             "material_tags": "food vegetarian",
-            "subject_override": "box_o_vox:plants:blueberry_bush"
+            "subject_override": "box_o_vox:entities:plants:blueberry_bush"
         }
     }
 }

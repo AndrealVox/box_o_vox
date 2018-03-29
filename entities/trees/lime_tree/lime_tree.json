@@ -23,7 +23,7 @@
                "fruit": {
                   "items": {
                      "lime_1": {
-                        "uri": "box_o_vox:food:lime:lime",
+                        "uri": "box_o_vox:entities:food:lime:lime",
                         "count": 5,
                         "weight": 1
                      },
@@ -66,7 +66,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.lime_tree.lime_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.lime_tree.lime_tree.description)",
-         "subject_override": "box_o_vox:trees:lime:large"
+         "subject_override": "box_o_vox:entities:trees:lime:large"
       }
    }
 }

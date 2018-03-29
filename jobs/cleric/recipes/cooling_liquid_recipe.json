@@ -5,7 +5,7 @@
    "description": "i18n(box_o_vox:jobs.cleric.recipes.cooling_liquid_recipe.description)",
    "flavor": "",
    "portrait": "/box_o_vox/entities/refined/cooling_liquid/cooling_liquid.png",
-   "work_effect": "box_o_vox:effects:summon_potions",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
    "ingredients": [
       {
          "uri": "stonehearth:resources:herb:frostsnap",
@@ -14,7 +14,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:refined:cooling_liquid"
+         "item": "box_o_vox:entities:refined:cooling_liquid"
       }
    ]
 }

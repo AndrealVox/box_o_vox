@@ -9,19 +9,19 @@
    "level_requirement": 2,
    "ingredients": [
       {
-         "uri": "box_o_vox:food:peppercorn",
+         "uri": "box_o_vox:entities:food:peppercorn",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:pepper"
+         "item": "box_o_vox:entities:food:pepper"
       },
       {
-         "item": "box_o_vox:food:pepper"
+         "item": "box_o_vox:entities:food:pepper"
       },
       {
-         "item": "box_o_vox:food:pepper"
+         "item": "box_o_vox:entities:food:pepper"
       }
    ]
 }

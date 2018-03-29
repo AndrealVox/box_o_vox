@@ -4,7 +4,7 @@
    "recipe_name": "i18n(box_o_vox:entities.refined.enchanted_cloth.display_name)",
    "description": "i18n(box_o_vox:entities.refined.enchanted_cloth.description)",
    "portrait": "/box_o_vox/entities/refined/enchanted_cloth/enchanted_cloth.png",
-   "work_effect": "box_o_vox:effects:summon_potions",
+   "work_effect": "box_o_vox:data:effects:summon_potions",
    "level_requirement": 5,
    "ingredients": [
       {
@@ -18,7 +18,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:refined:enchanted_cloth"
+         "item": "box_o_vox:entities:refined:enchanted_cloth"
       }
    ]
 }

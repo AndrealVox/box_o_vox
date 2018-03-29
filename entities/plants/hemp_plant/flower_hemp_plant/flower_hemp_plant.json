@@ -23,12 +23,12 @@
                     "resources": {
                         "items": {
                             "hemp_herb": {
-                                "uri": "box_o_vox:resources:herb:hemp_herb",
+                                "uri": "box_o_vox:entities:resources:herb:hemp_herb",
                                 "count": 5,
                                 "weight": 2
                             },
                             "hemp_fiber": {
-                                "uri": "box_o_vox:resources:fiber:hemp_fiber_bundle",
+                                "uri": "box_o_vox:entities:resources:fiber:hemp_fiber_bundle",
                                 "count": 1,
                                 "weight": 1
                             }

@@ -9,13 +9,13 @@
    "level_requirement": 3,
    "ingredients": [
       {
-         "uri": "box_o_vox:food:pork",
+         "uri": "box_o_vox:entities:food:pork",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:roast_rack_of_pork"
+         "item": "box_o_vox:entities:food:roast_rack_of_pork"
       }
    ]
 }

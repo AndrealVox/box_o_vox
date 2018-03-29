@@ -19,7 +19,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:sink"
+         "item": "box_o_vox:entities:decoration:sink"
       }
    ]
 }

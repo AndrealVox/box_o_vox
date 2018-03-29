@@ -1,27 +1,27 @@
 {
-   "type": "entity",
-   "mixins": [
+    "type": "entity",
+    "mixins": [
       "file(solid_red_wood_door_ghost.json)",
       "box_o_vox:mixins:portals:small_door",
       "stonehearth:mixins:basic_destructable_door"
    ],
-   "components": {
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(solid_red_wood_door_iconic.json)",
-         "ghost_form": "file(solid_red_wood_door_ghost.json)",
-         "hide_placement_ui": true
-      }
-   },
-   "entity_data": {
-      "stonehearth:net_worth": {
-         "value_in_gold": 20,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
-         }
-      }
-   }
+    "components": {
+        "stonehearth:entity_forms": {
+            "iconic_form": "file(solid_red_wood_door_iconic.json)",
+            "ghost_form": "file(solid_red_wood_door_ghost.json)",
+            "hide_placement_ui": true
+        }
+    },
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 20,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": false,
+                "sellable": true,
+                "shopkeeper_level": 1,
+                "shopkeeper_type": "caravan"
+            }
+        }
+    }
 }

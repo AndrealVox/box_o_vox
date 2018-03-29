@@ -23,7 +23,7 @@
                "fruit": {
                   "items": {
                      "orange_1": {
-                        "uri": "box_o_vox:food:orange:orange",
+                        "uri": "box_o_vox:entities:food:orange:orange",
                         "count": 5,
                         "weight": 1
                      },
@@ -66,7 +66,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.orange_tree.orange_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.orange_tree.orange_tree.description)",
-         "subject_override": "box_o_vox:trees:orange:large"
+         "subject_override": "box_o_vox:entities:trees:orange:large"
       }
    }
 }

@@ -23,7 +23,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:food:mash_potatoes:mash_potatoes_serving",
+         "food": "box_o_vox:entities:food:mash_potatoes:mash_potatoes_serving",
          "stacks_per_serving": 2
       },
       "stonehearth:net_worth": {

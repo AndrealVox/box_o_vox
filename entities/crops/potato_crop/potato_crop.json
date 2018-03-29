@@ -45,7 +45,7 @@
       },
       "stonehearth:crop": {
          "resource_pairings": {
-            "potato_4": "box_o_vox:food:potato:potato_basket",
+            "potato_4": "box_o_vox:entities:food:potato:potato_basket",
             "potato_12": ""
          },
          "harvest_threshhold": "potato_4",

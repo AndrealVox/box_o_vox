@@ -20,18 +20,18 @@
         },
         "stonehearth:food": {
             "stonehearth:sitting_on_chair": {
-                "satisfaction": 50
+                "satisfaction": 32
             },
             "default": {
-                "satisfaction": 40
+                "satisfaction": 28
             },
-            "quality": 3
+            "quality": 4
         },
         "stonehearth:catalog": {
             "display_name": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.display_name)",
             "description": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.description)",
             "material_tags": "food vegetarian",
-            "subject_override": "stonehearth:crops:strawberry_crop"
+            "subject_override": "stonehearth:entities:crops:strawberry_crop"
         }
     }
 }

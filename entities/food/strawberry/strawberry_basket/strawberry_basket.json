@@ -10,7 +10,7 @@
             },
             "decay_1": {
                 "models": [
-               "file(strawberry_basket_rotting.qb)"
+               "file(rotten_strawberry_basket.qb)"
             ]
             }
         },
@@ -31,7 +31,7 @@
     "entity_data": {
         "stonehearth:food_container": {
             "effect": "fiddle",
-            "food": "box_o_vox:food:strawberry:strawberry_serving",
+            "food": "box_o_vox:entities:food:strawberry:strawberry_serving",
             "stacks_per_serving": 6
         },
         "stonehearth:net_worth": {
@@ -49,7 +49,7 @@
                 "min": 24,
                 "max": 48
             },
-            "rotten_entity_alias": "box_o_vox:food:rotten:strawberry_basket"
+            "rotten_entity_alias": "box_o_vox:entities:food:rotten:strawberry_basket"
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.plants.strawberry.strawberry_basket.display_name)",
@@ -58,7 +58,7 @@
             "is_item": true,
             "category": "food",
             "material_tags": "food_container raw_food fruit strawberry vegetarian stockpile_raw_food",
-            "subject_override": "box_o_vox:crops:strawberry_crop"
+            "subject_override": "box_o_vox:entities:crops:strawberry_crop"
         }
     }
 }

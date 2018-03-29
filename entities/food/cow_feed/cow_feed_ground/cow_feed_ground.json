@@ -21,7 +21,7 @@
          "description": "i18n(box_o_vox:entities.food.cow_feed.cow_feed_ground.description)",
          "icon": "file(../cow_feed.png)",
          "material_tags": "animal_feed cow_feed_edible cow_feed_ground",
-         "subject_override": "box_o_vox:food:cow_feed"
+         "subject_override": "box_o_vox:entities:food:cow_feed"
       },
       "stonehearth:animal_feed": {
          "calorie_gain": 30,

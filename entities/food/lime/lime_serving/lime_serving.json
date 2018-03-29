@@ -20,18 +20,18 @@
         },
         "stonehearth:food": {
             "stonehearth:sitting_on_chair": {
-                "satisfaction": 50
+                "satisfaction": 32
             },
             "default": {
-                "satisfaction": 40
+                "satisfaction": 28
             },
-            "quality": 3
+            "quality": 4
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.food.lime.display_name)",
             "description": "i18n(box_o_vox:entities.food.lime.description)",
             "material_tags": "stockpile_cooking_ingredient food_container raw_food fruit lime vegetarian cooking_ingredient",
-            "subject_override": "box_o_vox:food:lime:lime"
+            "subject_override": "box_o_vox:entities:food:lime:lime"
         }
     }
 }

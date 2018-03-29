@@ -28,7 +28,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:food:apple:apple_serving",
+         "food": "box_o_vox:entities:food:apple:apple_serving",
          "stacks_per_serving": 4
       },
       "stonehearth:net_worth": {
@@ -46,7 +46,7 @@
             "min": 168,
             "max": 336
          },
-         "rotten_entity_alias": "box_o_vox:food:rotten:apple"
+         "rotten_entity_alias": "box_o_vox:entities:food:rotten:apple"
       },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.food.apple.display_name)",
@@ -55,7 +55,7 @@
          "is_item": true,
          "category": "food",
          "material_tags": "stockpile_raw_food stockpile_cooking_ingredient food_container raw_food fruit apple vegetarian cooking_ingredient",
-         "subject_override": "box_o_vox:food:apple:apple"
+         "subject_override": "box_o_vox:entities:food:apple:apple"
       }
    }
 }

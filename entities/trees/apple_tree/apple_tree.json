@@ -23,7 +23,7 @@
                "fruit": {
                   "items": {
                      "apple_1": {
-                        "uri": "box_o_vox:food:apple:apple",
+                        "uri": "box_o_vox:entities:food:apple:apple",
                         "count": 5,
                         "weight": 1
                      },
@@ -66,7 +66,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.description)",
-         "subject_override": "box_o_vox:trees:apple:large"
+         "subject_override": "box_o_vox:entities:trees:apple:large"
       }
    }
 }

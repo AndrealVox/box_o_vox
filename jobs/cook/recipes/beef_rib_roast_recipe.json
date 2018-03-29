@@ -9,13 +9,13 @@
    "level_requirement": 3,
    "ingredients": [
       {
-         "uri": "box_o_vox:food:beef",
+         "uri": "box_o_vox:entities:food:beef",
          "count": 1
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:beef_rib_roast"
+         "item": "box_o_vox:entities:food:beef_rib_roast"
       }
    ]
 }

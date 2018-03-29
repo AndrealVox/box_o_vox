@@ -22,7 +22,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:wall_clock"
+         "item": "box_o_vox:entities:decoration:wall_clock"
       }
    ]
 }

@@ -14,7 +14,7 @@
    ],
     "produces": [
         {
-            "item": "box_o_vox:portals:stone_door"
+            "item": "box_o_vox:entities:portals:stone_door"
       }
    ]
 }

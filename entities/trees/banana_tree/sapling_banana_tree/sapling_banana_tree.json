@@ -21,7 +21,7 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:trees:banana:small",
+         "next_stage": "box_o_vox:entities:trees:banana:small",
          "evolve_time": "1d"
       },
       "stonehearth:catalog": {

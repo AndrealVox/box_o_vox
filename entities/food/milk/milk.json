@@ -39,7 +39,7 @@
                "description": "i18n(box_o_vox:stonehearth_mixins.food.food_decay.milk.decay_1.description)"
             }
          },
-         "rotten_entity_alias": "box_o_vox:food:rotten:milk"
+         "rotten_entity_alias": "box_o_vox:entities:food:rotten:milk"
       },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.food.milk.display_name)",

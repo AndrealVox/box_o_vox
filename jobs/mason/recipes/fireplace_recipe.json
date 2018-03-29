@@ -14,7 +14,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:fireplace"
+         "item": "box_o_vox:entities:decoration:fireplace"
       }
    ]
 }

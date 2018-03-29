@@ -26,7 +26,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:grandfather_clock"
+         "item": "box_o_vox:entities:decoration:grandfather_clock"
       }
    ]
 }

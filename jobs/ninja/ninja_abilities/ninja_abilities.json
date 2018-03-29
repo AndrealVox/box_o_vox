@@ -5,7 +5,7 @@
          "injected_ai": {
              "actions": [],
             "ai_packs": [
-                "box_o_vox:ai_pack:ninja_combat",
+                "box_o_vox:ai:packs:ninja_combat",
                "stonehearth:ai_pack:patrolling",
                "stonehearth:ai_pack:wimpy",
                "stonehearth:ai_pack:panic:flee",

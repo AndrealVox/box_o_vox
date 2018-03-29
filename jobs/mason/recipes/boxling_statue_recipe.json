@@ -14,7 +14,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:boxling_statue"
+         "item": "box_o_vox:entities:decoration:boxling_statue"
       }
    ]
 }

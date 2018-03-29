@@ -7,13 +7,13 @@
    "workshop": "stonehearth:cook:workbench",
    "ingredients": [
       {
-         "uri": "box_o_vox:food:potato:potato_basket",
+         "uri": "box_o_vox:entities:food:potato:potato_basket",
          "count": 3
       }
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:mash_potatoes"
+         "item": "box_o_vox:entities:food:mash_potatoes"
       }
    ]
 }

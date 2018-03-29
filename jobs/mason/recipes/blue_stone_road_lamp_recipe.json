@@ -18,7 +18,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:blue_stone_road_lamp"
+         "item": "box_o_vox:entities:decoration:blue_stone_road_lamp"
       }
    ]
 }

@@ -11,7 +11,7 @@
          ]
       },
       "stonehearth:lamp": {
-         "light_effect": "box_o_vox:effects:purple_road_lamp_effect",
+         "light_effect": "box_o_vox:data:effects:purple_road_lamp_effect",
          "light_origin": { "x": 0, "y": 5.5, "z": -1.2 }
       },
       "stonehearth:entity_forms": {

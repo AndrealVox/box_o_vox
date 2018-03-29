@@ -15,7 +15,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:containers:resources_crate"
+         "item": "box_o_vox:entities:containers:resources_crate"
       }
    ]
 }

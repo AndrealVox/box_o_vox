@@ -9,7 +9,7 @@
    "level_requirement": 2,
    "ingredients": [
       {
-         "uri": "box_o_vox:food:milk",
+         "uri": "box_o_vox:entities:food:milk",
          "count": 1
       },
       {
@@ -19,7 +19,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:food:dough"
+         "item": "box_o_vox:entities:food:dough"
       }
    ]
 }

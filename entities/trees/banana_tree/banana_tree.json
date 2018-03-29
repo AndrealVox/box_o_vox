@@ -23,7 +23,7 @@
                "fruit": {
                   "items": {
                      "banana_1": {
-                        "uri": "box_o_vox:food:banana:banana",
+                        "uri": "box_o_vox:entities:food:banana:banana",
                         "count": 5,
                         "weight": 1
                      },
@@ -90,7 +90,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.banana_tree.banana_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.banana_tree.banana_tree.description)",
-         "subject_override": "box_o_vox:trees:banana:large"
+         "subject_override": "box_o_vox:entities:trees:banana:large"
       }
    }
 }

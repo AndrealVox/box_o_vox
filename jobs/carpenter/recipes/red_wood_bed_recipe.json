@@ -13,7 +13,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:furniture:red_wood_bed"
+         "item": "box_o_vox:entities:furniture:red_wood_bed"
       }
    ]
 }

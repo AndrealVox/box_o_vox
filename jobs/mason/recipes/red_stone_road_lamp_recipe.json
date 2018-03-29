@@ -18,7 +18,7 @@
    ],
    "produces": [
       {
-         "item": "box_o_vox:decoration:red_stone_road_lamp"
+         "item": "box_o_vox:entities:decoration:red_stone_road_lamp"
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
     "kingdoms": {
-        "box_o_vox:kingdoms:boxling": {
+        "box_o_vox:server:population:data:kingdoms:boxling": {
             "shop_info": {
                 "inventory": {
                     "overall_price_multiplier": 4,

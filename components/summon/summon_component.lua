@@ -29,7 +29,7 @@ end
 
 function SummonComponent:start()
     radiant.events.trigger_async(self._entity, 'box_o_vox:combat:summon_cast')
-    if not radiant.entities.has_buff(self._entity, 'box_o_vox:buffs:summon_timer') then
-        radiant.entities.add_buff(self._entity, 'box_o_vox:buffs:summon_timer')
+    if not radiant.entities.has_buff(self._entity, 'box_o_vox:data:buffs:summon_timer') then
+        radiant.entities.add_buff(self._entity, 'box_o_vox:data:buffs:summon_timer')
     end
 end

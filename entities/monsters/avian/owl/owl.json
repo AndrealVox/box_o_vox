@@ -1,0 +1,54 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:mixins:monster",
+    "components": {
+        "render_info": {
+            "animation_table": "file(/data/rigs/entities/monster/rabbit)"
+        },
+        "stonehearth:attributes": {
+            "max_health": {
+                "type": "basic",
+                "value": 50
+            },
+            "speed": {
+                "type": "basic",
+                "value": 60
+            },
+            "menace": {
+                "type": "basic",
+                "value": 70
+            },
+            "courage": {
+                "type": "basic",
+                "value": 50
+            },
+            "muscle": {
+                "type": "basic",
+                "value": 20
+            },
+            "exp_reward": {
+                "type": "basic",
+                "value": 20
+            }
+        },
+        "stonehearth:carry_block": {}
+    },
+    "entity_data": {
+        "stonehearth:entity_radius": 0.75,
+        "stonehearth:entity_reach": 1.0,
+        "stonehearth:ai_packs": {
+            "packs": [
+            "stonehearth:ai_pack:harvesting",
+            "stonehearth:ai_pack:restocking",
+            "stonehearth:ai_pack:patrolling",
+            "stonehearth:ai_pack:sitting",
+            "stonehearth:ai_pack:promotion",
+            "stonehearth:ai_pack:free_time"
+         ]
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.monsters.owl.display_name)",
+            "description": "i18n(box_o_vox:entities.monsters.owl.description)"
+        }
+    }
+}

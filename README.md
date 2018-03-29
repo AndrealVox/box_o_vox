@@ -3,16 +3,19 @@ A Stonehearth Mod
 
 This mod is a small work by a group of friends to extend the playablity of stonehearth.
 _____________________________________________________________________________________
-box_o_vox v.0.2 : Alpha 24 Update
+#### box_o_vox v.0.2 : Alpha 24 Update
 
-This update includes:
+    This update includes:
 
     - Removed WIP botanist
+    - Added Constants for tasty and bland qualities/priority
+      (between raw_tasy and cooked_bland) Able to extend.
+
 
 _____________________________________________________________________________________
-box_o_vox v.0.1 : Boxland Update 
+#### box_o_vox v.0.1 : Boxland Update 
 
-This mod pack adds:
+    This mod pack adds:
 
     - Boxlings: a new kingdom to pick, includes new customizations and different 
         character models 
@@ -26,7 +29,7 @@ This mod pack adds:
         - Ninja: a master of combat,
                        can kill any target
                        
-        - Alchemist: an herbalist gone mad, 
+        - jobs:alchemist: an herbalist gone mad, 
                        seeing as all the best ingredients
                        are behind enemy lines, they took up arms
                      
@@ -37,7 +40,7 @@ This mod pack adds:
     - New fauna: a cow and pig can now be raised and "harvested" for two new types of meat,
         also the cow comes with milk as a renewable resource
         
-    - New crops: patato, strawberry, and tomatoes can now be grown by a farmer
+    - New entities:crops: patato, strawberry, and tomatoes can now be grown by a farmer
     
     - New foods: added more cooked foods to add variety to the table
     
@@ -48,106 +51,36 @@ This mod pack adds:
 _____________________________________________________________________________________
 
 
-# to-do
-A list of things to come and WIP
+# Priority
+    Top 5 things needed done
+        
+    1. 
+    2. 
+    3. 
+    4. 
+    5.
+    
+
+_____________________________________________________________________________________
+
+## to-do
+    A list of things to come and WIP
 
     -Box o' Vox
-        - Remove Necromancer House
-        - Add A Boxling campaign
+        - Add A Vox lord campaign
         - Add seeds to herbalist
-            - Delete plants that have been implemented
-                - sunflower
-                - foxlily
+            - Delete plants that have been implemented 
             - Update biome generation to use new plant aliases
             - Add hemp classes for enchanted fibers
+            - Add ability to level up from renewable harvest(herbalist)
     
     -Basic
         - Add customization to hearthling
         - Add more gear for specialized classes
         - Add small amout of plants to temperate and desert biomes accordingly
         - Better gear from tailor and blacksmith
-
+        
 _____________________________________________________________________________________
 
-# Possible
-A list of things that Owl-Code is thinking about
 
-    -Think about enchanter at future date
-    
-    # Add new kingdom
-    
-        1. Tribal people?
-            1a. Add new job index for kingdom
-                - Add new "builder" class(Thatcher) for kingdom
-                - Fledling(worker)
-                    - Fire Starter -------------- (cook)
-                    - Thatcher
-                        - Carpenter ------------- [(lock behind quest progression)]
-                    - Clay Shaper --------------- (potter)
-                        - Knapper --------------- (mason)
-                    - Blacksmith ---------------- [(lock behind progression)]
-                        - Engineer -------------- [(lock behind progression)]
-                    - Weaver -------------------- [(lock tools behind other job)]
-                    - Witch Doctor -------------- (herbalist)
-                        - Shaman ---------------- (cleric)
-                    - Hunter -------------------- (trapper)
-                        - Farmer ---------------- [(lock behind progression)]
-                        - Herder ---------------- (shepherd)
-                    - Welp ---------------------- (footman)
-                        - Warrior --------------- (knight)
-                        - Rock Thrower
-                            - Bowman ------------ (archer)
-                    
-            1b. Add Story for new kingdom
-                - Progression?
-                    - Band
-                    - Tribe
-                    - Cheifdom
-                    - Kings
-                    
-            1c. Add new outfits for kingdom
-                - Basic kingdom outfit
-
-                - Fire Starter
-                - Thatcher outfit
-                - Clay Shaper
-                - Knapper
-                - Weaver
-                - Witch Doctor
-
-                - Shaman
-
-                - Hunter
-                - Herder
-                - Farmer
-
-                - Welp
-                - Warrior
-                - Rock Thrower
-                - Bowman
-
-
-                
-            
-        2. Add new biome
-            - Jungle?
-                - Look to see if able spawn wood like stone
-                - Add flint
-            - Add new/update flora
-                - Jungle trees
-                    - cocoa trees/seed
-                    - rubber tree/seeds
-                    - coffee tree/seeds
-                    - banana tree/seeds
-                - Jungle plants
-                    - shrub/seeds
-                    - mushrooms crop/spore
-                    - roots
-                    - asparagus crop
-                    - amaranth crop/seed
-                    - pinapple crop/seed
-            - Add new/update fauna
-                - Birds
-                - Insects
-_____________________________________________________________________________________
     

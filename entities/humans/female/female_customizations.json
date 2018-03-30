@@ -112,9 +112,6 @@
             "values": {
                 "[none]": {
                     "file": ""
-                },
-                "straight_eyebrows": {
-                    "file": "stonehearth/entities/humans/male/brows.qb"
                 }
             }
         },

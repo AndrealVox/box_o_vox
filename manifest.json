@@ -376,7 +376,9 @@
 
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
 
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
+
+        "/stonehearth/services/server/game_creation/game_creation_service.lua": "file(services/server/game_creation/game_creation_service.lua)"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

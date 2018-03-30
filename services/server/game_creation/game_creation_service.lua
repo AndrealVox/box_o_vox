@@ -516,7 +516,7 @@ function GameCreationService:create_camp_command(session, response, pt)
       {x=camp_x+3, y=camp_z+3},
       {x=camp_x-3, y=camp_z+0},
       {x=camp_x+3, y=camp_z+0},
-      {x=camp_x+0, y=camp_z+3}
+      {x=camp_x+0, y=camp_z+6},
    }
 
    if next(pop:get_generated_citizens()) == nil then

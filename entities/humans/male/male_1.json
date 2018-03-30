@@ -40,12 +40,20 @@
                             "red": 1,
                             "sandy": 1,
                             "blonde": 1,
-                            "platinum": 1
+                            "platinum": 1,
+                            "vox_blue": 1,
+                            "vox_red": 1,
+                            "vox_purple": 1,
+                            "vox_brown": 1,
+                            "vox_green": 1
                         }
                     },
                     "skin_color": {
                         "weights": {
-                            "white": 1
+                            "white": 1,
+                            "brown_1": 1,
+                            "brown_2": 1,
+                            "vox_demon": 0.2
                         }
                     },
                     "eye_color": {
@@ -53,7 +61,13 @@
                             "blue": 1,
                             "brown": 1,
                             "green": 1,
-                            "hazel": 1
+                            "hazel": 1,
+                            "aqua": 1,
+                            "black": 1,
+                            "blurple": 1,
+                            "red": 1,
+                            "magenta": 1,
+                            "yellow": 1
                         }
                     }
                 },
@@ -86,7 +100,12 @@
                             "male_hair_1": 1,
                             "male_hair_2": 1,
                             "male_hair_3": 1,
-                            "male_hair_4": 1
+                            "male_hair_4": 1,
+                            "vox_head_vox": 0.1,
+                            "vox_head_oso": 1,
+                            "vox_head_eldritch": 1,
+                            "vox_head_amaraly": 1,
+                            "vox_head_tristan": 1
                         }
                     }
                 },

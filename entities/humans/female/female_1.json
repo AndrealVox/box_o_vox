@@ -37,15 +37,20 @@
                         "weights": {
                             "[none]": 1,
                             "vox_glasses_0": 1,
-                            "vox_horns_0": 1,
-                            "vox_horns_1": 1,
-                            "vox_goggles_0": 1
+                            "vox_horns_0": .1,
+                            "vox_horns_1": .1,
+                            "vox_goggles_0": .1
                         }
                     },
                     "eyebrows": {
                         "weights": {
                             "[none]": 1,
                             "straight_eyebrows": 1
+                        }
+                    },
+                    "facial_heair": {
+                        "weights": {
+                            "[none]": 1
                         }
                     },
                     "hair_color": {
@@ -60,7 +65,10 @@
                     },
                     "skin_color": {
                         "weights": {
-                            "white": 1
+                            "white": 1,
+                            "brown_1": 1,
+                            "brown_2": 1,
+                            "vox_demon": 0.1
                         }
                     },
                     "eye_color": {

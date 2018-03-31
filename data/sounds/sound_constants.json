@@ -79,7 +79,7 @@
                 "playlist": [
                     {
                         "fade_in": 500,
-                        "track": "stonehearth:data:music:combat_start"
+                        "track": "stonehearth:music:combat_start"
                },
                     {
                         "track": [

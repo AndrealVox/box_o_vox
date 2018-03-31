@@ -2,7 +2,7 @@
     "type": "index",
     "constants": {
         "game_creation": {
-            "num_starting_citizens": 8
+            "num_starting_citizens": 20
         },
 
         "soil_fertility": {

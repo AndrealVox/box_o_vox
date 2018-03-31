@@ -367,10 +367,10 @@
 
         "/betterstorage/ui/input_box_filters.json": "file(ui/box_o_vox_filters.json)",
         "/betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
-        
+
     },
     "overrides": {
-        
+
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
         "/stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
         "/stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
@@ -381,9 +381,7 @@
 
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
 
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-
-        "/stonehearth/services/server/game_creation/game_creation_service.lua": "file(services/server/game_creation/game_creation_service.lua)"
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

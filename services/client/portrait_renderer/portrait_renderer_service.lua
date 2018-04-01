@@ -11,7 +11,6 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       log:warning('non-entity passed in portrait render options: %s', tostring(options.entity))
       return
    end
-   log:always("options.time: %s", options.time)
    local render_entity = self:_add_existing_entity(scene_root, entity)
    if options.animation then
       render_entity:get_animation_controller():apply_custom_pose(options.animation, options.time or 0)
@@ -50,6 +49,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       end
       camera_pos = Point3(20.4 * scale, camera_pos_y, -32.4 * scale)
       camera_look_at = Point3(0, camera_pos_y - 0.3, 0)
+   camera:set_fov(64)
    elseif options.type == 'bodyshot' then
       -- For legacy reasons, all the numbers below assume a scale of 0.1
       local scale = 0.1
@@ -69,6 +69,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       end
       camera_pos = Point3(90 * scale, camera_pos_y, -200 * scale)
       camera_look_at = Point3(0, camera_pos_y, 0)
+   camera:set_fov(80)
    else
       log:warning('invalid portrait type: %s', options.type)
       return
@@ -90,7 +91,6 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
    -- to our intuitions of what an fov is (bigger fov = more of the scene is visible), even if it
    -- would make a mathematician throw up a little.  Also, it's probably quite a bit easier to control
    -- the extents of the orthographic box with just one value (assuming constant near/far planes).
-   camera:set_fov(80)
 end
 
 return CustomPortraitRendererService

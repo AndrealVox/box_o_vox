@@ -11,7 +11,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       log:warning('non-entity passed in portrait render options: %s', tostring(options.entity))
       return
    end
-
+   log:always("options.time: %s", options.time)
    local render_entity = self:_add_existing_entity(scene_root, entity)
    if options.animation then
       render_entity:get_animation_controller():apply_custom_pose(options.animation, options.time or 0)
@@ -52,7 +52,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       camera_look_at = Point3(0, camera_pos_y - 0.3, 0)
    elseif options.type == 'bodyshot' then
       -- For legacy reasons, all the numbers below assume a scale of 0.1
-      local scale = 0.08
+      local scale = 0.1
       render_entity:get_model():set_model_scale(scale)
       render_entity:get_skeleton():set_scale(scale)
    
@@ -64,10 +64,10 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
          if animation_table_location and animation_table_location:len() > 0 then
             local animation_table = radiant.resources.load_json(animation_table_location)
             local body_position = animation_table.skeleton.torso
-            camera_pos_y = body_position[3] * scale * 1.55
+            camera_pos_y = body_position[3] * scale * 2.3
          end
       end
-      camera_pos = Point3(0 * scale, camera_pos_y, -300 * scale)
+      camera_pos = Point3(90 * scale, camera_pos_y, -200 * scale)
       camera_look_at = Point3(0, camera_pos_y, 0)
    else
       log:warning('invalid portrait type: %s', options.type)
@@ -79,7 +79,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
       ambient_color = Point3(0.35,  0.35, 0.35),
       -- Direction is in degrees with yaw and pitch as the first 2 params. Ignore 3rd param
       -- -180 yaw will have light going from -z to positive z
-      direction =     Point3(10, 160, 0),
+      direction =     Point3(-25, -170, 0),
    })
    
    camera:set_is_orthographic(true)
@@ -90,7 +90,7 @@ function CustomPortraitRendererService:_stage_scene(options, scene_root, camera)
    -- to our intuitions of what an fov is (bigger fov = more of the scene is visible), even if it
    -- would make a mathematician throw up a little.  Also, it's probably quite a bit easier to control
    -- the extents of the orthographic box with just one value (assuming constant near/far planes).
-   camera:set_fov(64)
+   camera:set_fov(80)
 end
 
 return CustomPortraitRendererService

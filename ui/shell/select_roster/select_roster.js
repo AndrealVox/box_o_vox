@@ -469,7 +469,7 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
     _updatePortrait: function () {
         var self = this;
         // add a dummy parameter portraitId so ember will rerender the portrait even if the entity stays the same (their appearance may have changed)
-        self.set('portrait', '/r/get_portrait/?type=bodyshot&animation=idle_breathe.json&entity=' + self._citizenObjectId + '&portraitId=' + self._portraitId);
+        self.set('portrait', '/r/get_portrait/?type=bodyshot&animation=emote_wave.json&time=40&entity=' + self._citizenObjectId + '&portraitId=' + self._portraitId);
         self._portraitId += 1;
     },
 

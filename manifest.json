@@ -73,7 +73,6 @@
         "data:music:night_2": "file(data/music/night_2.ogg)",
         "data:music:night_3": "file(data/music/night_3.ogg)",
         "data:music:title_1": "file(data/music/title_1.ogg)",
-        "data:music:title_2": "file(data/music/title_2.ogg)",
 
         "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
         "data:summon_tuning:necromancer:summoner_golem_kid": "file(data/summon_tuning/necromancer/summoner_golem_kid.json)",

@@ -2,10 +2,7 @@
     "type": "index",
     "music": {
         "title": {
-            "track": [
-                     "box_o_vox:data:music:title_1",
-                     "box_o_vox:data:music:title_2"
-                  ],
+            "track": "box_o_vox:data:music:title_1",
             "loop": true,
             "volume": 50
         },

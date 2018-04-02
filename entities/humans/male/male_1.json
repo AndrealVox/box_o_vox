@@ -26,8 +26,7 @@
                 },
                 "age": {
                     "weights": {
-                        "young": 3,
-                        "old": 1
+                        "young": 1
                     }
                 }
             },
@@ -89,10 +88,14 @@
                     },
                     "facial_hair": {
                         "weights": {
-                            "[none]": 3,
-                            "chops": 2,
+                            "[none]": 1,
+                            "chops": 1,
                             "chin_beard": 1,
-                            "beard": 1
+                            "beard": 1,
+                            "vox_beard_0": 1,
+                            "vox_beard_1": 1,
+                            "vox_beard_2": 1,
+                            "vox_beard_3": 1
                         }
                     },
                     "head_hair": {
@@ -106,27 +109,6 @@
                             "vox_head_eldritch": 1,
                             "vox_head_amaraly": 1,
                             "vox_head_tristan": 1
-                        }
-                    }
-                },
-                "old": {
-                    "eyebrows": {
-                        "weights": {
-                            "[none]": 1,
-                            "straight_eyebrows": 1
-                        }
-                    },
-                    "facial_hair": {
-                        "weights": {
-                            "chops": 2,
-                            "chin_beard": 1,
-                            "beard": 1
-                        }
-                    },
-                    "head_hair": {
-                        "weights": {
-                            "male_hair_old_1": 1,
-                            "male_hair_old_2": 1
                         }
                     }
                 }

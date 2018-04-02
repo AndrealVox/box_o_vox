@@ -3,8 +3,7 @@
     "type": "entity",
     "components": {
         "render_info": {
-            "animation_table": "stonehearth:skeletons:humanoid:female",
-            "model_variant": "female"
+            "animation_table": "stonehearth:skeletons:humanoid:female"
         },
         "model_variants": {
             "default": {
@@ -25,21 +24,60 @@
                         "hair_and_skin_color": 1
                     }
                 },
-                "hair_model": {
+                "age": {
                     "weights": {
-                        "hair_model": 1
+                        "young": 1
                     }
                 }
             },
             "packages": {
                 "hair_and_skin_color": {
+                    "hair_color": {
+                        "weights": {
+                            "black": 3,
+                            "brown": 3,
+                            "red": 1,
+                            "sandy": 1,
+                            "blonde": 1,
+                            "platinum": 1,
+                            "vox_blue": 1,
+                            "vox_red": 1,
+                            "vox_purple": 1,
+                            "vox_brown": 1,
+                            "vox_green": 1
+                        }
+                    },
+                    "skin_color": {
+                        "weights": {
+                            "white": 1,
+                            "brown_1": 1,
+                            "brown_2": 1,
+                            "vox_demon": 0.2
+                        }
+                    },
+                    "eye_color": {
+                        "weights": {
+                            "blue": 1,
+                            "brown": 1,
+                            "green": 1,
+                            "hazel": 1,
+                            "aqua": 1,
+                            "black": 1,
+                            "blurple": 1,
+                            "red": 1,
+                            "magenta": 1,
+                            "yellow": 1
+                        }
+                    }
+                },
+                "young": {
                     "head_accessory": {
                         "weights": {
                             "[none]": 1,
                             "vox_glasses_0": 1,
-                            "vox_horns_0": .1,
-                            "vox_horns_1": .1,
-                            "vox_goggles_0": .1
+                            "vox_horns_0": 1,
+                            "vox_horns_1": 1,
+                            "vox_goggles_0": 1
                         }
                     },
                     "eyebrows": {
@@ -48,39 +86,11 @@
                             "straight_eyebrows": 1
                         }
                     },
-                    "facial_heair": {
+                    "facial_hair": {
                         "weights": {
                             "[none]": 1
                         }
                     },
-                    "hair_color": {
-                        "weights": {
-                            "black": 3,
-                            "brown": 3,
-                            "red": 1,
-                            "sandy": 1,
-                            "blonde": 1,
-                            "platinum": 1
-                        }
-                    },
-                    "skin_color": {
-                        "weights": {
-                            "white": 1,
-                            "brown_1": 1,
-                            "brown_2": 1,
-                            "vox_demon": 0.1
-                        }
-                    },
-                    "eye_color": {
-                        "weights": {
-                            "blue": 1,
-                            "brown": 1,
-                            "green": 1,
-                            "hazel": 1
-                        }
-                    }
-                },
-                "hair_model": {
                     "head_hair": {
                         "weights": {
                             "female_hair_1": 1,
@@ -89,7 +99,10 @@
                             "female_hair_4": 1,
                             "female_hair_5": 1,
                             "female_hair_6": 1,
-                            "female_hair_7": 1
+                            "female_hair_7": 1,
+                            "vox_head_kaia": 1,
+                            "vox_head_rose": 1,
+                            "vox_head_sprainy": 1
                         }
                     }
                 }

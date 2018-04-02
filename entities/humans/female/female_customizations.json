@@ -6,7 +6,7 @@
         "skin_color": ["skin_color"],
         "eye_color": ["eye_color"],
         "hair_color": ["hair_color"],
-        "head_accessory": ["head_accessory"],
+        "head_accessory": ["head_accessory"]
     },
     "styles": {
         "hair_color": {
@@ -112,6 +112,9 @@
             "values": {
                 "[none]": {
                     "file": ""
+                },
+                "straight_eyebrows": {
+                    "file": "file(brows_0.qb)"
                 }
             }
         },
@@ -173,8 +176,14 @@
                 },
                 "vox_head_kaia": {
                     "file": "file(vox_head_kaia.qb)"
+                },
+                "female_head_bald_1": {
+                    "file": "file(head_bald_1.qb)"
+                },
+                "female_head_bald_2": {
+                    "file": "file(head_bald_2.qb)"
                 }
             }
-        },
+        }
     }
 }

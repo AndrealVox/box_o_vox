@@ -6,7 +6,7 @@
         "skin_color": ["skin_color"],
         "eye_color": ["eye_color"],
         "hair_color": ["hair_color"],
-        "head_accessory": ["head_accessory"],
+        "head_accessory": ["head_accessory"]
     },
     "styles": {
         "hair_color": {
@@ -139,7 +139,7 @@
                     "file": ""
                 },
                 "straight_eyebrows": {
-                    "file": "stonehearth/entities/humans/male/brows.qb"
+                    "file": "file(brows_0.qb)"
                 }
             }
         },
@@ -187,12 +187,6 @@
                 "male_hair_old_2": {
                     "file": "stonehearth/entities/humans/male/hair_old_2.qb"
                 },
-                "male_head_bald_1": {
-                    "file": "rayyas_children/entities/humans/male_2/head_bald_1.qb"
-                },
-                "male_head_bald_2": {
-                    "file": "rayyas_children/entities/humans/male_2/head_bald_2.qb"
-                },
                 "vox_head_vox": {
                     "file": "file(vox_head_vox.qb)"
                 },
@@ -218,6 +212,6 @@
                     "file": "file(head_bald_2.qb)"
                 }
             }
-        },
+        }
     }
 }

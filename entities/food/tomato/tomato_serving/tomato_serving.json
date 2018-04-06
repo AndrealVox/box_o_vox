@@ -25,10 +25,10 @@
             "quality": 3
         },
         "stonehearth:catalog": {
-            "display_name": "i18n(stonehearth:entities.plants.tomato.tomato_serving.display_name)",
-            "description": "i18n(stonehearth:entities.plants.tomato.tomato_serving.description)",
+            "display_name": "i18n(box_o_vox:entities.plants.tomato.tomato_serving.display_name)",
+            "description": "i18n(box_o_vox:entities.plants.tomato.tomato_serving.description)",
             "material_tags": "food vegetarian",
-            "subject_override": "stonehearth:entities:crops:tomato_crop"
+            "subject_override": "box_o_vox:entities:crops:tomato_crop"
         }
     }
 }

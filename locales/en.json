@@ -868,12 +868,20 @@
             "potato_basket": {
                "display_name": "Potato Basket",
                "description": "A basket full of potatoes"
+            },
+            "potato_serving": {
+               "display_name": "Potato Serving",
+               "description": "A hardy potato"
             }
          },
          "tomato": {
             "tomato_basket": {
                "display_name": "Tomato Basket",
                "description": "A basket full of tomatoes"
+            },
+            "tomato_serving": {
+               "display_name": "Tomato Serving",
+               "description": "A juicy tomato"
             }
          },
          "apple_tree": {
@@ -892,6 +900,10 @@
             "strawberry_basket": {
                "description": "A basket full of strawberries",
                "display_name": "Strawberry Basket"
+            },
+            "strawberry_serving": {
+               "display_name": "Strawberry Serving",
+               "description": "A yummy strawberry"
             }
          },
          "peppercorn_bush": {
@@ -1317,6 +1329,12 @@
                "description": "The pelt from a black fox"
             }
          }
+      },
+      "tools": {
+         "boxling_sceptre": {
+            "display_name": "Boxling Sceptre",
+            "description": "The enchanted tool of the Boxlings."
+         }
       }
    },
    "weapons": {
@@ -1362,12 +1380,12 @@
             "resource_fuel_name": "Fuel"
          }
       },
-       "shell": {
-           "select_roster": {
-               "eye_color": "Eye Color",
-               "head_accessory": "Accessories"
-           }
-       }
+      "shell": {
+         "select_roster": {
+            "eye_color": "Eye Color",
+            "head_accessory": "Accessories"
+         }
+      }
    },
    "stonehearth_mixins": {
       "food": {

@@ -28,10 +28,10 @@
             "quality": 4
         },
         "stonehearth:catalog": {
-            "display_name": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.display_name)",
-            "description": "i18n(stonehearth:entities.plants.strawberry.strawberry_serving.description)",
+            "display_name": "i18n(box_o_vox:entities.plants.strawberry.strawberry_serving.display_name)",
+            "description": "i18n(box_o_vox:entities.plants.strawberry.strawberry_serving.description)",
             "material_tags": "food vegetarian",
-            "subject_override": "stonehearth:entities:crops:strawberry_crop"
+            "subject_override": "box_o_vox:entities:crops:strawberry_crop"
         }
     }
 }

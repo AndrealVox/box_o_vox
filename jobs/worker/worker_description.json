@@ -1,5 +1,9 @@
 {
     "equipment": {
-        "torso": "file(boxling_outfit)"
-    }
+        "torso": "file(boxling_outfit)",
+        "mainhand": [
+         "box_o_vox:entities:tools:boxling_sceptre"
+      ]
+    },
+    "icon": "file(images/icon.png)"
 }

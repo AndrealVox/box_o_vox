@@ -226,6 +226,9 @@
         "entities:summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
         "entities:summon:zombie_kid": "file(entities/summon/zombie_kid/zombie_kid_summon.json)",
 
+
+        "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
+
         "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
         "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
         "entities:trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
@@ -290,6 +293,10 @@
         "jobs:recipes:potter": "file(jobs/potter/recipes/recipes.json)",
         "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
 
+        "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
+        "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
+        "jobs:worker:winter_boxling_outfit": "file(jobs/worker/winter_boxling_outfit)",
+
         "mixins:plant": "file(mixins/plant)",
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
@@ -351,6 +358,7 @@
         "/stonehearth/jobs/engineer/recipes/recipes.json": "box_o_vox:jobs:recipes:engineer",
         "/stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox:jobs:recipes:mason",
         "/stonehearth/jobs/potter/recipes/recipes.json": "box_o_vox:jobs:recipes:potter",
+        "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox:jobs:recipes:weaver",
 
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",

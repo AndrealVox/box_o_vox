@@ -3,7 +3,6 @@
     "description": "A cover of mist crawls across the landscape, hiding untold mysteries.</li><li>Vision radius is reduced.</li></ul>",
     "icon": "file(enchanted_mist.png)",
     "sky_settings": "box_o_vox:data:weather:sky_settings:enchanted_mist",
-    "ambient_sound_key": "foggy",
     "thoughts": [
       "box_o_vox:thoughts:weather:enchanted_mist_negative",
       "box_o_vox:thoughts:weather:enchanted_mist_positive"

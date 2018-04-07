@@ -350,8 +350,6 @@
         "/stonehearth/entities/resources/wood/palm_log/palm_log.json": "file(entities/resources/wood/all_logs.json)",
         "/stonehearth/entities/resources/wood/pine_log/pine_log.json": "file(entities/resources/wood/all_logs.json)",
 
-        "stonehearth:jobs:worker": "file(jobs/worker/worker_description.json)",
-
         "/stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox:jobs:recipes:blacksmith",
         "/stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox:jobs:recipes:carpenter",
         "/stonehearth/jobs/cook/recipes/recipes.json": "box_o_vox:jobs:recipes:cook",
@@ -374,6 +372,8 @@
 
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
+
+        "/stonehearth/jobs/worker/worker_description.json": "file(jobs/worker/worker_description.json)",
 
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
 

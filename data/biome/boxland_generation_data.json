@@ -48,16 +48,16 @@
             "rock_layer_6": "#a6a6a6",
             "rock_layer_7": "#bfbfbf",
             "rock_layer_8": "#d9d9d9",
-            "soil_light": "#735f4b",
-            "soil_dark": "#594a3a",
-            "dirt": "#997f63",
-            "dirt_edge_1": "#806a53",
-            "grass": "#6bb347",
-            "grass_edge_1": "#4d8033",
-            "grass_edge_2": "#5c993d",
-            "grass_hills": "#45732e",
-            "grass_hills_edge_1": "#2e4d1f",
-            "grass_hills_edge_2": "#365924",
+            "soil_light": "#413D37",
+            "soil_dark": "#413D37",
+            "dirt": "#51483A",
+            "dirt_edge_1": "#51483A",
+            "grass": "#315244",
+            "grass_edge_1": "#315244",
+            "grass_edge_2": "#315244",
+            "grass_hills": "#21312A",
+            "grass_hills_edge_1": "#21312A",
+            "grass_hills_edge_2": "#21312A",
             "copper_ore": "#c87533",
             "tin_ore": "#b0a080",
             "iron_ore": "#90b0d0",
@@ -171,92 +171,6 @@
     },
     "landscape": {
         "placement_table": {
-            "stonehearth:trees:oak:small": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
-                },
-                "mountains": {
-                    "__comment": "Unsure what this does - doesn't appear to be any small oak trees on mountains, so why is this here?",
-                    "placement_type": "single",
-                    "parameters": {
-                        "__comment": "How close to the edge of the 16x16 feature tile.  Think of this as the radius of a tree's footprint. Def 2",
-                        "ground_radius": 2,
-                        "__comment": "Unsure why we have 2... Def 3",
-                        "exclusion_radius": 3
-                    }
-                }
-            },
-            "stonehearth:trees:oak:medium": {
-                "placement_type": "single",
-                "parameters": {
-                    "__comment": "Makes sure that the footprint of the tree is on flat ground (not hanging over a cliff). Def 2",
-                    "ground_radius": 2,
-                    "__comment": "Makes sure that trees don't get placed inside of this area. Def 4",
-                    "exclusion_radius": 4
-                }
-            },
-            "stonehearth:trees:oak:large": {
-                "placement_type": "single",
-                "parameters": {
-                    "ground_radius": 3,
-                    "exclusion_radius": 5
-                }
-            },
-            "stonehearth:trees:oak:ancient": {
-                "placement_type": "single",
-                "parameters": {
-                    "ground_radius": 4,
-                    "exclusion_radius": 8
-                }
-            },
-            "stonehearth:trees:juniper:small": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This spawns trees in clumps on top of each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "Not sure what this is doing... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "Not sure what this is doing... Def 2",
-                    "exclusion_radius": 2
-                },
-                "mountains": {
-                    "placement_type": "single",
-                    "parameters": {
-                        "__comment": "Not sure what this is doing... Def 0",
-                        "ground_radius": 0,
-                        "__comment": "Not sure what this is doing... Def 3",
-                        "exclusion_radius": 3
-                    }
-                }
-            },
-            "stonehearth:trees:juniper:medium": {
-                "placement_type": "single",
-                "parameters": {
-                    "ground_radius": 0,
-                    "exclusion_radius": 4
-                }
-            },
-            "stonehearth:trees:juniper:large": {
-                "placement_type": "single",
-                "parameters": {
-                    "__comment": "Not sure what this is doing... Def 1",
-                    "ground_radius": 1,
-                    "exclusion_radius": 4
-                }
-            },
-            "stonehearth:trees:juniper:ancient": {
-                "placement_type": "single",
-                "parameters": {
-                    "ground_radius": 1,
-                    "exclusion_radius": 5
-                }
-            },
             "stonehearth:trees:pine:small": {
                 "placement_type": "dense",
                 "parameters": {
@@ -434,36 +348,36 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
+                    "exclusion_radius": 11
                 }
             },
             "box_o_vox:entities:trees:apple:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 4,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
+                    "exclusion_radius": 8
                 }
             },
             "box_o_vox:entities:trees:apple:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 6,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 4
+                    "exclusion_radius": 5
                 }
             },
             "box_o_vox:entities:trees:apple:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 8,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -708,24 +622,6 @@
         "trees": {
             "__comment": "tree size variance. anything above 0 will be considered as tree placement, and the size of the tree is determined within the sizes node declared above",
             "sizes": {
-                "stonehearth:trees:oak": {
-                    "small": 0,
-                    "medium": 8,
-                    "large": 18,
-                    "ancient": {
-                        "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 0
-                    }
-                },
-                "stonehearth:trees:juniper": {
-                    "small": 0,
-                    "medium": 4,
-                    "large": 15,
-                    "ancient": {
-                        "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 0
-                    }
-                },
                 "stonehearth:trees:pine": {
                     "small": 0,
                     "medium": 4,
@@ -771,46 +667,33 @@
             "weights": {
                 "plains": {
                     "1": {
-                        "stonehearth:trees:oak": 1,
                         "box_o_vox:entities:trees:apple": 2,
-                        "box_o_vox:entities:trees:banana": 1,
-                        "box_o_vox:entities:trees:orange": 2,
-                        "box_o_vox:entities:trees:lime": 1
+                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:orange": 0,
+                        "box_o_vox:entities:trees:lime": 0
                     }
                 },
                 "foothills": {
                     "1": {
-                        "stonehearth:trees:oak": 4,
-                        "stonehearth:trees:juniper": 5,
-                        "stonehearth:trees:pine": 1,
+                        "stonehearth:trees:pine": 2,
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:banana": 0.5,
-                        "box_o_vox:entities:trees:orange": 1,
-                        "box_o_vox:entities:trees:lime": 1
+                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:orange": 0,
+                        "box_o_vox:entities:trees:lime": 0
                     },
                     "2": {
-                        "stonehearth:trees:oak": 2,
-                        "stonehearth:trees:juniper": 5,
-                        "stonehearth:trees:pine": 3,
+                        "stonehearth:trees:pine": 4,
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:banana": 0.5,
-                        "box_o_vox:entities:trees:orange": 1,
-                        "box_o_vox:entities:trees:lime": 1
+                        "box_o_vox:entities:trees:orange": 0,
+                        "box_o_vox:entities:trees:lime": 0
                     }
                 },
                 "mountains": {
                     "1": {
-                        "stonehearth:trees:juniper": 3,
-                        "stonehearth:trees:pine": 7,
-                        "box_o_vox:entities:trees:apple": 0,
-                        "box_o_vox:entities:trees:banana": 0,
-                        "box_o_vox:entities:trees:orange": 0
+                        "stonehearth:trees:pine": 8
                     },
                     "2": {
-                        "stonehearth:trees:pine": 1,
-                        "box_o_vox:entities:trees:apple": 0,
-                        "box_o_vox:entities:trees:banana": 0,
-                        "box_o_vox:entities:trees:orange": 0
+                        "stonehearth:trees:pine": 4
                     }
                 }
             },
@@ -819,7 +702,7 @@
                 "mean_offset": {
                     "__comment": "boundary of terrain type",
                     "__comment": "This keeps trees from spawning near the border. Def -5.  Negative is detractor, positive is attractor",
-                    "boundary": -5,
+                    "boundary": -8,
                     "__comment": "Appears to be the percentage of water which is surrounded by trees... Def 50",
                     "water": 50
                 },

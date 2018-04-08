@@ -1,27 +1,31 @@
 {
-   "mixins": "stonehearth:mixins:placed_object",
-   "type": "entity",
-   "components": {
-      "render_info": {
-         "scale": 0.2
-      },
-      "model_variants": {
-         "default": {
-            "models": [
+    "mixins": "stonehearth:mixins:placed_object",
+    "type": "entity",
+    "components": {
+        "render_info": {
+            "scale": 0.6
+        },
+        "model_variants": {
+            "default": {
+                "models": [
                "file(apple_tree.qb)"
             ]
-         }
-      },
-      "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "mob_collision_type": "clutter"
-      }
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.plants.apple_tree.display_name)",
-         "description": "i18n(box_o_vox:entities.plants.apple_tree.description)",
-         "category": "plants"
-      }
-   }
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "mob_collision_type": "clutter"
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.plants.apple_tree.display_name)",
+            "description": "i18n(box_o_vox:entities.plants.apple_tree.description)",
+            "category": "plants"
+        }
+    }
 }

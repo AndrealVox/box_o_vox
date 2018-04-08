@@ -8,7 +8,7 @@
         "model_variants": {
             "default": {
                 "models": [
-               "file(sapling_oak_tree.qb)"
+               "file(sapling_apple_tree.qb)"
             ]
             }
         },

@@ -14,8 +14,8 @@
                 "enchanted_mist_negative": {
                     "display_name": "Spooky fog",
                     "tooltip": "What was that noise in the fog?",
-                    "duration": "1d",
-                    "happiness_delta": 0,
+                    "duration": "1h",
+                    "happiness_delta": -1,
                     "stackable": false
                 }
             }

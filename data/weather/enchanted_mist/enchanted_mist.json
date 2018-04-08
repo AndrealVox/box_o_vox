@@ -4,7 +4,6 @@
     "icon": "file(enchanted_mist.png)",
     "sky_settings": "box_o_vox:data:weather:sky_settings:enchanted_mist",
     "thoughts": [
-      "box_o_vox:thoughts:weather:enchanted_mist_negative",
       "box_o_vox:thoughts:weather:enchanted_mist_positive"
    ],
     "subject_matter": "box_o_vox:data:weather:subjects:enchanted_mist",

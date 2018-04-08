@@ -1,0 +1,12 @@
+{
+    "type": "command",
+    "name": "promote_to_job",
+    "display_name": "Promote to Job",
+    "description": "promote to a job.",
+    "default_enabled": true,
+    "ordinal": 9,
+    "icon": "file(promote_to_job.png)",
+    "action": "fire_event",
+    "event_name": "radiant_promote_to_job",
+    "event_data": {}
+}

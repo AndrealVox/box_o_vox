@@ -44,6 +44,7 @@
         "data:commands:necromancer_summons:skeleton_kid": "file(data/commands/necromancer_summons/skeleton_kid_summon.json)",
         "data:commands:necromancer_summons:zombie": "file(data/commands/necromancer_summons/zombie_summon.json)",
         "data:commands:necromancer_summons:zombie_kid": "file(data/commands/necromancer_summons/zombie_kid_summon.json)",
+        "data:commands:promote_to_job": "file(data/commands/promote_to_job/promote_to_job.json)",
         "data:constants": "file(data/constants.json)",
         "data:effects:blue_road_lamp_effect": "file(data/effects/road_lamp_effect/blue_road_lamp_effect.json)",
         "data:effects:fireplace_effect": "file(data/effects/fireplace_effect/fireplace_effect.json)",
@@ -72,6 +73,9 @@
         "data:summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
         "data:thoughts": "file(data/happiness/thoughts.json)",
         "data:traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
+        "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
+        "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
+        "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
         "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
         "entities:armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
         "entities:armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
@@ -263,15 +267,13 @@
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
+        "mixins:base_human": "file(mixins/base_human)",
         "resource_constants": "file(data/resource_constants.json)",
         "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
         "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
-        "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
         "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
-        "startmenu": "file(data/ui/start_menu.json)",
-        "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
-        "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)"
+        "startmenu": "file(data/ui/start_menu.json)"
     },
     "components": {
         "summon": "file(components/summon/summon_component)"

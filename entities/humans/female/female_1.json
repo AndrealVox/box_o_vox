@@ -1,5 +1,5 @@
 {
-    "mixins": "stonehearth:mixins:base_human",
+    "mixins": "box_o_vox:mixins:base_human",
     "type": "entity",
     "components": {
         "render_info": {

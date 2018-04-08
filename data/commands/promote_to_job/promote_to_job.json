@@ -2,7 +2,7 @@
     "type": "command",
     "name": "promote_to_job",
     "display_name": "Promote to Job",
-    "description": "promote to a job.",
+    "description": "Assign this hearthling a job.",
     "default_enabled": true,
     "ordinal": 9,
     "icon": "file(promote_to_job.png)",

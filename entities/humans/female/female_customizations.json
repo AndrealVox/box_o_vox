@@ -99,45 +99,6 @@
                 }
             }
         },
-        "facial_hair": {
-            "type": "model",
-            "values": {
-                "[none]": {
-                    "file": ""
-                }
-            }
-        },
-        "eyebrows": {
-            "type": "model",
-            "values": {
-                "[none]": {
-                    "file": ""
-                },
-                "straight_eyebrows": {
-                    "file": "file(brows_0.qb)"
-                }
-            }
-        },
-        "head_accessory": {
-            "type": "model",
-            "values": {
-                "[none]": {
-                    "file": ""
-                },
-                "vox_glasses_0": {
-                    "file": "file(vox_glasses_0.qb)"
-                },
-                "vox_horns_0": {
-                    "file": "file(vox_horns_0.qb)"
-                },
-                "vox_horns_1": {
-                    "file": "file(vox_horns_1.qb)"
-                },
-                "vox_goggles_0": {
-                    "file": "file(vox_goggles_0.qb)"
-                }
-            }
-        },
         "head_hair": {
             "type": "model",
             "values": {
@@ -182,6 +143,45 @@
                 },
                 "female_head_bald_2": {
                     "file": "file(head_bald_2.qb)"
+                }
+            }
+        },
+        "facial_hair": {
+            "type": "model",
+            "values": {
+                "[none]": {
+                    "file": ""
+                }
+            }
+        },
+        "eyebrows": {
+            "type": "model",
+            "values": {
+                "[none]": {
+                    "file": ""
+                },
+                "straight_eyebrows": {
+                    "file": "file(brows_0.qb)"
+                }
+            }
+        },
+        "head_accessory": {
+            "type": "model",
+            "values": {
+                "[none]": {
+                    "file": ""
+                },
+                "vox_glasses_0": {
+                    "file": "file(vox_glasses_0.qb)"
+                },
+                "vox_horns_0": {
+                    "file": "file(vox_horns_0.qb)"
+                },
+                "vox_horns_1": {
+                    "file": "file(vox_horns_1.qb)"
+                },
+                "vox_goggles_0": {
+                    "file": "file(vox_goggles_0.qb)"
                 }
             }
         }

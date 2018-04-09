@@ -24,9 +24,9 @@
                         "hair_and_skin_color": 1
                     }
                 },
-                "age": {
+                "hair_model": {
                     "weights": {
-                        "young": 1
+                        "hair_model": 1
                     }
                 }
             },
@@ -70,7 +70,7 @@
                         }
                     }
                 },
-                "young": {
+                "hair_model": {
                     "head_accessory": {
                         "weights": {
                             "[none]": 1,

@@ -30,54 +30,41 @@
             "filter": "plants",
             "ordinal": 5,
             "categories": {
-                "daisy": {
+                "seed": {
                     "ordinal": 6,
+                    "display_name": "Seeds",
+                    "icon": "/stonehearth/entities/trees/oak_tree/seed/tree_oak_seed.png",
+                    "filter": "stockpile_plant"
+                },
+                "daisy": {
+                    "ordinal": 7,
                     "display_name": "i18n(box_o_vox:entities.resources.herb.daisy.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.daisy.description)",
                     "icon": "/box_o_vox/entities/resources/herb/daisy/daisy.png",
                     "filter": "stockpile_plant daisy"
                 },
                 "firebeard": {
-                    "ordinal": 6,
+                    "ordinal": 8,
                     "display_name": "i18n(box_o_vox:entities.resources.herb.firebeard.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.firebeard.description)",
                     "icon": "/box_o_vox/entities/resources/herb/firebeard/firebeard.png",
                     "filter": "stockpile_plant firebeard"
                 },
-                "foxlily": {
-                    "ordinal": 6,
-                    "display_name": "i18n(box_o_vox:entities.resources.herb.foxlily.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.foxlily.description)",
-                    "icon": "/box_o_vox/entities/resources/herb/foxlily/foxlily.png",
-                    "filter": "stockpile_plant foxlily"
-                },
                 "greentea": {
-                    "ordinal": 6,
+                    "ordinal": 9,
                     "display_name": "i18n(box_o_vox:entities.resources.herb.greentea.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.greentea.description)",
                     "icon": "/box_o_vox/entities/resources/herb/greentea/greentea.png",
                     "filter": "stockpile_plant greentea"
                 },
                 "hemp_herb": {
-                    "ordinal": 6,
+                    "ordinal": 10,
                     "display_name": "i18n(box_o_vox:entities.resources.herb.hemp_herb.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.hemp_herb.description)",
                     "icon": "/box_o_vox/entities/resources/herb/hemp_herb/hemp_herb.png",
                     "filter": "stockpile_plant hemp_herb"
                 },
                 "nightshade": {
-                    "ordinal": 6,
+                    "ordinal": 11,
                     "display_name": "i18n(box_o_vox:entities.resources.herb.nightshade.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.nightshade.description)",
                     "icon": "/box_o_vox/entities/resources/herb/nightshade/nightshade.png",
                     "filter": "stockpile_plant nightshade"
-                },
-                "sunflower": {
-                    "ordinal": 6,
-                    "display_name": "i18n(box_o_vox:entities.resources.herb.sunflower.display_name)",
-                    "description": "i18n(box_o_vox:entities.resources.herb.sunflower.description)",
-                    "icon": "/box_o_vox/entities/resources/herb/sunflower/sunflower.png",
-                    "filter": "stockpile_plant sunflower"
                 }
             }
         },
@@ -191,14 +178,20 @@
             "filter": "raw_meat",
             "ordinal": 12,
             "categories": {
+                "monster": {
+                    "ordinal": 5,
+                    "display_name": "Monster Meat",
+                    "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
+                    "filter": "stockpile_cooking_ingredient varanus_meat"
+                },
                 "beef": {
-                    "ordinal": 4,
+                    "ordinal": 5,
                     "display_name": "i18n(box_o_vox:entities.food.beef.display_name)",
                     "icon": "/box_o_vox/entities/food/beef/beef.png",
                     "filter": "stockpile_cooking_ingredient beef"
                 },
                 "pork": {
-                    "ordinal": 5,
+                    "ordinal": 6,
                     "display_name": "i18n(box_o_vox:entities.food.pork.display_name)",
                     "icon": "/box_o_vox/entities/food/pork/pork.png",
                     "filter": "stockpile_cooking_ingredient pork"

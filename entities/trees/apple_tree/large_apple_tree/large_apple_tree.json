@@ -1,8 +1,11 @@
 {
     "mixins": [
-      "stonehearth:mixins:tree"
+      "stonehearth:mixins:tree",
+      "stonehearth:mixins:align_to_grid"
    ],
+    "type": "entity",
     "components": {
+        "stonehearth:evolve": {},
         "model_variants": {
             "default": {
                 "models": [
@@ -94,6 +97,9 @@
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.trees.apple_tree.large_apple_tree.display_name)",
             "description": "i18n(box_o_vox:entities.trees.apple_tree.large_apple_tree.description)"
+        },
+        "stonehearth:appeal": {
+            "appeal": 4
         }
     }
 }

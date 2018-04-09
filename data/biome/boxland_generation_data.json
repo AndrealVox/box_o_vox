@@ -348,7 +348,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 11
+                    "exclusion_radius": 45
                 }
             },
             "box_o_vox:entities:trees:apple:large": {
@@ -359,7 +359,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 8
+                    "exclusion_radius": 40
                 }
             },
             "box_o_vox:entities:trees:apple:medium": {
@@ -370,7 +370,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 5
+                    "exclusion_radius": 8
                 }
             },
             "box_o_vox:entities:trees:apple:small": {
@@ -428,50 +428,6 @@
                     "exclusion_radius": 1
                 }
             },
-            "box_o_vox:entities:trees:orange:ancient": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
-                }
-            },
-            "box_o_vox:entities:trees:orange:large": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
-                }
-            },
-            "box_o_vox:entities:trees:orange:medium": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 4
-                }
-            },
-            "box_o_vox:entities:trees:orange:small": {
-                "placement_type": "dense",
-                "parameters": {
-                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
-                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
-                    "item_density": 0.5,
-                    "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 2
-                }
-            },
             "box_o_vox:entities:trees:lime:ancient": {
                 "placement_type": "dense",
                 "parameters": {
@@ -480,36 +436,80 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
+                    "exclusion_radius": 45
                 }
             },
             "box_o_vox:entities:trees:lime:large": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 4,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 6
+                    "exclusion_radius": 40
                 }
             },
             "box_o_vox:entities:trees:lime:medium": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 6,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 4
+                    "exclusion_radius": 8
                 }
             },
             "box_o_vox:entities:trees:lime:small": {
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 8,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 2
+                }
+            },
+            "box_o_vox:entities:trees:orange:ancient": {
+                "placement_type": "dense",
+                "parameters": {
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
                     "grid_multiple": 2,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 45
+                }
+            },
+            "box_o_vox:entities:trees:orange:large": {
+                "placement_type": "dense",
+                "parameters": {
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 4,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 40
+                }
+            },
+            "box_o_vox:entities:trees:orange:medium": {
+                "placement_type": "dense",
+                "parameters": {
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 6,
+                    "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
+                    "item_density": 0.5,
+                    "__comment": "How close can two trees get to each other... Def 2",
+                    "exclusion_radius": 8
+                }
+            },
+            "box_o_vox:entities:trees:orange:small": {
+                "placement_type": "dense",
+                "parameters": {
+                    "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
+                    "grid_multiple": 8,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -642,7 +642,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 100
+                        "percentage": 50
                     }
                 },
                 "box_o_vox:entities:trees:orange": {
@@ -651,7 +651,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 100
+                        "percentage": 50
                     }
                 },
                 "box_o_vox:entities:trees:lime": {
@@ -660,7 +660,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 100
+                        "percentage": 50
                     }
                 }
             },
@@ -669,8 +669,8 @@
                     "1": {
                         "box_o_vox:entities:trees:apple": 2,
                         "box_o_vox:entities:trees:banana": 0,
-                        "box_o_vox:entities:trees:orange": 0,
-                        "box_o_vox:entities:trees:lime": 0
+                        "box_o_vox:entities:trees:orange": 2,
+                        "box_o_vox:entities:trees:lime": 2
                     }
                 },
                 "foothills": {
@@ -678,14 +678,14 @@
                         "stonehearth:trees:pine": 2,
                         "box_o_vox:entities:trees:apple": 1,
                         "box_o_vox:entities:trees:banana": 0,
-                        "box_o_vox:entities:trees:orange": 0,
-                        "box_o_vox:entities:trees:lime": 0
+                        "box_o_vox:entities:trees:orange": 1,
+                        "box_o_vox:entities:trees:lime": 1
                     },
                     "2": {
                         "stonehearth:trees:pine": 4,
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:orange": 0,
-                        "box_o_vox:entities:trees:lime": 0
+                        "box_o_vox:entities:trees:orange": 1,
+                        "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "mountains": {

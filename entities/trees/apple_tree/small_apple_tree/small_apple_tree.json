@@ -3,7 +3,9 @@
       "stonehearth:mixins:tree",
       "stonehearth:mixins:align_to_grid"
    ],
+    "type": "entity",
     "components": {
+        "stonehearth:evolve": {},
         "model_variants": {
             "default": {
                 "models": [

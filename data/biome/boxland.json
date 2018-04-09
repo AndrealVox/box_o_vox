@@ -7,10 +7,10 @@
       "i18n(box_o_vox:data.biome.boxland.random_location_names.000)"
    ],
     "image": "file(images/boxland_400x300.png)",
-    "story_board_image": "file(images/boxland_story_board.png)",
+    "story_board_image": "file(images/boxland_story_peaceful.png)",
     "game_mode_images": {
         "stonehearth:game_mode:normal": "file(images/boxland_story_normal.png)",
-        "stonehearth:game_mode:hard": "file(images/boxland_story_normal.png)"
+        "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)"
     },
     "generation_file": "file(boxland_generation_data.json)",
     "weather": [

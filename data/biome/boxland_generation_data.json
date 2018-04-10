@@ -55,6 +55,7 @@
             "grass": "#315244",
             "grass_edge_1": "#315244",
             "grass_edge_2": "#315244",
+            "grass_edge_3": "#426355",
             "grass_hills": "#21312A",
             "grass_hills_edge_1": "#21312A",
             "grass_hills_edge_2": "#21312A",
@@ -143,7 +144,7 @@
         "foothills": {
             "depth_function": {
                 "octaves": 6,
-                "persistence_ratio": 0.29,
+                "persistence_ratio": 0,
                 "amplitude": 2.59,
                 "layer_thickness": 1,
                 "layer_count": 10,
@@ -893,29 +894,29 @@
             "__comment": "placement of water bodies occur at positive samples, parameters are for a standard simplex noise generator",
             "depth": {
                 "__comment": "This is the exact depth of the 'shallows' sections of water.  Def 5.",
-                "shallow": 5,
+                "shallow": 2,
                 "__comment": "This is the exact depth of the 'deep' sections of water.  Def 10.",
-                "deep": 10
+                "deep": 5
             },
             "noise_map_settings": {
                 "__comment": "simplex noise function",
                 "__comment": "This generally creates more noisy patterns of water, below 0 removes water.  Def 0.01.",
-                "persistence_ratio": .1101,
+                "persistence_ratio": .5,
                 "__comment": "This value seems to be a scale where the lower it is, the more and more separate water bodies there are; the larger it is, the less and larger more connected water bodies there are.  Def 4.  Value 0 removes water.",
-                "bandlimit": 180,
+                "bandlimit": 1,
                 "__comment": "The smaller the number, the more small sparse water bodies there are; the larger the less large bodies there are.  Def 4.",
-                "octaves": 1,
+                "octaves": 4,
                 "__comment": "This is the overall value of water bodies on the map.  The higher the number, the more water bodies; the lower the number less water bodies.  Def 80.",
-                "range": 1,
+                "range": 0,
                 "__comment": "Unsure what this does.  Def 1.2.",
                 "aspect_ratio": 1,
                 "mean": {
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -5.",
-                    "plains": .1,
+                    "plains": 0,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -20.",
-                    "foothills": .1,
+                    "foothills": 0,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -18.",
-                    "mountains": .1
+                    "mountains": 0
                 }
             }
         }

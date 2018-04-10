@@ -284,6 +284,7 @@
         "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
         "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
         "stonehearth:biome:index": "file(data/biome/index.json)",
+        "stonehearth:terrain_blocks": "file(data/terrain/terrain_blocks.json)",
         "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)",
         "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
         "stonehearth:jobs:index": "file(jobs/index.json)",

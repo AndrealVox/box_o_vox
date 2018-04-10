@@ -1,19 +1,18 @@
 {
-   "craftable_recipes": {
-      "furniture": {
-         "ordinal": 6,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
-         "recipes": {
-            "bathtub": {
-               "recipe": "file(bathtub_recipe.json)"
-            },
-             "sink": {
-               "recipe": "file(sink_recipe.json)"
-            },
-             "toilet": {
-               "recipe": "file(toilet_recipe.json)"
+    "craftable_recipes": {
+        "furniture": {
+            "name": "i18n(stonehearth:jobs.potter.recipes.furniture_name)",
+            "recipes": {
+                "bathtub": {
+                    "recipe": "file(bathtub_recipe.json)"
+                },
+                "sink": {
+                    "recipe": "file(sink_recipe.json)"
+                },
+                "toilet": {
+                    "recipe": "file(toilet_recipe.json)"
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }

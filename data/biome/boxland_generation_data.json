@@ -348,7 +348,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 45
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:apple:large": {
@@ -359,7 +359,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 40
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:apple:medium": {

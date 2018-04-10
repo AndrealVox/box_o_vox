@@ -9,9 +9,8 @@
                 }
             }
         },
-        "furniture": {
-            "ordinal": 6,
-            "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
+        "decorations": {
+            "name": "i18n(stonehearth:jobs.engineer.recipes.decorations_name)",
             "recipes": {
                 "fridge": {
                     "recipe": "file(fridge_recipe.json)"

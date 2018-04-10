@@ -1,8 +1,6 @@
 {
     "type": "entity",
-    "mixins": [
-      "stonehearth:mixins:tree"
-   ],
+    "mixins": "stonehearth:trees:oak:sapling",
     "components": {
         "model_variants": {
             "default": {

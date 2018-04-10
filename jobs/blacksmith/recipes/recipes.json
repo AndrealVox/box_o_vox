@@ -1,7 +1,6 @@
 {
     "craftable_recipes": {
         "smelt": {
-            "ordinal": 30,
             "name": "i18n(stonehearth:jobs.blacksmith.recipes.smelt_name)",
             "recipes": {
                 "copper_ingot": {

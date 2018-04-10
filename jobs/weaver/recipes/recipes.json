@@ -1,7 +1,6 @@
 {
     "craftable_recipes": {
         "clothing_armor": {
-            "ordinal": 50,
             "name": "i18n(stonehearth:jobs.weaver.recipes.clothing_armor_name)",
             "recipes": {
                 "worker_outfit_2": {

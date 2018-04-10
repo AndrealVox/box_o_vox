@@ -3,6 +3,7 @@
     "type": "entity",
     "components": {
         "render_info": {
+            "model_variant": "female",
             "animation_table": "stonehearth:skeletons:humanoid:female"
         },
         "model_variants": {

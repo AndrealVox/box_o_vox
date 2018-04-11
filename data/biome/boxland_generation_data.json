@@ -1,6 +1,5 @@
 {
     "type": "biome_generation_data",
-    "__comment": "parameters for generating forest, flora, and water",
     "ring_tesselation": {
         "dirt": [
             {
@@ -12,24 +11,29 @@
         "grass": [
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 4",
-                "width": 6,
+                "width": 2,
                 "name": "grass_edge_1"
          },
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 6",
-                "width": 8,
+                "width": 3,
                 "name": "grass_edge_2"
+         },
+            {
+                "__comment": "This is the thickness of the color swatch around the edge of the area... Def 8",
+                "width": 4,
+                "name": "grass_edge_3"
          }
       ],
         "grass_hills": [
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 3",
-                "width": 2,
+                "width": 1,
                 "name": "grass_hills_edge_1"
          },
             {
                 "__comment": "This is the thickness of the color swatch around the edge of the area... Def 5",
-                "width": 3,
+                "width": 2,
                 "name": "grass_hills_edge_2"
          }
       ]
@@ -71,18 +75,18 @@
         "__comment": "minimum height for surface of terrain",
         "noise_map_settings": {
             "__comment": "The lower this number: the more noise there is, the higher: the less. Def: 4",
-            "octaves": 3.3,
+            "octaves": 2,
             "__comment": "The higher this number: the more intricate terrain shapes created, the lower: the more simple. Def: 0.015, Max 1, Min 0",
-            "persistence_ratio": 0.215,
+            "persistence_ratio": 0.5,
             "__comment": "The higher this number: the larger the scale of the noise, the lower: the smaller the scale. Def: 3.5",
-            "bandlimit": 3.5,
+            "bandlimit": 6,
             "__comment": "can stretch the terrain vertically to allow for long mountain ridges.  Above 1 stretches the terrain vertically, below 1 stretches the terrain horizontally. Def: 1",
             "aspect_ratio": 1
         },
         "__comment": "Literal percentage of terrain which is plains. Def 40",
         "plains_percentage": 60,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
-        "height_base": 36,
+        "height_base": 26,
         "__comments": {
             "valley_count": "offset of layers from base",
             "step_count": "number of layers",
@@ -91,15 +95,15 @@
         "plains": {
             "__comment": "Generally don't mess with plains.",
             "__comment": "This is a value of how high the plains are. Def 2, must be 2 plus a multiple of 5",
-            "step_size": 2,
+            "step_size": 7,
             "__comment": "Unsure what this does.. causes crashes. Def 1",
-            "valley_count": 2,
+            "valley_count": 1,
             "__comment": "Unsure what this does.. causes crashes. Def 2",
             "step_count": 2
         },
         "foothills": {
             "__comment": "This is the height of the layers. Def 10, multiple of 5",
-            "step_size": 10,
+            "step_size": 5,
             "__comment": "Number of steps of foothills. Def 2",
             "step_count": 3
         },
@@ -122,7 +126,7 @@
                 "__comment": "Unsure what this does... Def 2.5",
                 "amplitude": 2.5,
                 "__comment": "This controls the thickness of the little things that stick out the sides of the flat mountain faces. Def 3",
-                "layer_thickness": 5,
+                "layer_thickness": 3,
                 "__comment": "This controls the number of layers coming out for the 'depth' of the outcropping... Def 2",
                 "layer_count": 2,
                 "__comment": "determines how many adjacent blocks have the same depth - which means, how thick the outcroppings are.  Low values (esp below 1) cause lots of separation and single brick wide outcropings, but still represent the original shape (from when the number is high). Def 12",
@@ -130,25 +134,25 @@
             },
             "height_function": {
                 "__comment": "Seems to control whether or not the outcropping noise is visible, but value doesn't seem to matter as long as it isn't below 1. Def 4",
-                "octaves": 6,
+                "octaves": 4,
                 "__comment": "Unsure what this does.. larger values seem to have more and more connected outcroppings, lower values seem to have less and less connected ones. Def 0.1",
-                "persistence_ratio": 1,
+                "persistence_ratio": 0.1,
                 "__comment": "This controls the complexity of the outcroppings... Def 2.5",
-                "amplitude": 5,
+                "amplitude": 2.5,
                 "__comment": "This modifies the complexity of the top of the outcroppings.  Smaller numbers are more complex, larger numbers are more simple... Def 5",
-                "layer_thickness": 2,
+                "layer_thickness": 5,
                 "__comment": "determines how many adjacent blocks have the same depth.  I believe this is controlling how 'wide' the noise is - so a value of 16 is 16 blocks with the same height value. Def 16",
-                "unit_length": 20
+                "unit_length": 16
             }
         },
         "foothills": {
             "depth_function": {
-                "octaves": 6,
+                "octaves": 4,
                 "persistence_ratio": 0,
-                "amplitude": 2.59,
+                "amplitude": 2.5,
                 "layer_thickness": 1,
-                "layer_count": 10,
-                "unit_length": 50
+                "layer_count": 2,
+                "unit_length": 6
             },
             "height_function": {
                 "octaves": 4,
@@ -165,7 +169,7 @@
                 "unit_length": 8
             },
             "height_function": {
-                "layer_thickness": 2,
+                "layer_thickness": 1,
                 "unit_length": 8
             }
         }
@@ -223,6 +227,22 @@
                     "grid_multiple": 4,
                     "item_density": 0.1,
                     "exclusion_radius": 1
+                }
+            },
+            "stonehearth:plants:sugarbell": {
+                "placement_type": "dense",
+                "parameters": {
+                    "grid_multiple": 4,
+                    "item_density": 0.1,
+                    "exclusion_radius": 0
+                }
+            },
+            "stonehearth:plants:carrot": {
+                "placement_type": "dense",
+                "parameters": {
+                    "grid_multiple": 4,
+                    "item_density": 0.1,
+                    "exclusion_radius": 0
                 }
             },
             "stonehearth:plants:berry_bush": {
@@ -288,6 +308,13 @@
                 "parameters": {
                     "ground_radius": 2,
                     "exclusion_radius": 3
+                }
+            },
+            "box_o_vox:entities:boxling:boxling_statue": {
+                "placement_type": "single",
+                "parameters": {
+                    "ground_radius": 10,
+                    "exclusion_radius": 5
                 }
             },
             "box_o_vox:entities:plants:hemp_plant:small": {
@@ -437,7 +464,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 45
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:lime:large": {
@@ -448,7 +475,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 40
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:lime:medium": {
@@ -481,7 +508,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 45
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:orange:large": {
@@ -492,7 +519,7 @@
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
-                    "exclusion_radius": 40
+                    "exclusion_radius": 16
                 }
             },
             "box_o_vox:entities:trees:orange:medium": {
@@ -901,15 +928,15 @@
             "noise_map_settings": {
                 "__comment": "simplex noise function",
                 "__comment": "This generally creates more noisy patterns of water, below 0 removes water.  Def 0.01.",
-                "persistence_ratio": .5,
+                "persistence_ratio": 0.5,
                 "__comment": "This value seems to be a scale where the lower it is, the more and more separate water bodies there are; the larger it is, the less and larger more connected water bodies there are.  Def 4.  Value 0 removes water.",
-                "bandlimit": 1,
+                "bandlimit": 2,
                 "__comment": "The smaller the number, the more small sparse water bodies there are; the larger the less large bodies there are.  Def 4.",
                 "octaves": 4,
                 "__comment": "This is the overall value of water bodies on the map.  The higher the number, the more water bodies; the lower the number less water bodies.  Def 80.",
-                "range": 0,
+                "range": 1,
                 "__comment": "Unsure what this does.  Def 1.2.",
-                "aspect_ratio": 1,
+                "aspect_ratio": 0.5,
                 "mean": {
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -5.",
                     "plains": 0,

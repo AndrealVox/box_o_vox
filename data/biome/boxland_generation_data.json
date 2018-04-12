@@ -655,16 +655,25 @@
                     "medium": 4,
                     "large": 13
                 },
-                "box_o_vox:entities:trees:banana": {
+                "box_o_vox:entities:trees:apple": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 100
+                        "percentage": 50
                     }
                 },
-                "box_o_vox:entities:trees:apple": {
+                "box_o_vox:entities:trees:banana": {
+                    "small": 0,
+                    "medium": 4,
+                    "large": 8,
+                    "ancient": {
+                        "__comment": "Percentage of large trees that will be ancient",
+                        "percentage": 80
+                    }
+                },
+                "box_o_vox:entities:trees:lime": {
                     "small": 0,
                     "medium": 2,
                     "large": 4,
@@ -681,22 +690,13 @@
                         "__comment": "Percentage of large trees that will be ancient",
                         "percentage": 50
                     }
-                },
-                "box_o_vox:entities:trees:lime": {
-                    "small": 0,
-                    "medium": 2,
-                    "large": 4,
-                    "ancient": {
-                        "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 50
-                    }
                 }
             },
             "weights": {
                 "plains": {
                     "1": {
                         "box_o_vox:entities:trees:apple": 2,
-                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:banana": 1,
                         "box_o_vox:entities:trees:orange": 2,
                         "box_o_vox:entities:trees:lime": 2
                     }
@@ -705,23 +705,26 @@
                     "1": {
                         "stonehearth:trees:pine": 2,
                         "box_o_vox:entities:trees:apple": 1,
-                        "box_o_vox:entities:trees:banana": 0,
+                        "box_o_vox:entities:trees:banana": 2,
                         "box_o_vox:entities:trees:orange": 1,
                         "box_o_vox:entities:trees:lime": 1
                     },
                     "2": {
                         "stonehearth:trees:pine": 4,
                         "box_o_vox:entities:trees:apple": 1,
+                        "box_o_vox:entities:trees:banana": 4,
                         "box_o_vox:entities:trees:orange": 1,
                         "box_o_vox:entities:trees:lime": 1
                     }
                 },
                 "mountains": {
                     "1": {
-                        "stonehearth:trees:pine": 8
+                        "stonehearth:trees:pine": 8,
+                        "box_o_vox:entities:trees:banana": 4
                     },
                     "2": {
-                        "stonehearth:trees:pine": 4
+                        "stonehearth:trees:pine": 4,
+                        "box_o_vox:entities:trees:banana": 2
                     }
                 }
             },

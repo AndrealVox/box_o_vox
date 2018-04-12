@@ -5,7 +5,6 @@
    ],
     "type": "entity",
     "components": {
-        "stonehearth:evolve": {},
         "model_variants": {
             "default": {
                 "models": [

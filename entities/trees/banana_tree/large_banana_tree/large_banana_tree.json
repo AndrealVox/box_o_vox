@@ -1,47 +1,104 @@
 {
-   "mixins": [
+    "mixins": [
       "stonehearth:mixins:tree",
       "stonehearth:mixins:align_to_grid"
    ],
-   "type": "entity",
-   "components": {
-       "stonehearth:evolve": {},
-      "render_info": {
-         "scale": 0.09
-      },
-      "model_variants": {
-         "default": {
-            "models": [
-               "/box_o_vox/entities/trees/banana_tree/banana_tree_empty.qb"
-            ]
-         }
-      },
-      "stonehearth:resource_node": {
-         "category": "harvest",
-         "durability": 10,
-         "resource_loot_table": {
-            "entries": {
-               "fruit": {
-                  "items": {
-                     "banana_wood": {
-                        "uri": "stonehearth:resources:wood:palm_log",
-                        "count": 1,
-                        "weight": 1
-                     }
-                  }
-               }
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(large_banana_tree.qb)"
+                ]
             }
-         }
-      }
-   },
-   "entity_data": {
-      "stonehearth:evolve_data": {
-         "next_stage": "box_o_vox:entities:trees:banana:ancient",
-         "evolve_time": "7d"
-      },
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.display_name)",
-         "description": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.description)"
-      }
-   }
+        },
+        "render_info": {
+            "scale": 1.0
+        },
+        "stonehearth:resource_node": {
+            "durability": 10,
+            "resource": "stonehearth:resources:wood:pine_log",
+            "resource_loot_table": {
+                "entries": {
+                    "optional": {
+                        "num_rolls": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "items": {
+                            "none": {
+                                "uri": "",
+                                "weight": 10
+                            },
+                            "pelt": {
+                                "uri": "box_o_vox:entities:trees:banana:sapling",
+                                "weight": 1
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": -0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "region_origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "align_to_grid": [
+            "x",
+            "z"
+         ]
+        },
+        "destination": {
+            "region": [
+                {
+                    "min": {
+                        "x": -2,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "max": {
+                        "x": 3,
+                        "y": 1,
+                        "z": 3
+                    }
+            }
+         ]
+        },
+        "region_collision_shape": {
+            "region": [
+                {
+                    "min": {
+                        "x": -2,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "max": {
+                        "x": 3,
+                        "y": 27,
+                        "z": 3
+                    }
+            }
+         ]
+        }
+    },
+    "entity_data": {
+        "stonehearth:evolve_data": {
+            "next_stage": "box_o_vox:entities:trees:banana:ancient",
+            "evolve_time": "3d"
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.display_name)",
+            "description": "i18n(box_o_vox:entities.trees.banana_tree.large_banana_tree.description)"
+        },
+        "stonehearth:appeal": {
+            "appeal": 4
+        }
+    }
 }

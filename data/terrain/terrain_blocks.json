@@ -1,5 +1,13 @@
 {
 	"block_types" : {
-		"grass_edge_3" : { "tag" : 306, "kind" : "grass" }
+		"grass_edge_3" : { "tag" : 306, "kind" : "grass" },
+		"rock_layer_9" :{"tag":109, "kind":"rock"},
+		"rock_layer_10":{"tag":110, "kind":"rock"},
+		"rock_layer_11":{"tag":111, "kind":"rock"},
+		"rock_layer_12":{"tag":112, "kind":"rock"},
+		"rock_layer_13":{"tag":113, "kind":"rock"},
+		"rock_layer_14":{"tag":114, "kind":"rock"},
+		"rock_layer_15":{"tag":115, "kind":"rock"},
+		"rock_layer_16":{"tag":116, "kind":"rock"}
 	}
 }

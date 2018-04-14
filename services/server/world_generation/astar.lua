@@ -73,16 +73,16 @@ function Astar.neighbor_nodes ( theNode, nodes )
 	local offset = (theNode.y-1)*nodes.width+theNode.x
 	local neighbors = {}
 
-	if theNode.x>1 and nodes[offset-1].border==false then
+	if theNode.x>1 and nodes[offset-1].plains then
 		table.insert ( neighbors, nodes[offset-1] )
 	end
-	if theNode.x<nodes.width and nodes[offset+1].border==false then
+	if theNode.x<nodes.width and nodes[offset+1].plains then
 		table.insert ( neighbors, nodes[offset+1] )
 	end
-	if theNode.y>1 and nodes[offset-nodes.width].border==false then
+	if theNode.y>1 and nodes[offset-nodes.width].plains then
 		table.insert ( neighbors, nodes[offset-nodes.width] )
 	end
-	if theNode.y<nodes.height and nodes[offset+nodes.width].border==false then
+	if theNode.y<nodes.height and nodes[offset+nodes.width].plains then
 		table.insert ( neighbors, nodes[offset+nodes.width] )
 	end
 

@@ -1,9 +1,7 @@
 {
     "info": {
-        "name": "The Box O' Vox Stonehearth Mod",
-        "namespace": "box_o_vox",
-        "version": 3,
-        "steam_file_id": "1359693360"
+        "name": "box_o_vox",
+        "version": 3
     },
     "server_init_script": "file(box_o_vox_server)",
     "client_init_script": "file(box_o_vox_client)",
@@ -205,7 +203,6 @@
         "entities:summon:undead:zombie": "file(entities/summon/zombie/zombie.json)",
         "entities:summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
         "entities:summon:zombie_kid": "file(entities/summon/zombie_kid/zombie_kid_summon.json)",
-        "entities:terrain:river": "file(entities/terrain/river)",
         "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
         "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
         "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
@@ -280,9 +277,7 @@
         "startmenu": "file(data/ui/start_menu.json)"
     },
     "components": {
-        "summon": "file(components/summon/summon_component)",
-        "river": "file(components/river/river_component.lua)",
-        "add_as_terrain": "file(components/add_as_terrain/add_as_terrain_component.lua)"
+        "summon": "file(components/summon/summon_component)"
     },
     "mixintos": {
         "stonehearth:data:thoughts": "box_o_vox:data:thoughts",

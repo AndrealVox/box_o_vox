@@ -94,7 +94,7 @@
         "__comment": "Literal percentage of terrain which is plains. Def 40",
         "plains_percentage": 60,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
-        "height_base": 6,
+        "height_base": 26,
         "__comments": {
             "valley_count": "offset of layers from base",
             "step_count": "number of layers",
@@ -933,25 +933,25 @@
             "__comment": "placement of water bodies occur at positive samples, parameters are for a standard simplex noise generator",
             "depth": {
                 "__comment": "This is the exact depth of the 'shallows' sections of water.  Def 5.",
-                "shallow": 5,
+                "shallow": 2,
                 "__comment": "This is the exact depth of the 'deep' sections of water.  Def 10.",
-                "deep": 10
+                "deep": 4
             },
             "noise_map_settings": {
                 "__comment": "simplex noise function",
                 "__comment": "This generally creates more noisy patterns of water, below 0 removes water.  Def 0.01.",
-                "persistence_ratio": 0.01,
+                "persistence_ratio": 0.1,
                 "__comment": "This value seems to be a scale where the lower it is, the more and more separate water bodies there are; the larger it is, the less and larger more connected water bodies there are.  Def 4.  Value 0 removes water.",
-                "bandlimit": 4,
+                "bandlimit": 6,
                 "__comment": "The smaller the number, the more small sparse water bodies there are; the larger the less large bodies there are.  Def 4.",
                 "octaves": 4,
                 "__comment": "This is the overall value of water bodies on the map.  The higher the number, the more water bodies; the lower the number less water bodies.  Def 80.",
                 "range": 80,
                 "__comment": "Unsure what this does.  Def 1.2.",
-                "aspect_ratio": 1.2,
+                "aspect_ratio": 3,
                 "mean": {
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -5.",
-                    "plains": -5,
+                    "plains": 0,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -20.",
                     "foothills": -20,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -18.",

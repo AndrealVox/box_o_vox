@@ -1,6 +1,6 @@
 {
     "type": "biome",
-    "alias": "box_o_vox:data:biome:boxland",
+    "alias": "box_o_vox:biome:boxland",
     "display_name": "i18n(box_o_vox:data.biome.boxland.display_name)",
     "description": "i18n(box_o_vox:data.biome.boxland.description)",
     "random_location_names": [

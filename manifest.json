@@ -21,7 +21,7 @@
         "ai:actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
         "ai:packs:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
         "ai:packs:summoning": "file(ai/packs/summoning_ai_pack.json)",
-        "data:biome:boxland": "file(data/biome/boxland.json)",
+        "biome:boxland": "file(data/biome/boxland.json)",
         "data:buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
         "data:buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
         "data:build:brushes:pattern:vox_cobblestone": "file(data/build/brushes/pattern/vox_cobblestone/vox_cobblestone.qb)",
@@ -326,7 +326,8 @@
         "/stonehearth/jobs/worker/worker_description.json": "file(jobs/worker/worker_description.json)",
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
         "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue"
+        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
+        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

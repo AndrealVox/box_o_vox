@@ -107,7 +107,7 @@
             "__comment": "Unsure what this does.. causes crashes. Def 1",
             "valley_count": 1,
             "__comment": "Unsure what this does.. causes crashes. Def 2",
-            "step_count": 10
+            "step_count": 2
         },
         "foothills": {
             "__comment": "This is the height of the layers. Def 10, multiple of 5",

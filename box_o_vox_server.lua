@@ -9,9 +9,12 @@ function box_o_vox:_on_required_loaded()
     local GameCreationService = radiant.mods.require('stonehearth.services.server.game_creation.game_creation_service')
     radiant.mixin(GameCreationService, CustomGameCreationService)
     
-    local custom_landscaper = require('services.server.world_generation.custom_landscaper')
-	local landscaper = radiant.mods.require('stonehearth.services.server.world_generation.landscaper')
-	radiant.mixin(landscaper, custom_landscaper)
+    local config = radiant.util.get_config('boxland')
+	if not config then
+		radiant.util.set_config("boxland.narrow_river_counter", 5)
+		radiant.util.set_config("boxland.wide_river_counter", 3)
+		radiant.util.set_config("boxland.keep_original_map_lakes", false)
+	end
 end
 
 radiant.events.listen_once(radiant,'radiant:required_loaded', box_o_vox, box_o_vox._on_required_loaded)

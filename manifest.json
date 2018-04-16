@@ -331,8 +331,7 @@
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",
         "class:cleric": "file(jobs/cleric/cleric.lua)",
-        "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
-        "class:ninja": "file(jobs/ninja/ninja.lua)"
+        "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
     },
     "ui": {
         "less": [

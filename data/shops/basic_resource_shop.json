@@ -1,7 +1,38 @@
 {
     "kingdoms": {
+        "stonehearth:kingdoms:ascendancy": {
+            "shop_info": {
+                "name": "i18n(stonehearth:data.shops.basic_resource_shop.name)",
+                "title": "i18n(stonehearth:data.shops.basic_resource_shop.title)",
+                "inventory": {
+                    "overall_price_multiplier": 4,
+                    "shopkeeper_gold": 700,
+                    "entries": [{
+                            "items": [
+                                "stonehearth:resources:wood:oak_log"
+                            ],
+                            "quantity": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "items": [
+                                "stonehearth:resources:stone:hunk_of_stone"
+                            ],
+                            "quantity": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            }
+        },
         "box_o_vox:server:population:data:kingdoms:boxling": {
             "shop_info": {
+                "name": "i18n(stonehearth:data.shops.basic_resource_shop.name)",
+                "title": "i18n(stonehearth:data.shops.basic_resource_shop.title)",
                 "inventory": {
                     "overall_price_multiplier": 4,
                     "shopkeeper_gold": 700,
@@ -10,77 +41,78 @@
                             "items_matching": {
                                 "cooking_ingredient": {
                                     "material": [
-                        "salt"
+                                        "salt"
 
-                     ]
+                                    ]
                                 }
                             },
                             "quantity": {
                                 "min": 5,
                                 "max": 10
                             }
-                },
+                        },
                         {
                             "items": [
-                        "stonehearth:resources:wood:oak_log"
-                     ],
+                                "stonehearth:resources:wood:oak_log"
+                            ],
                             "quantity": {
                                 "min": 1,
                                 "max": 5
                             }
-                  },
+                        },
                         {
                             "items": [
-                        "stonehearth:resources:stone:hunk_of_stone"
-                     ],
+                                "stonehearth:resources:stone:hunk_of_stone"
+                            ],
                             "quantity": {
                                 "min": 1,
                                 "max": 5
                             }
-                  }
-               ]
+                        }
+                    ]
                 }
             }
         },
         "rayyas_children:kingdoms:rayyas_children": {
             "shop_info": {
+                "name": "i18n(stonehearth:data.shops.basic_resource_shop.name)",
+                "title": "i18n(stonehearth:data.shops.basic_resource_shop.title)",
                 "inventory": {
                     "overall_price_multiplier": 4,
                     "shopkeeper_gold": 1400,
-                    "entries": [
-                        {
+                    "entries": [{
                             "items_matching": {
                                 "cooking_ingredient": {
                                     "material": [
-                        "salt"
+                                        "salt"
 
-                     ]
+                                    ]
                                 }
                             },
                             "quantity": {
                                 "min": 5,
                                 "max": 10
                             }
-                },
+                        },
                         {
                             "items": [
-                        "stonehearth:resources:wood:acacia_log"
-                     ],
+                                "stonehearth:resources:wood:acacia_log"
+                            ],
                             "quantity": {
                                 "min": 1,
                                 "max": 3
                             }
-                  },
+                        },
                         {
                             "items": [
-                        "stonehearth:resources:stone:hunk_of_stone"
-                     ],
+                                "stonehearth:resources:stone:hunk_of_stone"
+                            ],
                             "quantity": {
                                 "min": 1,
                                 "max": 5
                             }
-                  }
-               ]
+                        }
+                    ]
                 }
             }
         }

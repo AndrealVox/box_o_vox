@@ -44,21 +44,21 @@
             "null": "#ff00ff",
             "unknown": "#25221a",
             "bedrock": "#0d0d0d",
-            "rock_layer_1": "#262626",
-            "rock_layer_2": "#363636",
-            "rock_layer_3": "#464646",
-            "rock_layer_4": "#565656",
-            "rock_layer_5": "#666666",
-            "rock_layer_6": "#767676",
-            "rock_layer_7": "#868686",
-            "rock_layer_8": "#969696",
-            "rock_layer_9": "#A6A6A6",
-            "rock_layer_10": "#B6B6B6",
-            "rock_layer_11": "#C6C6C6",
-            "rock_layer_12": "#D6D6D6",
-            "rock_layer_13": "#E6E6E6",
-            "rock_layer_14": "#F6F6F6",
-            "rock_layer_15": "#FAFAFA",
+            "rock_layer_1": "#1F1F1F",
+            "rock_layer_2": "#2F2F2F",
+            "rock_layer_3": "#3F3F3F",
+            "rock_layer_4": "#4F4F4F",
+            "rock_layer_5": "#5F5F5F",
+            "rock_layer_6": "#6F6F6F",
+            "rock_layer_7": "#7F7F7F",
+            "rock_layer_8": "#8F8F8F",
+            "rock_layer_9": "#9F9F9F",
+            "rock_layer_10": "#AFAFAF",
+            "rock_layer_11": "#BFBFBF",
+            "rock_layer_12": "#CFCFCF",
+            "rock_layer_13": "#DFDFDF",
+            "rock_layer_14": "#EFEFEF",
+            "rock_layer_15": "#FFFFFF",
             "rock_layer_16": "#FFFFFF",
             "soil_light": "#413D37",
             "soil_dark": "#413D37",
@@ -94,7 +94,7 @@
         "__comment": "Literal percentage of terrain which is plains. Def 40",
         "plains_percentage": 60,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
-        "height_base": 26,
+        "height_base": 31,
         "__comments": {
             "valley_count": "offset of layers from base",
             "step_count": "number of layers",
@@ -119,7 +119,7 @@
             "__comment": "Unsure what this does.. causes crashes. Def 15",
             "step_size": 20,
             "__comment": "This is the number of steps (minus 1) that is a mountain height. Def 7",
-            "step_count": 10
+            "step_count": 15
         }
     },
     "terrain_detailer": {
@@ -391,7 +391,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 4,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -402,7 +402,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 6,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -413,7 +413,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 8,
+                    "grid_multiple": 1,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -457,7 +457,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 2,
+                    "grid_multiple": 1,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -479,7 +479,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 4,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -490,7 +490,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 6,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -501,7 +501,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 8,
+                    "grid_multiple": 1,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -523,7 +523,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 4,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -534,7 +534,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 6,
+                    "grid_multiple": 2,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -545,7 +545,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This is a grid within the 16x16 feature tile.  increases the number of trees placed next to each other... Def 2",
-                    "grid_multiple": 8,
+                    "grid_multiple": 1,
                     "__comment": "This controls how many trees are within a 16x16 feature tile... Def 0.5",
                     "item_density": 0.5,
                     "__comment": "How close can two trees get to each other... Def 2",
@@ -669,7 +669,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 50
+                        "percentage": 80
                     }
                 },
                 "box_o_vox:entities:trees:banana": {
@@ -687,7 +687,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 50
+                        "percentage": 80
                     }
                 },
                 "box_o_vox:entities:trees:orange": {
@@ -696,7 +696,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 50
+                        "percentage": 80
                     }
                 }
             },
@@ -821,7 +821,7 @@
                         "1": {
                             "box_o_vox:entities:plants:peppercorn_bush": 2,
                             "box_o_vox:entities:plants:daisy": 6,
-                            "stonehearth:plants:brightbell": 1,
+                            "stonehearth:plants:brightbell": 3,
                             "stonehearth:plants:silkweed": 1.5
                         }
                     },
@@ -847,15 +847,13 @@
                     },
                     "mountains": {
                         "1": {
-                            "box_o_vox:entities:plants:peppercorn_bush": 0,
-                            "box_o_vox:entities:plants:nightshade": 1,
+                            "box_o_vox:entities:plants:nightshade": 4,
                             "box_o_vox:entities:plants:hemp_plant:med": 1,
-                            "box_o_vox:entities:plants:firebeard": 1,
+                            "box_o_vox:entities:plants:firebeard": 2,
                             "stonehearth:plants:frostsnap": 1
                         },
                         "3": {
                             "box_o_vox:entities:plants:hemp_plant:large": 0.51,
-                            "box_o_vox:entities:plants:peppercorn_bush": 0,
                             "stonehearth:plants:frostsnap": 1
                         }
                     }
@@ -871,20 +869,20 @@
                             },
                             "2": {
                                 "__comment": "Def 0.35.",
-                                "probability": 0.35,
+                                "probability": 0.55,
                                 "__comment": "Def 0.8.",
                                 "density": 0.8
                             }
                         },
                         "foothills": {
                             "1": {
-                                "probability": 0.35,
+                                "probability": 0.55,
                                 "density": 0.7
                             }
                         },
                         "mountains": {
                             "1": {
-                                "probability": 0.2,
+                                "probability": 0.4,
                                 "density": 0.7
                             }
                         }
@@ -953,9 +951,9 @@
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -5.",
                     "plains": 0,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -20.",
-                    "foothills": -20,
+                    "foothills": 0,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -18.",
-                    "mountains": -18
+                    "mountains": 0
                 }
             }
         }

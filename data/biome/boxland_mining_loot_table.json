@@ -15,7 +15,7 @@
                             "weight": 50
                         },
                         "fiber_bundle": {
-                            "uri": "stonehearth:resources:fiber:silkweed_bundle",
+                            "uri": "box_o_vox:entities:resources:fiber:grass_bundle",
                             "weight": 100
                         },
                         "apple": {

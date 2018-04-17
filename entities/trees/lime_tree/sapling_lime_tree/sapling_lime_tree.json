@@ -76,7 +76,7 @@
             "category": "plants",
             "material_tags": "plant tree stockpile_plant",
             "icon": "/box_o_vox/entities/trees/images/sapling_lime_tree.png",
-            "subject_override": "stonehearth:trees:lime:large"
+            "subject_override": "box_o_vox:entities:trees:lime:large"
         },
         "stonehearth:appeal": {
             "appeal": 1

@@ -11,7 +11,7 @@
     "starting_talisman": "stonehearth:carpenter:talisman",
     "starting_resource": "stonehearth:resources:wood:oak_log",
     "job_index": "box_o_vox:jobs:index",
-    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+    "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)",
     "roles": {
         "default": {
             "male": {

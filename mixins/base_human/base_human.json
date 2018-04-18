@@ -57,24 +57,24 @@
         "stonehearth:attributes": {
             "mind": {
                 "type": "random_range",
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "body": {
                 "type": "random_range",
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "spirit": {
                 "type": "random_range",
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "diligence_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "diligence": {
                 "type": "derived",
@@ -83,8 +83,8 @@
             "curiosity_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "curiosity": {
                 "type": "derived",
@@ -93,8 +93,8 @@
             "inventiveness_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "inventiveness": {
                 "type": "derived",
@@ -107,8 +107,8 @@
             "muscle_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "muscle": {
                 "type": "derived",
@@ -117,8 +117,8 @@
             "speed_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "speed": {
                 "type": "derived",
@@ -127,8 +127,8 @@
             "stamina_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "stamina": {
                 "type": "derived",
@@ -137,8 +137,8 @@
             "courage_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "courage": {
                 "type": "derived",
@@ -147,8 +147,8 @@
             "willpower_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "willpower": {
                 "type": "derived",
@@ -157,8 +157,8 @@
             "compassion_adjustment": {
                 "type": "random_range",
                 "private": true,
-                "base": 3,
-                "max": 9
+                "base": 5,
+                "max": 5
             },
             "compassion": {
                 "type": "derived",
@@ -189,9 +189,8 @@
                 "value": 1
             },
             "sleep_duration": {
-                "type": "derived",
-                "equation": "140 - 1.8 * diligence",
-                "min": 60
+                "type": "basic",
+                "value": 100
             },
             "additive_weapon_range_modifier": {
                 "type": "basic",

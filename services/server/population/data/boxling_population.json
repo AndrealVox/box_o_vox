@@ -177,21 +177,21 @@
          ],
             "attribute_distribution": {
                 "allocated_points": {
-                    "min": 9,
-                    "max": 27
+                    "min": 15,
+                    "max": 15
                 },
                 "point_limits": {
                     "mind": {
-                        "min": 3,
-                        "max": 9
+                        "min": 5,
+                        "max": 5
                     },
                     "body": {
-                        "min": 3,
-                        "max": 9
+                        "min": 5,
+                        "max": 5
                     },
                     "spirit": {
-                        "min": 3,
-                        "max": 9
+                        "min": 5,
+                        "max": 5
                     }
                 }
             }

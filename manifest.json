@@ -1,7 +1,9 @@
 {
     "info": {
-        "name": "box_o_vox",
-        "version": 3
+        "name": "The Box O' Vox Stonehearth Mod",
+        "namespace": "box_o_vox",
+        "version": 3,
+        "steam_file_id": "1359693360"
     },
     "server_init_script": "file(box_o_vox_server)",
     "client_init_script": "file(box_o_vox_client)",

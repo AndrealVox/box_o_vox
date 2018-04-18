@@ -21,7 +21,6 @@ function CustomHeightMapRenderer:_add_mountains_to_region(region3, rect, height)
 
 	--plains = 10, foothills = 15, mountains = 95
 	local min_grass_height = 2 --last 2 steps
-    log:always("min grass height %s",min_grass_height)
 	for i=1, num_rock_layers do
 		if (i == num_rock_layers) or (height <= rock_layers[i].max_height) then
 			block_max = height

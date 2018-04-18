@@ -79,7 +79,7 @@
             "category": "plants",
             "material_tags": "plant tree stockpile_plant",
             "icon": "/box_o_vox/entities/trees/images/sapling_banana_tree.png",
-            "subject_override": "stonehearth:trees:banana:large"
+            "subject_override": "box_o_vox:entities:trees:banana:large"
         },
         "stonehearth:appeal": {
             "appeal": 1

@@ -65,7 +65,7 @@
             "dirt": "#51483A",
             "dirt_edge_1": "#51483A",
             "grass": "#315244",
-            "grass_edge_1": "#426355",
+            "grass_edge_1": "#51483A",
             "grass_edge_2": "#315244",
             "grass_edge_3": "#315244",
             "grass_hills": "#21312A",
@@ -944,7 +944,7 @@
                 "__comment": "The smaller the number, the more small sparse water bodies there are; the larger the less large bodies there are.  Def 4.",
                 "octaves": 4,
                 "__comment": "This is the overall value of water bodies on the map.  The higher the number, the more water bodies; the lower the number less water bodies.  Def 80.",
-                "range": 80,
+                "range": 40,
                 "__comment": "Unsure what this does.  Def 1.2.",
                 "aspect_ratio": 3,
                 "mean": {

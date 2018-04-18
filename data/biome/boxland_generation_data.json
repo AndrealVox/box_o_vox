@@ -949,11 +949,11 @@
                 "aspect_ratio": 3,
                 "mean": {
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -5.",
-                    "plains": 0,
+                    "plains": -10,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -20.",
-                    "foothills": 0,
+                    "foothills": -10,
                     "__comment": "The larger this number, the larger the body of water in comparison to the land it is on.  Def -18.",
-                    "mountains": 0
+                    "mountains": -10
                 }
             }
         }

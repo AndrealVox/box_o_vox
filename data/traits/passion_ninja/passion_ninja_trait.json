@@ -1,8 +1,0 @@
-{
-   "type": "trait",
-   "mixins": "stonehearth:mixins:traits:passion_job",
-   "icon": "file(passion_ninja_trait.png)",
-   "data": {
-      "job_uri": "box_o_vox:jobs:ninja"
-   }
-}

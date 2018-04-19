@@ -2,6 +2,7 @@
     "info": {
         "name": "The Box O' Vox Stonehearth Mod",
         "namespace": "box_o_vox",
+        "required": true,
         "version": 3,
         "steam_file_id": "1359693360"
     },
@@ -265,6 +266,7 @@
         "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
         "jobs:recipes:potter": "file(jobs/potter/recipes/recipes.json)",
         "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
+        "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds)",
         "jobs:worker": "file(jobs/worker/worker_description.json)",
         "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
         "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
@@ -275,6 +277,7 @@
         "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
         "mixins:summons": "file(mixins/base_summon)",
         "resource_constants": "file(data/resource_constants.json)",
+        "scenarios:scenario_index": "file(scenarios/scenario_index.json)",
         "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
         "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
@@ -320,7 +323,9 @@
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
         "/betterstorage/ui/input_box_filters.json": "file(ui/box_o_vox_filters.json)",
-        "/betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)"
+        "/betterstorage/ui/stockpile_filters.json": "file(ui/box_o_vox_filters.json)",
+        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
+        "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",

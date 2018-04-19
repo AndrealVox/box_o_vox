@@ -1,0 +1,7 @@
+{
+    "static": {
+        "scenarios": [
+         "file(static/fox_nest)"
+      ]
+    }
+}

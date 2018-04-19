@@ -91,10 +91,8 @@ function GameCreationService:create_camp_command(session, response, pt)
     else
         height_width = math.floor(3/2)
     end
-    log:always("heigth_width: %s", height_width)
     local lIndex = 1   -- location index
     local yIndex = 0 -- y placement index
-    log:always("yIndex=-1*height_width: %s",-1*height_width)
     for yIndex = (-1*height_width), height_width do
         local xIndex = 0
         for xIndex = height_width * -1, height_width do

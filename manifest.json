@@ -344,6 +344,9 @@
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
     },
     "ui": {
+            "js": [
+             "file(shell/select_settlement/map.js)"
+            ],
         "less": [
          "file(jobs/cleric/skin/workshop.less)"
       ]

@@ -9,7 +9,6 @@
       "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)"
    },
    "overrides" : {
-       "stonehearth/ui/shell/select_settlement/map.js": "file(shell/select_settlement/map.js)",
       "stonehearth/ui/game/start_menu/images/dock.png" : "file(start_menu/dock.png)",
       "stonehearth/ui/game/start_menu/images/town.png" : "file(start_menu/town.png)",
       "stonehearth/ui/game/unit_frame/images/bg_border.png" : "file(unit_frame/bg_border.png)",
@@ -25,6 +24,9 @@
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "rayyas_children/entities/gizmos/rc_camp_standard/rc_camp_standard_ghost.json"
    },
    "ui": {
+       "js": [
+        "file(shell/select_settlement/map.js)"
+       ],
       "less": [
          "file(unit_frame/unit_frame.less)",
          "file(gui/gui.less)",

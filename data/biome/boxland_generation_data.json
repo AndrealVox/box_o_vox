@@ -76,7 +76,8 @@
             "iron_ore": "#90b0d0",
             "silver_ore": "#cccccc",
             "gold_ore": "#ffd700",
-            "coal": "#021c24"
+            "coal": "#212131",
+            "salt_rock": "#eecccc"
         }
     },
     "terrain": {
@@ -933,7 +934,7 @@
                 "__comment": "This is the exact depth of the 'shallows' sections of water.  Def 5.",
                 "shallow": 2,
                 "__comment": "This is the exact depth of the 'deep' sections of water.  Def 10.",
-                "deep": 4
+                "deep": 6
             },
             "noise_map_settings": {
                 "__comment": "simplex noise function",

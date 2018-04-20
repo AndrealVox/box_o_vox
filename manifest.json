@@ -197,6 +197,7 @@
         "entities:resources:herb:greentea": "file(entities/resources/herb/greentea)",
         "entities:resources:herb:hemp_herb": "file(entities/resources/herb/hemp_herb)",
         "entities:resources:herb:nightshade": "file(entities/resources/herb/nightshade)",
+        "entities:resources:salt_rock:salt_rock": "file(entities/resources/salt_rock/salt_rock)",
         "entities:summon:golem": "file(entities/summon/golem/golem_summon.json)",
         "entities:summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",
         "entities:summon:necromancer": "file(entities/summon/necromancer/necromancer_summon.json)",
@@ -208,6 +209,7 @@
         "entities:summon:undead:zombie": "file(entities/summon/zombie/zombie.json)",
         "entities:summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
         "entities:summon:zombie_kid": "file(entities/summon/zombie_kid/zombie_kid_summon.json)",
+        "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
         "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
         "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
         "entities:trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
@@ -344,7 +346,7 @@
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
     },
     "ui": {
-            "js": [
+        "js": [
              "file(shell/select_settlement/map.js)"
             ],
         "less": [

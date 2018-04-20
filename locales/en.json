@@ -1328,12 +1328,26 @@
                "display_name": "Black Fox Pelt",
                "description": "The pelt from a black fox"
             }
+         },
+         "salt_rock": {
+            "salt_rock": {
+               "description": "Salt rock that can be ground down to make salt for cooking.",
+               "display_name": "Salt Rock"
+            }
          }
       },
       "tools": {
          "boxling_sceptre": {
             "display_name": "Boxling Sceptre",
             "description": "The enchanted tool of the Boxlings."
+         }
+      },
+      "terrain": {
+         "ui": {
+            "salt_rock": {
+               "description": "Salt rock that can be ground down to make salt for cooking.",
+               "display_name": "Salt Rock"
+            }
          }
       }
    },

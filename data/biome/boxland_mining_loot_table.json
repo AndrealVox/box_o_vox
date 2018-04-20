@@ -91,6 +91,27 @@
                         "gold_ore": {
                             "uri": "stonehearth:resources:gold:ore",
                             "weight": 10
+                        },
+                        "salt_rock": {
+                            "uri": "box_o_vox:entities:resources:salt_rock:salt_rock",
+                            "weight": 10
+                        }
+                    }
+                }
+            }
+        },
+        "salt_rock": {
+            "entries": {
+                "default": {
+                    "num_rolls": 1,
+                    "items": {
+                        "none": {
+                            "uri": "",
+                            "weight": 100
+                        },
+                        "salt_rock": {
+                            "uri": "box_o_vox:entities:resources:salt_rock:salt_rock",
+                            "weight": 80
                         }
                     }
                 }

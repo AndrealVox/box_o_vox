@@ -35,6 +35,13 @@
         "rock_layer_16": {
             "tag": 116,
             "kind": "rock"
+        },
+        "salt_rock": {
+            "tag": 600,
+            "kind": "salt_rock"
         }
+    },
+    "selectable_kinds": {
+        "salt_rock": "box_o_vox:entities:terrain:ui:salt_rock"
     }
 }

@@ -1,7 +1,35 @@
 {
     "static": {
         "scenarios": [
-         "file(static/fox_nest)"
-      ]
+         "file(static/fox_nest)",
+
+         "file(static/terrain/salt_rock_vein)"
+      ],
+        "categories": {
+            "terrain": {
+                "density": 8,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "immediate"
+            },
+            "wildlife": {
+                "density": 8,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "revealed"
+            },
+            "ruins": {
+                "density": 1,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "immediate"
+            },
+            "ore": {
+                "density": 7,
+                "priority": 0,
+                "location_type": "underground",
+                "activation_type": "revealed"
+            }
+        }
     }
 }

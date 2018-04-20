@@ -30,7 +30,7 @@
             "material_tags": "stockpile_ore salt_rock ore resource"
         },
         "stonehearth:appeal": {
-            "appeal": -2
+            "appeal": 2
         }
     }
 }

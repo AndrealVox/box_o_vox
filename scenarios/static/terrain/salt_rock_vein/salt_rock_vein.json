@@ -12,8 +12,8 @@
     "script": "stonehearth/scenarios/static/terrain/ore_vein/ore_vein.lua",
 
     "data": {
-        "num_veins_min": 4,
-        "num_veins_max": 8,
+        "num_veins_min": 2,
+        "num_veins_max": 4,
         "vein_length_min": 32,
         "vein_length_max": 62,
         "vein_radius": 3,

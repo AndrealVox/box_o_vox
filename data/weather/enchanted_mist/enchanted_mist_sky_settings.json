@@ -230,53 +230,53 @@
         "height_fog": [
             {
                 "time": "midnight",
-                "value": [65, 0.9, 10, 100]
+                "value": [75, 0.9, 10, 50]
          },
             {
                 "time": "midday",
-                "value": [50, 0.9, 10, 100]
+                "value": [60, 0.9, 10, 50]
          },
             {
                 "time": "day_length",
-                "value": [65, 0.9, 10, 100]
+                "value": [75, 0.9, 10, 50]
          }
       ],
         "height_fog2": [
             {
                 "time": "midnight",
-                "value": [65, 0.9, 10, 100]
+                "value": [75, 0.9, 10, 50]
          },
             {
                 "time": "midday",
-                "value": [50, 0.9, 10, 100]
+                "value": [60, 0.9, 10, 50]
          },
             {
                 "time": "day_length",
-                "value": [65, 0.9, 10, 100]
+                "value": [75, 0.9, 10, 50]
          }
       ],
         "height_fog_color_mult": [
             {
                 "time": "midnight",
-                "value": [1, 1, 1, 1]
+                "value": [0.2, 0.4, 0.6, 0.8]
          },
             {
                 "time": "day_length",
-                "value": [1, 1, 1, 1]
+                "value": [0.2, 0.4, 0.6, 0.8]
          }
       ],
         "scattering": [
             {
                 "time": "midnight",
-                "value": [1, 1, 0, 60]
+                "value": [0.8, 0.8, 0, 80]
          },
             {
                 "time": "midday",
-                "value": [1, 1, 0, 60]
+                "value": [0.8, 0.8, 0, 80]
          },
             {
                 "time": "day_length",
-                "value": [1, 1, 0, 60]
+                "value": [0.8, 0.8, 0, 80]
          }
       ]
     },

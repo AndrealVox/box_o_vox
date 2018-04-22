@@ -1,28 +1,36 @@
 {
-   "mixins": "stonehearth:mixins:placed_object",
-   "components": {
-      "model_variants": {
-         "default": {
-            "models": [
+    "mixins": "stonehearth:mixins:placed_object",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
                "file(wall_clock.qb)"
             ]
-         }
-      },
-      "mob": {
-         "model_origin": { "x": 0, "y": -0.5, "z": -0.5 },
-         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
-         "allow_vertical_adjacent": true
-      },
-      "render_info": {
-         "scale": 0.1
-      }
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(box_o_vox:entities.decoration.wall_clock.wall_clock_ghost.display_name)",
-         "description": "i18n(box_o_vox:entities.decoration.wall_clock.wall_clock_ghost.description)",
-         "icon": "file(wall_clock.png)",
-         "category": "decoration"
-      }
-   }
+            }
+        },
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": -0.5,
+                "z": -0.5
+            },
+            "region_origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "allow_vertical_adjacent": true
+        },
+        "render_info": {
+            "scale": 0.1
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(box_o_vox:entities.decoration.wall_clock.wall_clock_ghost.display_name)",
+            "description": "i18n(box_o_vox:entities.decoration.wall_clock.wall_clock_ghost.description)",
+            "icon": "file(wall_clock.png)",
+            "category": "decoration"
+        }
+    }
 }

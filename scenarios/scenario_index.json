@@ -7,7 +7,7 @@
       ],
         "categories": {
             "terrain": {
-                "density": 8,
+                "density": 3,
                 "priority": 0,
                 "location_type": "surface",
                 "activation_type": "immediate"
@@ -19,13 +19,13 @@
                 "activation_type": "revealed"
             },
             "ruins": {
-                "density": 1,
+                "density": 2,
                 "priority": 0,
                 "location_type": "surface",
                 "activation_type": "immediate"
             },
             "ore": {
-                "density": 7,
+                "density": 5,
                 "priority": 0,
                 "location_type": "underground",
                 "activation_type": "revealed"

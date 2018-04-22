@@ -92,7 +92,6 @@
                             "chops": 1,
                             "chin_beard": 1,
                             "beard": 1,
-                            "vox_beard_0": 1,
                             "vox_beard_1": 1,
                             "vox_beard_2": 1,
                             "vox_beard_3": 1
@@ -104,7 +103,7 @@
                             "male_hair_2": 1,
                             "male_hair_3": 1,
                             "male_hair_4": 1,
-                            "vox_head_vox": 0.1,
+                            "vox_head_vox_0": 1,
                             "vox_head_oso": 1,
                             "vox_head_eldritch": 1,
                             "vox_head_amaraly": 1,

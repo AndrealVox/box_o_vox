@@ -11,6 +11,9 @@
                 "pepper": {
                     "recipe": "file(pepper_recipe.json)"
                 },
+                "salt": {
+                    "recipe": "file(salt_recipe.json)"
+                },
                 "pepperoni": {
                     "recipe": "file(pepperoni_recipe.json)"
                 }

@@ -197,7 +197,7 @@
         "entities:resources:herb:greentea": "file(entities/resources/herb/greentea)",
         "entities:resources:herb:hemp_herb": "file(entities/resources/herb/hemp_herb)",
         "entities:resources:herb:nightshade": "file(entities/resources/herb/nightshade)",
-        "entities:resources:salt_rock:salt_rock": "file(entities/resources/salt_rock/salt_rock)",
+        "entities:resources:rocks:salt_rock": "file(entities/resources/rocks/salt_rock)",
         "entities:summon:golem": "file(entities/summon/golem/golem_summon.json)",
         "entities:summon:golem_kid": "file(entities/summon/golem_kid/golem_kid_summon.json)",
         "entities:summon:necromancer": "file(entities/summon/necromancer/necromancer_summon.json)",

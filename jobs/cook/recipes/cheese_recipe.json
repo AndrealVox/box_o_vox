@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "work_units": 1,
+    "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.cheese_recipe.recipe_name)",
+    "description": "i18n(box_o_vox:jobs.cook.recipes.cheese_recipe.description)",
+    "flavor": "",
+    "portrait": "/box_o_vox/entities/food/cheese/cheese.png",
+    "workshop": "stonehearth:cook:workbench",
+    "level_requirement": 2,
+    "ingredients": [
+        {
+            "uri": "box_o_vox:entities:food:milk",
+            "count": 2
+      }
+   ],
+    "produces": [
+        {
+            "item": "box_o_vox:entities:food:cheese"
+      }
+   ]
+}

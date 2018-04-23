@@ -187,11 +187,11 @@
                 "male_hair_old_2": {
                     "file": "stonehearth/entities/humans/male/hair_old_2.qb"
                 },
-                "vox_head_vox_0": {
-                    "file": "file(vox_head_vox_0).qb)"
-                },
                 "vox_head_vox_1": {
                     "file": "file(vox_head_vox_1.qb)"
+                },
+                "vox_head_vox_2": {
+                    "file": "file(vox_head_vox_2.qb)"
                 },
                 "vox_head_oso": {
                     "file": "file(vox_head_oso.qb)"

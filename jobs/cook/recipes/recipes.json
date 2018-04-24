@@ -2,6 +2,9 @@
     "craftable_recipes": {
         "ingredients": {
             "recipes": {
+                "cheese": {
+                    "recipe": "file(cheese_recipe.json)"
+                },
                 "cream": {
                     "recipe": "file(cream_recipe.json)"
                 },
@@ -45,6 +48,9 @@
                 },
                 "mash_potatoes": {
                     "recipe": "file(mash_potatoes_recipe.json)"
+                },
+                "pizza": {
+                    "recipe": "file(pizza_recipe.json)"
                 }
             }
         },

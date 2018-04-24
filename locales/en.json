@@ -1145,6 +1145,20 @@
          "rotten_lime": {
             "display_name": "Rotten Lime",
             "description": "So rotten that it's lost all form and function."
+         },
+         "pizza": {
+            "pizza": {
+               "display_name": "Pizza",
+               "description": "Pepperoni pizza is the only pizza. Arguments will be contested to the death."
+            },
+            "pizza_serving": {
+               "display_name": "Pizza Slice",
+               "description": "A slice of pizza."
+            }
+         },
+         "cheese": {
+            "display_name": "Cheese",
+            "description": "This cheese looks yummy."
          }
       },
       "trees": {

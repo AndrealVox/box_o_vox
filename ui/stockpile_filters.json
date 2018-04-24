@@ -1,92 +1,6 @@
 {
     "type": "index",
     "stockpile": {
-        "resources": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
-            "filter": "resources",
-            "ordinal": 1,
-            "categories": {
-                "mixintypes": {
-                    "animal_part": "remove",
-                    "plant": "remove"
-                }
-            }
-        },
-        "animal_parts": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_animal_parts)",
-            "filter": "animal_parts",
-            "ordinal": 2,
-            "categories": {}
-        },
-        "plants": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_plant)",
-            "filter": "stockpile_plant",
-            "ordinal": 3,
-            "categories": {}
-        },
-        "goods": {
-            "display_name": "i18n(betterstorage:filters.goods)",
-            "filter": "goods",
-            "ordinal": 4,
-            "categories": {
-                "mixintypes": {
-                    "tool": "remove",
-                    "refined_weaver": "remove",
-                    "weapons": "remove",
-                    "equipment": "remove",
-                    "consumables": "remove"
-                }
-            }
-        },
-        "construction": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.construction)",
-            "filter": "construction",
-            "ordinal": 5,
-            "categories": {
-                "mixintypes": {
-                    "portal": "remove",
-                    "furniture": "remove",
-                    "defense": "remove",
-                    "decoration": "remove"
-                }
-            }
-        },
-        "furniture": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_furniture)",
-            "filter": "furniture",
-            "ordinal": 6,
-            "categories": {}
-        },
-        "equipment": {
-            "display_name": "i18n(betterstorage:filters.equipment)",
-            "filter": "equipment",
-            "ordinal": 7,
-            "categories": {}
-        },
-        "consumables": {
-            "display_name": "i18n(betterstorage:filters.consumables)",
-            "filter": "consumables",
-            "ordinal": 8,
-            "categories": {}
-        },
-        "raw_food": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_raw_food)",
-            "filter": "raw_food",
-            "ordinal": 9,
-            "categories": {}
-        },
-        "food_and_drink": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_prepared_food)",
-            "filter": "food_and_drink",
-            "ordinal": 10,
-            "categories": {
-                "mixintypes": {
-                    "raw_food": "remove",
-                    "prepared_food": "remove",
-                    "cooking_ingredient": "remove"
-                }
-            }
-        },
         "cooking_ingredients": {
             "display_name": "i18n(betterstorage:filters.cooking_ingredients)",
             "filter": "cooking_ingredients",
@@ -160,24 +74,6 @@
                     "filter": "stockpile_cooking_ingredient animal_feed pig_feed"
                 }
             }
-        },
-        "pile": {
-            "display_name": "i18n(betterstorage:filters.pile)",
-            "filter": "pile",
-            "ordinal": 13,
-            "categories": {}
-        },
-        "wealth": {
-            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.wealth)",
-            "filter": "wealth",
-            "ordinal": 14,
-            "categories": {}
-        },
-        "garbage": {
-            "display_name": "i18n(betterstorage:filters.garbage)",
-            "filter": "garbage",
-            "ordinal": 15,
-            "categories": {}
         }
     }
 }

@@ -326,7 +326,7 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-        "\\betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
+        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
         "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
         "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
     },

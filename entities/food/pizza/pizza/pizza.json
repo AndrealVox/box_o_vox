@@ -24,7 +24,7 @@
         "stonehearth:food_container": {
             "effect": "fiddle",
             "food": "box_o_vox:entities:food:pizza:pizza_serving",
-            "stacks_per_serving": 8
+            "stacks_per_serving": 1
         },
         "stonehearth:net_worth": {
             "value_in_gold": 30,

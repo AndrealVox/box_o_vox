@@ -77,7 +77,7 @@
             "display_name": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.display_name)",
             "description": "i18n(box_o_vox:entities.trees.banana_tree.sapling_banana_tree.description)",
             "category": "plants",
-            "material_tags": "plant tree stockpile_plant",
+            "material_tags": "stockpile_plant uproot",
             "icon": "/box_o_vox/entities/trees/images/sapling_banana_tree.png",
             "subject_override": "box_o_vox:entities:trees:banana:large"
         },

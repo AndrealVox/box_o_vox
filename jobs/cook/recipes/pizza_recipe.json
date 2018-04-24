@@ -1,10 +1,10 @@
 {
     "type": "recipe",
     "work_units": 3,
-    "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.pizza_recipe.recipe_name)",
-    "description": "i18n(box_o_vox:jobs.cook.recipes.pizza_recipe.description)",
+    "recipe_name": "i18n(box_o_vox:entities.food.pizza.pizza.display_name)",
+    "description": "i18n(box_o_vox:entities.food.pizza.pizza.description)",
     "flavor": "",
-    "portrait": "/box_o_vox/entities/food/pizza/pizza.png",
+    "portrait": "/box_o_vox/entities/food/pizza/pizza/pizza.png",
     "workshop": "stonehearth:cook:oven",
     "level_requirement": 2,
     "ingredients": [

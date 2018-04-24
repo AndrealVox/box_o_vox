@@ -74,7 +74,7 @@
             "display_name": "i18n(box_o_vox:entities.trees.orange_tree.sapling_orange_tree.display_name)",
             "description": "i18n(box_o_vox:entities.trees.orange_tree.sapling_orange_tree.description)",
             "category": "plants",
-            "material_tags": "plant tree stockpile_plant",
+            "material_tags": "stockpile_plant uproot",
             "icon": "/box_o_vox/entities/trees/images/sapling_orange_tree.png",
             "subject_override": "box_o_vox:entities:trees:orange:large"
         },

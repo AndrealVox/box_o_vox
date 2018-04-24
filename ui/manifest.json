@@ -24,9 +24,6 @@
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "rayyas_children/entities/gizmos/rc_camp_standard/rc_camp_standard_ghost.json"
    },
    "ui": {
-       "js": [
-        "file(shell/select_settlement/map.js)"
-       ],
       "less": [
          "file(unit_frame/unit_frame.less)",
          "file(gui/gui.less)",

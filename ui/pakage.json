@@ -1,6 +1,0 @@
-{
-    "name": "box_o_vox",
-    "dependancies": {
-        "stonehearth": "file:../stonehearth/ui/"
-    }
-}

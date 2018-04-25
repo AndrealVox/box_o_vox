@@ -18,7 +18,8 @@
          "renewal_time": "36h",
          "unripe_description": "i18n(box_o_vox:entities.critters.cow.unripe_description)",
          "harvest_status_text": "i18n(box_o_vox:entities.critters.cow.renewable_harvest_status_text)",
-         "renew_effect": "stonehearth:effects:fursplosion_effect"
+         "renew_effect": "stonehearth:effects:fursplosion_effect",
+         "check_ownder": true
       },
       "stonehearth:resource_node": {
          "category": "herding",
@@ -26,7 +27,8 @@
          "harvester_effect": "fiddle",
          "description": "harvest_animal",
          "resource": "box_o_vox:entities:food:beef",
-         "harvestable_by_harvest_tool": false
+         "harvestable_by_harvest_tool": false,
+         "check_ownder": true
       },
       "stonehearth:attributes": {
          "max_health": {
@@ -128,7 +130,8 @@
          "added_equipment": [
             "stonehearth:pasture_equipment:adult_animal_collar"
          ],
-         "food_material": "cow_feed_edible"
+         "food_material": "cow_feed_edible",
+         "type": "box_o_vox:cow"
       },
       "stonehearth:calories": {
          "hungry_threshold": 0,

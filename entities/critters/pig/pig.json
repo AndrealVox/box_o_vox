@@ -18,7 +18,8 @@
          "harvester_effect": "fiddle",
          "description": "harvest_animal",
          "resource": "box_o_vox:entities:food:pork",
-         "harvestable_by_harvest_tool": false
+         "harvestable_by_harvest_tool": false,
+         "check_ownder": true
       },
       "stonehearth:attributes": {
          "max_health": {
@@ -120,7 +121,8 @@
          "added_equipment": [
             "stonehearth:pasture_equipment:adult_animal_collar"
          ],
-         "food_material": "pig_feed_edible"
+         "food_material": "pig_feed_edible",
+         "type": "box_o_vox:pig"
       },
       "stonehearth:calories": {
          "hungry_threshold": 0,

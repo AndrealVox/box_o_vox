@@ -3,9 +3,7 @@
     "mixins": "stonehearth:mixins:mob",
     "player_id": "animals",
     "components": {
-        "stonehearth:ai": {
-            "ai_tree": "stonehearth:data:critter_task_groups"
-        },
+        "stonehearth:ai": {},
         "stonehearth:trivial_death": {},
         "model_variants": {
             "default": {
@@ -84,6 +82,7 @@
         },
         "stonehearth:ai_packs": {
             "packs": [
+            "stonehearth:ai_pack:critter",
             "stonehearth:ai_pack:death",
             "stonehearth:ai_pack:idle",
             "stonehearth:ai_pack:idle:bored:idle_effects",
@@ -120,7 +119,8 @@
             "added_equipment": [
             "stonehearth:pasture_equipment:young_animal_collar"
          ],
-            "food_material": "pig_feed_edible"
+            "food_material": "pig_feed_edible",
+            "type": "box_o_vox:pig"
         },
         "stonehearth:calories": {
             "hungry_threshold": 0,

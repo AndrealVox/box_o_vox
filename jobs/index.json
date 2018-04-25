@@ -1,72 +1,8 @@
 {
-    "mixin": "stonehearth:jobs:index",
+    "mixins": "stonehearth:jobs:index",
     "jobs": {
-
-        "stonehearth:jobs:animal_trainer": {
-            "description": "stonehearth:jobs:animal_trainer"
-        },
-        "stonehearth:jobs:archer": {
-            "description": "stonehearth:jobs:archer"
-        },
-        "stonehearth:jobs:architect": {
-            "description": "stonehearth:jobs:architect"
-        },
-        "stonehearth:jobs:blacksmith": {
-            "description": "stonehearth:jobs:blacksmith"
-        },
-        "stonehearth:jobs:engineer": {
-            "description": "stonehearth:jobs:engineer"
-        },
-        "stonehearth:jobs:carpenter": {
-            "description": "stonehearth:jobs:carpenter"
-        },
-        "stonehearth:jobs:cleric": {
-            "description": "stonehearth:jobs:cleric"
-        },
-        "stonehearth:jobs:cook": {
-            "description": "stonehearth:jobs:cook"
-        },
-        "stonehearth:jobs:magmasmith": {
-            "description": "stonehearth:jobs:magmasmith"
-        },
-        "stonehearth:jobs:farmer": {
-            "description": "stonehearth:jobs:farmer"
-        },
-        "stonehearth:jobs:footman": {
-            "description": "stonehearth:jobs:footman"
-        },
-        "stonehearth:jobs:geomancer": {
-            "description": "stonehearth:jobs:geomancer"
-        },
-        "stonehearth:jobs:herbalist": {
-            "description": "stonehearth:jobs:herbalist"
-        },
-        "stonehearth:jobs:knight": {
-            "description": "stonehearth:jobs:knight"
-        },
-        "stonehearth:jobs:mason": {
-            "description": "stonehearth:jobs:mason"
-        },
-        "stonehearth:jobs:potter": {
-            "description": "stonehearth:jobs:potter"
-        },
-        "stonehearth:jobs:shepherd": {
-            "description": "stonehearth:jobs:shepherd"
-        },
-        "stonehearth:jobs:trapper": {
-            "description": "stonehearth:jobs:trapper"
-        },
-        "stonehearth:jobs:weaver": {
-            "description": "stonehearth:jobs:weaver"
-        },
         "stonehearth:jobs:worker": {
             "description": "box_o_vox:jobs:worker"
-        },
-        "box_o_vox:jobs:necromancer": {
-            "description": "box_o_vox:jobs:necromancer"
-        },
-        "box_o_vox:jobs:alchemist": {
-            "description": "box_o_vox:jobs:alchemist"
         }
     }
 }

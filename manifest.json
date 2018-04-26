@@ -187,6 +187,7 @@
         "entities:portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
         "entities:portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
         "entities:portals:stone_door": "file(entities/construction/stone_door)",
+      "entities:portals:stoned_tunnel_door": "file(entities/construction/stoned_tunnel_door)",
         "entities:portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
         "entities:portals:stone_window_frame_wide": "file(entities/construction/stone_window_frame_wide)",
         "entities:refined:cooling_liquid": "file(entities/refined/cooling_liquid)",

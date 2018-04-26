@@ -561,6 +561,12 @@
                "description": "A Wide Stone Window Frame Variant Of It's Wooden Cousin",
                "display_name": "Wide Stone Window Frame"
             }
+         },
+         "stoned_tunnel_door": {
+            "stoned_tunnel_door_ghost": {
+               "display_name": "Indestructible Tunnel Door",
+               "description": "An indestructible tunnel door."
+            }
          }
       },
       "containers": {
@@ -659,7 +665,7 @@
          "boxling_statue": {
             "boxling_statue_ghost": {
                "display_name": "Boxling Statue",
-               "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Hearth."
+               "description": "A statue to the almighty Boxlings, from which all has been given to us, the GODs of Boxland."
             }
          },
          "fridge": {
@@ -1348,6 +1354,12 @@
                "description": "Salt rock that can be ground down to make salt for cooking.",
                "display_name": "Salt Rock"
             }
+         },
+         "fiber": {
+            "hemp_fiber_bundle": {
+               "display_name": "Hemp Bundle",
+               "description": "A bundle of hemp fibers."
+            }
          }
       },
       "tools": {
@@ -1362,6 +1374,12 @@
                "description": "Salt rock that can be ground down to make salt for cooking.",
                "display_name": "Salt Rock"
             }
+         }
+      },
+      "boxling": {
+         "boxling_statue": {
+            "description": "A rock formation shaped like the almighty Boxlings, from which all has been given to us, the GODs of Boxland.",
+            "display_name": "Boxling Formation"
          }
       }
    },

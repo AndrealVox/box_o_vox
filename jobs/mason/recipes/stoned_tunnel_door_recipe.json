@@ -6,6 +6,7 @@
     "flavor": "",
     "portrait": "/box_o_vox/entities/construction/stoned_tunnel_door/stoned_tunnel_door.png",
     "workshop": "stonehearth:mason:pedestal",
+    "level_requirement": 3,
     "ingredients": [
         {
             "material": "stone resource",

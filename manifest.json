@@ -302,7 +302,6 @@
         "/stonehearth/data/shops/basic_resource_shop.json": "file(data/shops/basic_resource_shop.json)",
         "/stonehearth/data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json": "file(data/gm/campaigns/trader/archs/encounters/tier_1_shops/tannery_shop.json)",
         "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
-        "stonehearth:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
         "stonehearth:food:berries:berry_serving": "file(entities/food/berries/berry_serving/berry_serving.json)",
         "stonehearth:food:watermelon:watermelon_serving": "file(entities/food/berries/berry_serving/berry_serving.json)",
         "stonehearth:loadouts": "file(data/loadouts)",
@@ -348,9 +347,6 @@
         "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
     },
     "ui": {
-        "js": [
-             "file(shell/select_settlement/map.js)"
-            ],
         "less": [
          "file(jobs/cleric/skin/workshop.less)"
       ]

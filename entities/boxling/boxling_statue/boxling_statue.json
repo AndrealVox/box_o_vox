@@ -86,8 +86,8 @@
             "effect": "stonehearth:effects:terrain:tree_harvest"
         },
         "stonehearth:catalog": {
-            "display_name": "i18n(stonehearth:entities.boxling.boxling_statue.display_name)",
-            "description": "i18n(stonehearth:entities.boxling.boxling_statue.description)"
+            "display_name": "i18n(box_o_vox:entities.boxling.boxling_statue.display_name)",
+            "description": "i18n(box_o_vox:entities.boxling.boxling_statue.description)"
         },
         "stonehearth:appeal": {
             "appeal": 250

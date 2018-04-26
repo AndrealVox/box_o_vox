@@ -3,23 +3,24 @@
         "scenarios": [
          "file(static/fox_nest)",
 
+         "file(static/terrain/rabbit_clan_statue)",
          "file(static/terrain/salt_rock_vein)"
       ],
         "categories": {
             "terrain": {
-                "density": 3,
+                "density": 15,
                 "priority": 0,
                 "location_type": "surface",
                 "activation_type": "immediate"
             },
             "wildlife": {
-                "density": 8,
+                "density": 4,
                 "priority": 0,
                 "location_type": "surface",
                 "activation_type": "revealed"
             },
             "ruins": {
-                "density": 2,
+                "density": 0.4,
                 "priority": 0,
                 "location_type": "surface",
                 "activation_type": "immediate"

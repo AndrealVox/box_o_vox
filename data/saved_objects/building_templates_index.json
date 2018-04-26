@@ -2,7 +2,7 @@
     "type": "index",
     "template_tabs": {
         "ascendancy": {
-            "display_name": "i18n(stonehearth:data.saved_objects.building_templates_index.template_tabs.ascendancy.display_name)",
+            "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.display_name)",
             "required_kingdom": "box_o_vox:server:population:data:kingdoms:boxling",
             "categories": {
                 "settlement": {

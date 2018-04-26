@@ -1,0 +1,26 @@
+{
+    "mixins": "stonehearth/scenarios/static/entity_cluster",
+    "name": "rabbit_clan_statue",
+    "category": "ruins",
+    "size": {
+        "width": 10,
+        "length": 10
+    },
+    "weight": 1,
+    "habitat_types": [
+       "forest",
+       "mountains",
+       "plains",
+       "foothills"
+   ],
+    "data": {
+        "entity_type": [
+         "stonehearth:rabbit:statue"
+      ],
+        "entity_footprint_length": 5,
+        "quantity": {
+            "min": 2,
+            "max": 5
+        }
+    }
+}

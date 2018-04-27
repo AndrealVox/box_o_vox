@@ -36,13 +36,6 @@
                             },
                             "file": "file(building_templates/herbalist_workshop.json)"
                         },
-                        "mason_workshop": {
-                            "unlock_requirement": {
-                                "type": "has_job",
-                                "value": "stonehearth:jobs:mason"
-                            },
-                            "file": "file(building_templates/mason_workshop.json)"
-                        },
                         "necromancer_house": {
                             "unlock_requirement": {
                                 "type": "has_job",

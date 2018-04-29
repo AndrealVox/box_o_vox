@@ -38,7 +38,6 @@
         "data:build:brushes:wall:green_stone_wall": "file(data/build/brushes/wall/green_stone_wall/green_stone_wall.qb)",
         "data:build:brushes:wall:purple_stone_wall": "file(data/build/brushes/wall/purple_stone_wall/purple_stone_wall.qb)",
         "data:build:brushes:wall:red_wood_wall": "file(data/build/brushes/wall/red_wood_wall/red_wood_wall.qb)",
-        "data:building_templates:index": "file(data/saved_objects/building_templates_index.json)",
         "data:commands:necromancer_summons:golem": "file(data/commands/necromancer_summons/golem_summon.json)",
         "data:commands:necromancer_summons:golem_kid": "file(data/commands/necromancer_summons/golem_kid_summon.json)",
         "data:commands:necromancer_summons:necromancer": "file(data/commands/necromancer_summons/necromancer_summon.json)",
@@ -67,6 +66,7 @@
         "data:music:night_2": "file(data/music/night_2.ogg)",
         "data:music:night_3": "file(data/music/night_3.ogg)",
         "data:music:title_1": "file(data/music/title_1.ogg)",
+        "data:saved_objects:building_templates_index": "file(data/saved_objects/building_templates_index.json)",
         "data:summon_tuning:necromancer:summoner_golem": "file(data/summon_tuning/necromancer/summoner_golem.json)",
         "data:summon_tuning:necromancer:summoner_golem_kid": "file(data/summon_tuning/necromancer/summoner_golem_kid.json)",
         "data:summon_tuning:necromancer:summoner_necromancer": "file(data/summon_tuning/necromancer/summoner_necromancer.json)",
@@ -328,9 +328,12 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
+        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
+        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox",
         "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
-        "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
+        "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
+
+        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -339,9 +342,7 @@
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
-        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox"
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

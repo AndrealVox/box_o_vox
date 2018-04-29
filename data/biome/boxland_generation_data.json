@@ -217,15 +217,15 @@
             "stonehearth:plants:brightbell": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 4,
-                    "item_density": 0.1,
+                    "grid_multiple": 2,
+                    "item_density": 0.2,
                     "exclusion_radius": 1
                 }
             },
             "stonehearth:plants:frostsnap": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 4,
+                    "grid_multiple": 3,
                     "item_density": 0.2,
                     "exclusion_radius": 1
                 }
@@ -233,8 +233,8 @@
             "stonehearth:plants:silkweed": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 4,
-                    "item_density": 0.1,
+                    "grid_multiple": 2.5,
+                    "item_density": 0.2,
                     "exclusion_radius": 1
                 }
             },
@@ -249,8 +249,8 @@
             "stonehearth:plants:carrot": {
                 "placement_type": "dense",
                 "parameters": {
-                    "grid_multiple": 4,
-                    "item_density": 0.1,
+                    "grid_multiple": 2.5,
+                    "item_density": 0.2,
                     "exclusion_radius": 0
                 }
             },
@@ -275,7 +275,7 @@
                 "placement_type": "dense",
                 "parameters": {
                     "__comment": "This appears to be the number of items which are placed across a 10x10 grid. Def 4, value 0 to 9.",
-                    "grid_multiple": 4,
+                    "grid_multiple": 3,
                     "__comment": "This appears to be a percentage chance of placing an item somewhere along a single line of that grid above. Def 0.1, value 0 to 1.",
                     "item_density": 0.1,
                     "__comment": "Unsure what this does... Def 1",
@@ -820,6 +820,10 @@
                 "weights": {
                     "plains": {
                         "1": {
+                            "stonehearth:plants:brightbell": 1,
+                            "stonehearth:plants:silkweed": 1.5,
+                            "stonehearth:plants:sugarbell": 0.1,
+                            "stonehearth:plants:carrot": 0.2,
                             "box_o_vox:entities:plants:peppercorn_bush": 2,
                             "box_o_vox:entities:plants:blueberry_bush": 3,
                             "box_o_vox:entities:plants:daisy": 6,
@@ -829,34 +833,39 @@
                     },
                     "foothills": {
                         "1": {
+                            "stonehearth:plants:frostsnap": 1,
+                            "stonehearth:plants:brightbell": 7,
+                            "stonehearth:plants:silkweed": 1,
+                            "stonehearth:plants:sugarbell": 2,
+                            "stonehearth:plants:carrot": 1,
                             "box_o_vox:entities:plants:peppercorn_bush": 1,
                             "box_o_vox:entities:plants:blueberry_bush": 3,
                             "box_o_vox:entities:plants:greentea": 1,
-                            "stonehearth:plants:frostsnap": 1.5,
-                            "stonehearth:plants:brightbell": 1,
-                            "stonehearth:plants:silkweed": 3,
                             "box_o_vox:entities:plants:hemp_plant:large": 1,
                             "box_o_vox:entities:plants:hemp_plant:med": 1,
                             "box_o_vox:entities:plants:hemp_plant:small": 1
                         },
                         "2": {
+                            "stonehearth:plants:frostsnap": 1,
+                            "stonehearth:plants:brightbell": 1,
+                            "stonehearth:plants:sugarbell": 4,
+                            "stonehearth:plants:carrot": 0.5,
                             "box_o_vox:entities:plants:hemp_plant:large": 1,
                             "box_o_vox:entities:plants:peppercorn_bush": 1,
-                            "box_o_vox:entities:plants:greentea": 1,
-                            "stonehearth:plants:frostsnap": 2,
-                            "stonehearth:plants:brightbell": 1
+                            "box_o_vox:entities:plants:greentea": 1
                         }
                     },
                     "mountains": {
                         "1": {
+                            "stonehearth:plants:frostsnap": 1,
+                            "stonehearth:plants:sugarbell": 2,
                             "box_o_vox:entities:plants:nightshade": 4,
                             "box_o_vox:entities:plants:hemp_plant:med": 1,
-                            "box_o_vox:entities:plants:firebeard": 2,
-                            "stonehearth:plants:frostsnap": 3
+                            "box_o_vox:entities:plants:firebeard": 2
                         },
                         "3": {
-                            "box_o_vox:entities:plants:hemp_plant:large": 0.51,
-                            "stonehearth:plants:frostsnap": 3
+                            "stonehearth:plants:frostsnap": 1,
+                            "box_o_vox:entities:plants:hemp_plant:large": 0.51
                         }
                     }
                 },

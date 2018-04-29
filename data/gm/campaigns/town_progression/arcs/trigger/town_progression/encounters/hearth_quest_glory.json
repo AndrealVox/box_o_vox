@@ -31,11 +31,6 @@
          },
             {
                 "type": "job_level",
-                "uri": "stonehearth:jobs:cleric",
-                "level": 3
-         },
-            {
-                "type": "job_level",
                 "uri": "box_o_vox:jobs:necromancer",
                 "level": 3
          }

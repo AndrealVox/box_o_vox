@@ -89,7 +89,8 @@
                "box_o_vox": {
                   "display_name": "Boxling",
                   "categories": {
-                     "camp": "Boxland Templates"
+                     "camp": "Camp Templates",
+                     "town": "Town Templates"
                   }
                },
                "ascendancy": {

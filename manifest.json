@@ -10,18 +10,11 @@
     "default_locale": "en",
     "aliases": {
         "ai:actions:combat:flame_skull_attack": "file(ai/actions/combat/ranged_skull_attack_action.lua)",
-        "ai:actions:combat:ninja:after_cooldown": "file(ai/actions/combat/ninja/ninja_attack_after_cooldown_action.lua)",
-        "ai:actions:combat:ninja:by_moving_to_targetable_location": "file(ai/actions/combat/ninja/ninja_attack_by_moving_to_targetable_location_action.lua)",
-        "ai:actions:combat:ninja:by_pathing_to_target": "file(ai/actions/combat/ninja/ninja_attack_by_pathing_to_target_action.lua)",
-        "ai:actions:combat:ninja:execute_ninja_attack": "file(ai/actions/combat/ninja/execute_ninja_attack_action.lua)",
-        "ai:actions:combat:ninja:from_current_location": "file(ai/actions/combat/ninja/ninja_attack_from_current_location_action.lua)",
-        "ai:actions:combat:ninja_star_throw": "file(ai/actions/combat/ninja_star_throw_action.lua)",
         "ai:actions:combat:summon:after_cooldown": "file(ai/actions/combat/summon/summon_after_cooldown_action.lua)",
         "ai:actions:combat:summon:by_moving_to_targetable_location": "file(ai/actions/combat/summon/summon_by_moving_to_targetable_location_action.lua)",
         "ai:actions:combat:summon:by_pathing_to_target": "file(ai/actions/combat/summon/summon_by_pathing_to_target_action.lua)",
         "ai:actions:combat:summon:execute_summon": "file(ai/actions/combat/summon/execute_summon_action.lua)",
         "ai:actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
-        "ai:packs:ninja_combat": "file(ai/packs/ninja_combat_ai_pack.json)",
         "ai:packs:summoning": "file(ai/packs/summoning_ai_pack.json)",
         "biome:boxland": "file(data/biome/boxland.json)",
         "data:buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
@@ -331,7 +324,7 @@
         "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
         "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
 
-        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
+        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)"
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -340,9 +333,7 @@
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
-        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox"
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

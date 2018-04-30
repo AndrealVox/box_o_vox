@@ -21,7 +21,9 @@
       "stonehearth/ui/root/css/images/gui/well2.png" : "file(gui/well2.png)",
       "stonehearth/ui/root/css/images/gui/tab.png" : "file(gui/tab.png)",
       "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(gui/tab_active.png)",
-      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "rayyas_children/entities/gizmos/rc_camp_standard/rc_camp_standard_ghost.json"
+      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "rayyas_children/entities/gizmos/rc_camp_standard/rc_camp_standard_ghost.json",
+      "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
+      "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox"
    },
    "ui": {
       "less": [

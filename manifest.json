@@ -328,8 +328,6 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
-        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox",
         "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
         "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index",
 
@@ -342,7 +340,9 @@
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
         "/stonehearth/mixins/base_human.json": "file(mixins/base_human)",
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
+        "/stonehearth/entities/rabbit/rabbit_statue": "box_o_vox:entities:boxling:boxling_statue",
+        "/stonehearth/entities/critters/red_fox_wolf": "box_o_vox:entities:critters:black_fox"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

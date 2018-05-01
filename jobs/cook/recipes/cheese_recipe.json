@@ -1,8 +1,8 @@
 {
     "type": "recipe",
     "work_units": 1,
-    "recipe_name": "i18n(box_o_vox:jobs.cook.recipes.cheese_recipe.recipe_name)",
-    "description": "i18n(box_o_vox:jobs.cook.recipes.cheese_recipe.description)",
+    "recipe_name": "i18n(box_o_vox:entities.food.cheese.display_name)",
+    "description": "i18n(box_o_vox:entities.food.cheese.description)",
     "flavor": "",
     "portrait": "/box_o_vox/entities/food/cheese/cheese.png",
     "workshop": "stonehearth:cook:workbench",

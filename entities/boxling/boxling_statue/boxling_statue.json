@@ -3,7 +3,7 @@
     "mixins": "stonehearth:mixins:placed_object",
     "components": {
         "render_info": {
-            "material": "materials/building2.material.json",
+            "material": "materials/structure.material.json",
             "scale": 0.2
         },
         "model_variants": {

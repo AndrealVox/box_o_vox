@@ -13,6 +13,7 @@
       - Apple
       - Banana
       - Orange
+      - Lime
     - Plants
       - Peppercorn
       - Nightshade

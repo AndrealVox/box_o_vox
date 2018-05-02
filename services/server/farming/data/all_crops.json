@@ -1,97 +1,20 @@
 {
    "type": "index",
    "crops": {
-      "fallow": {
-         "crop_type": "fallow",
-         "ordinal": 0,
-         "level_requirement": 0
-      },
-      "turnip": {
-         "crop_type": "stonehearth:crops:turnip_crop",
-         "ordinal": 1,
-         "level_requirement": 0
-      },
-      "carrot": {
-         "crop_type": "stonehearth:crops:carrot_crop",
-         "ordinal": 2,
-         "level_requirement": 0
-      },
-      "potato": {
+       "potato": {
          "crop_type": "box_o_vox:entities:crops:potato_crop",
-         "ordinal": 3,
-         "level_requirement": 0
-      },
-      "golden_gourd": {
-         "crop_type": "stonehearth:crops:golden_gourd_crop",
-         "ordinal": 4,
-         "level_requirement": 0
-      },
-      "pumpkin": {
-         "crop_type": "stonehearth:crops:pumpkin_crop",
-         "ordinal": 5,
-         "level_requirement": 0
-      },
-      "watermelon": {
-         "crop_type": "stonehearth:crops:watermelon_crop",
-         "ordinal": 6,
+         "ordinal": 2.000001,
          "level_requirement": 0
       },
       "strawberry": {
          "crop_type": "box_o_vox:entities:crops:strawberry_crop",
-         "ordinal": 7,
+         "ordinal": 5.000001,
          "level_requirement": 1
       },
       "tomato": {
          "crop_type": "box_o_vox:entities:crops:tomato_crop",
-         "ordinal": 8,
+         "ordinal": 5.00002,
          "level_requirement": 2
-      },
-      "cactus_flower": {
-         "crop_type": "stonehearth:crops:cactus_flower_crop",
-         "ordinal": 9,
-         "level_requirement": 2
-      },
-      "silkweed": {
-         "crop_type": "stonehearth:crops:silkweed_crop",
-         "ordinal": 10,
-         "level_requirement": 2
-      },
-      "brightbell": {
-         "crop_type": "stonehearth:crops:brightbell_crop",
-         "ordinal": 11,
-         "level_requirement": 2
-      },
-      "frostsnap": {
-         "crop_type": "stonehearth:crops:frostsnap_crop",
-         "ordinal": 12,
-         "level_requirement": 3
-      },
-      "corn": {
-         "crop_type": "stonehearth:crops:corn_crop",
-         "ordinal": 13,
-         "level_requirement": 2
-      },
-      "wheat": {
-         "crop_type": "stonehearth:crops:wheat_crop",
-         "ordinal": 14,
-         "level_requirement": 4
-      },
-      "oak_tree": {
-         "crop_type": "stonehearth:crops:oak_tree_crop",
-         "ordinal": 15,
-         "level_requirement": 5
-      },
-      "acacia_tree": {
-         "crop_type": "stonehearth:crops:acacia_tree_crop",
-         "ordinal": 16,
-         "level_requirement": 5
       }
-   },
-   "data": {
-      "fallow": {
-         "name": "i18n(stonehearth:ui.game.zones_mode.farm.fallow_name)",
-         "description": "i18n(stonehearth:ui.game.zones_mode.farm.fallow_description)",
-         "icon": "file(fallow.png)"
-      }
-   }
+    }
 }

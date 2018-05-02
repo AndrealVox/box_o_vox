@@ -6,7 +6,10 @@
     },
     "aliases": {},
     "mixintos": {
-        "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)"
+        "stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
+        "stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
+        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
+        "stonehearth:scenarios:scenario_index": "box_o_vox:scenarios:scenario_index"
     },
     "overrides": {
         "stonehearth/ui/game/start_menu/images/dock.png": "file(start_menu/dock.png)",

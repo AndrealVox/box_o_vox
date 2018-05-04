@@ -36,7 +36,7 @@
         "heal_entity_in_combat": 10,
         "town_protection": 15
     },
-    "max_level": 7,
+    "max_level": 8,
     "level_data": {
         "1": {
             "perks": [
@@ -105,9 +105,9 @@
                     "type": "add_chained_combat_action",
                     "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_name)",
                     "id": "necromancer_summon_3",
-                    "icon": "file(images/zombie_kid.png)",
+                    "icon": "file(images/bone_wolf.png)",
                     "last_equipment": "box_o_vox:jobs:necromancer:pages:skeleton",
-                    "equipment": "box_o_vox:jobs:necromancer:pages:zombie_kid",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf",
                     "action_type": "box_o_vox:combat:summon_spells",
                     "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_description)",
                     "level": 3,
@@ -119,13 +119,13 @@
             "perks": [
                 {
                     "type": "add_chained_combat_action",
-                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_name)",
+                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2b_data.perk_000_name)",
                     "id": "necromancer_summon_4",
-                    "icon": "file(images/zombie.png)",
-                    "last_equipment": "box_o_vox:jobs:necromancer:pages:zombie_kid",
-                    "equipment": "box_o_vox:jobs:necromancer:pages:zombie",
+                    "icon": "file(images/bone_wolf_big.png)",
+                    "last_equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf_big",
                     "action_type": "box_o_vox:combat:summon_spells",
-                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2b_data.perk_000_description)",
                     "level": 4,
                     "demote_fn": "remove_combat_action"
             }
@@ -135,13 +135,13 @@
             "perks": [
                 {
                     "type": "add_chained_combat_action",
-                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_name)",
+                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_name)",
                     "id": "necromancer_summon_5",
-                    "icon": "file(images/golem_kid.png)",
-                    "last_equipment": "box_o_vox:jobs:necromancer:pages:zombie",
-                    "equipment": "box_o_vox:jobs:necromancer:pages:golem_kid",
+                    "icon": "file(images/zombie_kid.png)",
+                    "last_equipment": "box_o_vox:jobs:necromancer:pages:bone_wolf_big",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:zombie_kid",
                     "action_type": "box_o_vox:combat:summon_spells",
-                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_description)",
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
                     "level": 5,
                     "demote_fn": "remove_combat_action"
             }
@@ -151,31 +151,63 @@
             "perks": [
                 {
                     "type": "add_chained_combat_action",
-                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_name)",
+                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_name)",
                     "id": "necromancer_summon_6",
-                    "icon": "file(images/golem.png)",
-                    "last_equipment": "box_o_vox:jobs:necromancer:pages:golem_kid",
-                    "equipment": "box_o_vox:jobs:necromancer:pages:golem",
+                    "icon": "file(images/zombie.png)",
+                    "last_equipment": "box_o_vox:jobs:necromancer:pages:zombie_kid",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:zombie",
                     "action_type": "box_o_vox:combat:summon_spells",
-                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_4_data.perk_000_description)",
                     "level": 6,
                     "demote_fn": "remove_combat_action"
             }
          ]
         },
         "7": {
-            "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.title)",
+            "perks": [
+                {
+                    "type": "add_chained_combat_action",
+                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_name)",
+                    "id": "necromancer_summon_7",
+                    "icon": "file(images/golem_kid.png)",
+                    "last_equipment": "box_o_vox:jobs:necromancer:pages:zombie",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:golem_kid",
+                    "action_type": "box_o_vox:combat:summon_spells",
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
+                    "level": 7,
+                    "demote_fn": "remove_combat_action"
+            }
+         ]
+        },
+        "8": {
             "perks": [
                 {
                     "type": "add_chained_combat_action",
                     "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_name)",
-                    "id": "necromancer_summon_7",
+                    "id": "necromancer_summon_8",
+                    "icon": "file(images/golem.png)",
+                    "last_equipment": "box_o_vox:jobs:necromancer:pages:golem_kid",
+                    "equipment": "box_o_vox:jobs:necromancer:pages:golem",
+                    "action_type": "box_o_vox:combat:summon_spells",
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_description)",
+                    "level": 8,
+                    "demote_fn": "remove_combat_action"
+            }
+         ]
+        },
+        "9": {
+            "title": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_7_data.title)",
+            "perks": [
+                {
+                    "type": "add_chained_combat_action",
+                    "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_7_data.perk_000_name)",
+                    "id": "necromancer_summon_9",
                     "icon": "file(images/necromancer.png)",
                     "last_equipment": "box_o_vox:jobs:necromancer:pages:golem",
                     "equipment": "box_o_vox:jobs:necromancer:pages:necromancer",
                     "action_type": "box_o_vox:combat:summon_spells",
-                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_6_data.perk_000_description)",
-                    "level": 7,
+                    "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_7_data.perk_000_description)",
+                    "level": 9,
                     "demote_fn": "remove_combat_action"
             }
          ]

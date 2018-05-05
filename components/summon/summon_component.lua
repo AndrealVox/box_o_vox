@@ -13,7 +13,7 @@ function SummonComponent:create()
     mob:set_has_free_will(true)
     self._mob = mob
     
-    local attr_component = self._entity:add_component(stonehearth:attributes)
+    local attr_component = self._entity:add_component("stonehearth:attributes")
     attr_component:set_attribute(self._entity, 'body', 5)
     attr_component:set_attribute(self._entity, 'spirit', 5)
 end

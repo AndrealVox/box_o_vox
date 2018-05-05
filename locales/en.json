@@ -60,6 +60,14 @@
             "zombie_kid_summon": {
                "display_name": "Summon Zombie Kid",
                "description": "Oh no, not the children"
+            },
+            "bone_wolf_summon": {
+               "description": "I hear the wolves howling.",
+               "display_name": "Bone Wolf Pup"
+            },
+            "bone_wolf_big_summon": {
+               "description": "The howls are getting louder.",
+               "display_name": "Bone Wolf"
             }
          }
       },
@@ -134,25 +142,34 @@
                "perk_000_description": "Them bones, them bones gonna walk around"
             },
             "level_2_data": {
+               "perk_000_name": "Summon a Bone Wolf Pup",
+               "perk_000_description": "I hear the wolves howling."
+            },
+            "level_3_data": {
                "perk_000_name": "Summon a Zombie Kid",
                "perk_000_description": "Oh no, not the children"
             },
-            "level_3_data": {
+            "level_4_data": {
                "perk_000_name": "Summon a Zombie",
                "perk_000_description": "It's the Walking Dead!"
             },
-            "level_4_data": {
-               "perk_000_name": "Summon a Golem Kid",
-               "perk_000_description": "Glad these didn't cost a pound of flesh."
-            },
             "level_6_data": {
                "title": "Master Necromancer",
-               "perk_000_description": "Hey look! It's a mini-me",
-               "perk_000_name": "Summon a Necromancer"
-            },
-            "level_5_data": {
                "perk_000_description": "Now that's a huge bitch!",
                "perk_000_name": "Summon a Golem"
+            },
+            "level_5_data": {
+               "perk_000_description": "Glad these didn't cost a pound of flesh.",
+               "perk_000_name": "Summon a Golem Kid"
+            },
+            "level_7_data": {
+               "perk_000_description": "Hey look! It's a mini-me",
+               "perk_000_name": "Summon a Necromancer",
+               "title": "Master Necromancer"
+            },
+            "level_2b_data": {
+               "perk_000_name": "Summon a Bone Wolf",
+               "perk_000_description": "The howls are getting louder."
             }
          },
          "necromancer_outfit": {

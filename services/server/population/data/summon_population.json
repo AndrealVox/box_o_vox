@@ -17,6 +17,19 @@
             "the Skeleton"
          ]
         },
+        "bone_wolf": {
+            "male": {
+                "uri": [
+               "stonehearth:monsters:undead:wolf_skeleton"
+            ],
+                "given_names": [
+               "Steve"
+            ]
+            },
+            "surnames": [
+            "the Bone Wolf"
+         ]
+        },
         "zombie": {
             "male": {
                 "uri": [

@@ -5,6 +5,12 @@
             "num_starting_citizens": 8
         },
 
+        "reembarkation": {
+            "num_citizens": 5,
+            "num_items": 20,
+            "gold_per_bag": 500
+        },
+
         "soil_fertility": {
             "MIN": 40,
             "MAX": 80,
@@ -35,13 +41,18 @@
             "MAXIMUM": 7
         },
 
+        "construction": {
+            "STOREY_HEIGHT": 8,
+            "MAX_WALL_SPAN": 64
+        },
+
+
+        "terrain": {
+            "TILE_SIZE": 256
+        },
+
         "mining": {
-            "XZ_CELL_SIZE": 1,
-            "Y_CELL_SIZE": 5,
-            "purpose": {
-                "MINING": "mining",
-                "BUILDING": "building"
-            }
+            "XZ_CELL_SIZE": 1
         }
 
     }

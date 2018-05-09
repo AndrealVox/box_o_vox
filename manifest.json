@@ -341,7 +341,8 @@
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
         "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-        "stonehearth:rabbit:statue": "box_o_vox:entities:boxling:boxling_statue"
+        "stonehearth:rabbit:statue": "box_o_vox:entities:boxling:boxling_statue",
+        "stonehearth:red_fox_wolf": "box_o_vox:entities:critters:black_fox"
     },
     "controllers": {
         "class:alchemist": "file(jobs/alchemist/alchemist.lua)",

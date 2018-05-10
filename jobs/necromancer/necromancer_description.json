@@ -36,7 +36,7 @@
         "heal_entity_in_combat": 10,
         "town_protection": 15
     },
-    "max_level": 8,
+    "max_level": 9,
     "level_data": {
         "1": {
             "perks": [

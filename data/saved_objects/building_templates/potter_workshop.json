@@ -977,7 +977,7 @@
                     "nine_grid_margin_back": 2,
                     "nine_grid_mode": "peaked",
                     "nine_grid_margin_front": 2,
-                    "nine_grid_y_offset": -1,
+                    "nine_grid_y_offset": 1,
                     "nine_grid_margin_left": 1,
                     "brush": "box_o_vox:data:build:brushes:roof:vox_green_roof",
                     "nine_grid_gradient": [

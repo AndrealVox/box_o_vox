@@ -6591,7 +6591,7 @@
 						"front"
 					],
                     "nine_grid_margin_front": 1,
-                    "nine_grid_y_offset": 0,
+                    "nine_grid_y_offset": 1,
                     "nine_grid_margin_left": 1,
                     "brush": "box_o_vox:data:build:brushes:roof:vox_green_roof",
                     "nine_grid_slope": 1,

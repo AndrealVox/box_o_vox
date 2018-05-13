@@ -14,9 +14,9 @@
                 "box_o_vox:entities:portals:stone_window_frame_tall": 18,
                 "stonehearth:decoration:wooden_wall_lantern": 1,
                 "stonehearth:cook:workbench": 1,
-                "stonehearth:furniture:comfy_chair": 32,
+                "box_o_vox:entities:furniture:stone_comfy_chair": 32,
                 "box_o_vox:entities:portals:solid_red_wood_door": 1,
-                "box_o_vox:entities:furniture:red_wood_bed": 2
+                "box_o_vox:entities:furniture:stone_bed": 2
             },
             "resources": {
                 "stone resource": 2242
@@ -8252,14 +8252,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 0,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8281,14 +8281,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8310,14 +8310,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 0,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8397,14 +8397,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8455,14 +8455,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8484,14 +8484,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8513,14 +8513,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8542,14 +8542,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8600,14 +8600,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8658,14 +8658,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8687,14 +8687,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 180,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8716,14 +8716,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8745,14 +8745,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8774,14 +8774,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 180,
-                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_bed",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_bed\/stone_bed_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8803,14 +8803,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8832,14 +8832,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8890,14 +8890,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8919,14 +8919,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -8948,14 +8948,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9064,14 +9064,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9093,14 +9093,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 180,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9122,14 +9122,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9151,14 +9151,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9209,14 +9209,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9267,14 +9267,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9413,14 +9413,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9471,14 +9471,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9500,14 +9500,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9558,14 +9558,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 0,
-                            "fixture_uri": "box_o_vox:entities:furniture:red_wood_bed",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_bed",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/box_o_vox\/entities\/furniture\/red_wood_bed\/red_wood_bed_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_bed\/stone_bed_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9587,14 +9587,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9616,14 +9616,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9645,14 +9645,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9674,14 +9674,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 270,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"
@@ -9761,14 +9761,14 @@
                         },
                         "stonehearth:fixture_fabricator": {
                             "rotation": 90,
-                            "fixture_uri": "stonehearth:furniture:comfy_chair",
+                            "fixture_uri": "box_o_vox:entities:furniture:stone_comfy_chair",
                             "normal": {
                                 "y": 1,
                                 "x": 0,
                                 "z": 0
                             }
                         },
-                        "uri": "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+                        "uri": "\/box_o_vox\/entities\/furniture\/stone_comfy_chair\/stone_comfy_chair_ghost.json",
                         "stonehearth:construction_progress": {
                             "building_entity": 492834,
                             "fabricator_component_name": "stonehearth:fixture_fabricator"

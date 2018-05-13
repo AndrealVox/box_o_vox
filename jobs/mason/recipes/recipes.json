@@ -43,6 +43,17 @@
                 }
             }
         },
+        "furniture": {
+            "name": "i18n(stonehearth:jobs.mason.recipes.furniture_name)",
+            "recipes": {
+                "stone_bed": {
+                    "recipe": "file(stone_bed_recipe.json)"
+                },
+                "stone_comfy_chair": {
+                    "recipe": "file(stone_comfy_chair_recipe.json)"
+                }
+            }
+        },
         "signage_decoration": {
             "name": "i18n(stonehearth:jobs.mason.recipes.signage_decoration_name)",
             "recipes": {

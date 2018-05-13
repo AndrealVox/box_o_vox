@@ -9,14 +9,16 @@
                     "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
                     "ordinal": 1,
                     "templates": {
-                        "banquet_hall": "file(building_templates/banquet_hall.json)",
+                        "solo_hut": "file(building_templates/solo_hut.json)",
+                        "double_trouble": "file(building_templates/double_trouble.json)",
                         "casa_para_cuatro": "file(building_templates/casa_para_cuatro.json)",
-                        "carpenter_workshop": {
+                        "banquet_hall": "file(building_templates/banquet_hall.json)",
+                        "mason_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",
-                                "value": "stonehearth:jobs:carpenter"
+                                "value": "stonehearth:jobs:mason"
                             },
-                            "file": "file(building_templates/carpenter_workshop.json)"
+                            "file": "file(building_templates/mason_workshop.json)"
                         },
                         "herbalist_workshop": {
                             "unlock_requirement": {
@@ -39,6 +41,13 @@
                     "ordinal": 2,
                     "required_city_tier": 2,
                     "templates": {
+                        "carpenter_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:carpenter"
+                            },
+                            "file": "file(building_templates/carpenter_workshop.json)"
+                        },
                         "blacksmith_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",

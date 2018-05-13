@@ -137,7 +137,7 @@ function ExecuteSummon:_summon(summoner, target, weapon_data)
     local destroy_trace
     destroy_trace = radiant.events.listen(summon, 'radiant:entity:pre_destroy', function()
         if summon:is_valid() then
-            radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
+            --radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
         end
         
         if destroy_trace then
@@ -167,7 +167,7 @@ function ExecuteSummon:_create_summon(summoner, target, summon_uri)
     for _, summon in pairs(summons) do
         radiant.entities.set_player_id(summon, 'player_1') 
         radiant.entities.add_buff(summon,'box_o_vox:data:buffs:summon_timer')
-        radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
+        --radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
     end
     return summons
 end

@@ -2,7 +2,7 @@
     "type": "index",
     "groups": {
         "passion_jobs": {
-            "stonehearth:traits:passion_carpenter": {
+            "stonehearth:traits:passion_blacksmith": {
                 "excludes": {
                     "stonehearth:traits:courageous": true,
                     "stonehearth:traits:green_thumb": true,
@@ -57,7 +57,7 @@
     "traits": {
         "stonehearth:traits:green_thumb": {
             "excludes": {
-                "stonehearth:traits:passion_carpenter": true,
+                "stonehearth:traits:passion_blacksmith": true,
                 "stonehearth:traits:passion_cleric": true,
                 "stonehearth:traits:passion_mason": true,
                 "stonehearth:traits:passion_shepherd": true,
@@ -69,7 +69,7 @@
         },
         "stonehearth:traits:courageous": {
             "excludes": {
-                "stonehearth:traits:passion_carpenter": true,
+                "stonehearth:traits:passion_blacksmith": true,
                 "stonehearth:traits:passion_cook": true,
                 "stonehearth:traits:passion_farmer": true,
                 "stonehearth:traits:passion_mason": true,
@@ -81,7 +81,7 @@
         },
         "stonehearth:traits:hothead": {
             "excludes": {
-                "stonehearth:traits:passion_carpenter": true,
+                "stonehearth:traits:passion_blacksmith": true,
                 "stonehearth:traits:passion_cook": true,
                 "stonehearth:traits:passion_farmer": true,
                 "stonehearth:traits:passion_mason": true,

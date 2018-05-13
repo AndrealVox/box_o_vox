@@ -23,9 +23,6 @@
         "furniture": {
             "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
             "recipes": {
-                "red_wood_bed": {
-                    "recipe": "file(red_wood_bed_recipe.json)"
-                },
                 "wall_clock": {
                     "recipe": "file(wall_clock_recipe.json)"
                 },

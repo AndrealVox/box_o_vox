@@ -1,6 +1,6 @@
 {
     "type": "recipe",
-    "work_units": 2,
+    "work_units": 4,
     "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.recipe_name)",
     "description": "i18n(stonehearth:jobs.herbalist.recipes.energy_tonic_recipe.description)",
     "flavor": "",
@@ -9,7 +9,7 @@
     "ingredients": [
         {
             "material": "herb resource",
-            "count": 5
+            "count": 4
       }
    ],
     "produces": [

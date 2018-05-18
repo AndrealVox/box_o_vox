@@ -670,7 +670,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 80
+                        "percentage": 100
                     }
                 },
                 "box_o_vox:entities:trees:banana": {
@@ -679,7 +679,7 @@
                     "large": 8,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 80
+                        "percentage": 100
                     }
                 },
                 "box_o_vox:entities:trees:lime": {
@@ -688,7 +688,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 80
+                        "percentage": 100
                     }
                 },
                 "box_o_vox:entities:trees:orange": {
@@ -697,7 +697,7 @@
                     "large": 4,
                     "ancient": {
                         "__comment": "Percentage of large trees that will be ancient",
-                        "percentage": 80
+                        "percentage": 100
                     }
                 }
             },
@@ -938,6 +938,27 @@
             }
         },
         "water": {
+            "rivers": {
+                "keep_default_lake_generation": true,
+                "wide": {
+                    "min": 2,
+                    "max": 5,
+                    "allowed_at": {
+                        "plains": true,
+                        "foothills": true,
+                        "mountains": true
+                    }
+                },
+                "narrow": {
+                    "min": 0,
+                    "max": 0,
+                    "allowed_at": {
+                        "plains": false,
+                        "foothills": false,
+                        "mountains": false
+                    }
+                }
+            },
             "color": "#11334480",
             "__comment": "placement of water bodies occur at positive samples, parameters are for a standard simplex noise generator",
             "depth": {

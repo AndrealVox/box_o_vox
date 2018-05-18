@@ -20,12 +20,26 @@
                             },
                             "file": "file(building_templates/mason_workshop.json)"
                         },
+                        "blacksmith_workshop": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "stonehearth:jobs:blacksmith"
+                            },
+                            "file": "file(building_templates/blacksmith_workshop.json)"
+                        },
                         "herbalist_workshop": {
                             "unlock_requirement": {
                                 "type": "has_job",
                                 "value": "stonehearth:jobs:herbalist"
                             },
                             "file": "file(building_templates/herbalist_workshop.json)"
+                        },
+                        "necromancer_house": {
+                            "unlock_requirement": {
+                                "type": "has_job",
+                                "value": "box_o_vox:jobs:necromancer"
+                            },
+                            "file": "file(building_templates/necromancer_house.json)"
                         },
                         "weaver_workshop": {
                             "unlock_requirement": {
@@ -47,20 +61,6 @@
                                 "value": "stonehearth:jobs:carpenter"
                             },
                             "file": "file(building_templates/carpenter_workshop.json)"
-                        },
-                        "blacksmith_workshop": {
-                            "unlock_requirement": {
-                                "type": "has_job",
-                                "value": "stonehearth:jobs:blacksmith"
-                            },
-                            "file": "file(building_templates/blacksmith_workshop.json)"
-                        },
-                        "necromancer_house": {
-                            "unlock_requirement": {
-                                "type": "has_job",
-                                "value": "box_o_vox:jobs:necromancer"
-                            },
-                            "file": "file(building_templates/necromancer_house.json)"
                         },
                         "potter_workshop": {
                             "unlock_requirement": {

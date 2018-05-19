@@ -19,13 +19,9 @@
 
         "farming": {
             "MAX_RELEVANT_FARMERS": 2,
-            "__comment": "When selecting field, care only about that many farmers",
             "MAX_RELEVANT_DISTANCE": 600,
-            "__comment": "When selecting field, fields farther than this are consider the same priority",
             "COMPETITION_WEIGHT": 0.8,
-            "__comment": "When selecting field, how much to care about other farmers working it (vs distance)",
-            "DISTANCE_WEIGHT": 0.2,
-            "__comment": "When selecting field, how much to care about distance (vs other farmers working it)"
+            "DISTANCE_WEIGHT": 0.2
         },
 
         "food_qualities": {
@@ -52,7 +48,8 @@
         },
 
         "mining": {
-            "XZ_CELL_SIZE": 1
+            "XZ_CELL_SIZE": 1,
+            "MAX_LENGTH": 20
         }
 
     }

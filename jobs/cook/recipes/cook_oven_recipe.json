@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.cook_oven_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.cook_oven_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/jobs/cook/cook_oven/cook_oven.png",
+   "level_requirement": 2,
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:cook:oven"
+      }
+   ]
+}

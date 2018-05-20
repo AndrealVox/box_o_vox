@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 1,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.sugar_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.sugar_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/food/sugar/sugar.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:sugar:sugarbell_basket",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:sugar"
+      }
+   ]
+}

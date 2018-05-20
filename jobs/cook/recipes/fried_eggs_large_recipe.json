@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.fried_eggs_large_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.fried_eggs_large_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.fried_eggs_large_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/fried_eggs_large/fried_eggs_large/fried_eggs_large.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:egg_large",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:fried_eggs_large"
+      }
+   ]
+}

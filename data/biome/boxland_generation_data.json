@@ -88,12 +88,12 @@
             "__comment": "The higher this number: the more intricate terrain shapes created, the lower: the more simple. Def: 0.015, Max 1, Min 0",
             "persistence_ratio": 0.5,
             "__comment": "The higher this number: the larger the scale of the noise, the lower: the smaller the scale. Def: 3.5",
-            "bandlimit": 6,
+            "bandlimit": 7,
             "__comment": "can stretch the terrain vertically to allow for long mountain ridges.  Above 1 stretches the terrain vertically, below 1 stretches the terrain horizontally. Def: 1",
-            "aspect_ratio": 1.5
+            "aspect_ratio": 1
         },
         "__comment": "Literal percentage of terrain which is plains. Def 40",
-        "plains_percentage": 60,
+        "plains_percentage": 50,
         "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
         "height_base": 31,
         "__comments": {
@@ -157,7 +157,7 @@
         "foothills": {
             "depth_function": {
                 "octaves": 4,
-                "persistence_ratio": 0,
+                "persistence_ratio": 0.6,
                 "amplitude": 2.5,
                 "layer_thickness": 1,
                 "layer_count": 2,
@@ -165,7 +165,7 @@
             },
             "height_function": {
                 "octaves": 4,
-                "persistence_ratio": 0.1,
+                "persistence_ratio": 0.6,
                 "amplitude": 2.5,
                 "layer_thickness": 3,
                 "unit_length": 8

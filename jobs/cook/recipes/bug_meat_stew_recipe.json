@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 6,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.bug_meat_stew_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.bug_meat_stew_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.bug_meat_stew_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/bug_meat_stew/bug_meat_stew/bug_meat_stew.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "food_container raw_food vegetable",
+         "count": 2
+      },
+      {
+         "material": "food bug_meat raw",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:bug_meat_stew"
+      }
+   ]
+}

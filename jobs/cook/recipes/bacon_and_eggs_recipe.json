@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.bacon_and_eggs_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.bacon_and_eggs_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.bacon_and_eggs_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/bacon_and_eggs/bacon_and_eggs/bacon_and_eggs.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:egg",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:food:pork",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:bacon_and_eggs"
+      }
+   ]
+}

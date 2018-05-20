@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 6,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.roast_venison_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.roast_venison_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.roast_venison_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/roast_venison/roast_venison/roast_venison.png",
+   "workshop": "stonehearth:cook:oven",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:venison",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:roast_venison"
+      }
+   ]
+}

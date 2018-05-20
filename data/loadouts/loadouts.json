@@ -18,13 +18,6 @@
                     "amount": 1
             },
                 {
-                    "display_name": "i18n(box_o_vox:jobs.farmer.farmer_description.display_name)",
-                    "type": "entity",
-                    "uri": "stonehearth:farmer:talisman",
-                    "icon": "file(images/items/farmer_hoe.png)",
-                    "amount": 1
-            },
-                {
                     "display_name": "i18n(box_o_vox:jobs.weaver.weaver_description.display_name)",
                     "type": "entity",
                     "uri": "stonehearth:weaver:talisman",
@@ -32,39 +25,11 @@
                     "amount": 1
             },
                 {
-                    "display_name": "i18n(stonehearth:entities.containers.stone_pile.stone_pile.display_name)",
+                    "display_name": "Bundle",
                     "type": "entity",
-                    "uri": "stonehearth:containers:stone_pile",
-                    "icon": "file(images/items/stone_pile.png)",
-                    "amount": 3
-            },
-                {
-                    "display_name": "i18n(box_o_vox:data.loadouts.items.potatoes)",
-                    "type": "entity",
-                    "uri": "box_o_vox:entities:food:potato:potato_basket",
-                    "icon": "file(images/items/potato_basket.png)",
-                    "amount": 10
-            },
-                {
-                    "display_name": "i18n(box_o_vox:data.loadouts.items.jerky)",
-                    "type": "entity",
-                    "uri": "stonehearth:rabbit_jerky",
-                    "icon": "file(images/items/jerky.png)",
-                    "amount": 10
-            },
-                {
-                    "display_name": "i18n(box_o_vox:data.loadouts.items.brightbell)",
-                    "type": "entity",
-                    "uri": "stonehearth:resources:herb:brightbell",
-                    "icon": "file(images/items/brightbell.png)",
-                    "amount": 30
-            },
-                {
-                    "display_name": "i18n(box_o_vox:data.loadouts.items.silkweed_bundle)",
-                    "type": "entity",
-                    "uri": "stonehearth:resources:fiber:silkweed_bundle",
-                    "icon": "file(images/items/silkweed_bundle.png)",
-                    "amount": 30
+                    "uri": "box_o_vox:entities:containers:necro_bundle",
+                    "icon": "file(images/items/necro_bundle.png)",
+                    "amount": 1
             },
                 {
                     "display_name": "i18n(box_o_vox:data.loadouts.items.gold)",

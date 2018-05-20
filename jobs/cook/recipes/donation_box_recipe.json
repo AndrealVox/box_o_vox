@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.donation_box_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.donation_box_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.donation_box_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/donation_box/donation_box/donation_box.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:cook:oven",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:poyo_pot_pie",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:peasant_bread",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:food:roast_mutton",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:corn:corn_basket",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:donation_box"
+      }
+   ]
+}

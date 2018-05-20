@@ -1,5 +1,14 @@
 {
     "craftable_recipes": {
+        "tools": {
+            "ordinal": 10,
+            "name": "i18n(stonehearth:jobs.mason.recipes.tools_name)",
+            "recipes": {
+                "trapper_knife": {
+                    "recipe": "file(trapper_knife_recipe.json)"
+                }
+            }
+        },
         "storage": {
             "name": "i18n(stonehearth:jobs.mason.recipes.storage_name)",
             "recipes": {

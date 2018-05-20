@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(farmer_hoe.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.farmer.farmer_hoe.farmer_hoe_iconic.display_name)",
+         "description": "i18n(stonehearth:jobs.farmer.farmer_hoe.farmer_hoe_iconic.description)",
+         "icon": "file(farmer_hoe.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "tool"
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 1,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.meat_stew_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.meat_stew_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.meat_stew_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/meat_stew/meat_stew/meat_stew.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "food_container raw_food vegetable",
+         "count": 2
+      },
+      {
+         "material": "food meat raw",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:meat_stew"
+      }
+   ]
+}

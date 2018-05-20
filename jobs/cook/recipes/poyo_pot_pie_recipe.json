@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.poyo_pot_pie_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.poyo_pot_pie_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.poyo_pot_pie_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/poyo_pot_pie/poyo_pot_pie/poyo_pot_pie.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:cook:oven",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:poyo_meat",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:carrot:carrot_basket",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:corn:corn_basket",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:poyo_pot_pie"
+      }
+   ]
+}

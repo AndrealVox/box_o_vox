@@ -48,7 +48,6 @@
         },
 
         "mining": {
-            "XZ_CELL_SIZE": 1,
             "MAX_LENGTH": 20
         }
 

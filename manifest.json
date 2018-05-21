@@ -337,7 +337,16 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
-        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)"
+
+        "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
+
+        "box_o_vox:entities:plants:blueberry_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:daisy": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:firebeard": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:greentea": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:hemp_plant:flower": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:nightshade": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+        "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json"
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",

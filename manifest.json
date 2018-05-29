@@ -296,7 +296,15 @@
         "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
         "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
-        "startmenu": "file(data/ui/start_menu.json)"
+        "startmenu": "file(data/ui/start_menu.json)",
+
+        "__comment": "comments work in the manifest i believe SO below here i have added bees",
+
+        "bee_hive": "file(jobs/trapper/bee_hive)",
+        "bee": "file(entities/critters/bee)",
+        "food:honey:honey": "file(entities/food/honey/honey/honey.json)",
+        "food:honey:honey_serving": "file(entities/food/honey/honey_serving/honey_serving.json)"
+
     },
     "components": {
         "summon": "file(components/summon/summon_component)"
@@ -346,7 +354,10 @@
         "box_o_vox:entities:plants:greentea": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:hemp_plant:flower": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:nightshade": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-        "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json"
+        "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
+
+        
+	  "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	: "box_o_vox/jobs/trapper/trapping_grounds/trapping_grounds.json"
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -365,7 +376,7 @@
     },
     "ui": {
         "less": [
-         "file(jobs/cleric/skin/workshop.less)"
-      ]
+            "file(jobs/cleric/skin/workshop.less)"
+        ]
     }
 }

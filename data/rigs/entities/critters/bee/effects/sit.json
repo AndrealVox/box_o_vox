@@ -1,0 +1,48 @@
+{
+  "type": "effect",
+  "tracks": {
+    "animation": {
+      "type": "animation_effect",
+      "start_time": 0,
+      "animation": "idle.json",
+      "loop": true
+    }, 
+    "little_bees_1": {
+      "type": "cubemitter",
+      "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
+      "loop" : true,        
+      "transforms": {
+         "x":1,
+         "y":0,
+         "z":-1,
+         "rx":90,
+         "ry":0,
+         "rz":0
+      },
+      "attach_to_bone": "beeQueen"
+   },      
+   "little_bees_2": {
+      "type": "cubemitter",
+      "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
+      "loop" : true,        
+      "transforms": {
+         "x":-1,
+         "y":0,
+         "z":1,
+         "rx":90,
+         "ry":0,
+         "rz":0
+      },
+      "attach_to_bone": "beeQueen"
+   },  
+    "sound": {
+      "type": "sound_effect",
+      "loop": true,
+      "start_time": 10,
+      "min_distance": 15,
+      "falloff": 10,
+      "volume": 10,
+      "track": "stonehearth:sounds:flies"
+    }
+  }
+}

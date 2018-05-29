@@ -1,0 +1,25 @@
+{
+      "type": "effect",
+      "tracks": {
+            "animation": {
+                  "type": "animation_effect",
+                  "start_time": 0,
+                  "animation": "idle.json",
+                  "loop": false
+            },
+            "dust": {
+                  "type": "cubemitter",
+                  "start_time": 3850,
+                  "end_time": 3950,
+                  "cubemitter": "particles/dust_poof/dust_poof.cubemitter.json",
+                  "transforms": {
+                        "x": 0,
+                        "y": 0.5,
+                        "z": -1,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0
+                  }
+            }
+      }
+}

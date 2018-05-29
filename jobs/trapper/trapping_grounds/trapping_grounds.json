@@ -20,7 +20,11 @@
                     "spawn_interval_min": "20m",
                     "spawn_interval_max": "50m"
                 }
-            }
+            },
+            "trap_weights": {
+                "box_o_vox:trapper:bee_hive": 1,
+                "stonehearth:trapper:snare_trap": 4
+              }
         }
     },
     "entity_data": {

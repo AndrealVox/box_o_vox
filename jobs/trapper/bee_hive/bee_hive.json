@@ -1,0 +1,94 @@
+{
+  "type": "entity",
+  "mixins": "stonehearth:mixins:placed_object",
+  "components": {
+    "effect_list": {
+       "default": "/box_o_vox/data/effects/bee_hive/bee_hive.json"
+    },
+    "model_variants": {
+      "default": {
+        "models": [
+          "file(bee_hive.qb)"
+        ]
+      },
+      "sprung": {
+        "models": [
+          "file(bee_hive_full.qb)"
+        ]
+      }
+    },
+    "mob": {
+      "model_origin": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      "region_origin": {
+         "x": 0.5,
+         "y": 0,
+         "z": 0.05
+      }
+   },
+    "region_collision_shape": {
+      "region": [{
+        "min": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 1,
+          "y": 2,
+          "z": 1
+        }
+      }]
+    },
+    "destination": {
+      "region": [{
+        "min": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }]
+    },
+    "stonehearth:bait_trap": {
+      "range": 16,
+      "trigger_on_failure_chance": 0.0,
+      "is_hive": true
+    },
+    "sensor_list": {
+      "sensors": {
+        "interaction_sensor": {
+          "radius": 32
+        }
+      }
+    },
+    "stonehearth:sensor_ai_injector": {
+      "sensor": "interaction_sensor",
+      "ai": {
+        "actions": [
+          "stonehearth:actions:trapping:try_steal_bait",
+          "stonehearth:actions:trapping:trigger_trap"
+        ],
+        "observers": []
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:render_materials": {
+      "hud": "materials/ghost_item.json"
+    },
+    "stonehearth:catalog": {
+      "display_name": "i18n(box_o_vox:jobs.trapper.bee_hive.display_name)",
+      "description": "i18n(box_o_vox:jobs.trapper.bee_hive.description)",
+      "icon": "file(bee_hive.png)",
+      "material_tags": "wood"
+    }
+  }
+}

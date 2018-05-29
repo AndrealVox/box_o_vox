@@ -300,7 +300,7 @@
 
         "__comment": "comments work in the manifest i believe SO below here i have added bees",
 
-        "bee_hive": "file(jobs/trapper/bee_hive)",
+        "trapper:bee_hive": "file(jobs/trapper/bee_hive)",
         "bee": "file(entities/critters/bee)",
         "food:honey:honey": "file(entities/food/honey/honey/honey.json)",
         "food:honey:honey_serving": "file(entities/food/honey/honey_serving/honey_serving.json)"
@@ -355,9 +355,8 @@
         "box_o_vox:entities:plants:hemp_plant:flower": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:nightshade": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-
-        
-	  "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	: "box_o_vox/jobs/trapper/trapping_grounds/trapping_grounds.json"
+       
+        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds" 
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",

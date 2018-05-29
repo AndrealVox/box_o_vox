@@ -1,0 +1,27 @@
+{
+    "type": "effect",
+    "tracks": {
+        "bees": {
+            "type": "cubemitter",
+            "cubemitter": "/box_o_vox/data/horde/particles/bees/bees.cubemitter.json",
+            "loop": true,
+            "start_time" : 0,
+            "transforms" : { "x": 0, "y": 3, "z": 0,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "sparkles1": {
+               "type": "cubemitter",
+               "cubemitter": "particles/lamp/lamp_sparkles.cubemitter.json",
+               "loop": true,
+               "start_time": 0,
+               "transforms": { "x": 0, "y": 3, "z": 0,
+                  "rx": 0,
+                  "ry": 0,
+                  "rz": 0
+               }
+            }
+        }
+    }
+}

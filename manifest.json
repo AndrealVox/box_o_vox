@@ -355,8 +355,8 @@
         "box_o_vox:entities:plants:hemp_plant:flower": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:nightshade": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-       
-        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds" 
+
+        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds"
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",

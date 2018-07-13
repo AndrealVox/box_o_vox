@@ -6,7 +6,7 @@
     "description": "i18n(stonehearth:jobs.blacksmith.recipes.trapper_knife_recipe.description)",
     "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.trapper_knife_recipe.flavor)",
     "portrait": "/stonehearth/jobs/trapper/trapper_knife/trapper_knife.png",
-    "workshop": "stonehearth:mason:workshop",
+    "workshop": "stonehearth:mason:workbench",
     "level_requirement": 1,
     "ingredients": [
         {

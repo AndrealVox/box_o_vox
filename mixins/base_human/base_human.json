@@ -13,7 +13,7 @@
             }
         },
         "effect_list": {
-            "default": "file(/data/rigs/entities/humans/effects/idle_breathe.json)"
+            "default": "stonehearth/data/rigs/entities/humans/effects/idle_breathe.json)"
         },
         "sensor_list": {
             "sensors": {

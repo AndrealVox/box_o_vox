@@ -13,19 +13,109 @@
         "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)"
     },
     "mining_loot_table": "file(boxland_mining_loot_table.json)",
+    "applied_manifests": {
+        "boxland": "file(boxland/manifest.json)"
+    },
     "generation_file": "file(boxland_generation_data.json)",
-    "weather": [
-        {
-            "uri": "stonehearth:weather:sunny",
-            "weight": 8
+    "growth_duration_multiplier": 2.00,
+    "decay_multiplier": 0.55,
+    "default_starting_season": "autumn",
+    "seasons": {
+        "spring": {
+            "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.spring.display_name)",
+            "description": "i18n(box_o_vox:data.biome.boxland.seasons.spring.description)",
+            "start_day": 0,
+            "weather": [
+                {
+                    "uri": "stonehearth:weather:sunny",
+                    "weight": 27
       },
-        {
-            "uri": "stonehearth:weather:rain",
-            "weight": 2
+                {
+                    "uri": "stonehearth:weather:rain",
+                    "weight": 2
       },
-        {
-            "uri": "box_o_vox:data:weather:enchanted_mist",
-            "weight": 90
-      }
-    ]
+                {
+                    "uri": "box_o_vox:data:weather:enchanted_mist",
+                    "weight": 70
+      },
+                {
+                    "uri": "stonehearth:weather:lucky",
+                    "weight": 1
+            }
+         ]
+        },
+        "summer": {
+            "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.summer.display_name)",
+            "description": "i18n(box_o_vox:data.biome.boxland.seasons.summer.description)",
+            "start_day": 7,
+            "weather": [
+                {
+                    "uri": "stonehearth:weather:sunny",
+                    "weight": 47
+      },
+                {
+                    "uri": "stonehearth:weather:rain",
+                    "weight": 2
+      },
+                {
+                    "uri": "box_o_vox:data:weather:enchanted_mist",
+                    "weight": 50
+      },
+                {
+                    "uri": "stonehearth:weather:lucky",
+                    "weight": 1
+            }
+         ]
+        },
+        "autumn": {
+            "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.display_name)",
+            "description": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.description)",
+            "start_day": 28,
+            "weather": [
+                {
+                    "uri": "stonehearth:weather:sunny",
+                    "weight": 7
+      },
+                {
+                    "uri": "stonehearth:weather:rain",
+                    "weight": 2
+      },
+                {
+                    "uri": "box_o_vox:data:weather:enchanted_mist",
+                    "weight": 90
+      },
+                {
+                    "uri": "stonehearth:weather:lucky",
+                    "weight": 1
+            }
+         ]
+        },
+        "winter": {
+            "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.winter.display_name)",
+            "description": "i18n(box_o_vox:data.biome.boxland.seasons.winter.description)",
+            "start_day": 35,
+            "weather": [
+                {
+                    "uri": "stonehearth:weather:sunny",
+                    "weight": 33
+      },
+                {
+                    "uri": "stonehearth:weather:rain",
+                    "weight": 2
+      },
+                {
+                    "uri": "box_o_vox:data:weather:enchanted_mist",
+                    "weight": 80
+      },
+                {
+                    "uri": "stonehearth:weather:snow:sunny",
+                    "weight": 4
+            },
+                {
+                    "uri": "stonehearth:weather:lucky",
+                    "weight": 1
+            }
+         ]
+        }
+    }
 }

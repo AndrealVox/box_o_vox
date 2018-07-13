@@ -98,19 +98,10 @@
         "entities:crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
         "entities:crops:tomato_crop": "file(entities/crops/tomato_crop)",
         "entities:decoration:bathtub": "file(entities/decoration/bathtub)",
-        "entities:decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
-        "entities:decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
         "entities:decoration:boxling_statue": "file(entities/decoration/boxling_statue)",
         "entities:decoration:cabinet": "file(entities/decoration/cabinet)",
-        "entities:decoration:fireplace": "file(entities/decoration/fireplace)",
         "entities:decoration:fridge": "file(entities/decoration/fridge)",
         "entities:decoration:grandfather_clock": "file(entities/decoration/grandfather_clock)",
-        "entities:decoration:green_stone_road_lamp": "file(entities/decoration/green_stone_road_lamp)",
-        "entities:decoration:green_wooden_road_lamp": "file(entities/decoration/green_wooden_road_lamp)",
-        "entities:decoration:purple_stone_road_lamp": "file(entities/decoration/purple_stone_road_lamp)",
-        "entities:decoration:purple_wooden_road_lamp": "file(entities/decoration/purple_wooden_road_lamp)",
-        "entities:decoration:red_stone_road_lamp": "file(entities/decoration/red_stone_road_lamp)",
-        "entities:decoration:red_wooden_road_lamp": "file(entities/decoration/red_wooden_road_lamp)",
         "entities:decoration:sink": "file(entities/decoration/sink)",
         "entities:decoration:toilet": "file(entities/decoration/toilet)",
         "entities:decoration:wall_clock": "file(entities/decoration/wall_clock)",
@@ -168,7 +159,6 @@
         "entities:food:strawberry:strawberry_serving": "file(entities/food/strawberry/strawberry_serving)",
         "entities:food:tomato:tomato_basket": "file(entities/food/tomato/tomato_basket)",
         "entities:food:tomato:tomato_serving": "file(entities/food/tomato/tomato_serving)",
-        "entities:furniture:stone_bed": "file(entities/furniture/stone_bed)",
         "entities:furniture:stone_comfy_chair": "file(entities/furniture/stone_comfy_chair/stone_comfy_chair.json)",
         "entities:human:female_1": "file(entities/humans/female/female_1.json)",
         "entities:human:male_1": "file(entities/humans/male/male_1.json)",
@@ -186,10 +176,6 @@
         "entities:plants:nightshade": "file(entities/plants/nightshade_plant)",
         "entities:plants:peppercorn_bush": "file(entities/plants/peppercorn_bush)",
         "entities:portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
-        "entities:portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
-        "entities:portals:stone_door": "file(entities/construction/stone_door)",
-        "entities:portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
-        "entities:portals:stone_window_frame_wide": "file(entities/construction/stone_window_frame_wide)",
         "entities:portals:stoned_tunnel_door": "file(entities/construction/stoned_tunnel_door)",
         "entities:refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
         "entities:refined:enchanted_cloth": "file(entities/refined/enchanted_cloth)",
@@ -296,15 +282,7 @@
         "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",
         "shepherd:shepherd_pasture": "file(jobs/shepherd/shepherd_pasture)",
         "sounds:necronomicon_summon": "file(data/sounds/effects/necronomicon_summon_1.wav)",
-        "startmenu": "file(data/ui/start_menu.json)",
-
-        "__comment": "comments work in the manifest i believe SO below here i have added bees",
-
-        "trapper:bee_hive": "file(jobs/trapper/bee_hive)",
-        "bee": "file(entities/critters/bee)",
-        "food:honey:honey": "file(entities/food/honey/honey/honey.json)",
-        "food:honey:honey_serving": "file(entities/food/honey/honey_serving/honey_serving.json)"
-
+        "startmenu": "file(data/ui/start_menu.json)"
     },
     "components": {
         "summon": "file(components/summon/summon_component)"

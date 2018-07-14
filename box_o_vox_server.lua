@@ -5,9 +5,6 @@ local log = radiant.log.create_logger('log')
 log:error("Box o' Vox Server: Alpha 24 mod")
 
 function box_o_vox:_on_required_loaded()    
-    local BeeTrapper = require('jobs.trapper')
-    local BeeTrappingGrounds = require('components.trapping.trapping_grounds_component')
-
     local CustomGameCreationService = require('services.server.game_creation.game_creation_service')
     local GameCreationService = radiant.mods.require('stonehearth.services.server.game_creation.game_creation_service')
     radiant.mixin(GameCreationService, CustomGameCreationService)

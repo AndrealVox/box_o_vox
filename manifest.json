@@ -73,6 +73,7 @@
         "data:summon_tuning:necromancer:summoner_skeleton_kid": "file(data/summon_tuning/necromancer/summoner_skeleton_kid.json)",
         "data:summon_tuning:necromancer:summoner_zombie": "file(data/summon_tuning/necromancer/summoner_zombie.json)",
         "data:summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
+        "data:terrain:landmark_blocks": "file(data/terrain/landmark_blocks.json)",
         "data:thoughts": "file(data/happiness/thoughts.json)",
         "data:traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
         "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
@@ -81,7 +82,6 @@
         "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
         "entities:armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
         "entities:armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
-        "entities:boxling:boxling_statue": "file(entities/boxling/boxling_statue)",
         "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
         "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
         "entities:containers:food_crate": "file(entities/containers/food_crate)",
@@ -266,7 +266,7 @@
         "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
         "jobs:recipes:potter": "file(jobs/potter/recipes/recipes.json)",
         "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
-        "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds)",
+        "jobs:trapper:trapping_grounds": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",
         "jobs:worker": "file(jobs/worker/worker_description.json)",
         "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
         "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
@@ -323,6 +323,8 @@
         "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)",
         "/stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
+        "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
+        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
 
         "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
 
@@ -332,9 +334,7 @@
         "box_o_vox:entities:plants:greentea": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:hemp_plant:flower": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
         "box_o_vox:entities:plants:nightshade": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-        "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
-
-        "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds"
+        "box_o_vox:entities:plants:peppercorn_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json"
     },
     "overrides": {
         "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
@@ -343,7 +343,6 @@
         "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
         "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
         "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-        "stonehearth:rabbit:statue": "box_o_vox:entities:boxling:boxling_statue",
         "stonehearth:red_fox_wolf": "box_o_vox:entities:critters:black_fox"
     },
     "controllers": {

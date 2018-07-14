@@ -1,9 +1,10 @@
 {
+    "type": "entity",
     "components": {
         "stonehearth:trapping_grounds": {
-            "max_traps": 6,
-            "min_distance_between_traps": 6,
-            "check_traps_interval": "3h",
+            "max_traps": 10,
+            "min_distance_between_traps": 5,
+            "check_traps_interval": "6h",
             "trappable_animal_weights": {
                 "critters": {
                     "stonehearth:rabbit": 100,
@@ -19,13 +20,22 @@
             "terrain_spawn_intervals": {
                 "rock": {
                     "spawn_interval_min": "30m",
-                    "spawn_interval_max": "60m"
+                    "spawn_interval_max": "100m"
                 },
                 "default": {
                     "spawn_interval_min": "20m",
-                    "spawn_interval_max": "50m"
+                    "spawn_interval_max": "70m"
                 }
             }
+        }
+    },
+    "entity_data": {
+        "stonehearth:designation": {
+            "allow_placed_items": true
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(stonehearth:jobs.trapper.trapping_grounds.display_name)",
+            "description": "i18n(stonehearth:jobs.trapper.trapping_grounds.description)"
         }
     }
 }

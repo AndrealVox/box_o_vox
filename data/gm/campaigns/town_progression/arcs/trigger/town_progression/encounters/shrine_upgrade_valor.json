@@ -3,61 +3,48 @@
    "encounter_type": "town_upgrade",
    "in_edge": "shrine_upgrade_valor",
    "town_upgrade_info": {
-      "old_facility_uri": "stonehearth:decoration:valor_statue",
-      "new_facility_uri": "stonehearth:decoration:valor_statue:blessed",
+      "old_facility_uri": "northern_alliance:decoration:shrine:wolf",
+      "new_facility_uri": "northern_alliance:decoration:shrine:wolf:blessed",
       "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
-      "town_bonus": "stonehearth:town_bonus:valor",
+      "town_bonus": "northern_alliance:town_bonus:valor",
       "tier_achieved": 3,
       "conversation_subjects": [
          "stonehearth:subjects:town_status",
          "stonehearth:food:cake",
-         "stonehearth:decoration:valor_statue",
-         "stonehearth:portals:valor_statue:portcullis_valor",
-         "stonehearth:decoration:valor_statue:knight_male",
-         "stonehearth:decoration:valor_statue:knight_female",
-         "stonehearth:decoration:valor_statue:torch",
-         "stonehearth:decoration:valor_statue:wall_hanging_plaque",
-         "stonehearth:decoration:valor_statue:war_horn",
-         "stonehearth:portals:valor_statue:window_frame_barred"
+         "northern_alliance:decoration:shrine:wolf"
       ],
       "thought": "stonehearth:thoughts:town:progression:town",
       "celebration_duration": "2h30m+10m",
       "has_fireworks": true,
       "dialog": {
-         "title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.title)",
-         "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.dialog_title)",
-         "tier_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_title)",
-         "reward_message": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.reward_message)",
-         "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.reward_message_ctd)",
+         "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.title)",
+         "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.dialog_title)",
+         "tier_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.tier_title)",
+         "reward_message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message)",
+         "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message_ctd)",
          "achievements": [
             {
                "id": "valor_bonus",
-               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_valor.achievements.000)",
-               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.000)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "valor_decorations_1",
-               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_valor.achievements.001)",
-               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.001)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "valor_decorations_2",
-               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_valor.achievements.002)",
-               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
-               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
-            },
-            {
-               "id": "valor_decorations_3",
-               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_valor.achievements.003)",
-               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "name": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.002)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "tier_3_bgm",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_valor.achievements.004)",
-               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             }
          ]
@@ -65,22 +52,12 @@
       "npcs": [
          {
             "faction": "human_npcs",
-            "role": "herald_harold",
-            "gender": "male"
-         },
-         {
-            "faction": "human_npcs",
-            "role": "herald_mer",
-            "gender": "male"
-         },
-         {
-            "faction": "human_npcs",
-            "role": "herald_isabelle",
+            "role": "herald_ronia",
             "gender": "female"
          },
          {
             "faction": "human_npcs",
-            "role": "herald_anwyn",
+            "role": "herald_siv",
             "gender": "female"
          },
          {

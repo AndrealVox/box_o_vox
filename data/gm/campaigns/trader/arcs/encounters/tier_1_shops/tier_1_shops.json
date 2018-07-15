@@ -2,6 +2,15 @@
    "type": "encounter",
    "encounter_type": "wait",
    "in_edge": "tier_1_shops",
+   "can_start": {
+      "all_tests": {
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
+         }
+      }
+   },
    "out_edge": {
       "type": "trigger_one",
       "out_edges": [

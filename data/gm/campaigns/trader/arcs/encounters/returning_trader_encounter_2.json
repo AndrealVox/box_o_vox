@@ -14,6 +14,11 @@
             "type": "deny_if_less_than",
             "item": "net_worth",
             "value": 3000
+         },
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
          }
       }
    },

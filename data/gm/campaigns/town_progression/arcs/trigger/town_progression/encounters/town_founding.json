@@ -6,9 +6,9 @@
       "includes_town_naming": true,
       "choices": {
          "vitality": {
-            "name": "i18n(stonehearth:entities.gizmos.town_banner_nature.town_banner_nature_ghost.display_name)",
-            "description": "i18n(stonehearth:entities.gizmos.town_banner_nature.town_banner_nature_ghost.town_bonus_description)",
-            "icon": "/stonehearth/entities/gizmos/town_banner_nature/town_banner_nature.png",
+            "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.display_name)",
+            "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_nature.na_town_banner_nature_ghost.town_bonus_description)",
+            "icon": "/northern_alliance/entities/gizmos/na_town_banner_nature/na_town_banner_nature.png",
             "sort_order": 1,
             "out_edge": {
                "type": "trigger_many",
@@ -18,9 +18,9 @@
             }
          },
          "strength": {
-            "name": "i18n(stonehearth:entities.gizmos.town_banner_might.town_banner_might_ghost.display_name)",
-            "description": "i18n(stonehearth:entities.gizmos.town_banner_might.town_banner_might_ghost.town_bonus_description)",
-            "icon": "/stonehearth/entities/gizmos/town_banner_might/town_banner_might.png",
+            "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.display_name)",
+            "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_might.na_town_banner_might_ghost.town_bonus_description)",
+            "icon": "/northern_alliance/entities/gizmos/na_town_banner_might/na_town_banner_might.png",
             "sort_order": 2,
             "out_edge": {
                "type": "trigger_many",
@@ -30,9 +30,9 @@
             }
          },
          "cunning": {
-            "name": "i18n(stonehearth:entities.gizmos.town_banner_guardian.town_banner_guardian_ghost.display_name)",
-            "description": "i18n(stonehearth:entities.gizmos.town_banner_guardian.town_banner_guardian_ghost.town_bonus_description)",
-            "icon": "/stonehearth/entities/gizmos/town_banner_guardian/town_banner_guardian.png",
+            "name": "i18n(northern_alliance:entities.gizmos.na_town_banner_guardian.na_town_banner_guardian_ghost.display_name)",
+            "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_guardian.na_town_banner_guardian_ghost.town_bonus_description)",
+            "icon": "/northern_alliance/entities/gizmos/na_town_banner_guardian/na_town_banner_guardian.png",
             "sort_order": 3,
             "out_edge": {
                "type": "trigger_many",

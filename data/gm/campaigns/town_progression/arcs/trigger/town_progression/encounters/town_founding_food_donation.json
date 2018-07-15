@@ -8,13 +8,12 @@
       "nodes": {
          "simple_message": {
             "bulletin": {
-               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
-               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
-               "portrait": "file(images/herald_harold.png)",
-               "portrait_offset": 45,
-               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
+               "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/herald_ronia.png)",
+               "message": "i18n(northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
                "choices": {
-                  "stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                  "northern_alliance:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
                      "result": "accept"
                   }
                }

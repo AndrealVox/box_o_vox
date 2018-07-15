@@ -9,6 +9,11 @@
             "type": "deny_if_not",
             "value": true,
             "script": "stonehearth:game_master:script:returning_trader_can_start"
+         },
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
          }
       }
    },
@@ -37,10 +42,6 @@
             "stonehearth:furniture:simple_wooden_chair": {
                "min": 5,
                "max": 12
-            },
-            "stonehearth:construction:picket_fence": {
-               "min": 5,
-               "max": 20
             },
             "stonehearth:construction:picket_fence_gate": {
                "min": 1,

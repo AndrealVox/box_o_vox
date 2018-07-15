@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "wait_for_tier_2",
+   "out_edge": "spawn_next_traveler",
+   "wait_for_requirements_met_info": {
+      "requirements": {
+         "city_tier_check": {
+            "type": "deny_if_less_than",
+            "item": "city_tier",
+            "value": 2
+         }
+      }
+   }
+}

@@ -230,15 +230,15 @@
         "height_fog": [
             {
                 "time": "midnight",
-                "value": [75, 0.9, 10, 50]
+                "value": [75, 0.9, 10, 150]
          },
             {
                 "time": "midday",
-                "value": [60, 0.9, 10, 50]
+                "value": [60, 0.9, 10, 150]
          },
             {
                 "time": "day_length",
-                "value": [75, 0.9, 10, 50]
+                "value": [75, 0.9, 10, 150]
          }
       ],
         "height_fog2": [

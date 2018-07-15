@@ -22,10 +22,9 @@
         "stonehearth/ui/root/css/images/gui/well2.png": "file(gui/well2.png)",
         "stonehearth/ui/root/css/images/gui/tab.png": "file(gui/tab.png)",
         "stonehearth/ui/root/css/images/gui/tab_active.png": "file(gui/tab_active.png)",
+        "stonehearth/entities/gizmos/camp_standard/camp_standard.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard.json",
         "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
-        "stonehearth/entities/gizmos/town_banner_guardian/town_banner_guardian_ghost.json": "box_o_vox/entities/gizmos/town_banner_guardian/town_banner_guardian_ghost.json",
-        "stonehearth/entities/gizmos/town_banner_might/town_banner_might_ghost.json": "box_o_vox/entities/gizmos/town_banner_might/town_banner_might_ghost.json",
-        "stonehearth/entities/gizmos/town_banner_nature/town_banner_nature_ghost.json": "box_o_vox/entities/gizmos/town_banner_nature/town_banner_nature_ghost.json"
+        "stonehearth/entities/gizmos/camp_standard/camp_standard_iconic.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_iconic.json"
     },
     "ui": {
         "less": [

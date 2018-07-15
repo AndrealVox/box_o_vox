@@ -48,6 +48,8 @@
       "post_shrine_dialog_delay": "file(encounters/post_shrine_dialog_delay.json)",
       "reembark": "file(encounters/reembark.json)",
       "reembark_delay": "file(encounters/reembark_delay.json)",
-      "reembark_dialog": "file(encounters/reembark_dialog.json)"
+      "reembark_dialog": "file(encounters/reembark_dialog.json)",
+      "reembark_generator": "file(encounters/reembark_generator.json)",
+      "reembark_end": "file(encounters/reembark_end.json)"
    }
 }

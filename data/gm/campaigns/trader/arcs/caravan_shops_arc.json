@@ -57,6 +57,10 @@
       "herbalist_shop_1": "file(encounters/tier_1_shops/herbalist_shop_1.json)",
       "herbalist_shop_2": "file(encounters/tier_2_shops/herbalist_shop_2.json)",
       "herbalist_shop_3": "file(encounters/tier_3_shops/herbalist_shop_3.json)",
-      "wait_for_trader_call": "file(encounters/wait_for_trader_call.json)"
+      "wait_for_trader_call": "file(encounters/wait_for_trader_call.json)",
+      "wait_for_tier_2": "file(encounters/wait_for_tier_2.json)",
+      "spawn_next_traveler": "file(encounters/spawn_next_traveler.json)",
+      "spawn_traveler_scipt_encounter": "file(encounters/spawn_traveler_scipt_encounter.json)",
+      "check_for_market_shelf": "file(encounters/check_for_market_shelf.json)"
    }
 }

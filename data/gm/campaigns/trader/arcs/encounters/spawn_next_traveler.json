@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "spawn_next_traveler",
+   "generator_info": {
+      "delay": "24h+6h",
+      "spawn_edge": "check_for_market_shelf"
+   }
+}

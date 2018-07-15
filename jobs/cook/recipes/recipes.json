@@ -84,6 +84,9 @@
                 },
                 "fruit_smoothie": {
                     "recipe": "file(fruit_smoothie_recipe.json)"
+                },
+                "ground_beef": {
+                    "recipe": "file(ground_beef_recipe.json)"
                 }
             }
         },

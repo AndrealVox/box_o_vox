@@ -8,6 +8,11 @@
             "type": "deny_if_less_than",
             "item": "city_tier",
             "value": 2
+         },
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
          }
       }
    },

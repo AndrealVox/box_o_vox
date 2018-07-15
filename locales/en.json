@@ -1011,6 +1011,16 @@
          "cheese": {
             "display_name": "Cheese",
             "description": "This cheese looks yummy."
+         },
+         "ground_beef": {
+            "ground_beef": {
+               "display_name": "Ground Beef",
+               "description": "Ground up meat cooked and ready for eating."
+            },
+            "ground_beef_serving": {
+               "description": "A bowl of ground beef",
+               "display_name": "Ground Beef"
+            }
          }
       },
       "trees": {

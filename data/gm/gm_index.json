@@ -1,11 +1,11 @@
 {
-   "type": "index",
-   "campaigns": {
-      "trader2": {
-         "boxling_traders": "file(campaigns/trader/trader_campaign.json)"
-      },
-      "town_progression2": {
-         "boxling_town_progression": "file(campaigns/town_progression/town_progression_camp.json)"
-      }
-   }
+    "type": "index",
+    "campaigns": {
+        "trader2": {
+            "boxling_traders": "file(campaigns/trader/trader_campaign.json)"
+        },
+        "town_progression2": {
+            "boxling_town_progression": "file(campaigns/town_progression/town_progression_campaign.json)"
+        }
+    }
 }

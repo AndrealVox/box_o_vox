@@ -19,21 +19,21 @@
          "cheer": {
             "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.cheer.name)",
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.cheer.description)",
-            "icon": "/stonehearth/entities/decoration/hearth_bunny/hearth_bunny.png",
+            "icon": "/northern_alliance/entities/decoration/hearth_ice/hearth_ice.png",
             "sort_order": 0,
             "out_edge": "hearth_quest_cheer"
          },
          "makers": {
             "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.name)",
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.description)",
-            "icon": "/stonehearth/entities/decoration/hearth_stump/hearth_stump.png",
+            "icon": "/northern_alliance/entities/decoration/hearth_wolf/hearth_wolf.png",
             "sort_order": 1,
             "out_edge": "hearth_quest_makers"
          },
          "glory": {
             "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.name)",
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.description)",
-            "icon": "/stonehearth/entities/decoration/hearth_fountain/hearth_fountain.png",
+            "icon": "/northern_alliance/entities/decoration/hearth_magma/hearth_magma.png",
             "sort_order": 2,
             "out_edge": "hearth_quest_glory"
          }

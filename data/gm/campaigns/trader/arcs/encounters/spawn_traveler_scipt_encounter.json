@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "spawn_traveler_scipt_encounter",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "check_for_market_shelf",
+      "destroy_root": true
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:spawn_traveler",
+      "data": {
+         "chance_to_spawn": 20
+      }
+   }
+}

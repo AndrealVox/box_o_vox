@@ -8,7 +8,8 @@
          "starting_food_donation",
          "wait_for_minimum_net_worth",
          "wait_for_trader_call",
-         "wait_for_herald"
+         "wait_for_herald",
+         "wait_for_tier_2"
       ]
    },
    "wait_for_time_of_day_info": {

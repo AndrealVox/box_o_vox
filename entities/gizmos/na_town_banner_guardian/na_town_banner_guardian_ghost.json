@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(town_banner_nature.qb)"
+               "file(na_town_banner_guardian.qb)"
             ]
          }
       },
@@ -24,11 +24,11 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.gizmos.town_banner_nature.town_banner_nature_ghost.display_name)",
-         "description": "i18n(stonehearth:entities.gizmos.town_banner_nature.town_banner_nature_ghost.description)",
-         "icon": "file(town_banner_nature.png)",
+         "display_name": "i18n(northern_alliance:entities.gizmos.na_town_banner_guardian.na_town_banner_guardian_ghost.display_name)",
+         "description": "i18n(northern_alliance:entities.gizmos.na_town_banner_guardian.na_town_banner_guardian_ghost.description)",
+         "icon": "file(na_town_banner_guardian.png)",
          "category": "decoration",
-         "material_tags": "wood cloth decoration stockpile_decoration"
+         "material_tags": "clay cloth decoration stockpile_decoration"
       }
    }
 }

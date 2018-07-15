@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "check_for_market_shelf",
+   "out_edge": "spawn_traveler_scipt_encounter",
+   "can_start": {
+      "all_tests": {
+         "has_shrine": {
+            "type": "deny_if_not",
+            "item": "exists_in_world",
+            "uri": "stonehearth:containers:market_shelf_tall:ground_wood",
+            "value": true
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "1s"
+   }
+}

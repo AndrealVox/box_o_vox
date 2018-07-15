@@ -9,6 +9,11 @@
             "type": "deny_if_less_than",
             "value": 6,
             "job_alias": "stonehearth:jobs:farmer"
+         },
+         "not_in_titanstorm": {
+            "type": "deny_if",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
          }
       }
    },

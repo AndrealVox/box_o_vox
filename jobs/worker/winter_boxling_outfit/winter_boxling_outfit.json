@@ -27,7 +27,8 @@
             "roles": "worker_job",
             "ilevel": 2,
             "injected_buffs": [
-            "stonehearth:buffs:devoted"
+            "stonehearth:buffs:devoted",
+            "stonehearth:buffs:weather:cold_resist"
          ],
             "equip_effect": "stonehearth:effects:weapon_level_up"
         }

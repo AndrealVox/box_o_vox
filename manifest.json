@@ -277,6 +277,8 @@
         "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
         "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
         "jobs:worker:winter_boxling_outfit": "file(jobs/worker/winter_boxling_outfit)",
+        "landmark:boxling_mountain": "file(data/models/landmark/boxling_mountain/boxling_mountain.qb)",
+        "landmark:boxling_mountain:stamp": "file(entities/landmark/boxling_mountain)",
         "mixins:base_human": "file(mixins/base_human)",
         "mixins:plant": "file(mixins/plant)",
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",

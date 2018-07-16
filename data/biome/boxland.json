@@ -13,9 +13,6 @@
         "stonehearth:game_mode:hard": "file(images/boxland_story_hard.png)"
     },
     "mining_loot_table": "file(boxland_mining_loot_table.json)",
-    "applied_manifests": {
-        "boxland": "file(boxland/manifest.json)"
-    },
     "generation_file": "file(boxland_generation_data.json)",
     "growth_duration_multiplier": 2.00,
     "decay_multiplier": 0.55,

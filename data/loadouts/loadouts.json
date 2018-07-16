@@ -32,6 +32,14 @@
                     "uri": "box_o_vox:entities:containers:necro_bundle",
                     "icon": "file(images/items/necro_bundle.png)",
                     "amount": 1
+                },
+                "gold": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+                    "type": "gold",
+                    "icon": "file(images/items/gold.png)",
+                    "uri": "stonehearth:loot:gold",
+                    "amount": 100
                 }
             }
         }

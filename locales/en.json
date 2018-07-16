@@ -1343,5 +1343,8 @@
       "tooltip_veggie_stew": "Veggie Stew & Tagine",
       "tooltip_window": "Windows",
       "tooltip_worker_outfit": "Worker Outfits"
+   },
+   "kingdom": {
+      "initial_town_name": "Boxland"
    }
 }

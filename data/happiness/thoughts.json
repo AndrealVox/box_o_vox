@@ -7,9 +7,9 @@
                 "enchanted_mist_positive": {
                     "display_name": "Mysterious mist",
                     "tooltip": "I wonder what wonders lie beneath that mysterious mist.",
-                    "duration": "1d",
+                    "duration": "1h",
                     "happiness_delta": 1,
-                    "stackable": false
+                    "stackable": true
                 },
                 "enchanted_mist_negative": {
                     "display_name": "Spooky fog",

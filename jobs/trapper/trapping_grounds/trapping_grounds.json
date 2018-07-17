@@ -2,8 +2,8 @@
     "type": "entity",
     "components": {
         "stonehearth:trapping_grounds": {
-            "max_traps": 10,
-            "min_distance_between_traps": 5,
+            "max_traps": 6,
+            "min_distance_between_traps": 10,
             "check_traps_interval": "6h",
             "trappable_animal_weights": {
                 "critters": {

@@ -82,7 +82,7 @@
       "biome": {
          "boxland": {
             "display_name": "Boxland",
-            "description": "Large mountains, massive lakes and trees bearing fruit. The default home of the Boxlings.",
+            "description": "Long rivers edged with fruit trees flow in between large mountains in this once forgotten land of the Boxlings, ancient mountains of them can still be found. The default home of the Boxlings.",
             "random_location_names": {
                "000": "The Box O' Vox"
             },

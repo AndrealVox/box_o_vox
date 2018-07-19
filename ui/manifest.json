@@ -12,7 +12,6 @@
     "overrides": {
         "stonehearth/ui/game/start_menu/images/dock.png": "file(start_menu/dock.png)",
         "stonehearth/ui/game/start_menu/images/town.png": "file(start_menu/town.png)",
-        "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
         "stonehearth/ui/game/unit_frame/images/bg_border.png": "file(unit_frame/bg_border.png)",
         "stonehearth/ui/game/unit_frame/images/command_button_bg.png": "file(unit_frame/command_button_bg.png)",
         "stonehearth/ui/root/css/images/input/checkbox.png": "file(input/checkbox.png)",

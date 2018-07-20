@@ -167,6 +167,12 @@ function ExecuteSummon:_create_summon(summoner, target, summon_uri)
     for _, summon in pairs(summons) do
         radiant.entities.set_player_id(summon, 'player_1') 
         radiant.entities.add_buff(summon,'box_o_vox:data:buffs:summon_timer')
+    local SUMMON_TIME = '1h'
+    stonehearth.calendar:set_timer('despawn summon', SUMMON_TIME, function()
+         if radiant.entities.exists(summon) then
+            radiant.entities.destroy_entity(summon)
+         end
+      end)
         --radiant.effects.run_effect(summon, 'stonehearth:effects:firepit_effect:green')
     end
     return summons

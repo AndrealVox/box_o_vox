@@ -1,14 +1,8 @@
 {
-    "mixins": "stonehearth:jobs:index",
-    "jobs": {
-        "stonehearth:jobs:worker": {
-            "description": "box_o_vox:jobs:worker"
-        },
-        "stonehearth:jobs:cook": {
-            "description": "box_o_vox:jobs:cook"
-        },
-        "stonehearth:jobs:farmer": {
-            "description": "box_o_vox:jobs:farmer"
-        }
-    }
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:worker": {
+         "description": "box_o_vox:jobs:worker"
+      }
+   }
 }

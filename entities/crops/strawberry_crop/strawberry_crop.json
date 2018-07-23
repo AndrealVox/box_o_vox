@@ -53,12 +53,12 @@
             "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
         },
         "stonehearth:growing": {
-            "growth_period": "2.5h",
+            "growth_period": "6h",
             "preferred_seasons": {
-                "stonehearth:biome:temperate": ["autumn", "winter"],
-                "stonehearth:biome:desert": ["autumn", "winter"],
-                "stonehearth:biome:arctic": ["summer"],
-                "box_o_vox:biome:boxland": ["spring", "summer", "autumn"]
+                "stonehearth:biome:temperate": ["spring", "summer"],
+                "stonehearth:biome:desert": ["spring", "summer"],
+                "stonehearth:biome:arctic": ["spring", "summer"],
+                "box_o_vox:biome:boxland": ["spring", "summer"]
             },
             "growth_stages": [
                 {
@@ -98,7 +98,7 @@
     },
     "entity_data": {
         "stonehearth:net_worth": {
-            "value_in_gold": 1,
+            "value_in_gold": 2,
             "rarity": "common",
             "shop_info": {
                 "buyable": false,

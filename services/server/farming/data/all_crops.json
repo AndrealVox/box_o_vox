@@ -8,11 +8,11 @@
         "strawberry": {
             "crop_type": "box_o_vox:entities:crops:strawberry_crop",
             "ordinal": 6.000001,
-            "level_requirement": 1
+            "level_requirement": 2
         },
         "tomato": {
             "crop_type": "box_o_vox:entities:crops:tomato_crop",
-            "ordinal": 11.00002,
+            "ordinal": 11.00001,
             "level_requirement": 3
         }
     }

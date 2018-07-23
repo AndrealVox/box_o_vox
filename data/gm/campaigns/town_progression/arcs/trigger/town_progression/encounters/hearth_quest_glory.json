@@ -14,24 +14,18 @@
             "keep_items": true
          },
          {
-            "type": "give_item",
-            "uri": "stonehearth:consumables:heavy_bandage",
-            "count": 5,
-            "keep_items": true
+            "type": "job_level",
+            "uri": "box_o_vox:jobs:necromancer",
+            "level": 3
          },
          {
             "type": "job_level",
-            "uri": "stonehearth:jobs:footman",
+            "uri": "stonehearth:jobs:cleric",
             "level": 3
          },
          {
             "type": "job_level",
             "uri": "stonehearth:jobs:knight",
-            "level": 3
-         },
-         {
-            "type": "job_level",
-            "uri": "stonehearth:jobs:archer",
             "level": 3
          }
       ],

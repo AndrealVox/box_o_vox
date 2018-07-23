@@ -1,5 +1,6 @@
 {
    "type": "recipe",
+   "effort": 60,
    "work_units": 2,
    "recipe_name": "i18n(box_o_vox:entities.containers.treasure_crate.treasure_crate_ghost.display_name)",
    "description": "i18n(box_o_vox:entities.containers.treasure_crate.treasure_crate_ghost.description)",

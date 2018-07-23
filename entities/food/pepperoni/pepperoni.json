@@ -10,7 +10,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
       }
    },
    "entity_data": {
@@ -18,7 +22,7 @@
          "value_in_gold": 4,
          "rarity": "common",
          "shop_info": {
-            "buyable": false,
+            "buyable": true,
             "sellable": true,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"

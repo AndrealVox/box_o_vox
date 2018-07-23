@@ -17,22 +17,22 @@
          }
       },
       "stonehearth:stacks": {
-         "max_stacks": 3
+         "max_stacks": 8
       }
    },
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
          "food": "box_o_vox:entities:food:fruit_smoothie:fruit_smoothie_serving",
-         "stacks_per_serving": 2
+         "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {
          "value_in_gold": 30,
          "rarity": "common",
          "shop_info": {
-            "buyable": false,
+            "buyable": true,
             "sellable": true,
-            "shopkeeper_level": 2,
+            "shopkeeper_level": 3,
             "shopkeeper_type": "caravan"
          }
       },
@@ -42,7 +42,13 @@
          "icon": "file(fruit_smoothie.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container prepared_food fruit_smoothie vegetarian stockpile_prepared_food"
+         "material_tags": "food_container prepared_dessert prepared_food fruit_smoothie vegetarian stockpile_prepared_food"
+      },
+      "stonehearth:appeal": {
+         "appeal": 15
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
       }
    }
 }

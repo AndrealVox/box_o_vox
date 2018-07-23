@@ -28,15 +28,14 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "box_o_vox:entities:food:apple:apple_serving",
-         "stacks_per_serving": 4
+         "food": "box_o_vox:entities:food:apple:apple_serving"
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 10,
+         "value_in_gold": 2,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
-            "sellable": false,
+            "sellable": true,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
@@ -56,6 +55,9 @@
          "category": "food",
          "material_tags": "stockpile_raw_food stockpile_cooking_ingredient food_container raw_food fruit apple vegetarian cooking_ingredient",
          "subject_override": "box_o_vox:entities:food:apple:apple"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
       }
    }
 }

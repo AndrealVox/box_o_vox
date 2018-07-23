@@ -24,13 +24,13 @@
       "stonehearth:food_container": {
          "effect": "fiddle",
          "food": "box_o_vox:entities:food:beef_rib_roast:beef_rib_roast_serving",
-         "stacks_per_serving": 9
+         "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 45,
+         "value_in_gold": 30,
          "rarity": "common",
          "shop_info": {
-            "buyable": false,
+            "buyable": true,
             "sellable": true,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
@@ -43,6 +43,12 @@
          "is_item": true,
          "category": "food",
          "material_tags": "food_container prepared_food beef_rib_roast stockpile_prepared_food meat"
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
       }
    }
 }

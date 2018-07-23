@@ -20,17 +20,17 @@
         },
         "stonehearth:food": {
             "stonehearth:sitting_on_chair": {
-                "satisfaction": 240
+                "satisfaction": 80
             },
             "default": {
-                "satisfaction": 200
+                "satisfaction": 60
             },
             "quality": 7
         },
         "stonehearth:catalog": {
             "display_name": "i18n(box_o_vox:entities.food.apple_pie.apple_pie_serving.display_name)",
             "description": "i18n(box_o_vox:entities.food.apple_pie.apple_pie_serving.description)",
-            "material_tags": "food meat",
+            "material_tags": "food prepared_dessert vegetarian",
             "subject_override": "box_o_vox:entities:food:apple_pie"
         }
     }

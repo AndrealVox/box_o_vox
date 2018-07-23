@@ -1,5 +1,6 @@
 {
    "type": "recipe",
+   "effort": 50,
    "work_units": 1,
    "recipe_name": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.display_name)",
    "description": "i18n(box_o_vox:entities.food.mash_potatoes.mash_potatoes.description)",

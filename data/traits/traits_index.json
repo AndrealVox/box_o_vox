@@ -1,53 +1,7 @@
 {
-    "type": "index",
-    "groups": {
-        "passion_jobs": {
-            "stonehearth:traits:passion_blacksmith": {},
-            "stonehearth:traits:passion_cleric": {},
-            "stonehearth:traits:passion_cook": {},
-            "stonehearth:traits:passion_farmer": {},
-            "stonehearth:traits:passion_mason": {},
-            "stonehearth:traits:passion_shepherd": {},
-            "stonehearth:traits:passion_weaver": {},
-            "box_o_vox:data:traits:passion_necromancer": {}
-        }
-    },
-    "traits": {
-        "stonehearth:traits:green_thumb": {
-            "excludes": {
-                "stonehearth:traits:passion_blacksmith": true,
-                "stonehearth:traits:passion_cleric": true,
-                "stonehearth:traits:passion_mason": true,
-                "stonehearth:traits:passion_shepherd": true,
-                "stonehearth:traits:passion_weaver": true,
-                "box_o_vox:data:traits:passion_necromancer": true,
-                "stonehearth:traits:courageous": true,
-                "stonehearth:traits:hothead": true
-            }
-        },
-        "stonehearth:traits:courageous": {
-            "excludes": {
-                "stonehearth:traits:passion_blacksmith": true,
-                "stonehearth:traits:passion_cook": true,
-                "stonehearth:traits:passion_farmer": true,
-                "stonehearth:traits:passion_mason": true,
-                "stonehearth:traits:passion_shepherd": true,
-                "stonehearth:traits:passion_weaver": true,
-                "stonehearth:traits:green_thumb": true,
-                "stonehearth:traits:hothead": true
-            }
-        },
-        "stonehearth:traits:hothead": {
-            "excludes": {
-                "stonehearth:traits:passion_blacksmith": true,
-                "stonehearth:traits:passion_cook": true,
-                "stonehearth:traits:passion_farmer": true,
-                "stonehearth:traits:passion_mason": true,
-                "stonehearth:traits:passion_shepherd": true,
-                "stonehearth:traits:passion_weaver": true,
-                "stonehearth:traits:courageous": true,
-                "stonehearth:traits:green_thumb": true
-            }
-        }
-    }
+   "groups": {
+      "passion_jobs": {
+         "box_o_vox:data:traits:passion_necromancer": {}
+      }
+   }
 }

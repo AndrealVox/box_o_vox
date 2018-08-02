@@ -12,7 +12,8 @@
             "gold": "Gold",
             "brightbell": "Brightbell",
             "potatoes": "Potatoes",
-            "silkweed_bundle": "Silkweed"
+            "silkweed_bundle": "Silkweed",
+            "necro_bundle": "Bundle"
          }
       },
       "buffs": {
@@ -86,25 +87,22 @@
             "random_location_names": {
                "000": "The Box O' Vox"
             },
-            "black_fox": {
-               "display_name": "Black Fox"
-            },
             "seasons": {
                "spring": {
                   "display_name": "Spring",
-                  "description": "Spring"
+                  "description": "The only pretty ring time, when birds do sing."
                },
                "summer": {
                   "display_name": "Summer",
-                  "description": "Summer"
+                  "description": "You can learn a lot of things from the flowers."
                },
                "autumn": {
                   "display_name": "Autumn",
-                  "description": "Autumn"
+                  "description": "Leaves grow old, how full of color are their last days."
                },
                "winter": {
                   "display_name": "Winter",
-                  "description": "Winter"
+                  "description": "Burrr, it's cold in here. Must be some Boxlings in the atmosphere."
                }
             }
          }
@@ -1161,11 +1159,6 @@
                "display_name": "A Pigglet",
                "description": "Aww little piggy"
             }
-         },
-         "black_fox": {
-            "display_name": "Black Fox",
-            "description": "The indigenous animal from the Boxland region. Isn't it soooo cute!",
-            "species": "Black Fox"
          }
       },
       "resources": {
@@ -1197,12 +1190,6 @@
             "hemp_herb": {
                "display_name": "Hemp Sack",
                "description": "These herbs leave your hands and tools coated in sticky residue"
-            }
-         },
-         "pelt": {
-            "black_fox_pelt": {
-               "display_name": "Black Fox Pelt",
-               "description": "The pelt from a black fox"
             }
          },
          "salt_rock": {

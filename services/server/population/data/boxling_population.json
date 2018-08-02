@@ -1,66 +1,104 @@
 {
-    "type": "kingdom",
-    "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
-    "kingdom_id": "boxling",
-    "favored_biome": "box_o_vox:biome:boxland",
-    "quote": "i18n(box_o_vox:data.population.boxling.quote)",
-    "description": "i18n(box_o_vox:data.population.boxling.description)",
-    "post_selection_description": "i18n(box_o_vox:data.population.boxling.post_selection_description)",
-    "image": "/box_o_vox/data/kingdoms/images/boxland_400x300.png",
-    "story_board_image": "/box_o_vox/data/kingdoms/images/story_board_image.png",
-    "starting_talisman": "stonehearth:mason:talisman",
-    "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
-    "initial_town_name": "i18n(box_o_vox:kingdom.initial_town_name)",
-    "camp_standard": "box_o_vox:camp_standard",
-    "job_index": "box_o_vox:jobs:index",
-    "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)",
-    "default_material": "stone resource",
-    "ordinal": 2.0001,
-    "roles": {
-        "default": {
-            "male": {
-                "uri": [
+   "type": "kingdom",
+   "display_name": "i18n(box_o_vox:data.population.boxling.display_name)",
+   "kingdom_id": "boxling",
+   "favored_biome": "box_o_vox:biome:boxland",
+   "quote": "i18n(box_o_vox:data.population.boxling.quote)",
+   "description": "i18n(box_o_vox:data.population.boxling.description)",
+   "post_selection_description": "i18n(box_o_vox:data.population.boxling.post_selection_description)",
+   "image": "/box_o_vox/data/kingdoms/images/boxland_400x300.png",
+   "story_board_image": "/box_o_vox/data/kingdoms/images/story_board_image.png",
+   "starting_talisman": "stonehearth:mason:talisman",
+   "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
+   "initial_town_name": "i18n(box_o_vox:kingdom.initial_town_name)",
+   "camp_standard": "box_o_vox:camp_standard",
+   "job_index": "box_o_vox:jobs:index",
+   "inventory_capacity_equation": "math.max(num_citizens * 420, 9001)",
+   "default_material": "stone resource",
+   "ordinal": 2.0001,
+   "roles": {
+      "default": {
+         "male": {
+            "uri": [
                "box_o_vox:entities:human:male_1"
             ],
-                "given_names": [
-               "Male"
+            "given_names": [
+               "Hibabar",
+               "Bannteat",
+               "Yrachzoarm",
+               "Plecrbops",
+               "Aabus",
+               "Kacore",
+               "Guatinget",
+               "Oren",
+               "Jacmamued",
+               "Mettu",
+               "Trefin",
+               "Carguz",
+               "Ooger",
+               "Baigon",
+               "Tedusa",
+               "Phudoh",
+               "Scidusa",
+               "Wollle",
+               "Budine",
+               "Jegask"
             ]
-            },
-            "female": {
-                "uri": [
+         },
+         "female": {
+            "uri": [
                "box_o_vox:entities:human:female_1"
             ],
-                "given_names": [
-               "Female"
+            "given_names": [
+               "Kelndi",
+               "Saucabra",
+               "Nodra",
+               "Hibacloa",
+               "Alume",
+               "Sheabra",
+               "Chaisisil",
+               "Yarog",
+               "Calamea",
+               "Pepabost",
+               "Gamera",
+               "Mebrao",
+               "Tamez",
+               "Huataa",
+               "Hainu",
+               "Rautrice",
+               "Perylinx",
+               "Grittia",
+               "Nishee",
+               "Erozu"
             ]
-            },
-            "surnames": [
+         },
+         "surnames": [
             "Boxling"
          ],
-            "attribute_distribution": {
-                "allocated_points": {
-                    "min": 15,
-                    "max": 15
-                },
-                "point_limits": {
-                    "mind": {
-                        "min": 5,
-                        "max": 5
-                    },
-                    "body": {
-                        "min": 5,
-                        "max": 5
-                    },
-                    "spirit": {
-                        "min": 5,
-                        "max": 5
-                    }
-                }
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 4,
+               "max": 14
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 2,
+                  "max": 7
+               },
+               "body": {
+                  "min": 2,
+                  "max": 7
+               },
+               "spirit": {
+                  "min": 2,
+                  "max": 7
+               }
             }
-        }
-    },
-    "pet_names": {
-        "default": [
+         }
+      }
+   },
+   "pet_names": {
+      "default": [
          "Fortitude",
          "Stoic",
          "Cheer",
@@ -95,7 +133,7 @@
          "Mercy",
          "Reliance"
       ],
-        "racoon": [
+      "racoon": [
          "Quickness",
          "Deft",
          "Resourceful",
@@ -104,7 +142,7 @@
          "Endurance",
          "Blackpaw"
       ],
-        "red_fox_wolf": [
+      "red_fox_wolf": [
          "Brushfire",
          "Autumn",
          "Crisp",
@@ -112,7 +150,7 @@
          "Heart",
          "Phoenix"
       ],
-        "rabbit": [
+      "rabbit": [
          "Swift",
          "Silence",
          "Quiver",
@@ -121,7 +159,7 @@
          "Leaper",
          "Warmth"
       ],
-        "squirrel": [
+      "squirrel": [
          "Clever",
          "Prudent",
          "Nutcheek",
@@ -129,22 +167,22 @@
          "Nuts",
          "Seeds"
       ],
-        "beetle": [
+      "beetle": [
          "Shell"
       ],
-        "bitsy_ant": [
+      "bitsy_ant": [
          "Hardy"
       ],
-        "doodles": [
+      "doodles": [
          "Hopper",
          "Blackshell",
          "Tremor",
          "Breeze",
          "Frost"
       ]
-    },
-    "town_pieces": {
-        "optional_prefix": [
+   },
+   "town_pieces": {
+      "optional_prefix": [
          "New",
          "North",
          "East",
@@ -152,10 +190,10 @@
          "West",
          "Old"
       ],
-        "town_name": [
+      "town_name": [
          "Boxland"
       ],
-        "suffix": [
+      "suffix": [
          " Valley",
          " Vale",
          " Crossing",
@@ -165,6 +203,6 @@
          " Forest",
          " River"
       ]
-    },
-    "task_groups": "stonehearth:data:player_task_groups"
+   },
+   "task_groups": "stonehearth:data:player_task_groups"
 }

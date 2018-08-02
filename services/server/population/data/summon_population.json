@@ -1,99 +1,98 @@
 {
-   "type": "kingdom",
-   "kingdom_name": "Summon",
-   "kingdom_id": "summon",
-   "amenity_to_strangers": "hostile",
-   "amenity_to_animals": "hostile",
-   "roles": {
-      "skeleton": {
-         "male": {
-            "uri": [
+    "type": "kingdom",
+    "kingdom_name": "Summon",
+    "kingdom_id": "summon",
+    "amenity_to_strangers": "hostile",
+    "roles": {
+        "skeleton": {
+            "male": {
+                "uri": [
                "stonehearth:monsters:undead:skeleton"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Skeleton"
          ]
-      },
-      "bone_wolf": {
-         "male": {
-            "uri": [
+        },
+        "bone_wolf": {
+            "male": {
+                "uri": [
                "stonehearth:monsters:undead:wolf_skeleton"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Bone Wolf"
          ]
-      },
-      "zombie": {
-         "male": {
-            "uri": [
+        },
+        "zombie": {
+            "male": {
+                "uri": [
                "box_o_vox:entities:summon:undead:zombie"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Zombie"
          ]
-      },
-      "golem_kid": {
-         "male": {
-            "uri": [
+        },
+        "golem_kid": {
+            "male": {
+                "uri": [
                "box_o_vox:entities:summon:undead:golem_kid"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Golem Kid"
          ]
-      },
-      "golem": {
-         "male": {
-            "uri": [
+        },
+        "golem": {
+            "male": {
+                "uri": [
                "box_o_vox:entities:summon:undead:golem"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Golem"
          ]
-      },
-      "necromancer": {
-         "male": {
-            "uri": [
+        },
+        "necromancer": {
+            "male": {
+                "uri": [
                "box_o_vox:entities:summon:undead:necromancer"
             ],
-            "given_names": [
+                "given_names": [
                "Steve"
             ]
-         },
-         "surnames": [
+            },
+            "surnames": [
             "the Necromancer"
          ]
-      }
-   },
-   "town_pieces": {
-      "optional_prefix": [
-         "1"
+        }
+    },
+    "town_pieces": {
+        "optional_prefix": [
+         "Eyehait"
       ],
-      "town_name": [
-         "2"
+        "town_name": [
+         "Phat"
       ],
-      "suffix": [
-         "3"
+        "suffix": [
+         "Schicks"
       ]
-   },
-   "task_groups": "stonehearth:data:humanoid_task_groups"
+    },
+    "task_groups": "stonehearth:data:humanoid_task_groups"
 }

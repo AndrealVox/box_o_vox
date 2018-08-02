@@ -93,6 +93,7 @@
       "entities:containers:necro_bundle": "file(entities/containers/necro_bundle/necro_bundle.json)",
       "entities:containers:resources_crate": "file(entities/containers/resources_crate)",
       "entities:containers:treasure_crate": "file(entities/containers/treasure_crate)",
+      "entities:critters:black_fox": "file(entities/critters/black_fox)",
       "entities:critters:cow": "file(entities/critters/cow)",
       "entities:critters:cow:young": "file(entities/critters/cow/cow_young.json)",
       "entities:critters:pig": "file(entities/critters/pig)",
@@ -184,6 +185,7 @@
       "entities:portals:stoned_tunnel_door": "file(entities/construction/stoned_tunnel_door)",
       "entities:refined:cooling_liquid": "file(entities/refined/cooling_liquid)",
       "entities:refined:enchanted_cloth": "file(entities/refined/enchanted_cloth)",
+      "entities:resources:black_fox_pelt": "file(entities/resources/pelt/black_fox_pelt)",
       "entities:resources:fiber:grass_bundle": "file(entities/resources/fiber/grass_bundle/grass_bundle.json)",
       "entities:resources:fiber:hemp_fiber_bundle": "file(entities/resources/fiber/hemp_fiber_bundle)",
       "entities:resources:herb:daisy": "file(entities/resources/herb/daisy)",
@@ -330,17 +332,6 @@
       "stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
       "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
-      "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-
-      "stonehearth/entities/crops/brightbell_crop/brightbell_crop.json": "file(entities/crops/brightbell_crop/brightbell_crop.json)",
-      "stonehearth/entities/crops/carrot_crop/carrot_crop.json": "file(entities/crops/carrot_crop/carrot_crop.json)",
-      "stonehearth/entities/crops/corn_crop/corn_crop.json": "file(entities/crops/corn_crop/corn_crop.json)",
-      "stonehearth/entities/crops/frostsnap_crop/frostsnap_crop.json": "file(entities/crops/frostsnap_crop/frostsnap_crop.json)",
-      "stonehearth/entities/crops/oak_tree_crop/oak_tree_crop.json": "file(entities/crops/oak_tree_crop/oak_tree_crop.json)",
-      "stonehearth/entities/crops/pumpkin_crop/pumpkin_crop.json": "file(entities/crops/pumpkin_crop/pumpkin_crop.json)",
-      "stonehearth/entities/crops/silkweed_crop/silkweed_crop.json": "file(entities/crops/silkweed_crop/silkweed_crop.json)",
-      "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
-      "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
 
       "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
 
@@ -358,6 +349,8 @@
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
       "stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
       "stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
+      "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
+      "stonehearth:red_fox_wolf": "box_o_vox:entities:critters:black_fox",
       "stonehearth/ui/game/create_camp/create_camp.html": "file(ui/game/create_camp/create_camp.html)",
       "stonehearth/ui/game/create_camp/create_camp.js": "file(ui/game/create_camp/create_camp.js)",
       "stonehearth/ui/game/create_camp/create_camp.less": "file(ui/game/create_camp/create_camp.less)"

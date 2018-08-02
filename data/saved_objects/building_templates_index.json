@@ -8,7 +8,6 @@
                     "display_name": "i18n(box_o_vox:data.saved_objects.building_templates_index.template_tabs.box_o_vox.categories.camp)",
                     "ordinal": 1,
                     "templates": {
-                        "chateau_boxling": "file(building_templates/chateau_boxling.json)",
                         "solo_hut": "file(building_templates/solo_hut.json)",
                         "double_trouble": "file(building_templates/double_trouble.json)",
                         "banquet_hall": "file(building_templates/banquet_hall.json)",

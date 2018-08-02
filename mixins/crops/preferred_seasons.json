@@ -1,9 +1,0 @@
-{
-   "components": {
-      "stonehearth:growing": {
-         "preferred_seasons": {
-            "stonehearth:biome:temperate": ["spring", "summer", "autumn", "winter"]
-         }
-      }
-   }
-}

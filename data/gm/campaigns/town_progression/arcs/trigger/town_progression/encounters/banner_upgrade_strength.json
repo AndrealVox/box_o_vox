@@ -11,8 +11,8 @@
    },
    "town_upgrade_info": {
       "tier_achieved": 1,
-      "old_facility_uri": "northern_alliance:na_camp_standard",
-      "new_facility_uri": "northern_alliance:banner:strength",
+      "old_facility_uri": "box_o_vox:camp_standard",
+      "new_facility_uri": "box_o_vox:banner:strength",
       "town_bonus": "stonehearth:town_bonus:strength",
       "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
       "conversation_subjects": [
@@ -21,7 +21,7 @@
          "northern_alliance:banner:strength"
       ],
       "thought": "stonehearth:thoughts:town:progression:outpost",
-      "celebration_duration": "1h15m+5m",
+      "celebration_duration": "15m+5m",
       "dialog": {
          "title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.title)",
          "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.banner_upgrade.dialog_title)",

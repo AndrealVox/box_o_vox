@@ -21,7 +21,7 @@
          "dialog_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.dialog_title)",
          "tier_title": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.tier_title)",
          "reward_message": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message)",
-         "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.reward_message_ctd)",
+         "reward_message_ctd": "i18n(northern_alliance:data.gm.campaigns.town_progression.shrine_upgrade.reward_message_ctd)",
          "achievements": [
             {
                "id": "craftsman_bonus",

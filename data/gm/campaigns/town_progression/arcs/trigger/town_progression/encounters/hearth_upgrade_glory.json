@@ -5,7 +5,7 @@
    "out_edge": "delay_before_shrine_foreshadow",
    "town_upgrade_info": {
       "old_facility_uri": "stonehearth:decoration:firepit_hearth",
-      "new_facility_uri": "stonehearth:decoration:hearth:glory",
+      "new_facility_uri": "northern_alliance:decoration:hearth:magma",
       "town_bonus": "stonehearth:town_bonus:glory",
       "tier_achieved": 2,
       "finish_event": "stonehearth:tier_2_reached",
@@ -60,13 +60,8 @@
       "npcs": [
          {
             "faction": "human_npcs",
-            "role": "herald_harold",
-            "gender": "male"
-         },
-         {
-            "faction": "human_npcs",
-            "role": "herald_mer",
-            "gender": "male"
+            "role": "herald_ronia",
+            "gender": "female"
          }
       ]
    }

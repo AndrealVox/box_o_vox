@@ -1,7 +1,7 @@
 {
    "type": "recipe",
    "effort": 50,
-   "work_units": 5.2,
+   "work_units": 5,
    "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.description)",
    "flavor": "i18n(box_o_vox:jobs.cleric.recipes.necromancer_tome_recipe.flavor)",

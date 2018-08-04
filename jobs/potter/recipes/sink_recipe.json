@@ -1,5 +1,6 @@
 {
    "type": "recipe",
+   "effort": 30,
    "work_units": 10,
    "recipe_name": "i18n(box_o_vox:jobs.potter.recipes.sink_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.potter.recipes.sink_recipe.description)",

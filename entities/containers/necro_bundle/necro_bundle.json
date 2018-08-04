@@ -78,8 +78,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "Necromancer Bundle",
-         "description": "Harvest for many items related to becoming a Necromancer"
+         "display_name": "i18n(box_o_vox:entities.containers.necro_bundle.display_name)",
+         "description": "i18n(box_o_vox:entities.containers.necro_bundle.description)"
       },
       "stonehearth:appeal": {
          "appeal": -100

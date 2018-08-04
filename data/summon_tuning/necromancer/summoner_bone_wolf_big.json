@@ -1,17 +1,17 @@
 {
-    "type": "monster_tuning",
-    "estimated_difficulty": 2.75,
-    "scale": 0.2,
-    "attributes": {
-        "max_health": 50,
-        "muscle": 40,
-        "menace": 10,
-        "courage": 500,
-        "speed": 180
-    },
-    "equipment": {
-        "weapon": [
+   "type": "monster_tuning",
+   "estimated_difficulty": 4,
+   "scale": 0.2,
+   "attributes": {
+      "max_health": 130,
+      "muscle": 65,
+      "menace": 500,
+      "courage": 500,
+      "speed": 140
+   },
+   "equipment": {
+      "weapon": [
          "stonehearth:weapons:animals:wolf_teeth"
       ]
-    }
+   }
 }

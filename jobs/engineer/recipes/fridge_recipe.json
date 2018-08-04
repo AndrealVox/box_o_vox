@@ -1,5 +1,6 @@
 {
    "type": "recipe",
+   "effort": 30,
    "work_units": 15,
    "recipe_name": "i18n(box_o_vox:jobs.potter.recipes.fridge_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.potter.recipes.fridge_recipe.description)",

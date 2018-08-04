@@ -3,9 +3,9 @@
    "estimated_difficulty": 1,
    "scale": 0.05,
    "attributes": {
-      "max_health": 20,
-      "muscle": 10,
-      "menace": 5,
+      "max_health": 100,
+      "muscle": 50,
+      "menace": 500,
       "courage": 500,
       "speed": 100
    },

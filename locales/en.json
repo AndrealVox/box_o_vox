@@ -70,6 +70,10 @@
                "description": "The howls are getting louder.",
                "display_name": "Bone Wolf"
             }
+         },
+         "promote_to_job": {
+            "display_name": "Assign to job",
+            "description": "Assign this citizen to a job."
          }
       },
       "population": {
@@ -449,6 +453,10 @@
                "display_name": "Treasure Crate",
                "description": "A Crate For Treasure"
             }
+         },
+         "necro_bundle": {
+            "display_name": "Necromancer Starter Bundle",
+            "description": "Loot this for a handful of items to help speed your way to becoming a necromancer."
          }
       },
       "decoration": {
@@ -571,6 +579,10 @@
                "display_name": "Stone Bed",
                "description": "A stone bed"
             }
+         },
+         "stone_comfy_chair": {
+            "display_name": "Comfy Stone Chair",
+            "description": "For sitting."
          }
       },
       "refined": {
@@ -1203,6 +1215,9 @@
                "display_name": "Hemp Bundle",
                "description": "A bundle of hemp fibers."
             }
+         },
+         "grass_bundle": {
+            "display_name": "Grass Bundle"
          }
       },
       "tools": {
@@ -1223,6 +1238,12 @@
          "boxling_statue": {
             "description": "A rock formation shaped like the almighty Boxlings, from which all has been given to us, the GODs of Boxland.",
             "display_name": "Boxling Formation"
+         }
+      },
+      "mixtures": {
+         "basic": {
+            "display_name": "Flask",
+            "description": "a flask"
          }
       }
    },

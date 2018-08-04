@@ -84,8 +84,6 @@
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
       "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)",
       "entities:abilities:summon_necro_abilities": "file(entities/abilities/summon_necromancer_abilities.json)",
-      "entities:armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
-      "entities:armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
       "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
       "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
       "entities:containers:food_crate": "file(entities/containers/food_crate)",
@@ -291,7 +289,7 @@
       "startmenu": "file(data/ui/start_menu.json)"
    },
    "components": {
-      "summon": "file(components/summon/summon_component)"
+      "summon": "file(components/summon/summon_component.lua)"
    },
    "mixintos": {
       "stonehearth:jobs:index": "file(jobs/index_mixin.json)",
@@ -357,13 +355,9 @@
       "stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
       "stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)",
       "stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
-      "stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
-      "stonehearth/ui/game/create_camp/create_camp.html": "file(ui/game/create_camp/create_camp.html)",
-      "stonehearth/ui/game/create_camp/create_camp.js": "file(ui/game/create_camp/create_camp.js)",
-      "stonehearth/ui/game/create_camp/create_camp.less": "file(ui/game/create_camp/create_camp.less)"
+      "stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)"
    },
    "controllers": {
-      "class:alchemist": "file(jobs/alchemist/alchemist.lua)",
       "class:cleric": "file(jobs/cleric/cleric.lua)",
       "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
    },

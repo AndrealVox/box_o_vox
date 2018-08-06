@@ -16,11 +16,20 @@
       "ai:actions:combat:summon:execute_summon": "file(ai/actions/combat/summon/execute_summon_action.lua)",
       "ai:actions:combat:summon:from_current_location": "file(ai/actions/combat/summon/summon_from_current_location_action.lua)",
       "ai:packs:summoning": "file(ai/packs/summoning_ai_pack.json)",
+      "armor:paladins_shield": "file(entities/armor/paladins_shield/paladins_shield.json)",
       "banner:cunning": "file(entities/gizmos/na_town_banner_guardian/na_town_banner_guardian.json)",
       "banner:strength": "file(entities/gizmos/na_town_banner_might/na_town_banner_might.json)",
       "banner:vitality": "file(entities/gizmos/na_town_banner_nature/na_town_banner_nature.json)",
       "biome:boxland": "file(data/biome/boxland.json)",
+      "buffs:paladin:courage_aura": "file(jobs/paladin/paladin_buffs/courage_aura_buff.json)",
+      "buffs:paladin:courage_aura_effect": "file(jobs/paladin/paladin_buffs/courage_aura_effect_buff.json)",
+      "buffs:paladin:defense_1": "file(jobs/paladin/paladin_buffs/defense_1_buff.json)",
+      "buffs:paladin:defense_2": "file(jobs/paladin/paladin_buffs/defense_2_buff.json)",
+      "buffs:paladin:health_1": "file(jobs/paladin/paladin_buffs/health_1_buff.json)",
+      "buffs:paladin:health_2": "file(jobs/paladin/paladin_buffs/health_2_buff.json)",
+      "buffs:paladin:taunted_effect": "file(jobs/paladin/paladin_buffs/taunted_effect_buff.json)",
       "camp_standard": "file(entities/gizmos/camp_standard)",
+      "class:paladin": "file(jobs/paladin/paladin.lua)",
       "data:buffs:scripts:desummon": "file(data/buffs/scripts/desummon_script.lua)",
       "data:buffs:summon_timer": "file(data/buffs/necromancy/summon_timer_buff.json)",
       "data:build:brushes:pattern:vox_cobblestone": "file(data/build/brushes/pattern/vox_cobblestone/vox_cobblestone.qb)",
@@ -79,6 +88,7 @@
       "data:summon_tuning:necromancer:summoner_zombie_kid": "file(data/summon_tuning/necromancer/summoner_zombie_kid.json)",
       "data:terrain:landmark_blocks": "file(data/terrain/landmark_blocks.json)",
       "data:thoughts": "file(data/happiness/thoughts.json)",
+      "data:traits:necromancer": "file(data/traits/necromancer/necromancer.json)",
       "data:traits:passion_necromancer": "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
       "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
       "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
@@ -235,9 +245,9 @@
       "jobs:alchemist:talisman": "file(jobs/alchemist/alchemist_flask_sword/alchemist_flask_sword_talisman.json)",
       "jobs:alchemist:workbench": "file(jobs/alchemist/alchemist_workbench)",
       "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
+      "jobs:cleric:workbench": "file(jobs/cleric/cleric_workbench)",
       "jobs:cook": "file(jobs/cook/cook_description.json)",
       "jobs:farmer": "file(jobs/farmer/farmer_description.json)",
-      "jobs:cleric:workbench": "file(jobs/cleric/cleric_workbench)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:necromancer": "file(jobs/necromancer/necromancer_description.json)",
       "jobs:necromancer:abilities:necromancer_abilities": "file(jobs/necromancer/necromancer_abilities/necromancer_abilities.json)",
@@ -260,6 +270,7 @@
       "jobs:necromancer:spells:zombie": "file(jobs/necromancer/pages/zombie_summon_page.json)",
       "jobs:necromancer:spells:zombie_kid": "file(jobs/necromancer/pages/zombie_kid_summon_page.json)",
       "jobs:necromancer:talisman": "file(jobs/necromancer/necromancer_tome/necromancer_tome_talisman.json)",
+      "jobs:paladin": "file(jobs/paladin/paladin_description.json)",
       "jobs:recipes:blacksmith": "file(jobs/blacksmith/recipes/recipes.json)",
       "jobs:recipes:carpenter": "file(jobs/carpenter/recipes/recipes.json)",
       "jobs:recipes:cook": "file(jobs/cook/recipes/recipes.json)",
@@ -280,6 +291,9 @@
       "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
       "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
       "mixins:summons": "file(mixins/base_summon)",
+      "paladin:aggro_shout_1": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_1.json)",
+      "paladin:aggro_shout_2": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_2.json)",
+      "paladin:talisman": "file(entities/armor/paladins_shield/shield_talisman.json)",
       "resource_constants": "file(data/resource_constants.json)",
       "scenarios:scenario_index": "file(scenarios/scenario_index.json)",
       "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
@@ -329,7 +343,6 @@
       "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
       "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
       "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
-
       "stonehearth/entities/crops/brightbell_crop/brightbell_crop.json": "file(entities/crops/brightbell_crop/brightbell_crop.json)",
       "stonehearth/entities/crops/carrot_crop/carrot_crop.json": "file(entities/crops/carrot_crop/carrot_crop.json)",
       "stonehearth/entities/crops/corn_crop/corn_crop.json": "file(entities/crops/corn_crop/corn_crop.json)",
@@ -339,9 +352,7 @@
       "stonehearth/entities/crops/silkweed_crop/silkweed_crop.json": "file(entities/crops/silkweed_crop/silkweed_crop.json)",
       "stonehearth/entities/crops/turnip_crop/turnip_crop.json": "file(entities/crops/turnip_crop/turnip_crop.json)",
       "stonehearth/entities/crops/wheat_crop/wheat_crop.json": "file(entities/crops/wheat_crop/wheat_crop.json)",
-
       "betterstorage/ui/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-
       "box_o_vox:entities:plants:blueberry_bush": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
       "box_o_vox:entities:plants:daisy": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
       "box_o_vox:entities:plants:firebeard": "autoharvest_mod/mixins/renewable_resource_node/show_autoharvest_ui.json",
@@ -359,11 +370,13 @@
    },
    "controllers": {
       "class:cleric": "file(jobs/cleric/cleric.lua)",
-      "class:necromancer": "file(jobs/necromancer/necromancer.lua)"
+      "class:paladin": "file(jobs/paladin/paladin.lua)",
+      "class:necromancer": "file(jobs/necromancer/necromancer.lua)",
+      "trait_scripts:necromancer": "file(data/traits/necromancer/necromancer.lua)"
    },
    "ui": {
       "less": [
-            "file(jobs/cleric/skin/workshop.less)"
-        ]
+         "file(jobs/cleric/skin/workshop.less)"
+      ]
    }
 }

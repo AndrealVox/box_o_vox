@@ -3,5 +3,29 @@
       "passion_jobs": {
          "box_o_vox:data:traits:passion_necromancer": {}
       }
+   },
+   "traits": {
+      "box_o_vox:data:traits:necromancer": {
+         "excludes": {
+            "stonehearth:traits:passion_archer": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_cook": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_mason": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:heart_of_a_crafter": true,
+            "stonehearth:traits:green_thumb": true
+         }
+      }
    }
 }

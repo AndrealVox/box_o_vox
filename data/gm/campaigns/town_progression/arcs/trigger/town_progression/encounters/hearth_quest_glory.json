@@ -25,7 +25,7 @@
          },
          {
             "type": "job_level",
-            "uri": "stonehearth:jobs:knight",
+            "uri": "box_o_vox:jobs:paladin",
             "level": 3
          }
       ],

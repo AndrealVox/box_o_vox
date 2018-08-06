@@ -211,6 +211,11 @@
             "cooling_liquid_recipe": {
                "recipe_name": "Cooling Liquid",
                "description": "odd how it keeps so cool"
+            },
+            "paladins_shield_recipe": {
+               "recipe_name": "Paladin's Shield",
+               "description": "Required to promote a hearthling to a paladin",
+               "flavor": "With this holy shield, a paladin will arise."
             }
          },
          "cleric_workbench": {

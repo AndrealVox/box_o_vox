@@ -11,14 +11,14 @@
          "display_name": "i18n(autoharvest_mod:data.commands.autoharvest_on.display_name)",
          "category": "ui",
          "ordinal": 610,
-         "combo1": "ctrl+keyo",
+         "combo1": "keyu",
          "combo2": ""
       },
       "harvest:auto_harvest_off": {
          "display_name": "i18n(autoharvest_mod:data.commands.autoharvest_off.display_name)",
          "category": "ui",
          "ordinal": 620,
-         "combo1": "shift+keyo",
+         "combo1": "keyu",
          "combo2": ""
       }
    }

@@ -11,8 +11,8 @@
    },
    "town_upgrade_info": {
       "tier_achieved": 1,
-      "old_facility_uri": "northern_alliance:na_camp_standard",
-      "new_facility_uri": "northern_alliance:banner:vitality",
+      "old_facility_uri": "box_o_vox:camp_standard",
+      "new_facility_uri": "box_o_vox:banner:vitality",
       "town_bonus": "stonehearth:town_bonus:vitality",
       "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
       "conversation_subjects": [

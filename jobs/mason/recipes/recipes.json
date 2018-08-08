@@ -4,6 +4,9 @@
          "recipes": {
             "trapper_knife": {
                "recipe": "file(trapper_knife_recipe.json)"
+            },
+            "wooden_sword": {
+               "recipe": "file(stone_sword_recipe.json)"
             }
          }
       },

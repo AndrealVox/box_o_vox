@@ -3,6 +3,9 @@
    "jobs": {
       "stonehearth:jobs:worker": {
          "description": "box_o_vox:jobs:worker"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "box_o_vox:jobs:cook"
       }
    }
 }

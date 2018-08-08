@@ -235,6 +235,11 @@
             "display_name": "Weaver"
          }
       },
+      "paladin": {
+         "paladin_description": {
+            "display_name": "Paladin"
+         }
+      },
       "potter": {
          "recipes": {
             "bathtub_recipe": {

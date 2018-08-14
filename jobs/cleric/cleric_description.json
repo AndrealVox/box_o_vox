@@ -41,7 +41,7 @@
       "town_protection": 1
    },
    "crafter": {
-      "work_effect": "box_o_vox:data:effects:summon_necronomicon",
+      "work_effect": "herbalist_grind",
       "recipe_list": "/box_o_vox/jobs/cleric/recipes/recipes.json"
    },
    "workshop": {

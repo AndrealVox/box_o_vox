@@ -22,16 +22,15 @@
       "stonehearth/ui/root/css/images/gui/well2.png": "file(gui/well2.png)",
       "stonehearth/ui/root/css/images/gui/tab.png": "file(gui/tab.png)",
       "stonehearth/ui/root/css/images/gui/tab_active.png": "file(gui/tab_active.png)",
-      "stonehearth/entities/gizmos/camp_standard/camp_standard.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard.json",
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_ghost.json",
-      "stonehearth/entities/gizmos/camp_standard/camp_standard_iconic.json": "box_o_vox/entities/gizmos/camp_standard/camp_standard_iconic.json",
       "stonehearth/ui/game/create_camp/create_camp.less": "file(game/create_camp/create_camp.less)",
       "stonehearth/ui/game/create_camp/images/banner.png": "file(game/create_camp/images/banner.png)"
    },
    "ui": {
       "less": [
          "file(unit_frame/unit_frame.less)",
-         "file(gui/gui.less)"
+         "file(gui/gui.less)",
+         "file(game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)"
       ]
    }
 }

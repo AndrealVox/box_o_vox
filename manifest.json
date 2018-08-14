@@ -1,6 +1,6 @@
 {
    "info": {
-      "name": "The Box O' Vox Stonehearth Mod",
+      "name": "Box O' Vox",
       "namespace": "box_o_vox",
       "version": 3,
       "steam_file_id": "1359693360"
@@ -27,6 +27,8 @@
       "buffs:paladin:defense_2": "file(jobs/paladin/paladin_buffs/defense_2_buff.json)",
       "buffs:paladin:health_1": "file(jobs/paladin/paladin_buffs/health_1_buff.json)",
       "buffs:paladin:health_2": "file(jobs/paladin/paladin_buffs/health_2_buff.json)",
+      "buffs:paladin:heal_aura": "file(jobs/paladin/paladin_buffs/heal_aura_buff.json)",
+      "buffs:paladin:heal_aura_effect": "file(jobs/paladin/paladin_buffs/heal_aura_effect_buff.json)",
       "buffs:paladin:taunted_effect": "file(jobs/paladin/paladin_buffs/taunted_effect_buff.json)",
       "camp_standard": "file(entities/gizmos/camp_standard)",
       "class:paladin": "file(jobs/paladin/paladin.lua)",
@@ -105,6 +107,7 @@
       "entities:critters:cow:young": "file(entities/critters/cow/cow_young.json)",
       "entities:critters:pig": "file(entities/critters/pig)",
       "entities:critters:pig:young": "file(entities/critters/pig/pig_young.json)",
+      "entities:critters:wolf_fox": "file(entities/critters/wolf_fox/wolf_fox.json)",
       "entities:crops:potato_crop": "file(entities/crops/potato_crop)",
       "entities:crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
       "entities:crops:tomato_crop": "file(entities/crops/tomato_crop)",
@@ -285,6 +288,7 @@
       "jobs:worker:winter_boxling_outfit": "file(jobs/worker/winter_boxling_outfit)",
       "landmark:boxling_mountain": "file(data/models/landmark/boxling_mountain/boxling_mountain.qb)",
       "landmark:boxling_mountain:stamp": "file(entities/landmark/boxling_mountain)",
+      "loot_bag:wolf_fox_default": "file(data/loot_bag/wolf_fox_default.json)",
       "mixins:base_human": "file(mixins/base_human)",
       "mixins:plant": "file(mixins/plant)",
       "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
@@ -294,6 +298,7 @@
       "paladin:aggro_shout_2": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_2.json)",
       "paladin:talisman": "file(entities/armor/paladins_shield/shield_talisman.json)",
       "resource_constants": "file(data/resource_constants.json)",
+      "resources:wolf_fox_pelt": "file(entities/resources/pelt/wolf_fox_pelt/wolf_fox_default.json)",
       "scenarios:scenario_index": "file(scenarios/scenario_index.json)",
       "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
       "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",

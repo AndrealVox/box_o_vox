@@ -20,6 +20,13 @@
          "ordinal": 620,
          "combo1": "keyu",
          "combo2": ""
+      },
+      "ui:undeploy_item": {
+         "display_name": "i18n(stonehearth:data.hotkeys.keys.ui_undeploy_item.display_name)",
+         "category": "ui",
+         "ordinal": 80,
+         "combo1": "shift+keyu",
+         "combo2": ""
       }
    }
 }

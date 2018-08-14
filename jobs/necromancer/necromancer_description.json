@@ -20,7 +20,6 @@
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:healing",
       "stonehearth:task_groups:rescue"
    ],
    "icon": "file(images/icon.png)",
@@ -36,36 +35,6 @@
    "level_data": {
       "1": {
          "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_000_name)",
-               "id": "cleric_heal_aura_2",
-               "icon": "file(images/necromancer_perk_healing_aura.png)",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_2",
-               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_000_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
-            },
-            {
-               "type": "apply_buff",
-               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_001_name)",
-               "id": "cleric_compassion_buff_2",
-               "icon": "file(images/healing_master.png)",
-               "buff_name": "stonehearth:buffs:cleric:compassion_2",
-               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_001_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
-            },
-            {
-               "type": "apply_buff",
-               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_002_name)",
-               "id": "cleric_courage_aura_2",
-               "icon": "file(images/necromancer_perk_raise_muscle.png)",
-               "buff_name": "stonehearth:buffs:cleric:major_muscle_aura",
-               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_002_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
-            },
             {
                "type": "add_combat_action",
                "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_0_data.perk_003_name)",

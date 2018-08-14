@@ -5,23 +5,14 @@
    "icon": "file(passion_paladin_trait.png)",
    "script_controller": "box_o_vox:trait_scripts:paladin",
    "attribute_modifiers": {
-      "courage": {
-         "add": 300
-      },
-      "inspiration": {
-         "add": 5
-      },
-      "diligence": {
-         "add": 300
+      "muscle": {
+         "add": -20
       },
       "multiplicative_dmg_modifier": {
-         "add": 0.5
-      },
-      "menace": {
-         "add": 100
+         "add": 0.25
       },
       "max_health": {
-         "add": 150
+         "add": 50
       }
    },
    "data": {

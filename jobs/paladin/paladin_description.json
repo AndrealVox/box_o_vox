@@ -42,7 +42,7 @@
                "name": "Healing Aura",
                "id": "paladin_heal_aura",
                "icon": "file(images/paladin_perk_healing_aura.png)",
-               "buff_name": "stonehearth:buffs:cleric:heal_aura_1",
+               "buff_name": "box_o_vox:buffs:paladin:heal_aura",
                "description": "The paladin heals everyone around",
                "level": 1,
                "demote_fn": "remove_buff"
@@ -104,7 +104,7 @@
                "icon": "file(images/paladin_perk_def_up_2.png)",
                "buff_name": "box_o_vox:buffs:paladin:defense_2",
                "last_buff": "box_o_vox:buffs:paladin:defense_1",
-               "description": "The paladin gains an additional 50% armor from equipment",
+               "description": "The paladin gains an additional 40% armor from equipment",
                "level": 3,
                "demote_fn": "remove_buff"
             }

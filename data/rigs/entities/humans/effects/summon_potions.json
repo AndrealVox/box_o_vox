@@ -4,18 +4,42 @@
       "animation": {
          "type": "animation_effect",
          "start_time": 0,
-         "animation": "promote.json",
-         "loop": false
+         "animation": "herbalist_grind.json",
+         "loop": true
       },
-      "harp_loop": {
-         "type": "sound_effect",
-         "loop": false,
+      "grab_mortar": {
+         "type": "attach_item_effect",
          "start_time": 0,
-         "min_distance": 20,
-         "max_instances": 5,
-         "falloff": 3,
-         "volume": 80,
-         "track": "stonehearth:sounds:twinkle"
+         "end_time": 0,
+         "item": "stonehearth:herbalist:mortar",
+         "bone": "offHand"
+      },
+      "grab_pestle": {
+         "type": "attach_item_effect",
+         "start_time": 0,
+         "end_time": 0,
+         "item": "stonehearth:herbalist:pestle",
+         "bone": "mainHand"
+      },
+      "sound": {
+         "type": "sound_effect",
+         "start_time": 50,
+         "min_distance": 27,
+         "falloff": 5,
+         "volume": 60,
+         "track": {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:herbalist_grind_01",
+               "stonehearth:sounds:herbalist_grind_02",
+               "stonehearth:sounds:herbalist_grind_03",
+               "stonehearth:sounds:herbalist_grind_04",
+               "stonehearth:sounds:herbalist_grind_05",
+               "stonehearth:sounds:herbalist_grind_06",
+               "stonehearth:sounds:herbalist_grind_07",
+               "stonehearth:sounds:herbalist_grind_08"
+            ]
+         }
       },
       "talisman_effect": {
          "type": "cubemitter",

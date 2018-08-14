@@ -37,9 +37,6 @@ radiant.events.listen(box_o_vox, 'radiant:init', function()
       end)
    end)
 
-local log = radiant.log.create_logger('log')
-log:error("Box o' Vox client: Alpha 23 mod")
-
 function box_o_vox:_on_init()
     local CustomPortraitRendererService = require('services.client.portrait_renderer.portrait_renderer_service')
     local PortraitRendererService = radiant.mods.require('stonehearth.services.client.portrait_renderer.portrait_renderer_service')

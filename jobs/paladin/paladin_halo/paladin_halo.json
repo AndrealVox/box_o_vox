@@ -28,7 +28,7 @@
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 4
+         "base_damage_reduction": 1
       },
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.paladin.paladin_halo.display_name)",

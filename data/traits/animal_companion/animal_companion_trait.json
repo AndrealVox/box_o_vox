@@ -6,7 +6,7 @@
    "script_controller": "stonehearth:trait_scripts:animal_companion",
    "data": {
       "possible_companions": [
-         "stonehearth:red_fox_wolf"
+         "box_o_vox:entities:critters:wolf_fox"
       ],
       "default_species": "companion"
    }

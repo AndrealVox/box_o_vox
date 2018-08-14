@@ -16,7 +16,7 @@
             "minimum_damage": 0,
             "inflictable_debuffs": {
                "infection": {
-                  "uri": "stonehearth:buffs:paladin:taunted_effect",
+                  "uri": "box_o_vox:buffs:paladin:taunted_effect",
                   "chance": 1.0
                }
             },
@@ -28,7 +28,7 @@
                "aoe_target_limit": 12,
                "inflictable_debuffs": {
                   "infection": {
-                     "uri": "stonehearth:buffs:paladin:taunted_effect",
+                     "uri": "box_o_vox:buffs:paladin:taunted_effect",
                      "chance": 1.0
                   }
                }

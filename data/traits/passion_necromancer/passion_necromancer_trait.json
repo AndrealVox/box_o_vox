@@ -8,18 +8,6 @@
       "social_loss_amount": {
          "add": -0.5
       },
-      "courage": {
-         "add": 200
-      },
-      "inspiration": {
-         "add": 3
-      },
-      "diligence": {
-         "add": 200
-      },
-      "menace": {
-         "add": -50
-      },
       "max_health": {
          "add": 50
       }

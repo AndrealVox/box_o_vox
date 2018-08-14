@@ -1,12 +1,12 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Defense Up 50%",
-   "description": "Defense gained from equipment increased by 50%",
+   "display_name": "Damage Reduction Rank 4",
+   "description": "Defense gained from equipment increased by 40%",
    "icon": "file(paladin_buff_def_up_2.png)",
    "modifiers": {
       "multiplicative_armor_modifier": {
-         "add": 0.5
+         "add": 0.4
       }
    }
 }

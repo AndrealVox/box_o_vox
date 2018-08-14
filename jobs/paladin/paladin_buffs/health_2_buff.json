@@ -1,18 +1,21 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Fortify (Rank 2)",
+   "display_name": "Fortify (Rank 4)",
    "description": "More fast, more furious",
    "icon": "file(paladin_buff_fortify.png)",
    "modifiers": {
       "stamina": {
          "add": 250
       },
-      "courage": {
-         "add": 250
+      "muscle": {
+         "add": -20
       },
       "menace": {
          "add": 200
+      },
+      "max_health": {
+         "add": 50
       }
    }
 }

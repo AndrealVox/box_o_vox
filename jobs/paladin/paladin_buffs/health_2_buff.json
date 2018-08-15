@@ -8,9 +8,6 @@
       "stamina": {
          "add": 250
       },
-      "muscle": {
-         "add": -20
-      },
       "menace": {
          "add": 200
       },

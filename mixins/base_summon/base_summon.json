@@ -4,12 +4,13 @@
    "components": {
       "stonehearth:ai": {},
       "stonehearth:posture": {},
-      "stonehearth:trivial_death" : {},
+      "stonehearth:trivial_death": {},
       "stonehearth:job": {
          "starting_level_title": "i18n(box_o_vox:box_o_vox_mixins.monster.job.starting_level_title)",
          "default_level_title": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_level_title)",
          "default_level_announcement": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_level_announcement)",
-         "xp_equation_for_next_level": "next_level ^ 2 * 100",
+         "default_promote_announcement": "i18n(box_o_vox:box_o_vox_mixins.monster.job.default_promote_announcement)",
+         "xp_equation_for_next_level": "curr_level ^ 2 * 100",
          "levels_between_attribute_increase": 10,
          "level_data": {
             "general_description_desc": "i18n(box_o_vox:box_o_vox_mixins.monster.job.general_description_desc)",
@@ -59,6 +60,10 @@
       "stonehearth:entity_radius": 0.75,
       "stonehearth:entity_reach": 1.0,
       "stonehearth:ai_packs": {
+         "actions": [
+            "stonehearth:actions:depart_visible_area",
+            "stonehearth:actions:depart_visible_area_in_place"
+         ],
          "packs": [
             "stonehearth:ai_pack:humanoid",
             "stonehearth:ai_pack:combat",

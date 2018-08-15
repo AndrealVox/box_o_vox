@@ -3,11 +3,6 @@
    "kingdom_name": "Summon",
    "kingdom_id": "summon",
    "amenity_to_strangers": "hostile",
-   "amenity_to_animals": "hostile",
-   "amenity_to": {
-      "animals": "hostile",
-      "strangers": "hostile"
-   },
    "roles": {
       "skeleton": {
          "male": {

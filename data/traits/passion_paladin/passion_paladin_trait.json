@@ -5,9 +5,6 @@
    "icon": "file(passion_paladin_trait.png)",
    "script_controller": "box_o_vox:trait_scripts:paladin",
    "attribute_modifiers": {
-      "muscle": {
-         "add": -20
-      },
       "multiplicative_dmg_modifier": {
          "add": 0.25
       },

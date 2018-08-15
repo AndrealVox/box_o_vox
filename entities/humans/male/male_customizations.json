@@ -129,6 +129,12 @@
             },
             "vox_beard_3": {
                "file": "file(vox_beard_3.qb)"
+            },
+            "vox_beard_4": {
+               "file": "file(vox_beard_4.qb)"
+            },
+            "vox_beard_5": {
+               "file": "file(vox_beard_5.qb)"
             }
          }
       },

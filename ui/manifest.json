@@ -2,6 +2,7 @@
    "info": {
       "name": "box_o_vox_ui",
       "deferred_load": true,
+      "client_only": true,
       "version": 3
    },
    "aliases": {},

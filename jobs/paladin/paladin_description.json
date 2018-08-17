@@ -22,6 +22,10 @@
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest",
       "stonehearth:task_groups:healing",
       "stonehearth:task_groups:rescue"
    ],
@@ -33,6 +37,7 @@
    "icon": "file(images/icon.png)",
    "parent_job": "stonehearth:jobs:knight",
    "parent_level_requirement": 3,
+   "initial_num_attended_hearthlings": 4,
    "max_level": 5,
    "level_data": {
       "1": {

@@ -89,7 +89,8 @@
                },
                "facial_hair": {
                   "weights": {
-                     "[none]": 1
+                     "[none]": 1,
+                     "vox_beard_1": 0.1
                   }
                },
                "head_hair": {

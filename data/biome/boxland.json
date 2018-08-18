@@ -14,9 +14,7 @@
    },
    "mining_loot_table": "file(boxland_mining_loot_table.json)",
    "generation_file": "file(boxland_generation_data.json)",
-   "growth_duration_multiplier": 2.00,
-   "decay_multiplier": 0.55,
-   "default_starting_season": "autumn",
+   "default_starting_season": "spring",
    "seasons": {
       "spring": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.spring.display_name)",
@@ -25,92 +23,104 @@
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
-               "weight": 27
-      },
+               "weight": 11
+            },
             {
                "uri": "stonehearth:weather:rain",
-               "weight": 2
-      },
+               "weight": 3
+            },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 70
-      },
+               "weight": 11
+            },
             {
                "uri": "stonehearth:weather:lucky",
                "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
             }
          ]
       },
       "summer": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.summer.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.summer.description)",
-         "start_day": 21,
+         "start_day": 22,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
-               "weight": 47
-      },
+               "weight": 22
+            },
             {
-               "uri": "stonehearth:weather:rain",
-               "weight": 2
-      },
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 3
+            },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 50
-      },
+               "weight": 6
+            },
             {
                "uri": "stonehearth:weather:lucky",
                "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
             }
          ]
       },
       "autumn": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.autumn.description)",
-         "start_day": 42,
+         "start_day": 44,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
-               "weight": 7
-      },
+               "weight": 11
+            },
             {
-               "uri": "stonehearth:weather:rain",
-               "weight": 2
-      },
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 3
+            },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 90
-      },
+               "weight": 22
+            },
             {
                "uri": "stonehearth:weather:lucky",
                "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
             }
          ]
       },
       "winter": {
          "display_name": "i18n(box_o_vox:data.biome.boxland.seasons.winter.display_name)",
          "description": "i18n(box_o_vox:data.biome.boxland.seasons.winter.description)",
-         "start_day": 63,
+         "start_day": 66,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
-               "weight": 33
-      },
+               "weight": 6
+            },
             {
-               "uri": "stonehearth:weather:rain",
-               "weight": 2
-      },
+               "uri": "stonehearth:weather:snow",
+               "weight": 22
+            },
             {
                "uri": "box_o_vox:data:weather:enchanted_mist",
-               "weight": 80
-      },
-            {
-               "uri": "stonehearth:weather:snow:sunny",
-               "weight": 4
+               "weight": 11
             },
             {
                "uri": "stonehearth:weather:lucky",
                "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
             }
          ]
       }

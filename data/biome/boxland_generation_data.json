@@ -4,46 +4,46 @@
       "dirt": [
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 8",
-            "width": 4,
+            "width": 16,
             "name": "dirt_edge_1"
      }
   ],
       "grass": [
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 8",
-            "width": 4,
+            "width": 16,
             "name": "grass_edge_1"
      },
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 6",
-            "width": 3,
+            "width": 12,
             "name": "grass_edge_2"
      },
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 4",
-            "width": 2,
+            "width": 8,
             "name": "grass_edge_3"
      }
   ],
       "grass_hills": [
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 3",
-            "width": 1,
+            "width": 6,
             "name": "grass_hills_edge_1"
      },
          {
             "__comment": "This is the thickness of the color swatch around the edge of the area... Def 5",
-            "width": 2,
+            "width": 10,
             "name": "grass_hills_edge_2"
      }
   ]
    },
-   "season": "autumn",
+   "season": "spring",
    "palettes": {
       "spring": {
-         "null": "#ff00ff",
-         "unknown": "#25221a",
-         "bedrock": "#0d0d0d",
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#0F0F0F",
          "rock_layer_1": "#696969",
          "rock_layer_2": "#737373",
          "rock_layer_3": "#7D7D7D",
@@ -71,18 +71,18 @@
          "grass_hills": "#21622A",
          "grass_hills_edge_1": "#21622A",
          "grass_hills_edge_2": "#21622A",
-         "copper_ore": "#c87533",
-         "tin_ore": "#b0a080",
-         "iron_ore": "#90b0d0",
-         "silver_ore": "#cccccc",
-         "gold_ore": "#ffd700",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#eecccc"
+         "salt_rock": "#EECCCC"
       },
       "summer": {
-         "null": "#ff00ff",
-         "unknown": "#25221a",
-         "bedrock": "#0d0d0d",
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#0F0F0F",
          "rock_layer_1": "#696969",
          "rock_layer_2": "#737373",
          "rock_layer_3": "#7D7D7D",
@@ -110,18 +110,18 @@
          "grass_hills": "#42312A",
          "grass_hills_edge_1": "#42312A",
          "grass_hills_edge_2": "#42312A",
-         "copper_ore": "#c87533",
-         "tin_ore": "#b0a080",
-         "iron_ore": "#90b0d0",
-         "silver_ore": "#cccccc",
-         "gold_ore": "#ffd700",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#eecccc"
+         "salt_rock": "#EECCCC"
       },
       "autumn": {
-         "null": "#ff00ff",
-         "unknown": "#25221a",
-         "bedrock": "#0d0d0d",
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#0F0F0F",
          "rock_layer_1": "#696969",
          "rock_layer_2": "#737373",
          "rock_layer_3": "#7D7D7D",
@@ -149,18 +149,18 @@
          "grass_hills": "#21312A",
          "grass_hills_edge_1": "#21312A",
          "grass_hills_edge_2": "#21312A",
-         "copper_ore": "#c87533",
-         "tin_ore": "#b0a080",
-         "iron_ore": "#90b0d0",
-         "silver_ore": "#cccccc",
-         "gold_ore": "#ffd700",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#eecccc"
+         "salt_rock": "#EECCCC"
       },
       "winter": {
-         "null": "#ff00ff",
-         "unknown": "#25221a",
-         "bedrock": "#0d0d0d",
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#0F0F0F",
          "rock_layer_1": "#696969",
          "rock_layer_2": "#737373",
          "rock_layer_3": "#7D7D7D",
@@ -188,13 +188,13 @@
          "grass_hills": "#426254",
          "grass_hills_edge_1": "#426254",
          "grass_hills_edge_2": "#426254",
-         "copper_ore": "#c87533",
-         "tin_ore": "#b0a080",
-         "iron_ore": "#90b0d0",
-         "silver_ore": "#cccccc",
-         "gold_ore": "#ffd700",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#eecccc"
+         "salt_rock": "#EECCCC"
       }
    },
    "terrain": {

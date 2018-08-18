@@ -151,6 +151,9 @@
          "values": {
             "[none]": {
                "file": ""
+            },
+            "vox_beard_1": {
+               "file": "file(vox_beard_1.qb)"
             }
          }
       },

@@ -116,6 +116,9 @@
       }
    },
    "entity_data": {
+      "stonehearth:camera": {
+         "is_followable": true
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.display_name)",
          "description": "i18n(box_o_vox:entities.trees.apple_tree.apple_tree.description)",

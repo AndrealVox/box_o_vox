@@ -298,7 +298,7 @@
       "paladin:aggro_shout_2": "file(jobs/paladin/paladin_abilities/paladin_aggro_shout_2.json)",
       "paladin:talisman": "file(entities/armor/paladins_shield/shield_talisman.json)",
       "resource_constants": "file(data/resource_constants.json)",
-      "resources:wolf_fox_pelt": "file(entities/resources/pelt/wolf_fox_pelt/wolf_fox_default.json)",
+      "resources:wolf_fox_pelt": "file(entities/resources/pelt/wolf_fox_pelt/wolf_fox_pelt.json)",
       "scenarios:scenario_index": "file(scenarios/scenario_index.json)",
       "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)",
       "server:population:data:kingdoms:summon": "file(services/server/population/data/summon_population.json)",

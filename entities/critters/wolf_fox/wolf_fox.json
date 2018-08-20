@@ -36,11 +36,11 @@
          },
          "menace": {
             "type": "basic",
-            "value": 1
+            "value": 0
          },
          "courage": {
             "type": "basic",
-            "value": 0.5
+            "value": 0
          },
          "speed": {
             "type": "basic",

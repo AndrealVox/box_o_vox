@@ -11,17 +11,6 @@
             "sticky": true,
             "menu_action": "show_crafter_ui",
             "hotekey_action": "craft:cleric"
-         },
-         "alchemist": {
-            "name": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.alchemist.display_name)",
-            "description": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.alchemist.description)",
-            "class": "button",
-            "required_job": "box_o_vox:jobs:alchemist",
-            "required_job_text": "i18n(box_o_vox:ui.game.menu.crafter_menu.items.alchemist.required_job_text)",
-            "icon": "/box_o_vox/jobs/alchemist/images/alchemist_menu_icon.png",
-            "sticky": true,
-            "menu_action": "show_crafter_ui",
-            "hotekey_action": "craft:alchemist"
          }
       }
    }

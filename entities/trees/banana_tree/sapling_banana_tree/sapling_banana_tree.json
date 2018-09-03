@@ -44,7 +44,7 @@
         "stonehearth:evolve": {},
         "stonehearth:resource_node": {
             "resource": "stonehearth:resources:wood:pine_log",
-            "durability": 2
+            "durability": 1
         },
         "render_info": {
             "scale": 0.8

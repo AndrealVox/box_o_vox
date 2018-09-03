@@ -39,7 +39,7 @@
          }
       },
       "stonehearth:resource_node": {
-         "durability": 12,
+         "durability": 6,
          "resource": "stonehearth:resources:wood:pine_log",
          "resource_loot_table": {
             "entries": {

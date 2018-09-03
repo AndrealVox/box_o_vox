@@ -39,7 +39,7 @@
          "scale": 1.0
       },
       "stonehearth:resource_node": {
-         "durability": 10,
+         "durability": 5,
          "resource": "stonehearth:resources:wood:pine_log",
          "resource_loot_table": {
             "entries": {

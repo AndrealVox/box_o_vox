@@ -7,9 +7,12 @@
                "box_o_vox:ai:actions:combat:flame_skull_attack"
             ],
             "ai_packs": [
+               "stonehearth:ai_pack:crafting",
                "stonehearth:ai_pack:patrolling",
                "box_o_vox:ai:packs:summoning",
                "stonehearth:ai_pack:ranged_combat",
+               "stonehearth:ai_pack:wimpy",
+               "stonehearth:ai_pack:panic:flee",
                "stonehearth:ai_pack:combat_control"
             ]
          },

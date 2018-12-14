@@ -3,16 +3,19 @@
    "estimated_difficulty": 1,
    "scale": 0.05,
    "attributes": {
-      "max_health": 100,
-      "muscle": 50,
-      "menace": 500,
-      "courage": 500,
-      "speed": 100
+      "max_health": 200,
+      "muscle": 0,
+      "menace": 40,
+      "courage": 100,
+      "speed": 30,
+      "additive_armor_modifier": 0,
+      "exp_reward": 15
    },
    "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:stone_maul"
+         "stonehearth:mining_pick",
+         "stonehearth:worker_axe"
       ]
    }
 }

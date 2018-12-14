@@ -3,11 +3,13 @@
    "estimated_difficulty": 8,
    "scale": 0.2,
    "attributes": {
-      "max_health": 170,
-      "muscle": 85,
-      "menace": 500,
-      "courage": 500,
-      "speed": 115
+      "max_health": 1300,
+      "muscle": 80,
+      "menace": 80,
+      "courage": 100,
+      "speed": 60,
+      "additive_armor_modifier": 9,
+      "exp_reward": 150
    },
    "equipment_scale": 0.2,
    "equipment": {

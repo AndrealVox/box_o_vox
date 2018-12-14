@@ -3,16 +3,19 @@
    "estimated_difficulty": 5,
    "scale": 0.05,
    "attributes": {
-      "max_health": 140,
-      "muscle": 70,
-      "menace": 500,
-      "courage": 500,
-      "speed": 105
+      "max_health": 800,
+      "muscle": 1,
+      "menace": 70,
+      "courage": 100,
+      "speed": 50,
+      "additive_armor_modifier": 3,
+      "exp_reward": 75
    },
    "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:bronze_mace"
+         "stonehearth:weapons:bronze_mace",
+         "stonehearth:weapons:iron_mace"
       ]
    }
 }

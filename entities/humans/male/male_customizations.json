@@ -61,6 +61,9 @@
             },
             "vox_demon": {
                "file": "/box_o_vox/data/materials/material_maps/skin_demon_material_map.json"
+            },
+            "vox_smurf": {
+               "file": "/box_o_vox/data/materials/material_maps/skin_smurf_material_map.json"
             }
          }
       },
@@ -166,6 +169,9 @@
             },
             "vox_goggles_0": {
                "file": "file(vox_goggles_0.qb)"
+            },
+            "vox_hat_0": {
+               "file": "file(vox_hat_0.qb)"
             }
          }
       },

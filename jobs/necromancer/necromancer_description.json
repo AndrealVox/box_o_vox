@@ -24,15 +24,35 @@
       "stonehearth:task_groups:placement",
       "stonehearth:task_groups:mining",
       "stonehearth:task_groups:harvest",
-      "stonehearth:task_groups:rescue"
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:crafting"
    ],
    "icon": "file(images/icon.png)",
    "parent_level_requirement": 2,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
-      "heal_entity": 2,
-      "heal_entity_in_combat": 1,
+      "craft_level_0": 0,
+      "craft_level_1": 0,
+      "craft_level_2": 0,
+      "craft_level_3": 0,
+      "craft_level_4": 0,
+      "craft_level_5": 0,
+      "craft_level_6": 0,
+      "craft_level_7": 0,
+      "craft_level_8": 0,
+      "craft_level_9": 0,
       "town_protection": 1
+   },
+   "crafter": {
+      "work_effect": "herbalist_grind",
+      "recipe_list": "/box_o_vox/jobs/necromancer/recipes/recipes.json"
+   },
+   "workshop": {
+      "portrait": "/box_o_vox/jobs/cleric/cleric_workbench/cleric_workbench.png",
+      "workbench_type": "box_o_vox:jobs:cleric:workbench",
+      "skin_class": "cleric",
+      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
    },
    "max_level": 9,
    "level_data": {

@@ -1,11 +1,11 @@
 {
    "name": "fire",
-   "duration": 1.8,
+   "duration": 1800,
    "loops": true,
    "intensity": {
       "over_lifetime": {
          "kind": "CONSTANT",
-         "values": [1.0]
+         "values": [0.45]
       },
       "over_lifetime__": {
          "kind": "RANDOM_BETWEEN_CURVES",
@@ -30,13 +30,13 @@
    "radius": {
       "start": {
          "kind": "CONSTANT",
-         "values": [30]
+         "values": [7.5]
       }
    },
    "color": {
       "start": {
          "kind": "CONSTANT",
-         "values": [0.58, 0.15, 0.42]
+         "values": [0.565, 0.149, 0.408]
       }
    }
 }

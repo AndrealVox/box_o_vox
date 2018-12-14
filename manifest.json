@@ -119,6 +119,10 @@
       "entities:decoration:sink": "file(entities/decoration/sink)",
       "entities:decoration:toilet": "file(entities/decoration/toilet)",
       "entities:decoration:wall_clock": "file(entities/decoration/wall_clock)",
+      "entities:decoration:lamppost_blue": "file(entities/decoration/lamppost_blue)",
+      "entities:decoration:lamppost_green": "file(entities/decoration/lamppost_green)",
+      "entities:decoration:lamppost_purple": "file(entities/decoration/lamppost_purple)",
+      "entities:decoration:lamppost_red": "file(entities/decoration/lamppost_red)",
       "entities:food:apple:apple": "file(entities/food/apple/apple)",
       "entities:food:apple:apple_serving": "file(entities/food/apple/apple_serving)",
       "entities:food:apple_pie": "file(entities/food/apple_pie/apple_pie)",
@@ -216,6 +220,8 @@
       "entities:summon:undead:zombie": "file(entities/summon/zombie/zombie.json)",
       "entities:summon:zombie": "file(entities/summon/zombie/zombie_summon.json)",
       "entities:summon:zombie_kid": "file(entities/summon/zombie_kid/zombie_kid_summon.json)",
+      "entities:monsters:summoned:skeleton_gatherer": "file(entities/monsters/summoned/skeleton_gatherer/skeleton_gatherer.json)",
+      "entities:monsters:summoned:zombie_miner": "file(entities/monsters/summoned/zombie_miner/zombie_miner.json)",
       "entities:terrain:ui:salt_rock": "file(entities/terrain/ui/salt_rock)",
       "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
       "entities:trees:apple:ancient": "file(entities/trees/apple_tree)",
@@ -311,6 +317,7 @@
       "summon": "file(components/summon/summon_component.lua)"
    },
    "mixintos": {
+      "stonehearth/locales/en.json": "file(locales/en_mixin.json)",
       "stonehearth:jobs:index": "file(jobs/index_mixin.json)",
       "stonehearth:red_fox_wolf": "file(entities/critters/red_fox_wolf/red_fox_wolf.json)",
       "stonehearth:data:gm_index": "box_o_vox:data:gm_index",

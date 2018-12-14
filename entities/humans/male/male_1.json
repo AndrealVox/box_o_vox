@@ -52,7 +52,8 @@
                      "white": 1,
                      "brown_1": 1,
                      "brown_2": 1,
-                     "vox_demon": 0.2
+                     "vox_demon": 0.2,
+                     "vox_smurf": 0.1
                   }
                },
                "eye_color": {
@@ -77,7 +78,8 @@
                      "vox_glasses_0": 1,
                      "vox_horns_0": 1,
                      "vox_horns_1": 1,
-                     "vox_goggles_0": 1
+                     "vox_goggles_0": 1,
+                     "vox_hat_0": 0.1
                   }
                },
                "eyebrows": {

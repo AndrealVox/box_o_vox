@@ -571,6 +571,32 @@
                "display_name": "Wall Clock",
                "description": "Please make sure to wind everyday for an accurate reading."
             }
+         },
+         "craftsman_statue": {
+            "lamppost_blue": {
+               "lamppost_blue_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Blue Lamppost"
+               }
+            },
+            "lamppost_green": {
+               "lamppost_green_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Green Lamppost"
+               }
+            },
+            "lamppost_purple": {
+               "lamppost_purple_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Purple Lamppost"
+               }
+            },
+            "lamppost_red": {
+               "lamppost_red_ghost": {
+                  "description": "A simple lamppost.",
+                  "display_name": "Red Lamppost"
+               }
+            }
          }
       },
       "armor": {
@@ -1181,6 +1207,9 @@
                "display_name": "A Pigglet",
                "description": "Aww little piggy"
             }
+         },
+         "wolf_fox": {
+            "species": "Fox Wolf"
          }
       },
       "resources": {
@@ -1255,6 +1284,13 @@
             "display_name": "Flask",
             "description": "a flask"
          }
+      },
+      "monsters": {
+         "forest": {
+            "wolf_fox": {
+               "display_name": "Fox Wolf"
+            }
+         }
       }
    },
    "weapons": {
@@ -1264,6 +1300,11 @@
    },
    "ui": {
       "game": {
+         "unit_frame": {
+            "placement_tags": {
+               "summoned": "Undead Workers"
+            }
+         },
          "menu": {
             "crafter_menu": {
                "items": {

@@ -1,6 +1,8 @@
 local NecromancerClass = class()
 local CombatJob = require 'stonehearth.jobs.combat_job'
+local CraftingJob = require 'stonehearth.jobs.crafting_job'
 radiant.mixin(NecromancerClass, CombatJob)
+radiant.mixin(NecromancerClass, CraftingJob)
 
 --- Public functions, required for all classes
 
@@ -11,6 +13,7 @@ end
 
 --Always do these things
 function NecromancerClass:activate()
+   CraftingJob.activate(self)
    CombatJob.activate(self)
 
    if self._sv.is_current_class then
@@ -23,6 +26,7 @@ end
 -- Call when it's time to promote someone to this class
 function NecromancerClass:promote(json_path)
    CombatJob.promote(self, json_path)
+   CraftingJob.promote(self, json_path)
    self._sv.max_num_attended_hearthlings = self._job_json.initial_num_attended_hearthlings or 2
    if self._sv.max_num_attended_hearthlings > 0 then
       self:_register_with_town()
@@ -49,11 +53,13 @@ end
 
 function NecromancerClass:_create_listeners()
    CombatJob._create_listeners(self)
+   CraftingJob._create_listeners(self)
    self._on_heal_entity_listener = radiant.events.listen(self._sv._entity, 'stonehearth:healer:healed_entity', self, self._on_healed_entity)
    self._on_heal_entity_in_combat_listener = radiant.events.listen(self._sv._entity, 'stonehearth:healer:healed_entity_in_combat', self, self._on_healed_entity_in_combat)
 end
 
 function NecromancerClass:_remove_listeners()
+   CraftingJob._remove_listeners(self)
    CombatJob._remove_listeners(self)
    if self._on_heal_entity_listener then
       self._on_heal_entity_listener:destroy()
@@ -85,6 +91,7 @@ end
 function NecromancerClass:demote()
    self:_unregister_with_town()
    CombatJob.demote(self)
+   CraftingJob.demote(self)
 end
 
 -- Called when destroying this entity
@@ -95,6 +102,7 @@ function NecromancerClass:destroy()
       self:_unregister_with_town()
    end
    CombatJob.destroy(self)
+   CraftingJob.destroy(self)
 end
 
 return NecromancerClass

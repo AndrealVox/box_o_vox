@@ -3,15 +3,17 @@
    "estimated_difficulty": 4,
    "scale": 0.2,
    "attributes": {
-      "max_health": 130,
-      "muscle": 65,
-      "menace": 500,
-      "courage": 500,
-      "speed": 140
+      "max_health": 700,
+      "muscle": 30,
+      "menace": 40,
+      "courage": 150,
+      "speed": 100,
+      "additive_armor_modifier": 3,
+      "exp_reward": 100
    },
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:animals:wolf_teeth"
+         "stonehearth:weapons:animals:wolf_undead_teeth"
       ]
    }
 }

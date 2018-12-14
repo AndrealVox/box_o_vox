@@ -59,6 +59,18 @@
             },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"
+            },
+            "lamppost_blue": {
+               "recipe": "file(lamppost_blue_recipe.json)"
+            },
+            "lamppost_green": {
+               "recipe": "file(lamppost_green_recipe.json)"
+            },
+            "lamppost_purple": {
+               "recipe": "file(lamppost_purple_recipe.json)"
+            },
+            "lamppost_red": {
+               "recipe": "file(lamppost_red_recipe.json)"
             }
          }
       }

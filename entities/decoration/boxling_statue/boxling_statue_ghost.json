@@ -19,14 +19,30 @@
             "z": 0
          },
          "region_origin": {
-            "x": 0,
+            "x": 0.5,
             "y": 0,
-            "z": 0
-         }
+            "z": 0.5
+         },
+         "allow_vertical_adjacent": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -5,
+                  "y": 0,
+                  "z": -5
+               },
+               "max": {
+                  "x": 6,
+                  "y": 17,
+                  "z": 6
+               }
+            }
+         ]
       }
    },
    "entity_data": {
-      "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
          "portrait": "file(boxling_statue.png)",
          "display_name": "i18n(box_o_vox:entities.decoration.boxling_statue.boxling_statue_ghost.display_name)",

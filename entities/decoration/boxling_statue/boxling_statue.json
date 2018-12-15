@@ -14,27 +14,63 @@
          "region": [
             {
                "min": {
-                  "x": 0,
+                  "x": -5,
                   "y": 0,
                   "z": -5
                },
                "max": {
-                  "x": 0,
-                  "y": 1,
-                  "z": 0
+                  "x": 6,
+                  "y": 3,
+                  "z": 6
+               }
+            },
+            {
+               "min": {
+                  "x": -3,
+                  "y": 3,
+                  "z": -4
+               },
+               "max": {
+                  "x": 4,
+                  "y": 17,
+                  "z": 5
+               }
+            }
+         ]
+      },
+      "movement_modifier_shape": {
+         "modifier": -0.5,
+         "nav_preference_modifier": -0.5,
+         "region": [
+            {
+               "min": {
+                  "x": -5,
+                  "y": 0,
+                  "z": -5
+               },
+               "max": {
+                  "x": 6,
+                  "y": 17,
+                  "z": 6
                }
             }
          ]
       }
    },
    "entity_data": {
+      "stonehearth:item": {
+         "clearable": true
+      },
       "stonehearth:net_worth": {
          "value_in_gold": 300,
-         "rarity": "common",
+         "rarity": "rare",
          "shop_info": {
             "buyable": false,
-            "sellable": false
+            "sellable": true
          }
+      },
+      "stonehearth:appeal": {
+         "appeal": 300
       }
    }
 }

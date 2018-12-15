@@ -1,6 +1,6 @@
 {
    "type": "recipe",
-   "effort": 50,
+   "effort": 20,
    "work_units": 5,
    "recipe_name": "Zombie Miner",
    "description": "A zombie who will mine for you.",

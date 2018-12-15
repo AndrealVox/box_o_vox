@@ -1,5 +1,5 @@
 <script type="text/x-handlebars" data-template-name="stonehearthSelectRoster">
-    <div id="selectRoster">
+   <div id="selectRoster">
 
         <a href="#" {{action "quitToMainMenu" target="view" }}>
          <button class="quitButton">{{i18n stonehearth:ui.game.esc_menu.quit_to_menu}}</button>
@@ -12,8 +12,15 @@
                 <div id="rerollCitizensText">{{i18n stonehearth:ui.shell.select_roster.reroll_citizens}}</div>
                 <div id="rerollCitizensDice" />
             </div>
+         
+         {{#if view.hasReembarkSpecs}}
+            <div id="reembarkButton" {{action "showReembarkDialog" target="view"}}>
+               <div id="reembarkButtonText">{{i18n stonehearth:ui.shell.select_roster.reembark_button}}</div>
+               <div id="reembarkButtonIcon" />
+            </div>
+         {{/if}}
 
-            <div id="citizens">
+         <div id="citizens">
                 <div id="citizensRoster" class="roster">
                     {{#each citizen in view.citizensArray}} {{view "stonehearthCitizenRosterEntry" rosterView=view uriBinding="citizen" index=_view.contentIndex}} {{/each}}
                 </div>
@@ -128,7 +135,7 @@
 </script>
 
 <script type="text/x-handlebars" data-template-name="citizenRosterEntry">
-    <div class="selectedBorder" />
+   <div class="selectedBorder" />
     <img class="portrait" {{bind-attr src=view.portrait}} />
     <input class="name" onClick="this.select();" type="text" {{bind-attr value=view.model.unit_name}}>
     <a href="#" {{action "unlockAllOptions" target="view" }}>
@@ -161,4 +168,57 @@
         </div>
         {{/each}}
     </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="stonehearthReembarkChoice">
+   <div id="stonehearthReembarkChoice" class="gui">
+      <div class="window">
+         <div class="title">
+            {{i18n stonehearth:ui.shell.select_roster.reembark_title}}
+            <div class="closeButton"></div>
+         </div>
+
+         <div class="downSection">
+            {{#each spec in view.reembarkSpecsArray}}
+               <div class="row" {{bind-attr data-id="spec.id"}}>
+                  <div class="townName">{{spec.name}}</div>
+                  <ul class="citizens">
+                     {{#each citizen in spec.citizens}}
+                        <li>
+                           <img class="jobIcon" {{bind-attr src="citizen.job_icon"}} />
+                           <span class="citizenName">{{citizen.name}}</span>
+                        </li>
+                     {{/each}}
+                  </ul>
+                  <div class="items">
+                     {{#each icon in spec.item_icons}}
+                        <img class="itemIcon" {{bind-attr src="icon"}} />
+                     {{/each}}
+                  </div>
+                  {{#if spec.recipeCount}}
+                     <div class="recipes">{{spec.recipeCount}} {{i18n stonehearth:ui.shell.select_roster.recipes_label}}</div>
+                  {{/if}}
+               </div>
+            {{/each}}
+         </div>
+
+         <div id="buttons">
+             <a href="#" {{action "delete" target="view"}} class="left">
+                <button class="red">
+                  {{i18n stonehearth:ui.shell.select_roster.delete_crew}}
+                </button>
+             </a>
+             <a href="#" {{action "cancel" target="view"}} class="right">
+               <button>
+                  {{i18n stonehearth:ui.shell.select_roster.cancel_crew}}
+               </button>
+             </a>
+             <a href="#" {{action "select" target="view"}} class="right">
+                <button>
+                  {{i18n stonehearth:ui.shell.select_roster.select_crew}}
+                </button>
+             </a>
+          </div>
+      </div>
+   </div>
 </script>

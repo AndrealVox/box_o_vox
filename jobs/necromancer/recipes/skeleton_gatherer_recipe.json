@@ -1,6 +1,6 @@
 {
    "type": "recipe",
-   "effort": 50,
+   "effort": 20,
    "work_units": 5,
    "recipe_name": "Skeleton Gatherer",
    "description": "A skeleton who will restock for you.",

@@ -99,6 +99,8 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_description)",
                "level": 3,
+               "type": "increase_max_golems",
+               "max_num_golems": 5,
                "demote_fn": "remove_combat_action"
             }
          ]
@@ -131,6 +133,8 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
                "level": 5,
+               "type": "increase_max_golems",
+               "max_num_golems": 7,
                "demote_fn": "remove_combat_action"
             }
          ]
@@ -163,6 +167,8 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
                "level": 7,
+               "type": "increase_max_golems",
+               "max_num_golems": 9,
                "demote_fn": "remove_combat_action"
             }
          ]

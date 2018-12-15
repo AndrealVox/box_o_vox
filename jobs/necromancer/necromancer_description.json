@@ -31,16 +31,16 @@
    "parent_level_requirement": 2,
    "parent_job": "stonehearth:jobs:cleric",
    "xp_rewards": {
-      "craft_level_0": 0,
-      "craft_level_1": 0,
-      "craft_level_2": 0,
-      "craft_level_3": 0,
-      "craft_level_4": 0,
-      "craft_level_5": 0,
-      "craft_level_6": 0,
-      "craft_level_7": 0,
-      "craft_level_8": 0,
-      "craft_level_9": 0,
+      "craft_level_0": 1,
+      "craft_level_1": 1,
+      "craft_level_2": 1,
+      "craft_level_3": 1,
+      "craft_level_4": 1,
+      "craft_level_5": 1,
+      "craft_level_6": 1,
+      "craft_level_7": 1,
+      "craft_level_8": 1,
+      "craft_level_9": 1,
       "town_protection": 1
    },
    "crafter": {
@@ -99,9 +99,16 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_000_description)",
                "level": 3,
-               "type": "increase_max_golems",
-               "max_num_golems": 5,
                "demote_fn": "remove_combat_action"
+            },
+            {
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_001_name)",
+               "id": "necromancer_workers_1",
+               "icon": "file(images/worker_1.png)",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_2_data.perk_001_description)",
+               "level": 3,
+               "type": "increase_max_golems",
+               "max_num_golems": 6
             }
          ]
       },
@@ -133,8 +140,6 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_3_data.perk_000_description)",
                "level": 5,
-               "type": "increase_max_golems",
-               "max_num_golems": 7,
                "demote_fn": "remove_combat_action"
             }
          ]
@@ -167,9 +172,16 @@
                "action_type": "box_o_vox:combat:summon_spells",
                "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_000_description)",
                "level": 7,
-               "type": "increase_max_golems",
-               "max_num_golems": 9,
                "demote_fn": "remove_combat_action"
+            },
+            {
+               "name": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_001_name)",
+               "id": "necromancer_workers_2",
+               "icon": "file(images/worker_2.png)",
+               "description": "i18n(box_o_vox:jobs.necromancer.necromancer_description.level_5_data.perk_001_description)",
+               "level": 7,
+               "type": "increase_max_golems",
+               "max_num_golems": 10
             }
          ]
       },

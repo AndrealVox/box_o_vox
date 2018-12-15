@@ -163,7 +163,9 @@
             },
             "level_2_data": {
                "perk_000_name": "Summon a Bone Wolf Pup",
-               "perk_000_description": "I hear the wolves howling."
+               "perk_000_description": "I hear the wolves howling.",
+               "perk_001_name": "Skeleton Gatherer",
+               "perk_001_description": "The Necromancer can now create Undead Workers."
             },
             "level_3_data": {
                "perk_000_name": "Summon a Zombie Kid",
@@ -180,7 +182,9 @@
             },
             "level_5_data": {
                "perk_000_description": "Glad these didn't cost a pound of flesh.",
-               "perk_000_name": "Summon a Golem Kid"
+               "perk_000_name": "Summon a Golem Kid",
+               "perk_001_description": "The Necromancer can now create more advanced Undead Workers.",
+               "perk_001_name": "Zombie Miner"
             },
             "level_7_data": {
                "perk_000_description": "Hey look! It's a mini-me",

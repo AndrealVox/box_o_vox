@@ -1,7 +1,7 @@
 {
    "type": "recipe",
-   "effort": 50,
-   "work_units": 5,
+   "effort": 20,
+   "work_units": 2,
    "recipe_name": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.recipe_name)",
    "description": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.description)",
    "flavor": "i18n(box_o_vox:jobs.cleric.recipes.paladins_shield_recipe.flavor)",

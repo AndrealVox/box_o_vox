@@ -7,6 +7,35 @@
             },
             "worker_outfit_winter": {
                "recipe": "file(boxling_outfit_winter_recipe.json)"
+            },
+            "helmet_wolf_recipe": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/helmet_wolf_recipe.json"
+            },
+            "shield_hare_recipe": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/shield_hare_recipe.json"
+            }
+         }
+      },
+      "decorations": {
+         "recipes": {
+            "banner_wall_big_stag": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/banner_wall_big_stag_recipe.json"
+            },
+            "banner_wall_small_stag": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/banner_wall_small_stag_recipe.json"
+            },
+            "rug_moss_recipe": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/rug_moss_recipe.json"
+            },
+            "rug_pelt_wolf_recipe": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/rug_pelt_wolf_recipe.json"
+            }
+         }
+      },
+      "weapons": {
+         "recipes": {
+            "spear_horn_recipe": {
+               "recipe": "northern_alliance/jobs/weaver/recipes/spear_horn_recipe.json"
             }
          }
       }

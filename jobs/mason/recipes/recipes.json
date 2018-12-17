@@ -36,6 +36,9 @@
          "recipes": {
             "stoned_tunnel_door": {
                "recipe": "file(stoned_tunnel_door_recipe.json)"
+            },
+            "window_box_stone_snow_poppy": {
+               "recipe": "northern_alliance/jobs/mason/recipes/window_box_stone_snow_poppy_recipe.json"
             }
          }
       },
@@ -56,6 +59,24 @@
             },
             "shrine_wolf": {
                "recipe": "northern_alliance/jobs/mason/recipes/shrine_wolf.json"
+            },
+            "statue_hare": {
+               "recipe": "northern_alliance/jobs/mason/recipes/statue_hare.json"
+            },
+            "wall_mounted_antlers": {
+               "recipe": "northern_alliance/jobs/mason/recipes/wall_mounted_antlers_recipe.json"
+            },
+            "wall_mounted_paw": {
+               "recipe": "northern_alliance/jobs/mason/recipes/wall_mounted_paw_recipe.json"
+            },
+            "output_box_stone_wolf": {
+               "recipe": "northern_alliance/jobs/mason/recipes/output_box_stone_wolf_recipe.json"
+            },
+            "input_bin_stone_wolf": {
+               "recipe": "northern_alliance/jobs/mason/recipes/input_bin_stone_wolf_recipe.json"
+            },
+            "chest_stone_wolf": {
+               "recipe": "northern_alliance/jobs/mason/recipes/chest_stone_wolf_recipe.json"
             },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"

@@ -106,7 +106,6 @@
             "packs": "override"
          },
          "packs": [
-            "stonehearth:ai_pack:combat",
             "stonehearth:ai_pack:idle",
             "stonehearth:ai_pack:idle:bored:idle_effects",
             "stonehearth:ai_pack:idle:bored:wander",

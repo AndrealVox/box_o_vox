@@ -600,6 +600,36 @@
                   "description": "A simple lamppost.",
                   "display_name": "Red Lamppost"
                }
+            },
+            "wall_lamp_blue": {
+               "wall_lamp_blue_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Blue Wall Lamp"
+               }
+            },
+            "wall_lamp_green": {
+               "wall_lamp_green_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Green Wall Lamp"
+               }
+            },
+            "wall_lamp_purple": {
+               "wall_lamp_purple_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Purple Wall Lamp"
+               }
+            },
+            "wall_lamp_red": {
+               "wall_lamp_red_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "Red Wall Lamp"
+               }
+            },
+            "wall_lamp_white": {
+               "wall_lamp_white_ghost": {
+                  "description": "A hanging wall lamp.",
+                  "display_name": "White Wall Lamp"
+               }
             }
          }
       },

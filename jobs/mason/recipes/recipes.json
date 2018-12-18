@@ -29,6 +29,9 @@
             },
             "treasure_crate": {
                "recipe": "file(treasure_crate_recipe.json)"
+            },
+            "chest_stone_wolf": {
+               "recipe": "northern_alliance/jobs/mason/recipes/chest_stone_wolf_recipe.json"
             }
          }
       },
@@ -46,6 +49,34 @@
          "recipes": {
             "stone_comfy_chair": {
                "recipe": "file(stone_comfy_chair_recipe.json)"
+            }
+         }
+      },
+      "lights": {
+         "recipes": {
+            "lamppost_blue": {
+               "recipe": "file(lamppost_blue_recipe.json)"
+            },
+            "lamppost_green": {
+               "recipe": "file(lamppost_green_recipe.json)"
+            },
+            "lamppost_purple": {
+               "recipe": "file(lamppost_purple_recipe.json)"
+            },
+            "lamppost_red": {
+               "recipe": "file(lamppost_red_recipe.json)"
+            },
+            "wall_lamp_blue": {
+               "recipe": "file(wall_lamp_blue_recipe.json)"
+            },
+            "wall_lamp_green": {
+               "recipe": "file(wall_lamp_green_recipe.json)"
+            },
+            "wall_lamp_purple": {
+               "recipe": "file(wall_lamp_purple_recipe.json)"
+            },
+            "wall_lamp_red": {
+               "recipe": "file(wall_lamp_red_recipe.json)"
             }
          }
       },
@@ -75,23 +106,8 @@
             "input_bin_stone_wolf": {
                "recipe": "northern_alliance/jobs/mason/recipes/input_bin_stone_wolf_recipe.json"
             },
-            "chest_stone_wolf": {
-               "recipe": "northern_alliance/jobs/mason/recipes/chest_stone_wolf_recipe.json"
-            },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"
-            },
-            "lamppost_blue": {
-               "recipe": "file(lamppost_blue_recipe.json)"
-            },
-            "lamppost_green": {
-               "recipe": "file(lamppost_green_recipe.json)"
-            },
-            "lamppost_purple": {
-               "recipe": "file(lamppost_purple_recipe.json)"
-            },
-            "lamppost_red": {
-               "recipe": "file(lamppost_red_recipe.json)"
             }
          }
       }

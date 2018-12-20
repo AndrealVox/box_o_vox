@@ -1,26 +1,27 @@
 {
-    "static": {
-        "scenarios": [
+   "static": {
+      "scenarios": [
          "file(static/fox_nest)",
 
          "file(static/terrain/salt_rock_vein)",
 
          "file(static/landmarks/boxling_mountain.json)",
+         "file(static/landmarks/boxling_mountain_2.json)",
 
       ],
-        "categories": {
-            "terrain": {
-                "density": 18
-            },
-            "wildlife": {
-                "density": 4
-            },
-            "ruins": {
-                "density": 0.4
-            },
-            "ore": {
-                "density": 8
-            }
-        }
-    }
+      "categories": {
+         "terrain": {
+            "density": 18
+         },
+         "wildlife": {
+            "density": 4
+         },
+         "ruins": {
+            "density": 0.4
+         },
+         "ore": {
+            "density": 8
+         }
+      }
+   }
 }

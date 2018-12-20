@@ -29,9 +29,6 @@
             },
             "treasure_crate": {
                "recipe": "file(treasure_crate_recipe.json)"
-            },
-            "chest_stone_wolf": {
-               "recipe": "northern_alliance/jobs/mason/recipes/chest_stone_wolf_recipe.json"
             }
          }
       },
@@ -106,8 +103,14 @@
             "input_bin_stone_wolf": {
                "recipe": "northern_alliance/jobs/mason/recipes/input_bin_stone_wolf_recipe.json"
             },
+            "chest_stone_wolf": {
+               "recipe": "northern_alliance/jobs/mason/recipes/chest_stone_wolf_recipe.json"
+            },
             "boxling_statue": {
                "recipe": "file(boxling_statue_recipe.json)"
+            },
+            "boxling_statue_2": {
+               "recipe": "file(boxling_statue_2_recipe.json)"
             }
          }
       }

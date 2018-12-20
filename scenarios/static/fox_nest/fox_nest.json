@@ -1,20 +1,21 @@
 {
-    "mixins": "stonehearth/scenarios/static/critter_nest",
-    "name": "fox_nest",
-    "habitat_types": [
-       "forest",
-       "mountains"
+   "mixins": "stonehearth/scenarios/static/critter_nest",
+   "name": "fox_nest",
+   "habitat_types": [
+      "forest",
+      "mountains",
+      "plains"
    ],
-    "size": {
-        "width": 20,
-        "length": 20
-    },
-    "weight": 62,
-    "data": {
-        "critter_type": ["stonehearth:red_fox_wolf"]
-    },
-    "num_critters": {
-        "min": 5,
-        "max": 15
-    }
+   "size": {
+      "width": 20,
+      "length": 20
+   },
+   "weight": 62,
+   "data": {
+      "critter_type": ["stonehearth:red_fox_wolf"]
+   },
+   "num_critters": {
+      "min": 5,
+      "max": 15
+   }
 }

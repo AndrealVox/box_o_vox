@@ -68,6 +68,10 @@
                      "uri": "stonehearth:resources:stone:hunk_of_stone",
                      "weight": 200
                   },
+                  "clay_mound": {
+                     "uri": "stonehearth:resources:clay:clay_mound",
+                     "weight": 2
+                  },
                   "copper_ore": {
                      "uri": "stonehearth:resources:copper:ore",
                      "weight": 40

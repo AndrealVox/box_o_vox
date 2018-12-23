@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth/scenarios/static/terrain/ore_vein)",
+   "mixins": "stonehearth/scenarios/static/terrain/ore_vein",
    "name": "salt_rock",
    "kind": "salt_rock",
    "weight": 40,

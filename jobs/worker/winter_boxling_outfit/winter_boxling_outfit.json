@@ -45,7 +45,7 @@
          }
       },
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 6
+         "base_damage_reduction": 10
       },
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.worker.winter_worker_outfit.display_name)",

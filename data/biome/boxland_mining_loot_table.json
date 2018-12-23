@@ -49,7 +49,7 @@
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 2
+                     "weight": 50
                   }
                }
             }
@@ -70,7 +70,7 @@
                   },
                   "clay_mound": {
                      "uri": "stonehearth:resources:clay:clay_mound",
-                     "weight": 2
+                     "weight": 50
                   },
                   "copper_ore": {
                      "uri": "stonehearth:resources:copper:ore",
@@ -99,6 +99,23 @@
                   "salt_rock": {
                      "uri": "box_o_vox:entities:resources:rocks:salt_rock",
                      "weight": 10
+                  }
+               }
+            }
+         }
+      },
+      "clay_mound": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "clay_mound": {
+                     "uri": "stonehearth:resources:clay:clay_mound",
+                     "weight": 80
                   }
                }
             }

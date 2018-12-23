@@ -5,15 +5,15 @@
    "category": "terrain_feature_common",
    "unique": true,
    "size": {
-      "width": 98,
-      "length": 68
+      "width": 102,
+      "length": 100
    },
    "habitat_types": [
       "forest",
       "plains"
    ],
-   "overwrite_occupied_size": 1,
-   "weight": 3,
+   "overwrite_occupied_size": 10,
+   "weight": 62,
    "data": {
       "brush": "box_o_vox:landmark:boxling_mountain_2",
       "brush_mask": "box_o_vox:landmark:boxling_mountain_2",

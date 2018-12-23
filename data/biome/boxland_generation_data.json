@@ -77,7 +77,8 @@
          "silver_ore": "#CCCCCC",
          "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#EECCCC"
+         "salt_rock": "#EECCCC",
+         "clay_mound": "#2C190D"
       },
       "summer": {
          "null": "#FF00FF",
@@ -116,7 +117,8 @@
          "silver_ore": "#CCCCCC",
          "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#EECCCC"
+         "salt_rock": "#EECCCC",
+         "clay_mound": "#2C190D"
       },
       "autumn": {
          "null": "#FF00FF",
@@ -155,7 +157,8 @@
          "silver_ore": "#CCCCCC",
          "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#EECCCC"
+         "salt_rock": "#EECCCC",
+         "clay_mound": "#2C190D"
       },
       "winter": {
          "null": "#FF00FF",
@@ -194,7 +197,8 @@
          "silver_ore": "#CCCCCC",
          "gold_ore": "#FFD700",
          "coal": "#212131",
-         "salt_rock": "#EECCCC"
+         "salt_rock": "#EECCCC",
+         "clay_mound": "#2C190D"
       }
    },
    "terrain": {
@@ -210,7 +214,7 @@
          "aspect_ratio": 1
       },
       "__comment": "Literal percentage of terrain which is plains. Def 40",
-      "plains_percentage": 50,
+      "plains_percentage": 70,
       "__comment": "This is an offset in regards to where the layers line up. Def 36, must be 1 plus a multiple of five.",
       "height_base": 31,
       "__comments": {

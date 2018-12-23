@@ -1,12 +1,12 @@
 {
    "static": {
       "scenarios": [
-         "file(static/fox_nest)",
-
          "file(static/terrain/salt_rock_vein)",
+         "file(static/terrain/clay_mound_vein)",
 
          "file(static/landmarks/boxling_mountain.json)",
          "file(static/landmarks/boxling_mountain_2.json)",
+         "file(static/landmarks/boxling_mountain_3.json)"
 
       ],
       "categories": {
@@ -17,7 +17,7 @@
             "density": 4
          },
          "ruins": {
-            "density": 0.4
+            "density": 0.25
          },
          "ore": {
             "density": 8

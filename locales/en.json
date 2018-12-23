@@ -1304,6 +1304,10 @@
             "salt_rock": {
                "description": "Salt rock that can be ground down to make salt for cooking.",
                "display_name": "Salt Rock"
+            },
+            "clay_mound": {
+               "display_name": "Clay",
+               "description": "Clay that can be mined for pottery uses."
             }
          }
       },

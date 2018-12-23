@@ -44,7 +44,7 @@
          }
       },
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 6
+         "base_damage_reduction": 8
       },
       "stonehearth:catalog": {
          "icon": "file(boxling_outfit_2.png)",

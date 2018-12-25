@@ -369,7 +369,6 @@
       "stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
       "stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
       "stonehearth:landmark_blocks": "box_o_vox:data:terrain:landmark_blocks",
-      "stonehearth:trapper:trapping_grounds": "box_o_vox:jobs:trapper:trapping_grounds",
       "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
       "stonehearth/entities/crops/brightbell_crop/brightbell_crop.json": "file(entities/crops/brightbell_crop/brightbell_crop.json)",
       "stonehearth/entities/crops/carrot_crop/carrot_crop.json": "file(entities/crops/carrot_crop/carrot_crop.json)",

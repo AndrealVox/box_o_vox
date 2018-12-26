@@ -1,8 +1,8 @@
 {
    "static": {
       "scenarios": [
-         "file(static/terrain/salt_rock_vein)",
-         "file(static/terrain/clay_mound_vein)",
+         "file(static/terrain/salt_rock_vein/)",
+         "file(static/terrain/clay_mound_vein/)",
 
          "file(static/landmarks/boxling_mountain.json)",
          "file(static/landmarks/boxling_mountain_2.json)",
